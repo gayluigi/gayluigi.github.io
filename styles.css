@@ -1,0 +1,65 @@
+body {
+	font-family: "Helvetica", sans-serif;
+	padding: 10px 30px;
+}
+
+.inputContainer {
+	display: flex;
+}
+
+.inputsColumn {
+	width: 250px;
+}
+
+input {
+	height: 25px;
+	width: 180px;
+	padding-left: 8px;
+	margin-bottom: 20px;
+}
+
+.suggestion {
+	height: 30px;
+	margin-bottom: 10px;
+	display: block;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 3px;
+	text-align: left;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.suggestion:hover {
+	background-color: #f4f4f4;
+}
+
+.addSuggestion {
+	margin-left: 10px;
+}
+
+.submitBtn {
+	width: 70px;
+	height: 30px;
+}
+
+h3 {
+	margin: 0 0 15px 0;
+}
+
+.results {
+	margin-top: 20px;
+}
+
+.match {
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 500px;
+}
+
+.procedure {
+	margin-top: 10px;
+	font-style:italic;
+}

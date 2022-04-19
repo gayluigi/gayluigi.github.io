@@ -3,26 +3,57 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Cocktail finder</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
 <body>
 	<h2>Cocktail finder</h2>
 
-	<div style="display: flex;">
-		<div style="width: 200px;">
-			<input id="ingredient-0" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
-			<input id="ingredient-1" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
-			<input id="ingredient-2" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
-			<input id="ingredient-3" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
-			<input id="ingredient-4" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
+	<div class="inputContainer">
+		<div class="inputsColumn">
+			<input
+				id="ingredient-0"
+				onkeyup="onInputChange(this)"
+				onfocus="clearSuggestions()"
+				type="text"
+				placeholder="Ingredient"
+			/>
+			<input
+				id="ingredient-1"
+				onkeyup="onInputChange(this)"
+				onfocus="clearSuggestions()"
+				type="text"
+				placeholder="Ingredient"
+			/>
+			<input
+				id="ingredient-2"
+				onkeyup="onInputChange(this)"
+				onfocus="clearSuggestions()"
+				type="text"
+				placeholder="Ingredient"
+			/>
+			<input
+				id="ingredient-3"
+				onkeyup="onInputChange(this)"
+				onfocus="clearSuggestions()"
+				type="text"
+				placeholder="Ingredient"
+			/>
+			<input
+				id="ingredient-4"
+				onkeyup="onInputChange(this)"
+				onfocus="clearSuggestions()"
+				type="text"
+				placeholder="Ingredient"
+			/>
 
-			<button id="submit">Find</button>
+			<button id="submit" class="submitBtn">Find</button>
 		</div>
 
-		<div id="suggestions" style="width: 200px;"></div>
+		<div id="suggestions" class="inputsColumn"></div>
 	</div>
 
-	<div id="result"></div>
+	<div id="results" class="results"></div>
 
 	<script type="text/javascript" src="recipes.js"></script>
 	<script type="text/javascript">
@@ -42,16 +73,26 @@
 
 		var suggestionsContainer = document.getElementById("suggestions");
 
-		function onInputChange(inputValue) {
+		function onInputChange(input) {
+			var inputValue = input.value;
 			if (inputValue.length > 1) {
-				suggestionsContainer.innerHTML = "";
+				clearSuggestions();
 				var matchingTokens = ingredientTokens.filter((token) =>
 					token.startsWith(inputValue.toLowerCase())
-				).slice(0, 8);;
-				matchingTokens.forEach((matchingToken) =>
-					suggestionsContainer.innerHTML += matchingToken + "<br />"
-				);
+				).slice(0, 8);
+				matchingTokens.forEach((matchingToken) => {
+					var suggestion = document.createElement("button");
+					suggestion.onclick = () => { input.value = matchingToken };
+					suggestion.className = "suggestion";
+					suggestion.innerHTML = "<span>" + matchingToken + "<span>"
+						+ "<span class='addSuggestion'> &#8592; </span>";
+					suggestionsContainer.appendChild(suggestion);
+				});
 			}
+		}
+
+		function clearSuggestions() {
+			suggestionsContainer.innerHTML = "";
 		}
 
 		var submitBtn = document.getElementById("submit");
@@ -70,21 +111,22 @@
 				}
 			}
 
-			var resultContainer = document.getElementById("result");
+			var resultContainer = document.getElementById("results");
 
 			if (matches.length == 0) {
 				resultContainer.innerHTML = "<h3>No matches</h3>";
 			} else {
-				resultContainer.innerHTML = "";
 				matches
 					.sort(() => Math.random() - 0.5)
 					.forEach((recipe) => {
-						resultContainer.innerHTML += "<h3>"+recipe.name+"</h3>";
+						var matchContainer = document.createElement('div');
+						matchContainer.className = "match";
+						matchContainer.innerHTML += "<h3>"+recipe.name+"</h3>";
 						recipe.ingredients.forEach((ingredient) => {
-							resultContainer.innerHTML += ingredient + "<br />";
+							matchContainer.innerHTML += "<div class='ingredient'>" + ingredient + "</div>";
 						});
-						resultContainer.innerHTML += "<i>"+recipe.procedure+"</i>" + "<br />";
-						resultContainer.innerHTML += "<br />";
+						matchContainer.innerHTML += "<div class='procedure'>" + recipe.procedure + "</div>";
+						resultContainer.appendChild(matchContainer);
 					});
 			}
 
