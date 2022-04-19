@@ -57,7 +57,7 @@
 		var submitBtn = document.getElementById("submit");
 
 		submitBtn.onclick = function() {
-			var matches = recipes;
+			var matches = [...recipes];
 			for (var i = 0; i < 5; i++) {
 				var searchIngredient = document.getElementById("ingredient-" + i).value;
 				if (searchIngredient) {
