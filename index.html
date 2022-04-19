@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cocktail finder</title>
+	<title>Cocktail Finder</title>
 	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
 <body>
-	<h2>Cocktail finder</h2>
+	<h2>Cocktail Finder</h2>
 
 	<div class="inputContainer">
 		<div class="inputsColumn">
@@ -56,7 +56,9 @@
 	<div id="results" class="results"></div>
 
 	<script type="text/javascript" src="recipes.js"></script>
+	<script type="text/javascript" src="utils.js"></script>
 	<script type="text/javascript">
+		console.log(recipes.length);
 
 		var allTokens = recipes.map((recipe) =>
 			recipe.ingredients.map((ingredient) =>
@@ -121,9 +123,10 @@
 					.forEach((recipe) => {
 						var matchContainer = document.createElement('div');
 						matchContainer.className = "match";
-						matchContainer.innerHTML += "<h3>"+recipe.name+"</h3>";
+						matchContainer.innerHTML += "<h3>" + recipe.name.toUpperCase() + "</h3>";
 						recipe.ingredients.forEach((ingredient) => {
-							matchContainer.innerHTML += "<div class='ingredient'>" + ingredient + "</div>";
+							var formattedIngredient = getFormattedIngredient(ingredient);
+							matchContainer.appendChild(formattedIngredient);
 						});
 						matchContainer.innerHTML += "<div class='procedure'>" + recipe.procedure + "</div>";
 						resultContainer.appendChild(matchContainer);
