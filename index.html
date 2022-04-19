@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h2>Cocktail finder</h2>
+
+	<div style="display: flex;">
+		<div style="width: 200px;">
+			<input id="ingredient-0" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
+			<input id="ingredient-1" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
+			<input id="ingredient-2" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
+			<input id="ingredient-3" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
+			<input id="ingredient-4" onkeyup="onInputChange(this.value)" type="text" /><br /><br />
+
+			<button id="submit">Find</button>
+		</div>
+
+		<div id="suggestions" style="width: 200px;"></div>
+	</div>
+
+	<div id="result"></div>
+
+	<script type="text/javascript">
+		var recipes = [
+			{
+			"name": "Osedax",
+			"ingredients": [
+			"2oz Elijah Craig Bourbon",
+			".5 fernet valet",
+			".25 Benedictine",
+			".5 dry curaçao",
+			"bottle, let guest pour, rocks glass, big rock",
+			"dehydrated orange garnish"
+			]
+			},
+
+			{
+			"name": "It Slaps",
+			"ingredients": [
+			"1 oz Reyka Vodka",
+			"1 oz Combier Pamplemousse Rose",
+			".50 oz lemon juice",
+			".50 oz grapefruit juice",
+			".50 oz aquafaba",
+			".25 oz 2:1 simple",
+			"Shake, crushed, rox, grapefruit peel."
+			]
+			},
+
+			{
+			"name": "Rye Not",
+			"ingredients": [
+			"1.5 oz TLW Knob Creek Rye",
+			".50 oz Combier Kümmel",
+			".75 oz lemon juice",
+			".25 oz orange juice",
+			".25 oz 2:1 simple",
+			"Shake, rocks w/ice, dehydrated lemon wheel"
+			]
+			},
+
+			{
+			"name": "The Allfathers Eye",
+			"ingredients": [
+			"1oz Norden Aquavit",
+			"1oz Meletti",
+			".75oz Cold Brew",
+			"2 Dashes Cherry Vanilla Bark Bitters",
+			"Dehydrated Lemon Wheel",
+			"Stirred, coupe."
+			]
+			},
+
+			{
+			"name": "There's Always Money in the Banana Stand",
+			"ingredients": [
+			"1oz Banhez",
+			".75oz Banana Liqueur",
+			".5oz Domain de Canton",
+			".75oz Lime Juice",
+			".5oz Pineapple Juice",
+			"Dehydrated Banana Chip",
+			"Shaken, coupe."
+			]
+			},
+
+			{
+			"name": "Borderline",
+			"ingredients": [
+			"1.5 mezcal",
+			".75 lime",
+			".50 grenadine",
+			".25 maraschino",
+			".25 dry curaçao",
+			"Egg white/aquafaba"
+			]
+			},
+
+			{
+			"name": "Sweet Talker",
+			"ingredients": [
+			"1.5 oz Titos",
+			".75 oz Fresh Lime",
+			".75 oz Strawberry Mint Syrup",
+			".25 oz Simple Syrup",
+			"Collins, cube ice, top kombucha, mint sprig"
+			]
+			},
+
+			{
+			"name": "Nice Guy",
+			"ingredients": [
+			"1.5 oz Elijah Craig Bourbon",
+			"1 oz Peach shrub",
+			".75 oz Fresh Lemon",
+			".25 oz Yellow Chartreuse",
+			".25 oz Almond Syrup",
+			"Shake, double strain, Collins, cube ice, top soda, dehydrated lemon half"
+			]
+			},
+
+			{
+			"name": "The New Hotness",
+			"ingredients": [
+			"1.5 Lunazul",
+			".75 Grapefruit Liqueur",
+			".75 Dolin Dry",
+			"Stir, coupe, grapefruit peel"
+			]
+			},
+
+			{
+			"name": "Honma Highball",
+			"ingredients": [
+			"1oz Japanese Plum Liqueur",
+			".75oz Hibiscus-infused Aperol",
+			"3oz Cold-brewed Oolong Tea",
+			".25oz Almond Syrup",
+			".25oz Citric/Malic Acid Solution",
+			"Garnish with Orange Peel",
+			"Batched and carbonated, on draught",
+			"Choice to add Toki, Roku, or Vodka with upcharge"
+			]
+			},
+
+			{
+			"name": "Norden Sour",
+			"ingredients": [
+			"2 oz Norden Aquavit",
+			".25 oz Apricot Brandy",
+			".75 oz lemon juice",
+			".25 oz orange juice",
+			"1 oz Aquafaba",
+			".50 oz 2:1 or .75 1:1",
+			"Shake, chilled rocks sans ice, lemon zest (discard)",
+			"Three marigold flowers (serve like a pisco sour)"
+			]
+			},
+
+			{
+			"name": "Hunter's Rally",
+			"ingredients": [
+			".75 Pisco",
+			".75 Plantation Dark",
+			"1 House Grenadine",
+			".75 Lime Juice",
+			".25 Lemon Juice",
+			".5 Egg White",
+			"Double shake, Collins, dehydrated lime, angostura"
+			]
+			},
+
+			{
+			"name": "You're My Boy Blue",
+			"ingredients": [
+			"Muddle Blueberries",
+			"1.5 oz Elijah Craig",
+			".75 oz St Germain",
+			".75 oz lemon juice",
+			".25 oz simple"
+			]
+			},
+
+			{
+			"name": "Caraway My Wayward Son",
+			"ingredients": [
+			"1 oz Norden Aquavit",
+			".75 oz Montenegro",
+			".25 oz Don Ciccio & Figli",
+			".75 oz Lemon Juice",
+			".5 oz Honey",
+			"Shake, coupe, orange peel."
+			]
+			},
+
+			{
+			"name": "Hot Chocavit",
+			"ingredients": [
+			"1.25oz Norden Aquavit",
+			".5oz Averna",
+			".5oz Carpano Antica",
+			"1Tbs Hot Chocolate Powder",
+			"3 drops chocolate extract",
+			"3oz Hot Water",
+			"Coffee Glass, Caraway Whipped Cream, Cocoa Dust"
+			]
+			},
+
+			{
+			"name": "Kentucky Square",
+			"ingredients": [
+			"1.25 Phoenix Barrel Brandy",
+			".75 punt e mes",
+			".50 Becherovka",
+			".50 Berentzen Apple",
+			"Dash regans orange bitters",
+			"Stir, big cube",
+			"Dehydrated Orange Wheel"
+			]
+			},
+
+			{
+			"name": "Rosie",
+			"ingredients": [
+			"1 Rose gin",
+			".5 lemon",
+			".5 st germaine",
+			".25 simple"
+			]
+			},
+
+			{
+			"name": "Osborn",
+			"ingredients": [
+			"muddle 1 jalepeño 2 pineapple",
+			"2 ginmg",
+			".5 lime",
+			".25 simple"
+			]
+			},
+
+			{
+			"name": "Sunset Curse",
+			"ingredients": [
+			"1.5 espelon repo",
+			".5 grenadine",
+			".5 ancho reyes",
+			".25 dry curaçao",
+			".25 allspice",
+			"Stirred, cocktail glass, flamed orange garnishChristmas in Cozumel",
+			"1.5 Don Julio Reposado",
+			".5 Amaro Montenegro",
+			".5 Lustau Oloroso Sherry",
+			".25 Agave",
+			"Stirred, coupe glass, lime flag"
+			]
+			},
+
+			{
+			"name": "Hold Up",
+			"ingredients": [
+			"1.5 Norden Aquavit",
+			".50 St Germain",
+			".75 lime juice",
+			".75 honey syrup 2:1",
+			"3 dash saline 4:1",
+			"Shake, absinthe glass, one mint leaf"
+			]
+			},
+
+			{
+			"name": "Manhattan #1",
+			"ingredients": [
+			"2.25 Wild Turkey",
+			".75 Carpano Antica",
+			"Stir, lemon flag, up/rocks"
+			]
+			},
+
+			{
+			"name": "Manhattan #2",
+			"ingredients": [
+			"2.0 Rittenhouse",
+			"1.0 Carpano punt e Mes",
+			"House Bitters",
+			"stir, orange flag up/rocks"
+			]
+			},
+
+			{
+			"name": "The Last Word",
+			"ingredients": [
+			".75 Plymouth or gin of choice",
+			".75 oz Green Chartreuse",
+			".75 oz Luxardo Maraschino",
+			".75 oz Lime",
+			"Shake",
+			"Martini",
+			"Lime Wheel"
+			]
+			},
+
+			{
+			"name": "Los Lobos",
+			"ingredients": [
+			"1.5 Lunazul Blanco",
+			".75 Fresh Lime",
+			".75 Agave",
+			".75 Pineapple Juice",
+			"Pink peppercorn",
+			"Rocks Glass",
+			"Garnish with crushed pink peppercorn"
+			]
+			},
+
+			{
+			"name": "Cabaret",
+			"ingredients": [
+			"1.5 titos",
+			".75 lime",
+			".5 amaretto",
+			".5 agave",
+			"1 dash bitter truth jerry thomas",
+			"Shake",
+			"Martini",
+			"Lime wheel"
+			]
+			},
+
+			{
+			"name": "Kentucky Sunshine",
+			"ingredients": [
+			"2.0 Elijiah Craig Small Batch",
+			".50 oz Fresh Lemon",
+			".25 Brown Simple",
+			"4 Basil Leaf",
+			"5 Drops Celery Shrub",
+			"Shake. Rocks",
+			"Top ginger beer",
+			"Basil Leaf Garnish"
+			]
+			},
+
+			{
+			"name": "Old West Side",
+			"ingredients": [
+			"1.5oz Wild Turkey",
+			"1oz smoked Domain de Canton",
+			".75oz carpano Antica",
+			"2 dashes Reagon's Orange",
+			"stir, Rocks, Grapefruit peel"
+			]
+			},
+
+			{
+			"name": "Baker Street",
+			"ingredients": [
+			"1.5 oz St. George Terroir",
+			".75 Dolin Blanc",
+			".50 Dry Curacao",
+			".25 Green Chartreuse",
+			"Stir, coupe, rosemary garnish"
+			]
+			},
+
+			{
+			"name": "Mother's Ruin",
+			"ingredients": [
+			"1.25 oz Tanqueray",
+			".75 Cynar",
+			".75 Lemon juice",
+			".75 Pineapple juice",
+			".5 Grapefruit juice",
+			".25 Almond Syrup",
+			"Shake, strain, cocktail glass, rosemary garnish."
+			]
+			},
+
+			{
+			"name": "Party Police",
+			"ingredients": [
+			"1oz vida mezcal",
+			"1oz strawberry balsamic shrub",
+			".50 domaine de canton",
+			".50 lime juice",
+			".25 2:1"
+			]
+			},
+
+			{
+			"name": "Smash Brothers",
+			"ingredients": [
+			"1.5 Elijah Craig",
+			".25 Limoncello",
+			".75 Black Sage Syrup",
+			".5 Lemon juice",
+			".25 2:1 Simple",
+			"Shake, strain, highball glass",
+			"Top with soda",
+			"Garnish with sage leafA Morning Rum",
+			"1.5 oz plantation original dark",
+			".5 oz chicory syrup",
+			"1 oz cold brew",
+			"7 drops banana extract",
+			"Stir, rocks, dehydrated lime or orange wheel"
+			]
+			},
+
+			{
+			"name": "Snake Oil Salesman",
+			"ingredients": [
+			"1 oz Green Chartreuse",
+			".5 oz Myers Dark Rum",
+			".25 Laphroaig 10",
+			"1 oz Lime Juice",
+			".5 oz Pineapple Juice",
+			".5 oz Brown Simple",
+			"2 Dashes Angostura",
+			"Shake, crushed ice, dragon glass, lime wheel"
+			]
+			},
+
+			{
+			"name": "The Heist",
+			"ingredients": [
+			"1.5 oz Hayman's Old Tom",
+			".5 oz Averna",
+			".75 oz Lemon",
+			".5 oz honey 2:1",
+			"Shake",
+			"Absinthe glass",
+			"Lemon peel"
+			]
+			},
+
+			{
+			"name": "Rhum Old Fashioned",
+			"ingredients": [
+			"2.0 Clement Barrel Select",
+			".25 almond syrup",
+			"2 dash Cherry Vanilla Bark Bitters",
+			"1 Dash Angostura Bitters",
+			"Stir",
+			"Rocks",
+			"orange peel garnish"
+			]
+			},
+
+			{
+			"name": "Kissed by a Rose",
+			"ingredients": [
+			"1.5 Hayman's",
+			".5 claret syrup",
+			".5 lemon juice",
+			".50 Egg white",
+			"Rose bud garnish"
+			]
+			},
+
+			{
+			"name": "(C)ole' fashioned",
+			"ingredients": [
+			"1.5 wild turkey 101 bourbon",
+			".50 dolin genepy",
+			".25 brown 2:1",
+			"2 dash peychauds",
+			"2 dash angostura",
+			"Stir over 1 big cube in rocks glass",
+			"Lemon peel garnish"
+			]
+			},
+
+			{
+			"name": "Senor Burns",
+			"ingredients": [
+			"7 drops Jalapeno tincture",
+			"1.5oz mezcaL",
+			".75 lime juice",
+			".75 ancho reyes",
+			".25 2:1 simple",
+			"Shake double strain into coupe"
+			]
+			},
+
+			{
+			"name": "Pining Princess",
+			"ingredients": [
+			"1oz amaro Montenegro",
+			"1oz pineapple juice",
+			"1oz lime juice",
+			".25 almond syrup",
+			".50 dry curaçao",
+			"Shake, strain over crushed ice in a Collins."
+			]
+			},
+
+			{
+			"name": "Sacred Heart",
+			"ingredients": [
+			"1oz mezcal",
+			"1oz aperol",
+			".50 lime juice",
+			".50 almond",
+			".25 streyga",
+			"Coupe",
+			"Grapefruit Peel"
+			]
+			},
+
+			{
+			"name": "Queen of Cups",
+			"ingredients": [
+			"1.5oz Haymans Old Tom Gin",
+			".75 lemon juice",
+			".50 fennel liqueur",
+			".25 becherovka",
+			".25 almond",
+			"Cocktail glass",
+			"Rosemary Sprig"
+			]
+			},
+
+			{
+			"name": "Ice Planet",
+			"ingredients": [
+			"1.5oz reyka",
+			".5 dolin blanc",
+			".5 becherovka",
+			".5 streyga",
+			".25 almond",
+			"2 dash peychaud",
+			"Stir, rocks, orange peel"
+			]
+			},
+
+			{
+			"name": "Sea Castle",
+			"ingredients": [
+			"1.5 vida mezcal",
+			".75 lemon juice",
+			".5 creme de violette",
+			".25 almond",
+			"Peychaud garnish",
+			"Aquafaba",
+			"Shake twice, martini",
+			"Last Minute",
+			"Muddled Ginger",
+			"1 Tanqueray",
+			"1 Domaine de canton",
+			".75 Grapefruit",
+			".5 Simple",
+			".5 lemon juice",
+			"Shake, Martini, Double Strain, Grapefruit Garnish"
+			]
+			},
+
+			{
+			"name": "Estrella Negra",
+			"ingredients": [
+			"1.75 oz Don Julio Reposado",
+			".25 oz Fernet Valet",
+			".50 oz Piloncillo Syrup",
+			".50 oz Hyperion Cold Brew"
+			]
+			},
+
+			{
+			"name": "Tell Me No Fibs, I'll Tell You No Lies",
+			"ingredients": [
+			"1.25 oz Copper & Kings American Brandy",
+			".75 oz Don Ciccio e Figli Fennel Liqueur",
+			".50 oz lemon juice",
+			".25 oz Berentzen Apple Liqueur",
+			".25 oz Simple 1:1"
+			]
+			},
+
+			{
+			"name": "The Stampede",
+			"ingredients": [
+			"1.5 Buffalo Trace",
+			".75 Fernet",
+			".75 Lime Juice",
+			".5 2:1 Simple",
+			"Shake, Rocks,",
+			"Garnish with mint sprig"
+			]
+			},
+
+			{
+			"name": "TRUE GRIT",
+			"ingredients": [
+			"1.5 oz Bulleit Rye",
+			"0.5 oz Benedictine",
+			"0.5 oz Tawny Port",
+			"0.5 oz Carpano Antica",
+			"2 dashes House Aromatic Bitters",
+			"Stir",
+			"Rocks",
+			"Lemon Wheel"
+			]
+			},
+
+			{
+			"name": "Roaring 40's",
+			"ingredients": [
+			"1.5 oz Barsol Pisco",
+			"1 oz Aperol",
+			".5 oz Fresh Lime",
+			"Muddle a thick slice of cucumber with a pinch of sea salt.",
+			"Shake & double strain into coupe. Cucumber slice garnish."
+			]
+			},
+
+			{
+			"name": "Rye Daiquiri",
+			"ingredients": [
+			"1.75 Bulliet Rye",
+			".75 Lime Juice",
+			".5 Almond Syrup",
+			".25 Luxardo",
+			"shake, coup, lime wheel"
+			]
+			},
+
+			{
+			"name": "Basil & Bubbles",
+			"ingredients": [
+			"Muddle basil",
+			"2oz gin",
+			".75 oz lemon juice",
+			".75 oz simple syrup",
+			"Double strain into champagne flute",
+			"top with champagne",
+			"garnish with basil leaf"
+			]
+			},
+
+			{
+			"name": "The Purple Gang",
+			"ingredients": [
+			"1.0oz Titos",
+			".5 oz Creme de Violette",
+			".5 oz st germain",
+			"Shake & Strain into a champagne flute.",
+			"Top with champagne and lemon twist."
+			]
+			},
+
+			{
+			"name": "Wise Guy",
+			"ingredients": [
+			"1.5oz TLW Buffalo Trace",
+			".5oz Cynar",
+			".5oz Amaretto Lazzeroni",
+			"1 dash Regan's orange",
+			"Stir, coupe, orange peel"
+			]
+			},
+
+			{
+			"name": "Paradiso Sour",
+			"ingredients": [
+			".75oz TLW Buffalo Trace",
+			".75oz Aperol",
+			".75oz Grapefruit",
+			".25oz Lemon Juice",
+			".25oz Simple",
+			"Egg White",
+			"Double shake & strain, rocks glass.",
+			"Orange peel garnish."
+			]
+			},
+
+			{
+			"name": "Nevermore",
+			"ingredients": [
+			"1.5 Four Roses",
+			".75 cynar",
+			".50 branca menta",
+			".50 cold brew",
+			"Rocks",
+			"Orange peel garnish",
+			"Blood & Smoke",
+			"1.oz Mezcal",
+			".75 Punt E Mes",
+			".5 Cherry Heering",
+			".75 OJ",
+			"Shake, Martini glass"
+			]
+			},
+
+			{
+			"name": "Dr. Ordinaire",
+			"ingredients": [
+			"1.5 oz Tanqueray",
+			".5 oz Absinthe Ordinaire",
+			".5 oz fresh lime juice",
+			".5 oz 1:1 simple syrup",
+			"combine, shake, pour into a coupe with one drop of peychauds already in glass",
+			"orange peel"
+			]
+			},
+
+			{
+			"name": "Red Rum",
+			"ingredients": [
+			".75 Ron Zacapa",
+			".75 Barbancourt 8",
+			"1.0 Carpano Antica",
+			".5 Maraschino",
+			"2 dash Angostura Orange Bitters",
+			"Orange cherry flag",
+			"Rocks glass"
+			]
+			},
+
+			{
+			"name": "Spice and Everything Nice",
+			"ingredients": [
+			"1.5 Colonel Taylor Small Batch",
+			".5 Allspice Dram",
+			".5 Tawny Port",
+			".25 Benedictine",
+			".25 Carpano Antica",
+			"Stir, strain over big rock",
+			"Garnish with orange peel express, torched cinnamon"
+			]
+			},
+
+			{
+			"name": "Blood and Sand",
+			"ingredients": [
+			".75 Scotch",
+			".75 Cherry Heering",
+			".75 Sweet Vermouth",
+			".75 OJ",
+			"Shake. OJ"
+			]
+			},
+
+			{
+			"name": "Caipirinha",
+			"ingredients": [
+			"2.0 Cachaca",
+			"Sugar",
+			"1/2 Lime, Quartered",
+			"Muddle Sugar & Lime",
+			"Add Spirit. Shake",
+			"Dirty. Chilled"
+			]
+			},
+
+			{
+			"name": "Collins",
+			"ingredients": [
+			"1.5 Gin",
+			".75 Lemon Juice",
+			".75 1:1",
+			"Soda",
+			"Shake. Soda."
+			]
+			},
+
+			{
+			"name": "Cherry/OJ",
+			"ingredients": [
+			"Cosmo",
+			"1.5 Citron Vodka",
+			".75 Cointreau",
+			".25 Lime Juice",
+			"1.0 Cranberry Juice",
+			"Shake. Chilled.",
+			"Orange/Lime?"
+			]
+			},
+
+			{
+			"name": "Daquiri",
+			"ingredients": [
+			"1.5 White Rum",
+			".75 Lime Juice",
+			".75 1:1",
+			"Shake. Mart.",
+			"Lime Ring"
+			]
+			},
+
+			{
+			"name": "Gin Fizz",
+			"ingredients": [
+			"1.5 Gin",
+			".75 Lemon Juice",
+			".75 1:1",
+			"Soda",
+			"Shake. HighBall"
+			]
+			},
+
+			{
+			"name": "Gimlet",
+			"ingredients": [
+			"2.5 Gin",
+			".5 Lime Juice",
+			"Shake. Chilled Mart.",
+			"Lime Wedge"
+			]
+			},
+
+			{
+			"name": "Hot Tod",
+			"ingredients": [
+			"2.0 Scotch/Irish",
+			"BS Demerara/Sugar",
+			"Lemon Peel",
+			"2-4 Hot H2O",
+			"Dissolve Sugar. Whisky. HOT"
+			]
+			},
+
+			{
+			"name": "Irish Coffee",
+			"ingredients": [
+			"1.5 Irish",
+			"1.0 1:1",
+			"4.0 Brew",
+			"Whip",
+			"Combine."
+			]
+			},
+
+			{
+			"name": "Manhattan",
+			"ingredients": [
+			"2.0 Rye/Bourbon",
+			"1.0 Sweet Vermouth",
+			"2-3 - Angostura",
+			"Stir. Chill.",
+			"Cherry"
+			]
+			},
+
+			{
+			"name": "Maragarita",
+			"ingredients": [
+			"2.0 Tequila",
+			".75 Lime Juice",
+			".75 Cointreau/OJ Liq/ 1:1",
+			".5 Agave"
+			]
+			},
+
+			{
+			"name": "Dry Mart",
+			"ingredients": [
+			"1.5 London Dry",
+			"1.5 French Dry V",
+			"1-2 OJ Bits",
+			"Stir. Lemon/Lime"
+			]
+			},
+
+			{
+			"name": "Classic X Dry Mart",
+			"ingredients": [
+			"3.0 London Dry",
+			"1/8 oz F.Dry Vermouth",
+			"Olive"
+			]
+			},
+
+			{
+			"name": "Mojito",
+			"ingredients": [
+			"1.5 White Rum",
+			".75 Lime Juice",
+			".75 1:1",
+			"Mint",
+			"1.0 Soda",
+			"Highball. Sprig"
+			]
+			},
+
+			{
+			"name": "Sazerac",
+			"ingredients": [
+			"2.0 Rye",
+			"Absinthe",
+			"-3/4 Peychaud’s",
+			"1:1",
+			"Water",
+			"Lemon"
+			]
+			},
+
+			{
+			"name": "Sidecar",
+			"ingredients": [
+			"1.5 Cognac",
+			".75 Coint",
+			".5 Lemon Juice",
+			"Shake. Mart.",
+			"Sugar Rim",
+			"OJ PeelStinger",
+			"2.25 Cognac",
+			".75 White Creme de Menthe",
+			"Shake.",
+			"OF Gl",
+			"Crush"
+			]
+			},
+
+			{
+			"name": "Whisk Sour",
+			"ingredients": [
+			"1.5 Bourbon/Rye",
+			".75 1:1",
+			".75 Lemon Juice",
+			"Shake.",
+			"OF Gl",
+			"OJ Slice/Cherry Flag"
+			]
+			},
+
+			{
+			"name": "Long Island",
+			"ingredients": [
+			".5 Vodka",
+			".5 Rum",
+			".5 Gin",
+			".5 Tequila",
+			".5 Triple Sec",
+			"Sweet/Sour",
+			"Coke",
+			"Lemon",
+			"Tall Glass"
+			]
+			},
+
+			{
+			"name": "Marg",
+			"ingredients": [
+			"1.5-2.0 Teq",
+			".5 Triple Sec",
+			"3.0 Sweet/Sour",
+			"Lime",
+			"Shake. Over Rocks",
+			"Salt Rim"
+			]
+			},
+
+			{
+			"name": "Tom Collins",
+			"ingredients": [
+			"1.5-2.0 Gin",
+			"2.0 Sweet/Sour",
+			"Soda",
+			"Lemon",
+			"Lemon/Cherry"
+			]
+			},
+
+			{
+			"name": "Kent Mule",
+			"ingredients": [
+			"1.5 Bourbon",
+			"Ginger Beer",
+			"Lime Splash",
+			"2- Angostura",
+			"Lime Wedge"
+			]
+			},
+
+			{
+			"name": "Moscow Mule",
+			"ingredients": [
+			"1.5 Vodka",
+			"Ginger Beer",
+			"2- Bits",
+			"Lim Splash",
+			"Lime W. Mint",
+			"RoxMint Julep",
+			"2.0 Bon",
+			".5 1:1",
+			"Mint",
+			"Soda",
+			"Mud Mint and 1:1",
+			"Add Bon and Soda"
+			]
+			},
+
+			{
+			"name": "Dark n Stormy",
+			"ingredients": [
+			"1.5 D. Rum",
+			"Ginger Beer",
+			"[Lie]"
+			]
+			},
+
+			{
+			"name": "TC 1830",
+			"ingredients": [
+			"1.5 Beef/Genv",
+			".75 Lime",
+			".75 1:1",
+			"Soda"
+			]
+			},
+
+			{
+			"name": "MT 1940",
+			"ingredients": [
+			"2.0 Aged Rum",
+			".75 Lime Juice",
+			".75 Cura",
+			"1 tsp Orgeat",
+			"Mint Sprig and OJ"
+			]
+			},
+
+			{
+			"name": "Mojito 1920",
+			"ingredients": [
+			"1.5 White Rum",
+			".75 Lime Juice",
+			".75 1:1",
+			"4 mint",
+			"1.0 Soda"
+			]
+			},
+
+			{
+			"name": "Negroni Classic",
+			"ingredients": [
+			"3.0/1.0 Beef Gin"
+			]
+			},
+
+			{
+			"name": "Pisco Sour",
+			"ingredients": [
+			"2.0 Pisco",
+			"1.0 Lime Juice",
+			"1.0 1:1",
+			"Egg",
+			"Coupe/Rox G",
+			"Angostura"
+			]
+			},
+
+			{
+			"name": "White Russian",
+			"ingredients": [
+			"2.0 Vodka",
+			"1.0 Kahluah",
+			"Cream Float",
+			"Stir"
+			]
+			},
+
+			{
+			"name": "Zombie 278",
+			"ingredients": [
+			"2.0 White Rum",
+			"1.0 Dark Rum",
+			".25 151",
+			".5 Cointreau",
+			"2.0 OJ",
+			".5 Lime",
+			".5 1:1",
+			".5 Grenadine"
+			]
+			},
+
+			{
+			"name": "Sing Sling 205",
+			"ingredients": [
+			"1.5 Gin",
+			".5 Cherry Heering",
+			".5 Benedictine",
+			".5 Lime Juice",
+			".25 Cointreau",
+			"2.0 Pineapple Juice",
+			"2 dashes Angostura",
+			"2 dashes Grenadine",
+			"Shake.",
+			"Top with Soda.",
+			"Stir",
+			"Pine Flag"
+			]
+			},
+
+			{
+			"name": "Mai Tai",
+			"ingredients": [
+			"2.0 Jamaican Rum",
+			".5 Curacao",
+			".75 Lime Juice",
+			".5 Orgeat",
+			"Shake. Crushed Ice"
+			]
+			},
+
+			{
+			"name": "Sour Mix",
+			"ingredients": [
+			"2 Lemons",
+			"4 Lime",
+			"1 Orange",
+			"1 Cup 1:1"
+			]
+			},
+
+			{
+			"name": "Citric Acid Solution",
+			"ingredients": [
+			"100 grams filtered water",
+			"25 grams citric acid powder"
+			]
+			}
+		];
+
+		var allTokens = recipes.map((recipe) =>
+			recipe.ingredients.map((ingredient) =>
+				ingredient.split(" ")
+			).flat()
+		)
+		.flat()
+		.filter((token) => !token.match(/^[\d\.]/))
+		.filter((token) => token !== "oz")
+		.map((token) => token.toLowerCase());
+		var allTokensSet = new Set(allTokens);
+		var ingredientTokens = Array.from(allTokensSet);
+
+		var suggestionsContainer = document.getElementById("suggestions");
+
+		function onInputChange(inputValue) {
+			if (inputValue.length > 1) {
+				suggestionsContainer.innerHTML = "";
+				var matchingTokens = ingredientTokens.filter((token) =>
+					token.startsWith(inputValue.toLowerCase())
+				).slice(0, 8);;
+				matchingTokens.forEach((matchingToken) =>
+					suggestionsContainer.innerHTML += matchingToken + "<br />"
+				);
+			}
+		}
+
+		var submitBtn = document.getElementById("submit");
+
+		submitBtn.onclick = function() {
+			var matches = recipes;
+			for (var i = 0; i < 5; i++) {
+				var searchIngredient = document.getElementById("ingredient-" + i).value;
+				if (searchIngredient) {
+					var lookupRegex = new RegExp("\\b" + searchIngredient + "\\b", "i");
+					matches = matches.filter((recipe) =>
+						recipe.ingredients.some((ingredient) =>
+							lookupRegex.test(ingredient)
+						)
+					);
+				}
+			}
+
+			var resultContainer = document.getElementById("result");
+
+			if (matches.length == 0) {
+				resultContainer.innerHTML = "<h3>No matches</h3>";
+			} else {
+				resultContainer.innerHTML = "";
+				matches.forEach((recipe) => {
+					resultContainer.innerHTML += "<h3>"+recipe.name+"</h3>";
+					recipe.ingredients.forEach((ingredient) => {
+						resultContainer.innerHTML += ingredient + "<br />";
+					});
+					resultContainer.innerHTML += "<br />";
+				});
+			}
+
+		};
+	</script>
+</body>
+</html>
