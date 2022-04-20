@@ -1057,7 +1057,7 @@ var recipes = [
 			"1.5 oz. Plymouth Gin",
 			".75 oz. Lillet Blanc",
 			"75 oz. Green Chartreuse",
-			"1 barspoon St. Germain",
+			"1 barspn St. Germain",
 			"1 dash Orange bitters"
 		],
 		"procedure": "Stir, coupe, orange twist"
@@ -1188,7 +1188,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz. Ransom Old Tom Gin",
 			"1 oz. Dolin Blanc Vermouth",
-			"1 barspoon St. Germain Elderflower Liqueur",
+			"1 barspn St. Germain Elderflower Liqueur",
 			"1 dash The Bitter Truth Celery Bitters"
 		],
 		"procedure": "Stir, coupe, grapefruit twist"
@@ -1225,7 +1225,7 @@ var recipes = [
 			".5 oz. Crème Yvette",
 			".5 oz. Lemon juice",
 			".5 oz. Pineapple juice",
-			"1 barspoon Maraschino liqueur"
+			"1 barspn Maraschino liqueur"
 		],
 		"procedure": "Shake, coupe, brandied cherry"
 	},
@@ -1236,7 +1236,7 @@ var recipes = [
 			".5 oz. Aperol",
 			".5 oz. Dubonnet Rouge",
 			".5 oz. Lustau Manzanilla sherry",
-			"1 barspoon Dark Crème de Cacao",
+			"1 barspn Dark Crème de Cacao",
 			"1 dash Fee Brothers Rhubarb Bitters"
 		],
 		"procedure": "Stir, rocks glass, ice sphere, orange twist"
@@ -1314,7 +1314,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz. Rittenhouse Bonded Rye",
 			"1 oz. Punt e Mes",
-			"1 barspoon Yellow Chartreuse",
+			"1 barspn Yellow Chartreuse",
 			"1 dash of Angostura Bitters"
 		],
 		"procedure": "Stir, coupe"
@@ -1478,7 +1478,7 @@ var recipes = [
 			"75 oz. Lime Juice",
 			".5 oz. Crème de Cacao",
 			".25 oz. Martini Sweet Vermouth",
-			"1 barspoon Grenadine"
+			"1 barspn Grenadine"
 		],
 		"procedure": "Shake, coupe, lime wheel"
 	},
@@ -1534,7 +1534,7 @@ var recipes = [
 			"1.5 oz. Nikka Taketsuru 12-Year-Old Japanese whiskey",
 			".5 oz. Luxardo Amaretto",
 			".5 oz. Lemon Juice",
-			"1 barspoon Demerara Syrup",
+			"1 barspn Demerara Syrup",
 			"Peychaud's bitters"
 		],
 		"procedure": "Swizzle, rocks glass, crushed ice, 3 dashes bitters, mint sprig"
@@ -1575,7 +1575,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz. Beefeater Gin",
 			"1 oz. Orange juice",
-			"1 barspoon Pomegranate Molasses",
+			"1 barspn Pomegranate Molasses",
 			"Absinthe (rinse)"
 		],
 		"procedure": "Shake, rinsed coupe"
@@ -1596,7 +1596,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz. Bols Genever",
 			"1 oz. Kirschwasser",
-			"1 barspoon Demerara syrup",
+			"1 barspn Demerara syrup",
 			"2 dashes Peychaud’s bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
@@ -1658,7 +1658,7 @@ var recipes = [
 			".5 oz. Lillet Blanc",
 			".5 oz. Grapefruit juice",
 			".5 oz. Lemon juice",
-			"1 barspoon Orange Marmalade",
+			"1 barspn Orange Marmalade",
 			"Absinthe (rinse)"
 		],
 		"procedure": "Shake, rinsed coupe, grapefruit twist"
@@ -1691,7 +1691,7 @@ var recipes = [
 			"2 oz. Wild Turkey Russell’s Reserve 6-Year-Old Rye",
 			".75 oz. Carpano Antica Sweet Vermouth",
 			".5 oz. Cherry Heering",
-			"1 barspoon Pernod"
+			"1 barspn Pernod"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
@@ -1822,7 +1822,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz. Beefeater 24 Gin",
 			".5 oz. Pear liqueur",
-			"1 barspoon Green Chartreuse",
+			"1 barspn Green Chartreuse",
 			"1 dash Orange bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
@@ -1835,7 +1835,7 @@ var recipes = [
 			".75 oz. Lemon Juice",
 			".5 oz. Green Chartreuse",
 			".25 oz. Cynar",
-			"1 barspoon Strawberry Preserves"
+			"1 barspn Strawberry Preserves"
 		],
 		"procedure": "Shake, double strain, coupe, mint leaf"
 	},
@@ -1922,7 +1922,7 @@ var recipes = [
 			"2 oz. José Cuervo Platino tequila",
 			".75 oz. Lemon juice",
 			".5 oz. Strega",
-			"1 barspoon Apple Butter"
+			"1 barspn Apple Butter"
 		],
 		"procedure": "Shake, coupe, lemon twist"
 	}

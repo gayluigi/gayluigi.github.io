@@ -9,50 +9,52 @@
 <body>
 
 	<div class="upperContainer">
-		<h2>Cocktail Compendium</h2>
+		<div class="upperContainerContent">
+			<h1>Cocktail Compendium</h1>
 
-		<div class="inputContainer">
-			<div class="inputsColumn">
-				<input
-					id="ingredient-0"
-					onkeyup="onInputChange(this, event)"
-					onfocus="clearSuggestions()"
-					type="text"
-					placeholder="Ingredient"
-				/>
-				<input
-					id="ingredient-1"
-					onkeyup="onInputChange(this, event)"
-					onfocus="clearSuggestions()"
-					type="text"
-					placeholder="Ingredient"
-				/>
-				<input
-					id="ingredient-2"
-					onkeyup="onInputChange(this, event)"
-					onfocus="clearSuggestions()"
-					type="text"
-					placeholder="Ingredient"
-				/>
-				<input
-					id="ingredient-3"
-					onkeyup="onInputChange(this, event)"
-					onfocus="clearSuggestions()"
-					type="text"
-					placeholder="Ingredient"
-				/>
-				<input
-					id="ingredient-4"
-					onkeyup="onInputChange(this, event)"
-					onfocus="clearSuggestions()"
-					type="text"
-					placeholder="Ingredient"
-				/>
+			<div class="inputContainer">
+				<div class="inputsColumn">
+					<input
+						id="ingredient-0"
+						onkeyup="onInputChange(this, event)"
+						onfocus="clearSuggestions()"
+						type="text"
+						placeholder="Ingredient"
+					/>
+					<input
+						id="ingredient-1"
+						onkeyup="onInputChange(this, event)"
+						onfocus="clearSuggestions()"
+						type="text"
+						placeholder="Ingredient"
+					/>
+					<input
+						id="ingredient-2"
+						onkeyup="onInputChange(this, event)"
+						onfocus="clearSuggestions()"
+						type="text"
+						placeholder="Ingredient"
+					/>
+					<input
+						id="ingredient-3"
+						onkeyup="onInputChange(this, event)"
+						onfocus="clearSuggestions()"
+						type="text"
+						placeholder="Ingredient"
+					/>
+					<input
+						id="ingredient-4"
+						onkeyup="onInputChange(this, event)"
+						onfocus="clearSuggestions()"
+						type="text"
+						placeholder="Ingredient"
+					/>
 
-				<button id="submit" class="submitBtn">Find</button>
+					<button id="submit" class="submitBtn">Find</button>
+				</div>
+
+				<div id="suggestions" class="suggestionsColumn"></div>
 			</div>
-
-			<div id="suggestions" class="suggestionsColumn"></div>
 		</div>
 	</div>
 
@@ -61,6 +63,7 @@
 	<script type="text/javascript" src="recipes.js"></script>
 	<script type="text/javascript" src="utils.js"></script>
 	<script type="text/javascript">
+		var SUGGESTION_COUNT_LIMIT = 6;
 		console.log(recipes.length);
 
 		var allTokens = recipes.map((recipe) =>
@@ -92,7 +95,7 @@
 				clearSuggestions();
 				var matchingTokens = ingredientTokens.filter((token) =>
 					token.startsWith(inputValue.toLowerCase())
-				).slice(0, 8);
+				).slice(0, SUGGESTION_COUNT_LIMIT);
 				matchingTokens.forEach((matchingToken) => {
 					var suggestion = document.createElement("button");
 					suggestion.onclick = () => { input.value = matchingToken };
@@ -121,14 +124,14 @@
 			var resultContainer = document.getElementById("results");
 
 			if (matches.length == 0) {
-				resultContainer.innerHTML = "<h3>No matches</h3>";
+				resultContainer.innerHTML = "<h2>No matches</h2>";
 			} else {
 				matches
 					.sort(() => Math.random() - 0.5)
 					.forEach((recipe) => {
 						var matchContainer = document.createElement('div');
 						matchContainer.className = "match";
-						matchContainer.innerHTML += "<h3>" + recipe.name.toUpperCase() + "</h3>";
+						matchContainer.innerHTML += "<h2>" + recipe.name.toUpperCase() + "</h2>";
 						recipe.ingredients.forEach((ingredient) => {
 							var formattedIngredient = getFormattedIngredient(ingredient);
 							matchContainer.appendChild(formattedIngredient);
