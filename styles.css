@@ -1,6 +1,13 @@
 body {
 	font-family: "Helvetica", sans-serif;
-	padding: 10px 30px;
+	padding: 15px;
+	background-image: url("./damask_pattern.png");
+}
+
+.upperContainer {
+	padding: 1px 15px 15px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 3px;
 }
 
 .inputContainer {
@@ -8,14 +15,21 @@ body {
 }
 
 .inputsColumn {
-	width: 250px;
+	width: 180px;
+}
+
+.suggestionsColumn {
+	width: 130px;
 }
 
 input {
 	height: 25px;
-	width: 180px;
+	width: 150px;
 	padding-left: 8px;
 	margin-bottom: 20px;
+	opacity: 1;
+	border: 1px solid gray;
+	border-radius: 3px;
 }
 
 .suggestion {

@@ -7,50 +7,53 @@
 	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
 <body>
-	<h2>Cocktail Finder</h2>
 
-	<div class="inputContainer">
-		<div class="inputsColumn">
-			<input
-				id="ingredient-0"
-				onkeyup="onInputChange(this)"
-				onfocus="clearSuggestions()"
-				type="text"
-				placeholder="Ingredient"
-			/>
-			<input
-				id="ingredient-1"
-				onkeyup="onInputChange(this)"
-				onfocus="clearSuggestions()"
-				type="text"
-				placeholder="Ingredient"
-			/>
-			<input
-				id="ingredient-2"
-				onkeyup="onInputChange(this)"
-				onfocus="clearSuggestions()"
-				type="text"
-				placeholder="Ingredient"
-			/>
-			<input
-				id="ingredient-3"
-				onkeyup="onInputChange(this)"
-				onfocus="clearSuggestions()"
-				type="text"
-				placeholder="Ingredient"
-			/>
-			<input
-				id="ingredient-4"
-				onkeyup="onInputChange(this)"
-				onfocus="clearSuggestions()"
-				type="text"
-				placeholder="Ingredient"
-			/>
+	<div class="upperContainer">
+		<h2>Cocktail Finder</h2>
 
-			<button id="submit" class="submitBtn">Find</button>
+		<div class="inputContainer">
+			<div class="inputsColumn">
+				<input
+					id="ingredient-0"
+					onkeyup="onInputChange(this)"
+					onfocus="clearSuggestions()"
+					type="text"
+					placeholder="Ingredient"
+				/>
+				<input
+					id="ingredient-1"
+					onkeyup="onInputChange(this)"
+					onfocus="clearSuggestions()"
+					type="text"
+					placeholder="Ingredient"
+				/>
+				<input
+					id="ingredient-2"
+					onkeyup="onInputChange(this)"
+					onfocus="clearSuggestions()"
+					type="text"
+					placeholder="Ingredient"
+				/>
+				<input
+					id="ingredient-3"
+					onkeyup="onInputChange(this)"
+					onfocus="clearSuggestions()"
+					type="text"
+					placeholder="Ingredient"
+				/>
+				<input
+					id="ingredient-4"
+					onkeyup="onInputChange(this)"
+					onfocus="clearSuggestions()"
+					type="text"
+					placeholder="Ingredient"
+				/>
+
+				<button id="submit" class="submitBtn">Find</button>
+			</div>
+
+			<div id="suggestions" class="suggestionsColumn"></div>
 		</div>
-
-		<div id="suggestions" class="inputsColumn"></div>
 	</div>
 
 	<div id="results" class="results"></div>
