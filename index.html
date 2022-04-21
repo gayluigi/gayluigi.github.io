@@ -117,15 +117,13 @@
 	</div>
 	<div id="results" class="results topLevelContainer"></div>
 	<script type="text/javascript" src="./generateCocktailOfTheDay.js"></script>
+	<script type="text/javascript" src="./animateTotalRecipesCount.js"></script>
 	<script type="text/javascript" src="./searchSuggestions.js"></script>
 	<script type="text/javascript" src="./clearInput.js"></script>
 	<script type="text/javascript" src="./search.js"></script>
 	<script type="text/javascript">
-
-		var totalRecipesCountContainer = document.getElementById("totalRecipesCount");
-		totalRecipesCountContainer.innerHTML = recipes.length;
-
 		generateCocktailOfTheDay();
+		animateTotalRecipesCount();
 
 		var submitBtn = document.getElementById("submitIngredients");
 		submitBtn.onclick = search;

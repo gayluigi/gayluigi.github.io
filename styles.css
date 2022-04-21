@@ -12,6 +12,8 @@ body {
 
 .totalRecipesCount {
 	font-weight: 700;
+	width: 30px;
+	text-align: center;
 }
 
 .topLevelContainer {
