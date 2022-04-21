@@ -1,4 +1,4 @@
-var SUGGESTION_COUNT_LIMIT = 6;
+var SUGGESTION_COUNT_LIMIT = 5;
 
 var allTokens = recipes.map((recipe) =>
 	recipe.ingredients.map((ingredient) =>
@@ -24,8 +24,8 @@ function addSuggestionToInput(input) {
 		var suggestion = document.createElement("button");
 		suggestion.onclick = () => { input.value = token };
 		suggestion.className = "suggestion";
-		suggestion.innerHTML = "<span>" + token + "<span>"
-			+ "<span class='addSuggestion'> &#8592; </span>";
+		suggestion.innerHTML = "<span class='addSuggestion'> &#11207; </span>"
+			+ "<span>" + token + "<span>";
 		suggestionsContainer.appendChild(suggestion);
 	}
 }
@@ -35,5 +35,11 @@ function generateSuggestions(input, inputValue, ingredientTokens) {
 	var matchingTokens = ingredientTokens.filter((token) =>
 		token.startsWith(inputValue.toLowerCase())
 	).slice(0, SUGGESTION_COUNT_LIMIT);
-	matchingTokens.forEach(addSuggestionToInput(input));
+	if (matchingTokens.length > 0) {
+		var suggestionHdr = document.createElement("div");
+			suggestionHdr.className = "suggestionHeader";
+			suggestionHdr.innerHTML = "Suggestions:";
+			suggestionsContainer.appendChild(suggestionHdr);
+		matchingTokens.forEach(addSuggestionToInput(input));
+	}
 }

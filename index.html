@@ -4,6 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cocktail Compendium</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+
 	<link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 	<script type="text/javascript" src="recipes.js"></script>
@@ -14,7 +19,11 @@
 	<div class="upperContainer topLevelContainer">
 		<div class="upperContainerContent">
 			<h1>Cocktail Compendium</h1>
-			<div id="subheadCta" class="subheadCta"></div>
+			<div class="subheadCta">
+				Search through
+				<span id="totalRecipesCount" class="totalRecipesCount"></span>
+				cocktails.
+			</div>
 			<div class="inputContainer">
 				<div class="searchCategoryTitle">
 					FILTER BY NAME
@@ -39,12 +48,22 @@
 						type="text"
 						placeholder="Ingredient"
 					/>
+					<img
+						class="closeIcon"
+						src="./close-icon.svg"
+						onclick="clearInput(0)"
+					/>
 					<input
 						id="ingredient-1"
 						onkeyup="onInputChange(this, event)"
 						onfocus="clearSuggestions()"
 						type="text"
 						placeholder="Ingredient"
+					/>
+					<img
+						class="closeIcon"
+						src="./close-icon.svg"
+						onclick="clearInput(1)"
 					/>
 					<input
 						id="ingredient-2"
@@ -53,6 +72,11 @@
 						type="text"
 						placeholder="Ingredient"
 					/>
+					<img
+						class="closeIcon"
+						src="./close-icon.svg"
+						onclick="clearInput(2)"
+					/>
 					<input
 						id="ingredient-3"
 						onkeyup="onInputChange(this, event)"
@@ -60,12 +84,22 @@
 						type="text"
 						placeholder="Ingredient"
 					/>
+					<img
+						class="closeIcon"
+						src="./close-icon.svg"
+						onclick="clearInput(3)"
+					/>
 					<input
 						id="ingredient-4"
 						onkeyup="onInputChange(this, event)"
 						onfocus="clearSuggestions()"
 						type="text"
 						placeholder="Ingredient"
+					/>
+					<img
+						class="closeIcon"
+						src="./close-icon.svg"
+						onclick="clearInput(4)"
 					/>
 				</div>
 
@@ -84,11 +118,12 @@
 	<div id="results" class="results topLevelContainer"></div>
 	<script type="text/javascript" src="./generateCocktailOfTheDay.js"></script>
 	<script type="text/javascript" src="./searchSuggestions.js"></script>
+	<script type="text/javascript" src="./clearInput.js"></script>
 	<script type="text/javascript" src="./search.js"></script>
 	<script type="text/javascript">
 
-		var subheadCta = document.getElementById("subheadCta");
-		subheadCta.innerHTML = `Search through ${recipes.length} cocktails.`;
+		var totalRecipesCountContainer = document.getElementById("totalRecipesCount");
+		totalRecipesCountContainer.innerHTML = recipes.length;
 
 		generateCocktailOfTheDay();
 

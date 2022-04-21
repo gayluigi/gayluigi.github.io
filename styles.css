@@ -1,5 +1,5 @@
 body {
-	font-family: "Helvetica", sans-serif;
+	font-family: 'Lato', sans-serif;
 	background-image: url("./damask_pattern.png");
 }
 
@@ -8,6 +8,10 @@ body {
 	body {
 		padding: 10px;
 	}
+}
+
+.totalRecipesCount {
+	font-weight: 700;
 }
 
 .topLevelContainer {
@@ -27,7 +31,7 @@ body {
 	color: #3e3e3e;
 	width: 100%;
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 700;
 	margin-bottom: 5px;
 }
 
@@ -38,11 +42,19 @@ body {
 }
 
 .inputsColumn {
-	width: 190px;
+	width: 200px;
 }
 
 .suggestionsColumn {
-	width: 140px;
+	width: 130px;
+}
+
+.suggestionHeader {
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-style: italic;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted gray;
 }
 
 input {
@@ -53,6 +65,16 @@ input {
 	opacity: 1;
 	border: 1px solid gray;
 	border-radius: 3px;
+}
+
+.closeIcon {
+	height: 18px;
+	margin: 0 0 -3px 4px;
+	cursor: pointer;
+}
+
+.closeIcon:hover {
+	background-color: #f4f7f9;
 }
 
 .recipeNameInput {
@@ -66,22 +88,24 @@ input {
 
 .suggestion {
 	height: 30px;
-	margin-bottom: 10px;
+	margin-bottom: 7px;
 	display: block;
 	background-color: white;
-	border: 1px solid gray;
+	border: 1px solid #d5e1e8;
 	border-radius: 3px;
 	text-align: left;
 	padding: 0 10px;
 	cursor: pointer;
+	background-color: #f4f7f9;
 }
 
 .suggestion:hover {
-	background-color: #f4f4f4;
+	background-color: #d5e1e8;
 }
 
 .addSuggestion {
-	margin-left: 10px;
+	margin-right: 3px;
+	color: #8da3b0;
 }
 
 .submitBtn {

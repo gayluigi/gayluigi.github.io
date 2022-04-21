@@ -1925,5 +1925,1219 @@ var recipes = [
 			"1 barspn Apple Butter"
 		],
 		"procedure": "Shake, coupe, lemon twist"
+	},
+	{
+		"name": "AKU AKU",
+		"ingredients": [
+			"5 (1-inch-square) chunks pineapple (muddled)",
+			"1 oz Lime juice",
+			".5 oz Demerara syrup",
+			".5 oz Peach liqueur",
+			"1.5 oz Blended lightly aged rum"
+		],
+		"procedure": "Mix/whip shake, double-strain, coupe, mint sprig"
+	},
+	{
+		"name": "PUPULE",
+		"ingredients": [
+			".75 oz Lime juice",
+			".75 oz Orange juice",
+			".25 oz Cinnamon syrup",
+			".25 oz Vanilla syrup",
+			".25 oz Allspice dram",
+			"2 oz Column still aged rum",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, spiral-cut orange peel, mint sprig"
+	},
+	{
+		"name": "DON’S OWN GROG",
+		"ingredients": [
+			".75 oz Lime juice",
+			".25 oz Demerara syrup",
+			"1 dash Grenadine",
+			".5 oz Blackberry Liqueur",
+			"1 oz Blended aged rum",
+			".5 oz Blended lightly aged rum",
+			".5 oz Black blended rum",
+			"1 dash Angosutra bitters"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, freshly grated nutmeg"
+	},
+	{
+		"name": "PORT AU PRINCE",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Pineapple juice",
+			".25 oz Demerara syrup",
+			"1 dash Grenadine",
+			".5 oz Velvet Falernum",
+			"1.5 oz Cane coffey still aged rum",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lime wedge"
+	},
+	{
+		"name": "THREE DOTS AND A DASH",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Orange juice",
+			".5 oz Honey syrup",
+			".25 oz Velvet Falernum",
+			".25 oz Allspice dram",
+			"1.5 oz Rhum agricole vieux",
+			".5 oz Blended aged rum",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, three maraschino cherries and pineapple chunk"
+	},
+	{
+		"name": "MEXICAN EL DIABLO",
+		"ingredients": [
+			"1 lime wedge",
+			".5 oz Lime juice",
+			".5 oz natural crème de cassis",
+			"1.5 oz blanco tequila",
+			"4 oz real ginger ale"
+		],
+		"procedure": "Swizzle, collins glass, cracked ice"
+	},
+	{
+		"name": "PORT LIGHT",
+		"ingredients": [
+			"1 oz egg white",
+			"2 oz bourbon",
+			"1 oz Lemon juice",
+			".75 oz Honey syrup",
+			".5 oz Passionfruit syrup"
+		],
+		"procedure": "Dry shake egg white and bourbon, add the rest, Mix/whip shake, footed pilsner, crushed ice"
+	},
+	{
+		"name": "DEMERARA DRY FLOAT",
+		"ingredients": [
+			"2 oz Lime juice",
+			"1 tsp Lemon juice",
+			"1.5 oz Passionfruit syrup",
+			".25 oz Demerara syrup",
+			".25 oz Maraschino liqueur",
+			"1.5 oz Blended aged rum",
+			".75 oz Black blended overproof rum"
+		],
+		"procedure": "Mix/whip shake first 6 ingredients, double old-fashioned glass, crushed ice, serve with overproof rum on the side"
+	},
+	{
+		"name": "JET PILOT",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Grapefruit juice",
+			".5 oz Cinnamon syrup",
+			".5 oz Velvet Falernum",
+			"1 oz Black blended rum",
+			".75 oz Blended aged rum",
+			".75 oz Black blended overproof rum",
+			"1 dash Herbstura"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice"
+	},
+	{
+		"name": "HALEKULANI COCKTAIL",
+		"ingredients": [
+			".5 oz Lemon juice",
+			".5 oz Orange juice",
+			".5 oz Pineapple juice",
+			".25 oz Demerara syrup",
+			".5 tsp Grenadine",
+			"1.5 oz bourbon",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Shake, double strain, coupe, edible orchid"
+	},
+	{
+		"name": "SIDEWINDER’S FANG",
+		"ingredients": [
+			"1.5 oz Lime juice",
+			"1.5 oz Orange juice",
+			"1.5 oz Passionfruit syrup",
+			"3 oz Seltzer",
+			"1 oz Blended aged rum",
+			"1 oz Black blended rum"
+		],
+		"procedure": "Mix/whip shake, strain, large brandy snifter, cracked ice, sidewinder's fang orange peel, mint sprig."
+	},
+	{
+		"name": "HAWAIIAN SUNSET",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Lemon juice",
+			".5 oz Orgeat",
+			"1 tsp Grenadine",
+			"1.5 oz vodka"
+		],
+		"procedure": "Shake, double strain, coupe, lime peel."
+	},
+	{
+		"name": "CAPTAIN’S GROG",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Grapefruit juice",
+			".5 oz grade A maple syrup",
+			"3 drops Vanilla extract",
+			"3 drops Almond extract",
+			"1 oz Seltzer",
+			".5 oz Velvet Falernum",
+			".5 oz Dry Curacao",
+			".75 oz Black blended rum",
+			".75 oz Blended lightly aged rum",
+			".75 oz Blended aged rum"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig"
+	},
+	{
+		"name": "SUFFERING BASTARD",
+		"ingredients": [
+			".5 oz Lime juice",
+			".25 oz Demerara syrup",
+			"1 oz London Dry Gin",
+			"1 oz brandy",
+			"2 dashes Angostura bitters",
+			"4 oz ginger beer"
+		],
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, mint sprig"
+	},
+	{
+		"name": "MERCILESS VIRGIN",
+		"ingredients": [
+			".75 oz Lemon juice",
+			".5 oz Seltzer",
+			".5 oz Cherry Heering liqueur",
+			".5 oz Velvet Falernum",
+			".25 oz Dry Curacao",
+			"1.5 oz Blended lightly aged rum"
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, Maraschino cherry"
+	},
+	{
+		"name": "SATURN",
+		"ingredients": [
+			".75 oz Lemon juice",
+			".5 oz Passionfruit syrup",
+			".25 oz Orgeat",
+			".25 oz Velvet Falernum",
+			"1.25 oz London Dry Gin"
+		],
+		"procedure": "Shake, coupe, lemon peel rings"
+	},
+	{
+		"name": "TIKI BOWL FOR TWO",
+		"ingredients": [
+			"1.5 oz Orange juice",
+			".75 oz Lime juice",
+			"1 oz Honey syrup",
+			"1.25 oz Black blended rum",
+			"1 oz Black blended overproof rum",
+			"1 oz Column still aged rum",
+			"2 dashes Herbstura"
+		],
+		"procedure": "Mix/blend, tiki bowl, crushed ice, edible orchid"
+	},
+	{
+		"name": "HURRICANE",
+		"ingredients": [
+			"2 oz Lemon juice",
+			"2 oz Passionfruit syrup",
+			"4 oz Black blended rum"
+		],
+		"procedure": "Mix/whip shake, hurricane glass, crushed ice, lemon wedge"
+	},
+	{
+		"name": "MUNDO PERDIDO",
+		"ingredients": [
+			".75 oz Lemon juice",
+			".25 oz Cinnamon syrup",
+			".25 oz Demerara syrup",
+			".5 oz Apple brandy",
+			"1.5 oz Black blended rum"
+		],
+		"procedure": "Shake, coupe."
+	},
+	{
+		"name": "FORMIDABLE DRAGON",
+		"ingredients": [
+			".75 oz Lemon juice",
+			".75 oz Lime juice",
+			".5 oz Honey syrup",
+			".75 oz Molasses syrup",
+			".5 oz Amaro Di Angostura",
+			"1.5 oz Blended aged rum",
+			"1 oz Black blended rum",
+			".25 oz Pot still lightly aged rum (overproof)",
+			"1 oz Seltzer"
+		],
+		"procedure": "Mix/Blend, large brandy snifter, crushed ice, edible orchid, multiple mint sprigs"
+	},
+	{
+		"name": "LEI LANI NOUVEAU",
+		"ingredients": [
+			"1.5 oz Pineapple juice",
+			".75 oz Lime juice",
+			"1 oz Coconut cream",
+			"1.5 oz Blended aged rum",
+			"3 oz Bundaberg Guava soda"
+		],
+		"procedure": "Shake first 4 ingredients, double strain, Collins glass, cracked ice. Top with guava soda, edible orchid"
+	},
+	{
+		"name": "TRADEWINDS",
+		"ingredients": [
+			"1 oz Lemon juice",
+			"1.5 oz Coconut cream",
+			"1 oz Apricot liqueur",
+			"1 oz Black blended rum",
+			"1 oz Blended lightly aged rum"
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lemon wedge"
+	},
+	{
+		"name": "PEACHTREE PUNCH 2.0",
+		"ingredients": [
+			"half yellow/white peach (muddled)",
+			"3 oz Orange juice",
+			".5 oz Lemon juice",
+			"1 oz Coconut cream",
+			".25 oz Peach liqueur",
+			"2 oz Blended lightly aged rum",
+			"1 oz Seltzer"
+		],
+		"procedure": "Mix/whip shake, double strain, double old-fashioned glass, cracked ice, grated nutmeg, peach wedge"
+	},
+	{
+		"name": "JUNGLE BIRD",
+		"ingredients": [
+			"2 oz Pineapple juice",
+			".5 oz Lime juice",
+			".5 oz Demerara syrup",
+			".75 oz Campari",
+			"1.5 oz Black blended rum"
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, pineapple fronds"
+	},
+	{
+		"name": "GOLDEN GUN",
+		"ingredients": [
+			".75 oz Lime juice",
+			".5 oz Grapefruit juice",
+			".5 oz Demerara syrup",
+			".5 oz Apricot liqueur",
+			"1 oz Blended aged rum",
+			"1 oz Blended lightly aged rum",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Shake, Collins glass, cracked ice"
+	},
+	{
+		"name": "HINKY DINKS FIZZY",
+		"ingredients": [
+			"1.5 oz Pineapple juice",
+			".5 oz Lime juice",
+			".5 oz Passionfruit syrup",
+			".5 oz Apricot liqueur",
+			"1 oz London Dry Gin",
+			"1 oz Blended lightly aged rum",
+			"2 oz sparkling wine"
+		],
+		"procedure": "Mix/whip shake first 6 ingredients, large brandy snifter, crushed ice. Top with sparkling wine, mint sprig"
+	},
+	{
+		"name": "PAMPANITO",
+		"ingredients": [
+			"1 oz Lemon juice",
+			"1 oz Molasses syrup",
+			"2.5 oz Seltzer",
+			".25 oz Allspice dram",
+			"1.5 oz Black blended rum",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, lemon twist"
+	},
+	{
+		"name": "MAX’S MISTAKE",
+		"ingredients": [
+			"1 oz Lemon juice",
+			"1 oz Passionfruit syrup",
+			".5 oz Honey syrup",
+			"2 oz London Dry Gin",
+			"1 dash Angostura bitters",
+			"2 oz Fentimans Victorian Lemonade"
+		],
+		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, mint sprig"
+	},
+	{
+		"name": "LA GUILDIVE",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Licor 43",
+			".25 oz Peach liqueur",
+			"2 oz Blended aged rum",
+			"1 oz ginger beer"
+		],
+		"procedure": "Shake first 4 ingredients, coupe. Top with ginger beer, lime twist, pinch of cinnamon"
+	},
+	{
+		"name": "THE TWENTY SEVENTY SWIZZLE",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Demerara syrup",
+			".5 oz Honey syrup",
+			".25 oz Allspice dram",
+			"1 oz Column still aged rum",
+			"1 oz Black blended overproof rum",
+			"1 dash Herbstura"
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig"
+	},
+	{
+		"name": "SHUDDERS IN A WHISPER",
+		"ingredients": [
+			".75 oz Lime juice",
+			".5 oz Passionfruit syrup",
+			".5 oz Pear liqueur",
+			".25 oz Drambuie",
+			"2 oz Seltzer",
+			"2 oz Column still aged rum",
+			"2 dashes Peychaud’s bitters",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, edible orchid, mint sprig"
+	},
+	{
+		"name": "CUEVAS",
+		"ingredients": [
+			".25 oz Cinnamon syrup",
+			".5 oz Punt e Mes",
+			".25 oz Tawny port",
+			"2 oz Blended aged rum",
+			"6 drops Bittermens ‘Elemakule Tiki bitters"
+		],
+		"procedure": "Shake, coupe, maraschino cherry"
+	},
+	{
+		"name": "NORWEGIAN PARALYSIS",
+		"ingredients": [
+			"1.5 oz Orange juice",
+			"1.5 oz Pineapple juice",
+			".5 oz Lemon juice",
+			".25 oz Demerara syrup",
+			".25 oz Orgeat",
+			"1.5 oz Aquavit"
+		],
+		"procedure": "Shake, Collins glass, cracked ice, lemon wedge"
+	},
+	{
+		"name": "JUAN HO ROYALE",
+		"ingredients": [
+			".75 oz Lime juice",
+			".5 oz Orgeat",
+			".5 oz blue curaçao",
+			".5 oz Velvet Falernum",
+			"1.5 oz Blanco tequila",
+			"2 oz champagne or sparkling wine"
+		],
+		"procedure": "Shake first 5 ingredients, coupe. Top with champagne"
+	},
+	{
+		"name": "CHARTREUSE SWIZZLE",
+		"ingredients": [
+			"1 oz Pineapple juice",
+			".75 oz Lime juice",
+			".5 oz Velvet Falernum",
+			"1.5 oz Green Chartreuse"
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig"
+	},
+	{
+		"name": "ROSELITA",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Orgeat",
+			".5 oz Hibiscus liqueur",
+			".5 oz Pear liqueur",
+			"1.5 oz Column still aged rum",
+			"1 dash Peychaud’s bitters",
+			"1.5 oz Seltzer"
+		],
+		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower"
+	},
+	{
+		"name": "CENTER OF THE GALAXY",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Demerara syrup",
+			".5 oz Honey syrup",
+			".5 oz Raspberry liqueur",
+			"2 oz Blended aged rum",
+			"Pinch of freshly ground cinnamon"
+		],
+		"procedure": "Shake, coupe, raspberry on lime wheel"
+	},
+	{
+		"name": "CALLALOO COOLER",
+		"ingredients": [
+			".75 oz Lime juice",
+			".5 oz Cinnamon syrup",
+			".5 oz Cherry Heering",
+			"2 oz Blended lightly aged rum",
+			"1 dash Angostura bitters",
+			"1 oz Seltzer"
+		],
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer, grated cinnamon, mint sprig"
+	},
+	{
+		"name": "TOP NOTCH VOLCANO FOR TWO",
+		"ingredients": [
+			"2 oz Lime juice",
+			"2 oz Pineapple juice",
+			"1 oz Passionfruit syrup",
+			"1 oz Demerara syrup",
+			".5 oz Maraschino liqueur",
+			"2 oz Blended lightly aged rum",
+			"2 oz Blended aged rum"
+		],
+		"procedure": "Mix/whip shake, scorpion bowl, lime and orange slices, fire"
+	},
+	{
+		"name": "THE NAKED APE",
+		"ingredients": [
+			".5 oz Lemon juice",
+			".5 oz Cinnamon syrup",
+			".5 oz Giffard Banane du Brésil banana liqueur",
+			"1.5 oz Black blended rum",
+			".5 oz Pot still lightly aged rum (overproof)",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice"
+	},
+	{
+		"name": "SWIZZLE FRANÇAIS",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Martinique sugarcane syrup",
+			".25 oz Allspice dram",
+			"2 oz Rhum agricole vieux"
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, ground nutmeg"
+	},
+	{
+		"name": "SPARKLING MAI TAI",
+		"ingredients": [
+			".25 oz Lime juice",
+			".25 oz Orgeat",
+			".5 oz Dry Curacao",
+			".25 oz Black blended overproof rum",
+			".5 oz Blended aged rum",
+			"4 oz chilled sparkling wine"
+		],
+		"procedure": "Stir first 5 ingredients, champagne flute. Top with sparkling wine, lime twist, mint leaf"
+	},
+	{
+		"name": "THE ERNESTO",
+		"ingredients": [
+			"1 oz Lime juice",
+			"1 oz Honey syrup",
+			".5 oz Apricot liqueur",
+			"2 oz Blanco tequila",
+			"1 dash Herbstura",
+			"2 oz Ting grapefruit soda"
+		],
+		"procedure": "Shake first 5 ingredients, double old-fashioned glass, cracked ice. Top with soda, lime wheel, edible orchid"
+	},
+	{
+		"name": "HANA REVIVER",
+		"ingredients": [
+			"1 oz Lemon juice",
+			"1 oz Passionfruit Honey",
+			".25 barspoon Li hing mui powder",
+			"2 oz Seltzer",
+			"1 barspoon Maraschino liqueur",
+			"2 oz Pot still unaged rum"
+		],
+		"procedure": "Mix/whip shake, footed pilsner glass, crushed ice, mint sprig"
+	},
+	{
+		"name": "KAITEUR SWIZZLE",
+		"ingredients": [
+			".75 oz Lime juice",
+			".5 oz Grade A maple syrup",
+			".5 oz Velvet Falernum",
+			"2 oz Blended aged rum (Guyana)",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig"
+	},
+	{
+		"name": "THE EXPEDITION",
+		"ingredients": [
+			"1 oz Lime juice",
+			".5 oz Cinnamon syrup",
+			".5 oz Honey syrup",
+			".25 oz Vanilla syrup",
+			"2 oz Seltzer",
+			".25 oz Bittermens New Orleans Coffee Liqueur",
+			"2 oz Black blended rum",
+			"1 oz bourbon"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid"
+	},
+	{
+		"name": "THE UNDEAD GENTLEMAN",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Grapefruit juice (white or pink)",
+			".5 oz Cinnamon syrup",
+			".5 oz Velvet Falernum",
+			"1 oz Black blended overproof rum",
+			"1.5 oz Blended aged rum",
+			"1 dash Angostura bitters",
+			"Absinthe Blanc (rinse)"
+		],
+		"procedure": "Shake, rinsed coupe, intertwined lime and grapefruit twists"
+	},
+	{
+		"name": "THE DEAD RECKONING",
+		"ingredients": [
+			"1 oz Lemon juice",
+			"1 oz Pineapple juice",
+			".5 oz Grade A maple syrup",
+			".5 oz Vanilla-infused brandy",
+			".5 oz Tawny port",
+			"2 oz Blended aged rum",
+			"1 dash Angostura bitters",
+			"1 oz Seltzer"
+		],
+		"procedure": "Mix/whip shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, pineapple fronds, mint spring, lemon spiral"
+	},
+	{
+		"name": "FALINUM",
+		"ingredients": [
+			"1 oz Lemon juice",
+			"1 oz Coconut cream",
+			"1 oz Seltzer",
+			".5 oz Velvet Falernum",
+			"2 oz Column still aged rum",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice"
+	},
+	{
+		"name": "HUMUHUMUNUKUNUKUAPUA’A",
+		"ingredients": [
+			".75 oz Lemon juice",
+			".75 oz Pineapple juice",
+			".5 oz Orgeat",
+			"2 oz Gin",
+			"2 dashes Peychaud’s bitters"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry"
+	},
+	{
+		"name": "LAUWILIWILINUKUNUKU'OI'OI",
+		"ingredients": [
+			".75 oz Lemon juice",
+			".75 oz Pineapple juice",
+			".5 oz Orgeat",
+			"2 oz Blended aged rum",
+			"2 dashes Peychaud’s bitters"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry"
+	},
+	{
+		"name": "FOR PETE’S SAKE",
+		"ingredients": [
+			".75 oz Lime juice",
+			".5 oz Demerara syrup",
+			".5 oz Hibiscus liqueur",
+			".5 oz Cherry Heering",
+			"1.5 oz Pisco",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible hibiscus flower, maraschino cherry"
+	},
+	{
+		"name": "ARRACK PUNCH FOR TWO",
+		"ingredients": [
+			"1 oz Lemon juice",
+			"1 oz Lime juice",
+			"1.5 oz Demerara syrup",
+			"3 oz Batavia Arrack",
+			"1 oz Pot still lightly aged rum (overproof)",
+			"3 oz Carbonated Chai Tea"
+		],
+		"procedure": "Mix/whip shake, tiki bowl, lemon and lime slices"
+	},
+	{
+		"name": "EL DRAQUE",
+		"ingredients": [
+			"5 mint leaves (muddled)",
+			".75 oz Demerara syrup",
+			".75 oz Lime juice",
+			"2 oz Pot still aged cachaça"
+		],
+		"procedure": "Shake, coupe, lime wheel"
+	},
+	{
+		"name": "CALIBOGUS",
+		"ingredients": [
+			".25 oz Lime juice",
+			".75 oz Molasses syrup",
+			"1 drop spruce beer soda extract (see Resources)",
+			".75 oz Zirbenz Stone Pine liqueur",
+			"1.25 oz Blended aged rum",
+			"3 oz Seltzer"
+		],
+		"procedure": "Mix/whip shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer"
+	},
+	{
+		"name": "MARY PICKFORD",
+		"ingredients": [
+			"1.5 oz Pineapple juice",
+			"1 barspoon Grenadine",
+			"6 drops Maraschino liqueur",
+			"1.5 oz Blended lightly aged rum"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "DAIQUIRI NO. 1",
+		"ingredients": [
+			".75 oz Lime juice",
+			".5 oz Demerara syrup",
+			"2 oz Blended lightly aged rum"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "HOTEL NACIONAL SPECIAL",
+		"ingredients": [
+			"4 (1-inch-square) pineapple chunks (muddled)",
+			".75 oz Lime juice",
+			".5 oz Demerara syrup",
+			".5 oz Apricot liqueur",
+			"1.5 oz Blended lightly aged rum"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "DAISY DE SANTIAGO",
+		"ingredients": [
+			"1 oz Lime juice",
+			"1.5 tsp Demerara syrup",
+			"1 oz Seltzer",
+			".5 oz Yellow Chartreuse",
+			"1.5 oz Blended lightly aged rum"
+		],
+		"procedure": "Shake, double old-fashioned glass, crushed ice, mint sprig"
+	},
+	{
+		"name": "EL PRESIDENTE",
+		"ingredients": [
+			".5 tsp Grenadine",
+			".75 oz dry vermouth",
+			".5 oz Dry Curacao",
+			"1.5 oz Blended lightly aged rum"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "TWELVE MILE LIMIT",
+		"ingredients": [
+			".5 oz Lemon juice",
+			".5 oz Grenadine",
+			"1 oz Blended lightly aged rum",
+			".5 oz rye",
+			".5 oz brandy"
+		],
+		"procedure": "Shake, coupe, lemon twist"
+	},
+	{
+		"name": "PARISIAN BLONDE",
+		"ingredients": [
+			"1 oz Dry Curacao",
+			"1 oz Blended aged rum",
+			"1 oz sweeted heavy cream"
+		],
+		"procedure": "Stir first two ingredients, coupe. Float the cream, grated cinnamon"
+	},
+	{
+		"name": "CORA MIDDLETON",
+		"ingredients": [
+			".5 oz egg white",
+			"2 oz Blended aged rum",
+			".75 oz Lime juice",
+			".25 oz Demerara syrup",
+			".5 oz Raspberry Gum syrup"
+		],
+		"procedure": "Double shake, coupe, Angostura bitters drops"
+	},
+	{
+		"name": "MILLIONAIRE COCKTAIL #1",
+		"ingredients": [
+			".75 oz Lime juice",
+			"1 dash Grenadine",
+			".75 oz Apricot liqueur",
+			".75 oz black Pot still rum or Blended aged rum",
+			".75 oz Sloe Gin"
+		],
+		"procedure": "Shake, coupe, lime wheel"
+	},
+	{
+		"name": "BATIDA DE MARACUJÁ E COCO",
+		"ingredients": [
+			".75 oz Passionfruit puree",
+			"2 oz Coconut milk",
+			"1 oz Pot still aged cachaça",
+			"1 oz sweetened condensed milk"
+		],
+		"procedure": "Mix/whip shake, old fashioned glass, crushed ice, mint sprig"
+	},
+	{
+		"name": "HIBISCUS RUM PUNCH",
+		"ingredients": [
+			".5 oz Lime juice",
+			"1 oz Hibiscus liqueur",
+			".33 oz Demerara syrup",
+			"1.5 oz Blended aged rum (Jamaica)",
+			"2 oz Seltzer"
+		],
+		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower, lime wheel"
+	},
+	{
+		"name": "BARBADOS RUM PUNCH",
+		"ingredients": [
+			"1 oz Lime juice",
+			"1 oz Demerara syrup",
+			"2 oz Blended aged rum (Barbados)",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Shake, footed pilsner, cracked ice, grated nutmeg"
+	},
+	{
+		"name": "JAMAICAN MILK PUNCH",
+		"ingredients": [
+			"1 oz whole milk",
+			"1 oz heavy whipping cream",
+			".5 oz Demerara syrup",
+			"1 oz Black blended rum (Jamaica)",
+			"6 drops vanilla extract",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, grated nutmeg."
+	},
+	{
+		"name": "CORN AND OIL",
+		"ingredients": [
+			".5 oz Velvet Falernum",
+			"2 oz Blended aged rum (Barbados)",
+			"2 to 4 dashes Angostura bitters"
+		],
+		"procedure": "Stir, old-fashioned glass, crushed ice"
+	},
+	{
+		"name": "QUEEN’S PARK SWIZZLE",
+		"ingredients": [
+			"4 mint leaves (muddled)",
+			".5 oz Lime juice",
+			".5 oz Demerara syrup",
+			"2 oz Black blended rum",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig"
+	},
+	{
+		"name": "THE CHADBURN",
+		"ingredients": [
+			".5 oz Tawny port",
+			".5 oz Pear liqueur",
+			"2 oz Blended aged rum",
+			"6 drops Bittermens Xocolatl (Chocolate) Mole bitters"
+		],
+		"procedure": "Stir, coupe"
+	},
+	{
+		"name": "A WISH FOR GRACE",
+		"ingredients": [
+			".75 oz Lemon juice",
+			".5 oz 2:1 Simple syrup",
+			".5 oz Dry Curacao",
+			"1.5 oz Pot still lightly aged rum (New England)",
+			".75 oz Blandy’s 5 Year Verdelho Madeira",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Shake, coupe, lemon twist"
+	},
+	{
+		"name": "ABRICOT VIEUX",
+		"ingredients": [
+			".5 oz Apricot liqueur",
+			"2 oz Rhum agricole vieux",
+			"1 dash Angostura bitters",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Stir, coupe, express orange peel"
+	},
+	{
+		"name": "PANIOLO OLD-FASHIONED",
+		"ingredients": [
+			"1 tsp Li Hing Mui syrup",
+			"2 oz Blended aged rum",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Stir, old-fashioned glass, large cube, express orange peel, drop peel in"
+	},
+	{
+		"name": "PORT ROYAL",
+		"ingredients": [
+			".75 oz Lime juice",
+			".75 oz Jamaican Jerk syrup",
+			"1.5 oz Blended lightly aged rum",
+			".5 oz Wray & Nephew white overproof rum",
+			"Hellfire tincture"
+		],
+		"procedure": "Shake, coupe, five spread-out drops Hellfire tincture"
+	},
+	{
+		"name": "KINGSTON PALAKA",
+		"ingredients": [
+			".5 oz Lemon juice",
+			".125 tsp Li hing mui powder",
+			"1 oz Drambuie",
+			"1.5 oz Blended aged rum (Jamaica)"
+		],
+		"procedure": "Shake, coupe, lemon peel"
+	},
+	{
+		"name": "DONN DAY AFTERNOON",
+		"ingredients": [
+			".5 oz Lime juice",
+			".5 oz Cinnamon syrup",
+			"4 oz chilled Stiegl-Radler Grapefruit Beer",
+			"2 oz Rhum agricole blanc"
+		],
+		"procedure": "Stir, double old-fashioned glass, express grapefruit peel, drop peel in"
+	},
+	{
+		"name": "BAIE DU GALION",
+		"ingredients": [
+			".5 oz Green Chartreuse",
+			".25 oz Drambuie",
+			"2 oz Rhum agricole blanc"
+		],
+		"procedure": "Stir, coupe, lemon twist"
+	},
+	{
+		"name": "AGRICOLE GUAVA COOLER",
+		"ingredients": [
+			".75 oz Lime juice",
+			".75 oz Licor 43",
+			"2 oz Rhum agricole blanc",
+			"2 dashes Angostura bitters",
+			"2 oz Bundaberg guava soda"
+		],
+		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with soda, mint sprig, cinnamon stick, lime wheel"
+	},
+	{
+		"name": "RICHARD SEALEBACH",
+		"ingredients": [
+			".5 oz Dry Curacao",
+			"1 oz R. L. Seale 10 Year rum",
+			"7 dashes Angostura bitters",
+			"7 dashes Peychaud’s bitters",
+			"4 oz chilled champagne"
+		],
+		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, lemon twist"
+	},
+	{
+		"name": "COSA NOSTRA #2",
+		"ingredients": [
+			".75 oz Lemon juice",
+			"1.5 oz Amaro Averna",
+			"1 oz Blended lightly aged rum",
+			"1 dash Angostura bitters",
+			"2 oz real ginger ale"
+		],
+		"procedure": "Stir first 4 ingredients, footed pilsner glass, cracked ice. Top with ginger ale, lemon twist"
+	},
+	{
+		"name": "BOO LOO FOR TWO",
+		"ingredients": [
+			"6 (1-inch-square) chunks pineapple (muddled)",
+			"2.5 oz Pineapple juice",
+			"1.5 oz Lime juice",
+			"1.25 oz Honey syrup",
+			"1.5 oz Blended aged rum",
+			"1.5 oz Column still aged rum",
+			".75 oz Black blended rum",
+			".75 oz Black blended overproof rum",
+			"1.5 oz Seltzer"
+		],
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
+	},
+	{
+		"name": "CARIBEÑO",
+		"ingredients": [
+			"4 oz coconut water",
+			".25 oz Demerara syrup",
+			"2 oz column still lightly aged rum or London Dry Gin"
+		],
+		"procedure": "Mix/whip shake, coconut shell, cracked ice"
+	},
+	{
+		"name": "MONK’S RESPITE",
+		"ingredients": [
+			"3 oz fresh coconut water",
+			".5 oz Lemon juice",
+			".25 oz Honey syrup",
+			".25 oz Yellow Chartreuse",
+			"1.5 oz Broker’s gin",
+			"1 oz Seltzer",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Mix/whip shake, coconut shell, crushed ice"
+	},
+	{
+		"name": "THE MASTADON",
+		"ingredients": [
+			"3 oz Pineapple juice",
+			".5 oz Lime juice",
+			"1 oz Passionfruit puree",
+			".5 oz Licor 43",
+			".5 oz Maraschino liqueur",
+			"1.5 oz Blended aged rum",
+			"1.5 oz bourbon",
+			"2 dashes Peychaud’s bitters"
+		],
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
+	},
+	{
+		"name": "PIÑATA",
+		"ingredients": [
+			"3 oz Pineapple juice",
+			"1 oz Lemon juice",
+			".25 oz Demerara syrup",
+			"1 oz ginger liqueur",
+			".5 oz Allspice dram",
+			"1 oz Black blended rum",
+			"1 oz Blended lightly aged rum"
+		],
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice, freshly grated nutmeg"
+	},
+	{
+		"name": "BUMBOAT",
+		"ingredients": [
+			"2 oz Pineapple juice",
+			"1.5 oz Lemon juice",
+			".75 oz Cinnamon syrup",
+			"1 oz rye",
+			"1 oz Blended lightly aged rum",
+			"3 drops almond extract",
+			"6 drops Bittermens ‘Elemakule Tiki bitters",
+			".75 oz Black blended overproof rum (float)"
+		],
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice. Float the overproof rum"
+	},
+	{
+		"name": "PLANTER’S PUNCH",
+		"ingredients": [
+			"1 oz Lime juice",
+			".75 oz Demerara syrup",
+			".25 oz Allspice dram",
+			"3 oz Blended aged rum (Jamaica)",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint Sprig"
+	},
+	{
+		"name": "MAI TAI",
+		"ingredients": [
+			".75 oz Lime juice",
+			".25 oz Mai Tai syrup",
+			".25 oz Orgeat",
+			".5 oz Dry Curacao",
+			"2 oz Blended aged rum"
+		],
+		"procedure": "Shake, double old-fashioned glass, crushed ice, lime shell, mint sprig"
+	},
+	{
+		"name": "DOCTOR FUNK",
+		"ingredients": [
+			".5 oz Lemon juice",
+			".25 oz Grenadine",
+			".5 oz Lime juice",
+			".5 oz Demerara syrup",
+			".25 oz Herbsaint",
+			"2.25 oz black Pot still unaged rum",
+			"1 oz Seltzer"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned, crushed ice, ti leaf or pineapple fronds"
+	},
+	{
+		"name": "ZOMBIE",
+		"ingredients": [
+			".75 oz Lime juice",
+			".25 oz Grapefruit juice",
+			".25 oz Cinnamon syrup",
+			"1 tsp Grenadine",
+			".5 oz Velvet Falernum",
+			"1.5 oz Blended aged rum",
+			"1.5 oz Column still aged rum",
+			"1 oz Black blended overproof rum",
+			"2 dashes Herbstura"
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint sprig"
+	},
+	{
+		"name": "NAVY GROG",
+		"ingredients": [
+			".75 oz Lime juice",
+			".75 oz Grapefruit juice",
+			".25 oz Demerara syrup",
+			".25 oz Allspice dram",
+			"1 oz Pot still lightly aged (overproof) rum",
+			"1 oz Blended lightly aged rum",
+			"1 oz Column still aged rum"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, ice cone, mint sprig"
+	},
+	{
+		"name": "SCORPION BOWL FOR TWO",
+		"ingredients": [
+			"1 oz Lime juice",
+			"2 oz Orange juice",
+			".75 oz Demerara syrup",
+			"1 oz Orgeat",
+			"1 oz brandy",
+			"2 oz London Dry Gin",
+			"2 oz Blended lightly aged rum"
+		],
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice"
+	},
+	{
+		"name": "FOG CUTTER",
+		"ingredients": [
+			"1.5 oz Lemon juice",
+			"1.5 oz Orange juice",
+			".5 oz Orgeat",
+			"1 oz pisco",
+			".5 oz gin",
+			"2 oz Blended lightly aged rum",
+			".5 oz Oloroso sherry (float)"
+		],
+		"procedure": "Mix/whip shake, Fog Cutter mug, crushed ice. Float sherry, mint sprig"
+	},
+	{
+		"name": "SINGAPORE SLING",
+		"ingredients": [
+			".75 oz Lemon juice",
+			".25 oz Demerara syrup",
+			".5 oz Cherry Heering liqueur",
+			".25 oz Benedictine",
+			"1.5 oz London Dry Gin",
+			"1 dash Angostura bitters",
+			"1 dash Orange bitters",
+			"2 oz Seltzer"
+		],
+		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, lemon wedge"
+	},
+	{
+		"name": "HONDO HATTIE’S JUNGLE PUNCH!",
+		"ingredients": [
+			"1 oz Lemon juice",
+			".5 oz Honey syrup",
+			".25 oz blue curaçao",
+			".25 oz Tawny port",
+			".5 oz Velvet Falernum",
+			".25 oz Pear liqueur",
+			"2 oz Blended aged rum",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Stir, punch glass, cracked ice"
+	},
+	{
+		"name": "KAHIKO PUNCH",
+		"ingredients": [
+			"1 oz Lemon juice",
+			"1.5 oz Passionfruit Honey",
+			".5 oz Cinnamon syrup",
+			".5 oz Hibiscus liqueur",
+			"2 oz Pot still unaged rum",
+			"6 drops Bittermans ‘Elemakule Tiki bitters"
+		],
+		"procedure": "Stir, punch glass, cracked ice, edible orchid"
+	},
+	{
+		"name": "TRIUMVIRATE PUNCH",
+		"ingredients": [
+			".75 oz Lime juice",
+			"1 oz Passionfruit Honey",
+			".25 oz Allspice dram",
+			"1.5 oz Pot still unaged rum",
+			"2 dashes Angostura bitters",
+			"Pinch of freshly grated nutmeg"
+		],
+		"procedure": "Stir, punch glass, cracked ice, mint sprig"
+	},
+	{
+		"name": "EUREKA PUNCH",
+		"ingredients": [
+			"1.5 oz Lemon juice",
+			"1 oz Honey syrup",
+			".5 oz Yellow Chartreuse",
+			"1.5 oz Column still aged rum",
+			"1 dash Angostura bitters",
+			"2 oz real ginger ale"
+		],
+		"procedure": "Stir, punch glass, cracked ice, lemon twist, mint sprig"
+	},
+	{
+		"name": "YULETIDAL WAVE",
+		"ingredients": [
+			"2 oz Pineapple juice",
+			"1 oz Lemon juice",
+			".5 oz Pear liqueur",
+			".5 oz Licor 43",
+			".25 oz Allspice dram",
+			".5 oz brandy",
+			"1 oz bourbon",
+			"1 oz Column still aged rum"
+		],
+		"procedure": "Stir, punch glass, cracked ice"
+	},
+	{
+		"name": "RUMBUSTION PUNCH",
+		"ingredients": [
+			"1 oz Lime juice",
+			".5 oz Demerara syrup",
+			".25 oz Cinnamon syrup",
+			"1 oz Blended aged rum",
+			"1 oz Blended lightly aged rum",
+			"2 dashes Herbstura"
+		],
+		"procedure": "Stir, punch glass, cracked ice"
+	},
+	{
+		"name": "PUKA PUNCH",
+		"ingredients": [
+			"1 oz Lime juice",
+			".75 oz Orange juice",
+			".75 oz Pineapple juice",
+			"1 oz Honey syrup",
+			".75 oz Passionfruit syrup",
+			".5 oz Velvet Falernum",
+			"1 oz Blended aged rum",
+			"1 oz Blended lightly aged rum",
+			".75 oz Black blended rum",
+			"1 dash Angostura bitters",
+			".75 oz Black blended overproof rum"
+		],
+		"procedure": "Mix/whip shake first 10 ingredients, large brandy snifter, crushed ice. Float the overproof rum, mint sprig"
 	}
 ];
