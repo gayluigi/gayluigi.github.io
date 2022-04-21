@@ -4,15 +4,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cocktail Compendium</title>
+	<link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+	<script type="text/javascript" src="recipes.js"></script>
+	<script type="text/javascript" src="utils.js"></script>
 </head>
 <body>
 
-	<div class="upperContainer">
+	<div class="upperContainer topLevelContainer">
 		<div class="upperContainerContent">
 			<h1>Cocktail Compendium</h1>
-
+			<div id="subheadCta" class="subheadCta"></div>
 			<div class="inputContainer">
+				<div class="searchCategoryTitle">
+					FILTER BY NAME
+				</div>
+				<input
+					id="recipeNameInput"
+					class="recipeNameInput"
+					onfocus="clearSuggestions()"
+					type="text"
+					placeholder="Title keywords"
+				/>
+			</div>
+			<div class="inputContainer">
+				<div class="searchCategoryTitle">
+					FILTER BY INGREDIENTS
+				</div>
 				<div class="inputsColumn">
 					<input
 						id="ingredient-0"
@@ -49,42 +67,33 @@
 						type="text"
 						placeholder="Ingredient"
 					/>
-
-					<button id="submit" class="submitBtn">Find</button>
 				</div>
 
 				<div id="suggestions" class="suggestionsColumn"></div>
 			</div>
+			<div class="inputContainer">
+				<button id="submitIngredients" class="submitBtn">Search</button>
+			</div>
 		</div>
 	</div>
-
-	<div id="results" class="results"></div>
-
-	<script type="text/javascript" src="recipes.js"></script>
-	<script type="text/javascript" src="utils.js"></script>
+	<div id="resultsSummary" class="topLevelContainer">
+		<div class="resultsSummaryContent">
+			Cocktail of the day:
+		</div>
+	</div>
+	<div id="results" class="results topLevelContainer"></div>
+	<script type="text/javascript" src="./generateCocktailOfTheDay.js"></script>
+	<script type="text/javascript" src="./searchSuggestions.js"></script>
+	<script type="text/javascript" src="./search.js"></script>
 	<script type="text/javascript">
-		var SUGGESTION_COUNT_LIMIT = 6;
-		console.log(recipes.length);
 
-		var allTokens = recipes.map((recipe) =>
-			recipe.ingredients.map((ingredient) =>
-				ingredient.split(" ")
-			).flat()
-		)
-		.flat()
-		.filter((token) => !token.match(/^[\d\.]/))
-		.filter((token) => token !== "oz")
-		.map((token) => token.toLowerCase());
+		var subheadCta = document.getElementById("subheadCta");
+		subheadCta.innerHTML = `Search through ${recipes.length} cocktails.`;
 
-		var allTokensSet = new Set(allTokens);
-		var ingredientTokens = Array.from(allTokensSet);
+		generateCocktailOfTheDay();
 
-		var suggestionsContainer = document.getElementById("suggestions");
-		function clearSuggestions() {
-			suggestionsContainer.innerHTML = "";
-		}
-
-		var submitBtn = document.getElementById("submit");
+		var submitBtn = document.getElementById("submitIngredients");
+		submitBtn.onclick = search;
 		function onInputChange(input, event) {
 			if (event.keyCode === 13) {
 				event.preventDefault();
@@ -92,55 +101,9 @@
 			}
 			var inputValue = input.value;
 			if (inputValue.length > 1) {
-				clearSuggestions();
-				var matchingTokens = ingredientTokens.filter((token) =>
-					token.startsWith(inputValue.toLowerCase())
-				).slice(0, SUGGESTION_COUNT_LIMIT);
-				matchingTokens.forEach((matchingToken) => {
-					var suggestion = document.createElement("button");
-					suggestion.onclick = () => { input.value = matchingToken };
-					suggestion.className = "suggestion";
-					suggestion.innerHTML = "<span>" + matchingToken + "<span>"
-						+ "<span class='addSuggestion'> &#8592; </span>";
-					suggestionsContainer.appendChild(suggestion);
-				});
+				generateSuggestions(input, inputValue, ingredientTokens);
 			}
 		}
-
-		submitBtn.onclick = function() {
-			var matches = [...recipes];
-			for (var i = 0; i < 5; i++) {
-				var searchIngredient = document.getElementById("ingredient-" + i).value;
-				if (searchIngredient) {
-					var lookupRegex = new RegExp("\\b" + searchIngredient + "\\b", "i");
-					matches = matches.filter((recipe) =>
-						recipe.ingredients.some((ingredient) =>
-							lookupRegex.test(ingredient)
-						)
-					);
-				}
-			}
-
-			var resultContainer = document.getElementById("results");
-
-			if (matches.length == 0) {
-				resultContainer.innerHTML = "<h2>No matches</h2>";
-			} else {
-				matches
-					.sort(() => Math.random() - 0.5)
-					.forEach((recipe) => {
-						var matchContainer = document.createElement('div');
-						matchContainer.className = "match";
-						matchContainer.innerHTML += "<h2>" + recipe.name.toUpperCase() + "</h2>";
-						recipe.ingredients.forEach((ingredient) => {
-							var formattedIngredient = getFormattedIngredient(ingredient);
-							matchContainer.appendChild(formattedIngredient);
-						});
-						matchContainer.innerHTML += "<div class='procedure'>" + recipe.procedure + "</div>";
-						resultContainer.appendChild(matchContainer);
-					});
-			}
-		};
 
 	</script>
 </body>

@@ -4,22 +4,35 @@ body {
 	background-image: url("./damask_pattern.png");
 }
 
+.topLevelContainer {
+	width: 360px;
+	margin: 0 auto 20px;
+}
+
 .upperContainer {
 	background-color: rgba(255, 255, 255, 0.9);
 	border-radius: 3px;
-	width: 360px;
-	margin: auto;
 }
 .upperContainerContent {
 	padding: 15px;
 }
 
+.searchCategoryTitle {
+	color: #3e3e3e;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
 .inputContainer {
 	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 .inputsColumn {
-	width: 200px;
+	width: 190px;
 }
 
 .suggestionsColumn {
@@ -34,6 +47,15 @@ input {
 	opacity: 1;
 	border: 1px solid gray;
 	border-radius: 3px;
+}
+
+.recipeNameInput {
+	width: 320px;
+	height: 33px;
+	margin-bottom: 0;
+}
+.recipeNameInput::placeholder {
+  font-style: italic;
 }
 
 .suggestion {
@@ -57,20 +79,37 @@ input {
 }
 
 .submitBtn {
-	width: 70px;
-	height: 30px;
+	width: 100%;
+	height: 40px;
+	background-color: #d5e1e8;
+	border: 0;
+	border-radius: 4px;
+	color: #4c5459;
+	font-size: 16px;
+	cursor: pointer;
+}
+.submitBtn:hover {
+	box-shadow: 2px 2px 2px 0px #c4d1d9;
 }
 
 h1, h2, h3 {
-	margin: 0 0 15px 0;
+	margin: 0;
+	color: #101010;
 }
 h1 {
 	font-size: 30px;
 }
+.subheadCta {
+	margin-top: 5px;
+	font-style: italic;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d8d8d8;
+}
 
-.results {
-	margin: 20px auto 0 auto;
-	width: 360px;
+h2.recipeTitle {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #000000;
 }
 
 .match {
@@ -105,4 +144,11 @@ h1 {
 .rest {
 	width: 240px;
 	margin-left: 10px;
+}
+
+.resultsSummaryContent {
+	padding: 10px;
+	background-color: white;
+	border-radius: 3px;
+	font-size: 18px;
 }
