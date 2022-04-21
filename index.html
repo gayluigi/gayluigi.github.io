@@ -31,6 +31,7 @@
 				<input
 					id="recipeNameInput"
 					class="recipeNameInput"
+					onkeyup="submitOnEnterPressed(event)"
 					onfocus="clearSuggestions()"
 					type="text"
 					placeholder="Title keywords"
@@ -125,13 +126,8 @@
 		generateCocktailOfTheDay();
 		animateTotalRecipesCount();
 
-		var submitBtn = document.getElementById("submitIngredients");
-		submitBtn.onclick = search;
 		function onInputChange(input, event) {
-			if (event.keyCode === 13) {
-				event.preventDefault();
-				submitBtn.click();
-			}
+			submitOnEnterPressed(event);
 			var inputValue = input.value;
 			if (inputValue.length > 1) {
 				generateSuggestions(input, inputValue, ingredientTokens);

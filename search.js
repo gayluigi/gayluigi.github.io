@@ -1,3 +1,12 @@
+var submitBtn = document.getElementById("submitIngredients");
+
+function submitOnEnterPressed(event) {
+	if (event.keyCode === 13) {
+		event.preventDefault();
+		submitBtn.click();
+	}
+}
+
 function getFormattedIngredient(ingredient) {
 	var ingredientContainer = document.createElement('div');
 	ingredientContainer.className = "ingredient";
@@ -74,3 +83,5 @@ function search() {
 	}
 	resultsSummaryContainer.appendChild(resultsSummary);
 };
+
+submitBtn.onclick = search;
