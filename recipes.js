@@ -2456,9 +2456,9 @@ var recipes = [
 		"ingredients": [
 			"1 oz Lemon juice",
 			"1 oz Passionfruit Honey",
-			".25 barspoon Li hing mui powder",
+			".25 barspn Li hing mui powder",
 			"2 oz Seltzer",
-			"1 barspoon Maraschino liqueur",
+			"1 barspn Maraschino liqueur",
 			"2 oz Pot still unaged rum"
 		],
 		"procedure": "Mix/whip shake, footed pilsner glass, crushed ice, mint sprig"
@@ -2600,7 +2600,7 @@ var recipes = [
 		"name": "MARY PICKFORD",
 		"ingredients": [
 			"1.5 oz Pineapple juice",
-			"1 barspoon Grenadine",
+			"1 barspn Grenadine",
 			"6 drops Maraschino liqueur",
 			"1.5 oz Blended lightly aged rum"
 		],
@@ -3139,5 +3139,348 @@ var recipes = [
 			".75 oz Black blended overproof rum"
 		],
 		"procedure": "Mix/whip shake first 10 ingredients, large brandy snifter, crushed ice. Float the overproof rum, mint sprig"
+	},
+	{
+		"name": "THE FOX HUNT",
+		"ingredients": [
+			"1.5 oz Pimms",
+			".50 Tanqueray Gin",
+			".75 Lemon juice",
+			".50 Simple syrup",
+			"1 dash Peychaud’s bitters",
+			"Cynar (rinse)"
+		],
+		"procedure": "Shake, coupe, 7 drops Peychaud’s bitters"
+	},
+	{
+		"name": "BRIAR PATCH",
+		"ingredients": [
+			"1.5 oz Plymouth Gin",
+			".75 oz Lemon juice",
+			".5 oz Simple syrup",
+			".25 oz Blackberry cordial"
+		],
+		"procedure": "Shake first 3 ingredients, Collins glass, crushed ice. Top with blackberry cordial, blackberry, lemon twist"
+	},
+	{
+		"name": "BLACKBERRY CORDIAL",
+		"ingredients": [
+			"1 pint Blackberries (muddled)",
+			"1 cup Simple syrup",
+			"4 dashes Angostura Bitters"
+		],
+		"procedure": "Infuse for 1 hour, strain through a fine chinois or cheesecloth"
+	},
+	{
+		"name": "THE RIVIERA",
+		"ingredients": [
+			"2 oz Pineapple Infused Gin",
+			".75 oz Lemon juice",
+			".75 oz Simple Syrup",
+			"1 Egg White"
+		],
+		"procedure": "Double shake, coupe, mint leaf, orange bitters drops"
+	},
+	{
+		"name": "PINEAPPLE INFUSED GIN",
+		"ingredients": [
+			"1 cup of Plymouth Gin",
+			".5 cup of Maraschino liqueur",
+			".25 cup of Campari",
+			"1 cup of Pinapple"
+		],
+		"procedure": "Combine and let sit for 24 hours, strain through a fine chinois or cheesecloth"
+	},
+	{
+		"name": "BLUE RIDGE MANHATTAN",
+		"ingredients": [
+			"2 oz Rittenhouse Rye",
+			".75 oz Carpano Antica Sweet Vermouth",
+			".5 oz Noilly Pratt Dry Vermouth",
+			"2 dash Peychaud’s bitters",
+			"Peach bitters (rinse)",
+			"Laphroig 10 Scotch(rinse)"
+		],
+		"procedure": "Shake, rinsed coupe, lemon twist"
+	},
+	{
+		"name": "PART & PARCEL",
+		"ingredients": [
+			"2 oz Plymouth Gin",
+			".75 oz St. Germaine",
+			".75 oz Grapefruit juice",
+			".25 oz Lime juice",
+			".50 oz Simple syrup",
+			"5 drops Grapefruit bitters"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "RANGOON FIZZ",
+		"ingredients": [
+			"2 oz Tanqueray Gin",
+			".75 oz Ginger syrup",
+			"1 oz Lime juice",
+			"9 drops Angostura bitters",
+			"5 Mint sprigs",
+			"Tonic water"
+		],
+		"procedure": "Shake, Collins glass, cracked ice. Top with tonic water, mint Sprig"
+	},
+	{
+		"name": "SAZERAC #1",
+		"ingredients": [
+			"2 oz Old Overholdt Rye",
+			".25 oz Demerara syrup",
+			"3 dash Peychauds bitters",
+			"Herbsaint (rinse)"
+		],
+		"procedure": "Stir, rinsed old fashioned glass, big cube, lemon peel"
+	},
+	{
+		"name": "CHI-TOWN FLIP",
+		"ingredients": [
+			"2.0 oz. Buffalo Trace bourbon",
+			".75 oz Tawny Port",
+			"1.0 oz. Heavy cream",
+			".75 oz. Licor 43",
+			".25 oz. Simple syrup",
+			"1 Whole Egg"
+		],
+		"procedure": "Shake, Collins glass, grated nutmeg, 3 drops Fees Old Fashioned Bitters"
+	},
+	{
+		"name": "HUSH & WONDER",
+		"ingredients": [
+			"2 oz Matusalem rum",
+			".75 oz Lime juice",
+			".75 oz Simple syrup",
+			"3 dash Grapefruit bitters",
+			"Crème de Violette (rinse)"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "LADY CLOVER",
+		"ingredients": [
+			"2 oz Plymouth Gin",
+			".75 oz Blackberry syrup",
+			".75 oz Lemon juice",
+			"1 Egg white",
+			"7 drops Peychaud’s bitters"
+		],
+		"procedure": "Double shake, Collins glass, cracked ice. Top with soda, 5 drops Angostura bitters"
+	},
+	{
+		"name": "TAX THE DAISY",
+		"ingredients": [
+			"1.75 oz Bombay Dry Gin",
+			"1 oz Ramazotti Amaro",
+			".25 oz Apricot liqueur",
+			"7 drops Angostura bitters",
+			"7 drops Orange bitters",
+			"1 Orange peel",
+			"1 Lemon peel"
+		],
+		"procedure": "Shake liquids and peels, coupe, 3 drops Angostura bitters"
+	},
+	{
+		"name": "ANGOSTURA FIZZ",
+		"ingredients": [
+			"1 oz Angostura bitters",
+			"1 oz Plymouth Gin",
+			".75 oz Lemon juice",
+			".75 oz Simple syrup",
+			"1 Egg white",
+			"Ginger Ale"
+		],
+		"procedure": "Double shake first 5 ingredients, Collins glass, cracked ice. Top with ginger ale, lemon Wheel"
+	},
+	{
+		"name": "EYES WIDE",
+		"ingredients": [
+			"2 oz Bulleit Bourbon",
+			".25 oz Raspberry syrup",
+			".25 oz Ginger syrup",
+			".25 oz Lemon juice",
+			".5 oz Grapefruit juice",
+			".25 Hibiscus syrup"
+		],
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with soda, float Hibiscus Syrup, grapefruit peel"
+	},
+	{
+		"name": "IRON CROSS",
+		"ingredients": [
+			"1.5 ounces Pisco",
+			".75 ounce Lemon juice",
+			".75 ounce Simple syrup",
+			"1 Egg white",
+			"3 drops Orange Flower water",
+			"2 dashes Lavender Grapefruit bitters"
+		],
+		"procedure": "Dry shake, shake with ice for two minutes, coupe, 4 drops Angostura bitters"
+	},
+	{
+		"name": "SEEING TRACES",
+		"ingredients": [
+			"2 oz Bourbon",
+			".75 oz Lemon juice",
+			"1 oz Lillet Blanc",
+			".5 oz Demerara syrup",
+			".25 oz Ginger syrup",
+			"1 Egg white"
+		],
+		"procedure": "Double shake, coupe, 4 drops orange flower water"
+	},
+	{
+		"name": "DAISY 17",
+		"ingredients": [
+			"2 oz Wild Turkey 101 whiskey",
+			".75 oz Lemon juice",
+			".50 oz Grenadine",
+			".25 oz Simple syrup",
+			"3 dash Orange Bitters"
+		],
+		"procedure": "Shake, coupe, flamed orange twist (discarded)"
+	},
+	{
+		"name": "JAMAICAN JULEP",
+		"ingredients": [
+			"4 Mint leaves (lightly muddled)",
+			"2 oz Smith and Cross Jamaican rum",
+			".25 oz Demarara syrup",
+			".5 oz Pineapple juice"
+		],
+		"procedure": "Stir first 3 ingredients, julep cup, top with pineapple juice"
+	},
+	{
+		"name": "SPEAKING IN TONGUES",
+		"ingredients": [
+			"2 Strawberries (muddled)",
+			"1 oz Chichicapa Mezcal",
+			"1 oz Luxardo Amaro",
+			".75 oz Lemon juice",
+			".75 oz Simple syrup"
+		],
+		"procedure": "Shake, double strain, coupe"
+	},
+	{
+		"name": "THE VIOLET HOUR",
+		"ingredients": [
+			"2 oz. Bourbon (Buffalo Trace)",
+			".75 oz. Carpano Antica sweet vermouth",
+			".25 oz. Noilly Prat or Vya dry vermouth",
+			".5 tsp Cruzan Black Strap rum",
+			"3 dashes Angostura bitters"
+		],
+		"procedure": "Stir, coupe, lemon twist"
+	},
+	{
+		"name": "EEYORE'S REQUIEM",
+		"ingredients": [
+			"1.5 oz Campari",
+			".5 oz Tanqueray Gin",
+			"1 oz Dolin Bianco",
+			".5 oz Cynar",
+			".25 oz Fernet",
+			"1 dash Orange bitters"
+		],
+		"procedure": "NEGRONI SPECS, express orange oil and then a orange twist."
+	},
+	{
+		"name": "THE WARNING LABEL",
+		"ingredients": [
+			"1 oz Lemon Hart 151 Demerara rum ",
+			"1 oz Cynar",
+			"1 oz Punt e Mes",
+			"1 dash Orange bitters",
+			"1 dash Grapefruit bitters",
+			"Campari (rinse)"
+		],
+		"procedure": "Stir, rinsed cocktail glass, lemon twist"
+	},
+	{
+		"name": "A MOMENT OF SILENCE",
+		"ingredients": [
+			"1.5 oz Rye",
+			"1 oz Apricot liqueur",
+			".5 oz Averna",
+			".5 oz Angostura bitters",
+			".25 oz Lairds Apple brandy",
+			"Campari (rinse)"
+		],
+		"procedure": "Stir, rinsed rocks glass, orange twist"
+	},
+	{
+		"name": "VARIATION ON A THEME",
+		"ingredients": [
+			"2 oz Hayman’s Old Tom Gin",
+			".5 oz Cherry Heering",
+			".25 oz Campari",
+			".5 barspn Maraschino liqueur",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Stir, rocks glass, orange twist"
+	},
+	{
+		"name": "IMPROVED SCOTCH SLING",
+		"ingredients": [
+			"2 oz McClelland’s Islay Single Malt scotch",
+			".75 oz Sweet Vermouth",
+			".5 oz Lemon juice",
+			".5 oz Honey syrup",
+			"1 barspn Maraschino liqueur",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Stir, rocks glass, lemon twist"
+	},
+	{
+		"name": "PIMM’S UP",
+		"ingredients": [
+			"1 oz Bols Genever",
+			"1 oz Pimm’s",
+			".75 oz Lemon juice",
+			".75 oz Simple syrup",
+			"7 drops Celery bitters"
+		],
+		"procedure": "Shake, coupe, two drops celery bitters"
+	},
+	{
+		"name": "GUNSHOP FIZZ",
+		"ingredients": [
+			"2 Strawberries (muddled)",
+			"3 Cucumber slices (muddled)",
+			"3 Grapefruit peels (muddled)",
+			"3 Orange peels (muddled)",
+			"2 oz Peychaud’s bitters",
+			"1 oz Lemon juice",
+			"1 oz Simple syrup",
+			"Sanbitter"
+		],
+		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with Sanbitter, cucumber slice"
+	},
+	{
+		"name": "WESTERN PASSAGE",
+		"ingredients": [
+			"1.5 oz Batavia Arrack",
+			".5 oz Dolin Sweet Vermouth",
+			".5 oz Dolin Dry Vermouth",
+			".5 oz Yellow Chartreuse",
+			"1 dash Angostura bitters",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Stir, coupe, cherry, express orange peel"
+	},
+	{
+		"name": "PATENT PENDING",
+		"ingredients": [
+			"1.5 oz Smith & Cross Rum",
+			".75 oz Batavia Arrack",
+			".5 oz Aperol",
+			"1 tsp Don's Mix",
+			"1 tsp Vanilla syrup",
+			"2 dash Amargo Peruvian bitters"
+		],
+		"procedure": "Stir, double old fashioned glass, large cube, express grapefruit peel"
 	}
 ];
