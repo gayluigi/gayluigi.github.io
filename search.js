@@ -18,7 +18,7 @@ function getFormattedIngredient(ingredient) {
 	var rest = document.createElement("span");
 	rest.className = "rest";
 
-	var regex = /^([\d\.]*)\s+(oz\.?|drops?|dash(es)?|barspns?)?\s*(.*)/;
+	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash(es)?|barspns?|tb?sps?|grams?|pints?|cups?)?\s*(.*)/;
 	var matches = ingredient.match(regex);
 	if (matches && matches.length >= 5) {
 		measure.innerHTML = matches[1] || "";
@@ -60,28 +60,28 @@ function search() {
 	var resultContainer = document.getElementById("results");
 	resultContainer.innerHTML = "";
 	var resultsSummaryContainer = document.getElementById("resultsSummary");
-	resultsSummaryContainer.innerHTML = "";
-	var resultsSummary = document.createElement("div");
-	resultsSummary.className = "resultsSummaryContent";
 	if (matches.length == 0) {
-		resultsSummary.innerHTML = "No cocktails match your search.";
+		resultsSummaryContainer.innerHTML = "No cocktails match your search.";
 	} else {
 		matches
 			.sort(() => Math.random() - 0.5)
 			.forEach((recipe) => {
 				var matchContainer = document.createElement('div');
 				matchContainer.className = "match";
-				matchContainer.innerHTML += "<h2 class='recipeTitle'>" + recipe.name.toUpperCase() + "</h2>";
+				matchContainer.innerHTML = "<div class='recipeTopRow'>"
+					+ "<div><h2 class='recipeTitle'>" + recipe.name.toUpperCase() + "</h2></div>"
+					+ "<img class='closeIcon modalCloseBtn' src='close-icon.svg'/>"
+					+ "</div>";
 				recipe.ingredients.forEach((ingredient) => {
 					var formattedIngredient = getFormattedIngredient(ingredient);
 					matchContainer.appendChild(formattedIngredient);
 				});
 				matchContainer.innerHTML += "<div class='procedure'>" + recipe.procedure + "</div>";
+				matchContainer.onclick = modalizeRecipe(matchContainer);
 				resultContainer.appendChild(matchContainer);
 			});
-		resultsSummary.innerHTML = `Found ${matches.length} cocktails.`;
+		resultsSummaryContainer.innerHTML = `Found ${matches.length} cocktails.`;
 	}
-	resultsSummaryContainer.appendChild(resultsSummary);
 };
 
 submitBtn.onclick = search;

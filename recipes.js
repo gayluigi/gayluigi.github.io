@@ -5,7 +5,7 @@ var recipes = [
 			"2 oz Elijah Craig Bourbon",
 			".5 oz Fernet Valet",
 			".25 oz Benedictine",
-			".5 oz Dry Curaçao"
+			".5 oz Dry Curacao"
 		],
 		"procedure": "Rocks glass over big rock, dehydrated orange wheel"
 	},
@@ -25,7 +25,7 @@ var recipes = [
 		"name": "Rye Not",
 		"ingredients": [
 			"1.5 oz TLW Knob Creek Rye",
-			".5 oz Combier Kümmel",
+			".5 oz Combier Kummel",
 			".75 oz Lemon juice",
 			".25 oz Orange juice",
 			".25 oz 2:1 Simple syrup"
@@ -56,11 +56,11 @@ var recipes = [
 	{
 		"name": "Borderline",
 		"ingredients": [
-			"1.5 Mezcal",
-			".75 Lime juice",
-			".5 Grenadine",
-			".25 Maraschino",
-			".25 Dry Curaçao",
+			"1.5 oz Mezcal",
+			".75 oz Lime juice",
+			".5 oz Grenadine",
+			".25 oz Maraschino",
+			".25 oz Dry Curacao",
 			"Egg white/aquafaba"
 		],
 		"procedure": "Double shake, coupe."
@@ -90,9 +90,9 @@ var recipes = [
 	{
 		"name": "The New Hotness",
 		"ingredients": [
-			"1.5 Lunazul",
-			".75 Grapefruit Liqueur",
-			".75 Dolin Dry vermouth"
+			"1.5 oz Lunazul",
+			".75 oz Grapefruit Liqueur",
+			".75 oz Dolin Dry vermouth"
 		],
 		"procedure": "Stir, coupe, grapefruit peel"
 	},
@@ -160,7 +160,7 @@ var recipes = [
 			"1.25 oz Norden Aquavit",
 			".5 oz Averna",
 			".5 oz Carpano Antica",
-			"1 Tbsp Hot chocolate powder",
+			"1 tbsp Hot chocolate powder",
 			"3 drops Chocolate extract",
 			"3 oz Hot water"
 		],
@@ -190,13 +190,13 @@ var recipes = [
 	{
 		"name": "Osborn",
 		"ingredients": [
-			"1 slice of jalepeño",
+			"1 slice of jalepeno",
 			"2 cubes of pineapple",
 			"2 oz Gin",
 			".5 oz Lime juice",
 			".25 oz Simple syrup"
 		],
-		"procedure": "Muddle jalepeño and pineapple. Shake, double strain, old fashioned glass"
+		"procedure": "Muddle jalepeno and pineapple. Shake, double strain, old fashioned glass"
 	},
 	{
 		"name": "Sunset Curse",
@@ -204,13 +204,13 @@ var recipes = [
 			"1.5 oz Espelon reposado tequila",
 			".5 oz Grenadine",
 			".5 oz Ancho Reyes",
-			".25 oz Dry Curaçao",
+			".25 oz Dry Curacao",
 			".25 oz Allspice dram"
 		],
 		"procedure": "Stirred, cocktail glass, flamed orange peel"
 	},
 	{
-		"name": "Christmas in Cozumel",
+		"name": "Christmas in Cozmel",
 		"ingredients": [
 			"1.5 oz Don Julio reposado",
 			".5 oz Amaro Montenegro",
@@ -284,7 +284,7 @@ var recipes = [
 			"4 Basil leaves (muddled)",
 			"2.0 oz Elijiah Craig Small Batch bourbon",
 			".5 oz Lemon juice",
-			".25 Brown Simple syrup",
+			".25 oz Brown Simple syrup",
 			"5 drops Celery Shrub",
 			"Ginger beer"
 		],
@@ -329,7 +329,7 @@ var recipes = [
 			"1 oz Strawberry balsamic shrub",
 			".5 oz Domaine de Canton",
 			".5 oz Lime juice",
-			".25 2:1 Simple syrup"
+			".25 oz 2:1 Simple syrup"
 		],
 		"procedure": "Shake, collins glass"
 	},
@@ -359,7 +359,7 @@ var recipes = [
 		"ingredients": [
 			"1 oz Green Chartreuse",
 			".5 oz Myers Dark Rum",
-			".25 Laphroaig 10 scotch",
+			".25 oz Laphroaig 10 scotch",
 			"1 oz Lime Juice",
 			".5 oz Pineapple Juice",
 			".5 oz Brown Simple syrup",
@@ -426,7 +426,7 @@ var recipes = [
 			"1 oz Pineapple juice",
 			"1 oz Lime juice",
 			".25 oz Orgeat",
-			".5 oz Dry Curaçao"
+			".5 oz Dry Curacao"
 		],
 		"procedure": "Shake, crushed ice, Collins glass"
 	},
@@ -511,10 +511,10 @@ var recipes = [
 	{
 		"name": "The Stampede",
 		"ingredients": [
-			"1.5 Buffalo Trace bourbon",
-			".75 Fernet",
-			".75 Lime juice",
-			".5 2:1 Simple syrup"
+			"1.5 oz Buffalo Trace bourbon",
+			".75 oz Fernet",
+			".75 oz Lime juice",
+			".5 oz 2:1 Simple syrup"
 		],
 		"procedure": "Shake, rocks glass, mint sprig"
 	},
@@ -751,7 +751,7 @@ var recipes = [
 		"procedure": "Lightly muddle lime wedge, mix/whip shake, crushed ice, rocks glass. Dried banana or mint sprig"
 	},
 	{
-		"name": "Keichō Embassy",
+		"name": "Keicho Embassy",
 		"ingredients": [
 			"1.5 oz Suntory Toki Japanese whiskey",
 			".5 oz St. Germain elderflower liqueur",
@@ -765,7 +765,7 @@ var recipes = [
 		"name": "Father Knows Best",
 		"ingredients": [
 			"1.5 oz Macallan 12 year Scotch whiskey",
-			".5 oz Jägermeister",
+			".5 oz Jagermeister",
 			".25 oz Green Chartreuse",
 			".25 oz Root beer syrup"
 		],
@@ -831,7 +831,7 @@ var recipes = [
 			"1.25 oz Amaro Montenegro",
 			".75 oz Wray and Nephew Overproof rum",
 			".75 oz Orgeat",
-			".75 Lime juice",
+			".75 oz Lime juice",
 			"3 drops Rosewater"
 		],
 		"procedure": "Shake, double strain, coupe, cucumber slice"
@@ -876,24 +876,24 @@ var recipes = [
 		"procedure": "Stir, large ice, cocktail glass orange twist"
 	},
 	{
-		"name": "Pêche Bourbon",
+		"name": "Peche Bourbon",
 		"ingredients": [
-			".5 oz Massenez Crème de Pêche or Peach liqueur",
+			".5 oz Massenez Creme de Peche or Peach liqueur",
 			"1 Brown sugar cube",
-			".5 teaspoon Superfine sugar",
-			"3 dashes Peychaud’s bitters",
+			".5 tsp Superfine sugar",
+			"3 dashes Peychaud's bitters",
 			"3 dashes Fee Brothers peach bitters",
 			"2 oz Peach-Infused Bourbon"
 		],
-		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with crème de pêche, mint sprig"
+		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de peche, mint sprig"
 	},
 	{
 		"name": "Jersey Devil",
 		"ingredients": [
 			"1.75 oz English Bishop",
-			"1.5 oz Laird’s straight apple brandy",
+			"1.5 oz Laird's straight apple brandy",
 			".5 oz Berentzen Apfelkorn apple liqueur",
-			"3 dashes Peychaud’s bitters"
+			"3 dashes Peychaud's bitters"
 		],
 		"procedure": "Stir, large ice, cocktail glass, orange wheel"
 	},
@@ -957,7 +957,7 @@ var recipes = [
 		"ingredients": [
 			".5 oz Green Chartreuse",
 			"1 oz Club soda",
-			"1.75 oz Martin Miller’s Westbourne Strength 100-proof Gin",
+			"1.75 oz Martin Miller's Westbourne Strength 100-proof Gin",
 			"1 oz Lemon juice",
 			".75 oz Simple syrup",
 			"5 drops Orange blossom water",
@@ -971,7 +971,7 @@ var recipes = [
 			"1 Orange",
 			"30 Cloves",
 			"1 (750 ml) bottle Ruby port",
-			"1 cup Superɹne sugar"
+			"1 cup Superfine sugar"
 		],
 		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle."
 	},
@@ -981,9 +981,18 @@ var recipes = [
 			"2 whole Lemon",
 			"4 whole Lime",
 			"1 whole Orange",
-			"1 Cup 1:1 Simple syrup"
+			"1 cup 1:1 Simple syrup"
 		],
 		"procedure": "Juice all fruit, mix with syrup"
+	},
+	{
+		"name": "Robb's Grandma",
+		"ingredients": [
+			"2 oz Early Times whiskey",
+			"1 oz Sweet vermouth",
+			"2 Maraschino cherries"
+		],
+		"procedure": "Rocks glass, large cube, barspoon of cherry syrup, stir"
 	},
 	{
 		"name": "Citric Acid Solution",
@@ -998,55 +1007,55 @@ var recipes = [
 	{
 		"name": "#3 Cup",
 		"ingredients": [
-			"4–5 Mint leaves (muddled)",
+			"4-5 Mint leaves (muddled)",
 			"2 slices Cucumber (muddled)",
 			"1 slice Orange (muddled)",
-			"1 oz. Hine V.S.O.P. cognac",
-			"1 oz. Ginger Beer",
-			".75 oz. Martini sweet vermouth",
-			".5 oz. Orange Curaçao",
-			".5 oz. Cherry Heering",
-			".5 oz. Lemon juice"
+			"1 oz Hine V.S.O.P. cognac",
+			"1 oz Ginger Beer",
+			".75 oz Martini sweet vermouth",
+			".5 oz Orange Curacao",
+			".5 oz Cherry Heering",
+			".5 oz Lemon juice"
 		],
 		"procedure": "Shake, double strain, Collins glass, mint sprig, orange slice"
 	},
 	{
 		"name": "20th Century",
 		"ingredients": [
-			"1.5 oz. Plymouth Gin",
-			".75 oz. Crème de Cacao",
-			".75 oz. Lillet Blanc",
-			"75 oz. Lemon juice"
+			"1.5 oz Plymouth Gin",
+			".75 oz Creme de Cacao",
+			".75 oz Lillet Blanc",
+			"75 oz Lemon juice"
 		],
 		"procedure": "Shake, coupe"
 	},
 	{
 		"name": "Against All Odds",
 		"ingredients": [
-			"1.5 oz. Bushmills Irish Whiskey",
-			"1.5 oz. Channing Daughters Scuttlehole Chardonnay",
-			".5 oz. Apricot liqueur",
-			".25 oz. Rhum Clément Creole Shrubb",
+			"1.5 oz Bushmills Irish Whiskey",
+			"1.5 oz Channing Daughters Scuttlehole Chardonnay",
+			".5 oz Apricot liqueur",
+			".25 oz Rhum Clement Creole Shrubb",
 			".5 oz Mezcal"
 		],
 		"procedure": "Shake first 4 ingredients, coupe rinsed with Mezcal"
 	},
 	{
-		"name": "Águil a Azteca",
+		"name": "Aguil a Azteca",
 		"ingredients": [
-			"1.5 oz. Jose Cuervo tequila",
-			"1 oz. Honeydew Melon juice",
-			".25 oz. Domaine de Canton",
-			".25 oz. Crème de Violette"
+			"1.5 oz Jose Cuervo tequila",
+			"1 oz Honeydew Melon juice",
+			".25 oz Domaine de Canton",
+			".25 oz Creme de Violette"
 		],
 		"procedure": "Shake, coupe"
 	},
 	{
 		"name": "Airmail",
 		"ingredients": [
-			"1 oz. Banks 5 Island Rum",
-			"5 oz. Lime Juice",
-			"5 oz. Honey Syrup",
+			"1 oz Banks 5 Island Rum",
+			"5 oz Lime Juice",
+			"5 oz Honey Syrup",
 			"Champagne"
 		],
 		"procedure": "Shake, coupe, top with 1 oz champagne, lime wheel"
@@ -1054,9 +1063,9 @@ var recipes = [
 	{
 		"name": "Albert Mathieu",
 		"ingredients": [
-			"1.5 oz. Plymouth Gin",
-			".75 oz. Lillet Blanc",
-			"75 oz. Green Chartreuse",
+			"1.5 oz Plymouth Gin",
+			".75 oz Lillet Blanc",
+			"75 oz Green Chartreuse",
 			"1 barspn St. Germain",
 			"1 dash Orange bitters"
 		],
@@ -1065,10 +1074,10 @@ var recipes = [
 	{
 		"name": "Applejack Rabbit",
 		"ingredients": [
-			"2 oz. Apple Brandy",
-			".75 oz. Lemon juice",
-			".75 oz. Orange juice",
-			".5 oz. Grade B Maple syrup"
+			"2 oz Apple Brandy",
+			".75 oz Lemon juice",
+			".75 oz Orange juice",
+			".5 oz Grade B Maple syrup"
 		],
 		"procedure": "Shake, coupe"
 	},
@@ -1076,31 +1085,31 @@ var recipes = [
 		"name": "Blackbeard",
 		"ingredients": [
 			"4 Blackberries (muddled)",
-			"1.5 oz. Beefeater Gin",
-			".75 oz. Aquavit",
-			".75 oz. Pineapple juice",
-			".5 oz. Lemon juice",
-			".5 oz. Agave syrup"
+			"1.5 oz Beefeater Gin",
+			".75 oz Aquavit",
+			".75 oz Pineapple juice",
+			".5 oz Lemon juice",
+			".5 oz Agave syrup"
 		],
 		"procedure": "Dry shake, unstrained pour, rocks glass, pebble ice, mint sprig"
 	},
 	{
 		"name": "Black Thorn",
 		"ingredients": [
-			"1.5 oz. Plymouth Gin",
-			".75 oz. Sloe Gin",
-			".75 oz. Carpano Antica",
+			"1.5 oz Plymouth Gin",
+			".75 oz Sloe Gin",
+			".75 oz Carpano Antica",
 			"2 dashes Orange bitters"
 		],
 		"procedure": "Stir, coupe, orange twist"
 	},
 	{
-		"name": "Champs-Élysées",
+		"name": "Champs-elysees",
 		"ingredients": [
-			"2 oz. Hine V.S.O.P. cognac",
-			".75 oz. Lemon juice",
-			".5 oz. Green Chartreuse",
-			".25 oz. Simple syrup",
+			"2 oz Hine V.S.O.P. cognac",
+			".75 oz Lemon juice",
+			".5 oz Green Chartreuse",
+			".25 oz Simple syrup",
 			"1 dash Angostura bitters"
 		],
 		"procedure": "Shake, coupe"
@@ -1108,9 +1117,9 @@ var recipes = [
 	{
 		"name": "Chrysanthemum",
 		"ingredients": [
-			"2 oz. Dolin Dry vermouth",
-			".75 oz. Bénédictine",
-			".25 oz. Vieux Pontarlier Absinthe",
+			"2 oz Dolin Dry vermouth",
+			".75 oz Benedictine",
+			".25 oz Vieux Pontarlier Absinthe",
 			"1 dash Orange bitters"
 		],
 		"procedure": "Stir, coupe"
@@ -1118,22 +1127,22 @@ var recipes = [
 	{
 		"name": "Cloister",
 		"ingredients": [
-			"1.5 oz. Tanqueray Gin",
-			".5 oz. Yellow Chartreuse",
-			".5 oz. Grapefruit juice",
-			".25 oz. Lemon juice",
-			".25 oz. Simple syrup"
+			"1.5 oz Tanqueray Gin",
+			".5 oz Yellow Chartreuse",
+			".5 oz Grapefruit juice",
+			".25 oz Lemon juice",
+			".25 oz Simple syrup"
 		],
 		"procedure": "Shake, coupe, grapefruit twist"
 	},
 	{
 		"name": "Conquistador",
 		"ingredients": [
-			"1 oz. Matusalem Gran Reserva rum",
-			"1 oz. Siembra Azul Blanco tequila",
-			".75 oz. Simple syrup",
-			".5 oz. Lemon juice",
-			".5 oz. Lime juice",
+			"1 oz Matusalem Gran Reserva rum",
+			"1 oz Siembra Azul Blanco tequila",
+			".75 oz Simple syrup",
+			".5 oz Lemon juice",
+			".5 oz Lime juice",
 			"2 dashes Orange bitters",
 			"1 Egg white"
 		],
@@ -1142,10 +1151,10 @@ var recipes = [
 	{
 		"name": "Corpse Reviver #2",
 		"ingredients": [
-			".75 oz. Plymouth Gin",
-			".75 oz. Cointreau",
-			".75 oz. Lillet Blanc",
-			".75 oz. Lemon Juice",
+			".75 oz Plymouth Gin",
+			".75 oz Cointreau",
+			".75 oz Lillet Blanc",
+			".75 oz Lemon Juice",
 			"Absinthe (rinse)"
 		],
 		"procedure": "Shake, rinsed coupe"
@@ -1153,21 +1162,21 @@ var recipes = [
 	{
 		"name": "De La Louisiane",
 		"ingredients": [
-			"2 oz. Wild Turkey Rye",
-			".75 oz. Dolin Sweet Vermouth",
-			".75 oz. Bénédictine",
+			"2 oz Wild Turkey Rye",
+			".75 oz Dolin Sweet Vermouth",
+			".75 oz Benedictine",
 			"3 dashes Absinthe",
-			"3 dashes Peychaud’s bitters"
+			"3 dashes Peychaud's bitters"
 		],
 		"procedure": "Stir, coupe, three brandied cherries"
 	},
 	{
 		"name": "East India Cocktail",
 		"ingredients": [
-			"1.75 oz. Martell V.S.O.P. cognac",
-			".5 oz. Orange Curaçao",
-			".5 oz. Pineapple juice",
-			".25 oz. Pampero Aniversario rum",
+			"1.75 oz Martell V.S.O.P. cognac",
+			".5 oz Orange Curacao",
+			".5 oz Pineapple juice",
+			".25 oz Pampero Aniversario rum",
 			"2 dashes Orange bitters"
 		],
 		"procedure": "Shake, coupe, orange twist"
@@ -1175,19 +1184,19 @@ var recipes = [
 	{
 		"name": "El Puente",
 		"ingredients": [
-			"1.5 oz. José Cuervo Platino Tequila",
-			".75 oz. Grapefruit Juice",
-			".5 oz. Martini Bianco Vermouth",
-			".5 oz. St. Germain Elderflower Liqueur",
-			".5 oz. Mezcal (rinse)"
+			"1.5 oz Jose Cuervo Platino Tequila",
+			".75 oz Grapefruit Juice",
+			".5 oz Martini Bianco Vermouth",
+			".5 oz St. Germain Elderflower Liqueur",
+			".5 oz Mezcal (rinse)"
 		],
 		"procedure": "Shake, coupe, grapefruit twist"
 	},
 	{
 		"name": "Ephemeral",
 		"ingredients": [
-			"2 oz. Ransom Old Tom Gin",
-			"1 oz. Dolin Blanc Vermouth",
+			"2 oz Ransom Old Tom Gin",
+			"1 oz Dolin Blanc Vermouth",
 			"1 barspn St. Germain Elderflower Liqueur",
 			"1 dash The Bitter Truth Celery Bitters"
 		],
@@ -1196,35 +1205,35 @@ var recipes = [
 	{
 		"name": "Espresso Bongo",
 		"ingredients": [
-			"2 oz. Appleton Reserve rum",
-			".5 oz. Espresso Liqueur",
-			".5 oz. Lime juice",
-			".5 oz. Pineapple juice",
-			".5 oz. Orange juice",
-			"1 oz. Passionfruit syrup"
+			"2 oz Appleton Reserve rum",
+			".5 oz Espresso Liqueur",
+			".5 oz Lime juice",
+			".5 oz Pineapple juice",
+			".5 oz Orange juice",
+			"1 oz Passionfruit syrup"
 		],
 		"procedure": "Shake, unstrained pour, tiki mug"
 	},
 	{
 		"name": "Fish House Punch",
 		"ingredients": [
-			"1.5 oz. Gosling’s Black Seal rum",
-			".5 oz. Pierre Ferrand Ambre cognac",
-			".5 oz. Peach liqueur",
-			".5 oz. Lemon juice",
-			".5 oz. Simple syrup",
-			".25 oz. Lime juice"
+			"1.5 oz Gosling's Black Seal rum",
+			".5 oz Pierre Ferrand Ambre cognac",
+			".5 oz Peach liqueur",
+			".5 oz Lemon juice",
+			".5 oz Simple syrup",
+			".25 oz Lime juice"
 		],
 		"procedure": "Shake, rocks glass"
 	},
 	{
 		"name": "Flying Dutchman",
 		"ingredients": [
-			".75 oz. Clear Creek Plum brandy",
-			".75 oz. Bols Genever",
-			".5 oz. Crème Yvette",
-			".5 oz. Lemon juice",
-			".5 oz. Pineapple juice",
+			".75 oz Clear Creek Plum brandy",
+			".75 oz Bols Genever",
+			".5 oz Creme Yvette",
+			".5 oz Lemon juice",
+			".5 oz Pineapple juice",
 			"1 barspn Maraschino liqueur"
 		],
 		"procedure": "Shake, coupe, brandied cherry"
@@ -1232,11 +1241,11 @@ var recipes = [
 	{
 		"name": "Foreign Legion",
 		"ingredients": [
-			"1.5 oz. Mount Gay X.O. rum",
-			".5 oz. Aperol",
-			".5 oz. Dubonnet Rouge",
-			".5 oz. Lustau Manzanilla sherry",
-			"1 barspn Dark Crème de Cacao",
+			"1.5 oz Mount Gay X.O. rum",
+			".5 oz Aperol",
+			".5 oz Dubonnet Rouge",
+			".5 oz Lustau Manzanilla sherry",
+			"1 barspn Dark Creme de Cacao",
 			"1 dash Fee Brothers Rhubarb Bitters"
 		],
 		"procedure": "Stir, rocks glass, ice sphere, orange twist"
@@ -1246,21 +1255,21 @@ var recipes = [
 		"ingredients": [
 			"3 Cucumber wheels (muddled)",
 			"6-8 Mint leaves (muddled)",
-			"1.5 oz. Hine V.S.O.P. cognac",
-			"1 oz. House Ginger beer",
-			".75 oz. Lime juice",
-			".75 oz. Simple syrup",
-			".25 oz. Velvet Falernum"
+			"1.5 oz Hine V.S.O.P. cognac",
+			"1 oz House Ginger beer",
+			".75 oz Lime juice",
+			".75 oz Simple syrup",
+			".25 oz Velvet Falernum"
 		],
 		"procedure": "Shake, double strain, Collins glass, mint sprig in cucumber wheel"
 	},
 	{
 		"name": "Gilchrist",
 		"ingredients": [
-			"1.25 oz. Compass Box Asyla Blended Scotch Whisky",
-			".75 oz. Pear brandy",
-			".75 oz. Grapefruit juice",
-			".5 oz. Averna Amaro",
+			"1.25 oz Compass Box Asyla Blended Scotch Whiskey",
+			".75 oz Pear brandy",
+			".75 oz Grapefruit juice",
+			".5 oz Averna Amaro",
 			"2 dashes Fee Brothers Grapefruit bitters"
 		],
 		"procedure": "Shake, coupe, lemon twist"
@@ -1270,10 +1279,10 @@ var recipes = [
 		"ingredients": [
 			"3 Slices Cucumber (muddled)",
 			"1 Sprig Dill (muddled)",
-			"2 oz. Krogstad Aquavit",
-			".75 oz. Lemon Juice",
-			".75 oz. Pineapple Juice",
-			"3 oz. Sparkling White Jasmine Tea",
+			"2 oz Krogstad Aquavit",
+			".75 oz Lemon Juice",
+			".75 oz Pineapple Juice",
+			"3 oz Sparkling White Jasmine Tea",
 			"Absinthe (rinse)"
 		],
 		"procedure": "Shake first 5 ingredients, double strain, rinsed fizz glass. Top with jasmine tea, cucumber slice"
@@ -1281,10 +1290,10 @@ var recipes = [
 	{
 		"name": "GREAT PUMPKIN",
 		"ingredients": [
-			"2 oz. Southampton Pumpkin Ale",
-			"1 oz. Rittenhouse Bonded Rye",
-			"1 oz. Laird’s Bonded Apple Brandy",
-			".5 oz. Grade B Maple syrup",
+			"2 oz Southampton Pumpkin Ale",
+			"1 oz Rittenhouse Bonded Rye",
+			"1 oz Laird's Bonded Apple Brandy",
+			".5 oz Grade B Maple syrup",
 			"1 Whole Egg"
 		],
 		"procedure": "Stir, double shake, strain into fizz glass, grated nutmeg"
@@ -1292,9 +1301,9 @@ var recipes = [
 	{
 		"name": "GREEN DEACON",
 		"ingredients": [
-			"1.5 oz. Plymouth Gin",
-			"1 oz. Grapefruit juice",
-			".75 oz. Sloe Gin",
+			"1.5 oz Plymouth Gin",
+			"1 oz Grapefruit juice",
+			".75 oz Sloe Gin",
 			"Absinthe (rinse)"
 		],
 		"procedure": "Shake, rinsed coupe"
@@ -1303,17 +1312,17 @@ var recipes = [
 		"name": "GREEN HARVEST",
 		"ingredients": [
 			"7 Concord Grapes (muddled)",
-			"2 oz. Chilled Brewed Hibiscus Tea",
-			"1.5 oz. José Cuervo Platino Tequila",
-			".5 oz. Green Chartreuse"
+			"2 oz Chilled Brewed Hibiscus Tea",
+			"1.5 oz Jose Cuervo Platino Tequila",
+			".5 oz Green Chartreuse"
 		],
 		"procedure": "Stir, double strain, fizz glass, three concord grapes"
 	},
 	{
 		"name": "GREENPOINT",
 		"ingredients": [
-			"2 oz. Rittenhouse Bonded Rye",
-			"1 oz. Punt e Mes",
+			"2 oz Rittenhouse Bonded Rye",
+			"1 oz Punt e Mes",
 			"1 barspn Yellow Chartreuse",
 			"1 dash of Angostura Bitters"
 		],
@@ -1322,23 +1331,23 @@ var recipes = [
 	{
 		"name": "HARVEST MOON",
 		"ingredients": [
-			"1.5 oz. Wild Turkey Rye",
-			"1 oz. Lillet Blanc",
-			".5 oz. Laird’s Bonded Apple Brandy",
-			".25 oz. Green Chartreuse",
-			"3 dashes Abbott’s Bitters"
+			"1.5 oz Wild Turkey Rye",
+			"1 oz Lillet Blanc",
+			".5 oz Laird's Bonded Apple Brandy",
+			".25 oz Green Chartreuse",
+			"3 dashes Abbott's Bitters"
 		],
 		"procedure": "Stir, coupe, orange twist"
 	},
 	{
 		"name": "HARVEST SLING",
 		"ingredients": [
-			"1.5 oz. Laird’s Bonded Apple Brandy",
-			".5 oz. Martini Sweet Vermouth",
-			".5 oz. Bénédictine",
-			".5 oz. Cherry Heering",
-			".5 oz. Lemon Juice",
-			".5 oz. Ginger Beer"
+			"1.5 oz Laird's Bonded Apple Brandy",
+			".5 oz Martini Sweet Vermouth",
+			".5 oz Benedictine",
+			".5 oz Cherry Heering",
+			".5 oz Lemon Juice",
+			".5 oz Ginger Beer"
 		],
 		"procedure": "Shake, Collins glass, cherry and orange flag"
 	},
@@ -1346,71 +1355,70 @@ var recipes = [
 		"name": "HEIRLOOM",
 		"ingredients": [
 			"7 Concord Grapes (muddled)",
-			"1.5 oz. Hayman’s Old Tom Gin",
-			".5 oz. Cynar",
-			".5 oz. Lime Juice",
-			".25 oz. Strega"
+			"1.5 oz Hayman's Old Tom Gin",
+			".5 oz Cynar",
+			".5 oz Lime Juice",
+			".25 oz Strega"
 		],
 		"procedure": "Shake, double strain, coupe, two spritzes anise hyssop essence"
 	},
 	{
 		"name": "HEMINGWAY DAIQUIRI",
 		"ingredients": [
-			"2 oz. Banks 5 Island rum",
-			".75 oz. Lime Juice",
-			".5 oz. Luxardo Maraschino Liqueur",
-			".5 oz. Grapefruit Juice"
+			"2 oz Banks 5 Island rum",
+			".75 oz Lime Juice",
+			".5 oz Luxardo Maraschino Liqueur",
+			".5 oz Grapefruit Juice"
 		],
 		"procedure": "Shake, coupe, lime wheel"
 	},
 	{
 		"name": "HENRY HUDSON",
 		"ingredients": [
-			"1.5 oz. Bols Genever",
-			"1 oz. Chardonnay",
-			".5 oz. Lemon Juice",
-			".5 oz. Simple Syrup",
-			".25 oz. van Oosten Batavia Arrack"
+			"1.5 oz Bols Genever",
+			"1 oz Chardonnay",
+			".5 oz Lemon Juice",
+			".5 oz Simple Syrup",
+			".25 oz van Oosten Batavia Arrack"
 		],
 		"procedure": "Stir, rocks glass, large cube, grated nutmeg "
 	},
 	{
 		"name": "HONEYMOON COCKTAIL",
 		"ingredients": [
-			"2 oz. Laird’ s Bonded Apple Brandy",
-			".5 oz. Marie Brizard Orange Curaçao",
-			".5 oz. Bénédictine",
-			".5 oz. Lemon Juice"
+			"2 oz Laird's Bonded Apple Brandy",
+			".5 oz Orange Curacao",
+			".5 oz Benedictine",
+			".5 oz Lemon Juice"
 		],
 		"procedure": "Shake, coupe"
 	},
 	{
-		"name": "",
+		"name": "HOTEL D'ALSACE",
 		"ingredients": [
-			"HOTEL D’ALSACE",
 			"1 Small sprig Rosemary (muddled)",
-			"2 oz. Bushmills Irish Whiskey",
-			".5 oz. Cointreau",
-			".5 oz. Bénédictine"
+			"2 oz Bushmills Irish Whiskey",
+			".5 oz Cointreau",
+			".5 oz Benedictine"
 		],
 		"procedure": "Stir, double strain, rocks glass, large cube, rosemary sprig"
 	},
 	{
 		"name": "JAPANESE COURAGE",
 		"ingredients": [
-			"6 oz. Kamoizumi “Shusen” Sake (warm)",
-			"1 oz. Bols Genever",
-			".5 oz. Yellow Chartreuse",
-			".25 oz. Canton Ginger Liqueur",
-			".25 oz. Honey Syrup"
+			"6 oz Kamoizumi “Shusen” Sake (warm)",
+			"1 oz Bols Genever",
+			".5 oz Yellow Chartreuse",
+			".25 oz Canton Ginger Liqueur",
+			".25 oz Honey Syrup"
 		],
 		"procedure": "Stir, pre-heated mug, lemon wheel studded with 6 cloves"
 	},
 	{
 		"name": "JAPANESE COCKTAIL",
 		"ingredients": [
-			"2 oz. Hine V.S.O.P. cognac",
-			".5 oz. Orgeat",
+			"2 oz Hine V.S.O.P. cognac",
+			".5 oz Orgeat",
 			"2 dashes Angostura bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
@@ -1418,11 +1426,11 @@ var recipes = [
 	{
 		"name": "JUDGMENT DAY",
 		"ingredients": [
-			"1.5 oz. Macchu Pisco",
-			".5 oz. St. Germain",
-			".5 oz. Lime Juice",
-			".5 oz. Lemon Juice",
-			".5 oz. Simple Syrup",
+			"1.5 oz Macchu Pisco",
+			".5 oz St. Germain",
+			".5 oz Lime Juice",
+			".5 oz Lemon Juice",
+			".5 oz Simple Syrup",
 			"1 Egg White",
 			"Absinthe (rinse)",
 			"Allspice dram (spritz)"
@@ -1432,9 +1440,9 @@ var recipes = [
 	{
 		"name": "JUNIOR",
 		"ingredients": [
-			"2 oz. Rittenhouse Bonded Rye",
-			".75 oz. Lime Juice",
-			".5 oz. Bénédictine",
+			"2 oz Rittenhouse Bonded Rye",
+			".75 oz Lime Juice",
+			".5 oz Benedictine",
 			"2 dashes Angostura Bitters"
 		],
 		"procedure": "Shake, coupe"
@@ -1442,20 +1450,20 @@ var recipes = [
 	{
 		"name": "KANSAI KICK",
 		"ingredients": [
-			"1.5 oz. Yamazaki 12-Year-Old whiskey",
-			".75 oz. Blandy’s Sercial Madeira",
-			".75 oz. Lime Juice",
-			".4 oz. Orgeat"
+			"1.5 oz Yamazaki 12-Year-Old whiskey",
+			".75 oz Blandy's Sercial Madeira",
+			".75 oz Lime Juice",
+			".4 oz Orgeat"
 		],
 		"procedure": "Shake, coupe"
 	},
 	{
 		"name": "KINA MIELE",
 		"ingredients": [
-			"1 oz. Dolin Dry Vermouth",
-			".75 oz. Cocchi Americano",
-			".5 oz. Nonino Gioiello",
-			".25 oz. Pear Brandy",
+			"1 oz Dolin Dry Vermouth",
+			".75 oz Cocchi Americano",
+			".5 oz Nonino Gioiello",
+			".25 oz Pear Brandy",
 			"1 dash The Bitter Truth Lemon Bitters"
 		],
 		"procedure": "Stir, rocks glass, large cube, grapefruit twist"
@@ -1463,21 +1471,21 @@ var recipes = [
 	{
 		"name": "KING BEE",
 		"ingredients": [
-			"1.5 oz. Barsol Quebranta Pisco",
-			".75 oz. Lemon Juice",
-			".5 oz. Bénédictine",
-			".5 oz. Bärenjäger",
-			".5 oz. Lustau Palo Cortado Sherry"
+			"1.5 oz Barsol Quebranta Pisco",
+			".75 oz Lemon Juice",
+			".5 oz Benedictine",
+			".5 oz Barenjager",
+			".5 oz Lustau Palo Cortado Sherry"
 		],
 		"procedure": "Shake first 4 ingredients, coupe, float sherry"
 	},
 	{
 		"name": "LA FLORIDA COCKTAIL",
 		"ingredients": [
-			"2 oz. Banks 5 Island rum",
-			"75 oz. Lime Juice",
-			".5 oz. Crème de Cacao",
-			".25 oz. Martini Sweet Vermouth",
+			"2 oz Banks 5 Island rum",
+			"75 oz Lime Juice",
+			".5 oz Creme de Cacao",
+			".25 oz Martini Sweet Vermouth",
 			"1 barspn Grenadine"
 		],
 		"procedure": "Shake, coupe, lime wheel"
@@ -1485,11 +1493,11 @@ var recipes = [
 	{
 		"name": "LA LOUCHE",
 		"ingredients": [
-			"1.5 oz. Hendricks Gin",
-			"1 oz. Lillet Rouge",
-			".5 oz. Lime Juice",
-			".25 oz. Yellow Chartreuse",
-			".25 oz. Simple syrup"
+			"1.5 oz Hendricks Gin",
+			"1 oz Lillet Rouge",
+			".5 oz Lime Juice",
+			".25 oz Yellow Chartreuse",
+			".25 oz Simple syrup"
 		],
 		"procedure": "Shake, coupe"
 	},
@@ -1497,33 +1505,33 @@ var recipes = [
 		"name": "LEAPFROG",
 		"ingredients": [
 			"6 Mint leaves (muddled)",
-			"2 oz. Plymouth Gin",
-			".75 oz. Lemon Juice",
-			".5 oz. Apricot liqueur",
-			".25 oz. Simple syrup",
+			"2 oz Plymouth Gin",
+			".75 oz Lemon Juice",
+			".5 oz Apricot liqueur",
+			".25 oz Simple syrup",
 			"2 dashes Orange Bitters"
 		],
 		"procedure": "Shake, double strain, coupe"
 	},
 	{
-		"name": "LE PÈRE BIS",
+		"name": "LE PeRE BIS",
 		"ingredients": [
-			"4 oz. Freshly Brewed Chamomile Tea",
-			"1.5 oz. Ardbeg 10-Year-Old Single Malt Scotch",
-			".5 oz. St. Germain Elderflower Liqueur",
-			".5 oz. Honey Syrup"
+			"4 oz Freshly Brewed Chamomile Tea",
+			"1.5 oz Ardbeg 10-Year-Old Single Malt Scotch",
+			".5 oz St. Germain Elderflower Liqueur",
+			".5 oz Honey Syrup"
 		],
 		"procedure": "Stir, pre-heated mug, lemon wedge studded with three cloves"
 	},
 	{
 		"name": "LUAU",
 		"ingredients": [
-			".75 oz. Wray & Nephew Overproof rum",
-			".75 oz. Appleton Estate V/X rum",
-			".75 oz. El Dorado 15-Year-Old rum",
-			".5 oz. Lime juice",
-			".5 oz. Passionfruit syrup",
-			".25 oz. Orgeat",
+			".75 oz Wray & Nephew Overproof rum",
+			".75 oz Appleton Estate V/X rum",
+			".75 oz El Dorado 15-Year-Old rum",
+			".5 oz Lime juice",
+			".5 oz Passionfruit syrup",
+			".25 oz Orgeat",
 			"1 dash Angostura bitters"
 		],
 		"procedure": "Shake, rocks glass, crushed ice, lime wheel, orange slice"
@@ -1531,9 +1539,9 @@ var recipes = [
 	{
 		"name": "MASATAKA SWIZZLE",
 		"ingredients": [
-			"1.5 oz. Nikka Taketsuru 12-Year-Old Japanese whiskey",
-			".5 oz. Luxardo Amaretto",
-			".5 oz. Lemon Juice",
+			"1.5 oz Nikka Taketsuru 12-Year-Old Japanese whiskey",
+			".5 oz Luxardo Amaretto",
+			".5 oz Lemon Juice",
 			"1 barspn Demerara Syrup",
 			"Peychaud's bitters"
 		],
@@ -1542,39 +1550,38 @@ var recipes = [
 	{
 		"name": "MEZCAL MULE",
 		"ingredients": [
-			"Passion fruit and cucumber brighten this earthy mule spiced with native Mexican chili.",
 			"3 Slices Cucumber (muddled)",
-			"1.5 oz. Sombra Mezcal",
-			"1 oz. House Ginger Beer",
-			".75 oz. Lime Juice",
-			".5 oz. Passionfruit syrup"
+			"1.5 oz Sombra Mezcal",
+			"1 oz House Ginger Beer",
+			".75 oz Lime Juice",
+			".5 oz Passionfruit syrup"
 		],
 		"procedure": "Shake, rocks glass, candied ginger, cucumber slice, pinch of ground chili"
 	},
 	{
 		"name": "NEW ORLEANS MILK PUNCH",
 		"ingredients": [
-			"1.5 oz. Whole Milk",
-			"1 oz. Pierre Ferrand Ambre cognac",
-			"1 oz. Myers’s Dark rum",
-			".75 oz. Simple syrup"
+			"1.5 oz Whole Milk",
+			"1 oz Pierre Ferrand Ambre cognac",
+			"1 oz Myers's Dark rum",
+			".75 oz Simple syrup"
 		],
 		"procedure": "Shake, rocks glass, large cube"
 	},
 	{
 		"name": "MONTGOMERY SMITH",
 		"ingredients": [
-			"2 oz. Hine V.S.O.P. Cognac",
-			".5 oz. Bénédictine",
-			".25 oz. Fernet Branca"
+			"2 oz Hine V.S.O.P. Cognac",
+			".5 oz Benedictine",
+			".25 oz Fernet Branca"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
 	{
 		"name": "MONKEY GLAND",
 		"ingredients": [
-			"2 oz. Beefeater Gin",
-			"1 oz. Orange juice",
+			"2 oz Beefeater Gin",
+			"1 oz Orange juice",
 			"1 barspn Pomegranate Molasses",
 			"Absinthe (rinse)"
 		],
@@ -1583,50 +1590,50 @@ var recipes = [
 	{
 		"name": "MOUNT VERNON",
 		"ingredients": [
-			"1 oz. Kirschwasser",
-			"1 oz. Brandy de Jerez",
-			".75 oz. Grapefruit juice",
-			".5 oz. Lustau Pedro Ximénez sherry",
-			".5 oz. Cherry Heering"
+			"1 oz Kirschwasser",
+			"1 oz Brandy de Jerez",
+			".75 oz Grapefruit juice",
+			".5 oz Lustau Pedro Ximenez sherry",
+			".5 oz Cherry Heering"
 		],
 		"procedure": "Shake, coupe, three brandied cherries"
 	},
 	{
 		"name": "NEW AMSTERDAM",
 		"ingredients": [
-			"2 oz. Bols Genever",
-			"1 oz. Kirschwasser",
+			"2 oz Bols Genever",
+			"1 oz Kirschwasser",
 			"1 barspn Demerara syrup",
-			"2 dashes Peychaud’s bitters"
+			"2 dashes Peychaud's bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
 	{
 		"name": "NEWARK",
 		"ingredients": [
-			"2 oz. Laird’s Bonded Apple Brandy",
-			"1 oz. Vya Sweet vermouth",
-			".25 oz. Fernet Branca",
-			".25 oz. Maraschino Liqueur"
+			"2 oz Laird's Bonded Apple Brandy",
+			"1 oz Vya Sweet vermouth",
+			".25 oz Fernet Branca",
+			".25 oz Maraschino Liqueur"
 		],
 		"procedure": "Stir, coupe"
 	},
 	{
-		"name": "NOUVEAU CARRÉ",
+		"name": "NOUVEAU CARRe",
 		"ingredients": [
-			"1.5 oz. Ocho Añejo Tequila",
-			".75 oz. Lillet Blanc",
-			".25 oz. Bénédictine",
-			"3 dashes Peychaud’s bitters"
+			"1.5 oz Ocho Anejo Tequila",
+			".75 oz Lillet Blanc",
+			".25 oz Benedictine",
+			"3 dashes Peychaud's bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
 	{
 		"name": "NTH DEGREE",
 		"ingredients": [
-			"1 oz. Rhum Clément V.S.O.P.",
-			"1 oz. Laird’s Bonded Apple Brandy",
-			".5 oz. Green Chartreuse",
+			"1 oz Rhum Clement V.S.O.P.",
+			"1 oz Laird's Bonded Apple Brandy",
+			".5 oz Green Chartreuse",
 			"1 Demerara Sugar cube",
 			"2 dashes Fee Brothers Whiskey Barrel Aged Bitters"
 		],
@@ -1635,9 +1642,9 @@ var recipes = [
 	{
 		"name": "OCCIDENTAL",
 		"ingredients": [
-			"2 oz. Linie Aquavit",
-			".75 oz. Grand Marnier",
-			".5 oz. Amaro Nonino",
+			"2 oz Linie Aquavit",
+			".75 oz Grand Marnier",
+			".5 oz Amaro Nonino",
 			"Fernet Branca (rinse)"
 		],
 		"procedure": "Stir, rinsed coupe, orange twist"
@@ -1645,19 +1652,19 @@ var recipes = [
 	{
 		"name": "OLD PAL",
 		"ingredients": [
-			"2 oz. Old Overholt Rye",
-			".75 oz. Dolin Dry Vermouth",
-			".75 oz. Campari"
+			"2 oz Old Overholt Rye",
+			".75 oz Dolin Dry Vermouth",
+			".75 oz Campari"
 		],
 		"procedure": "Stir, coupe"
 	},
 	{
 		"name": "PADDINGTON",
 		"ingredients": [
-			"1.5 oz. Banks 5 Island rum",
-			".5 oz. Lillet Blanc",
-			".5 oz. Grapefruit juice",
-			".5 oz. Lemon juice",
+			"1.5 oz Banks 5 Island rum",
+			".5 oz Lillet Blanc",
+			".5 oz Grapefruit juice",
+			".5 oz Lemon juice",
 			"1 barspn Orange Marmalade",
 			"Absinthe (rinse)"
 		],
@@ -1666,20 +1673,20 @@ var recipes = [
 	{
 		"name": "PHARAOH COOLER",
 		"ingredients": [
-			"1.5 oz. Partida Blanco Tequila",
-			"1 oz. Watermelon Juice",
-			".75 oz. House Grenadine",
-			".5 oz. Lime Juice",
+			"1.5 oz Partida Blanco Tequila",
+			"1 oz Watermelon Juice",
+			".75 oz House Grenadine",
+			".5 oz Lime Juice",
 			"4 drops Rosewater"
 		],
-		"procedure": "Shake, Collins glass, top with 1 oz. soda"
+		"procedure": "Shake, Collins glass, top with 1 oz soda"
 	},
 	{
 		"name": "PROFESSOR",
 		"ingredients": [
-			"2 oz. Rhum Clément V.S.O.P",
-			".75 oz. Dow’s Tawny Port",
-			".5 oz. Carpano Antica Sweet Vermouth",
+			"2 oz Rhum Clement V.S.O.P",
+			".75 oz Dow's Tawny Port",
+			".5 oz Carpano Antica Sweet Vermouth",
 			"1 dash Angostura bitters",
 			"1 dash Orange bitters"
 		],
@@ -1688,9 +1695,9 @@ var recipes = [
 	{
 		"name": "REMEMBER THE MAINE",
 		"ingredients": [
-			"2 oz. Wild Turkey Russell’s Reserve 6-Year-Old Rye",
-			".75 oz. Carpano Antica Sweet Vermouth",
-			".5 oz. Cherry Heering",
+			"2 oz Wild Turkey Russell's Reserve 6-Year-Old Rye",
+			".75 oz Carpano Antica Sweet Vermouth",
+			".5 oz Cherry Heering",
 			"1 barspn Pernod"
 		],
 		"procedure": "Stir, coupe, lemon twist"
@@ -1699,21 +1706,21 @@ var recipes = [
 		"name": "RESTING POINT",
 		"ingredients": [
 			"1 Strawberry (muddled)",
-			"1.5 oz. Siete Leguas Reposado tequila",
-			".5 oz. Yellow Chartreuse",
-			".5 oz. Punt e Mes",
-			".5 oz. Lemon juice",
-			".5 oz. Agave syrup"
+			"1.5 oz Siete Leguas Reposado tequila",
+			".5 oz Yellow Chartreuse",
+			".5 oz Punt e Mes",
+			".5 oz Lemon juice",
+			".5 oz Agave syrup"
 		],
 		"procedure": "Shake, double strain, coupe, strawberry fan"
 	},
 	{
 		"name": "RHUM CLUB",
 		"ingredients": [
-			"2 oz. Banks 5 Island Rum",
-			".75 oz. Lime juice",
-			".5 oz. Rhum Clément Creole Shrubb",
-			".25 oz. Martinique Sugar Cane syrup",
+			"2 oz Banks 5 Island Rum",
+			".75 oz Lime juice",
+			".5 oz Rhum Clement Creole Shrubb",
+			".25 oz Martinique Sugar Cane syrup",
 			"2 dashes Angostura bitters",
 			"1 dash Orange bitters"
 		],
@@ -1723,19 +1730,19 @@ var recipes = [
 		"name": "RIO BRAVO",
 		"ingredients": [
 			"3 quarter-sized slices Ginger (muddled)",
-			"2 oz. Sagatiba Cachaça",
-			".75 oz. Lime juice",
-			".5 oz. Orgeat"
+			"2 oz Sagatiba Cachaca",
+			".75 oz Lime juice",
+			".5 oz Orgeat"
 		],
 		"procedure": "Shake, double strain, coupe, orange twist"
 	},
 	{
 		"name": "ROSITA",
 		"ingredients": [
-			"1.5 oz. Partida Reposado tequila",
-			".5 oz. Martini Sweet Vermouth",
-			".5 oz. Dolin Dry Vermouth",
-			".5 oz. Campari",
+			"1.5 oz Partida Reposado tequila",
+			".5 oz Martini Sweet Vermouth",
+			".5 oz Dolin Dry Vermouth",
+			".5 oz Campari",
 			"1 dash Angostura bitters"
 		],
 		"procedure": "Stir, coupe, orange twist"
@@ -1743,11 +1750,11 @@ var recipes = [
 	{
 		"name": "RUST BELT",
 		"ingredients": [
-			"1.5 oz. Barbancourt 8-Year-Old Rhum",
-			".5 oz. Navan Vanilla Liqueur",
-			".5 oz. Lemon Juice",
-			".5 oz. Lime Juice",
-			".25 oz. Orgeat",
+			"1.5 oz Barbancourt 8-Year-Old Rhum",
+			".5 oz Navan Vanilla Liqueur",
+			".5 oz Lemon Juice",
+			".5 oz Lime Juice",
+			".25 oz Orgeat",
 			"1 Egg White",
 			"Angostura bitters (spritz)"
 		],
@@ -1756,19 +1763,19 @@ var recipes = [
 	{
 		"name": "ROYAL BERMUDA YACHTCLUB COCKTAIL",
 		"ingredients": [
-			"2 oz. Mount Gay Eclipse Amber rum",
-			"1 oz. Lime juice",
-			".5 oz. Cointreau",
-			".5 oz. Velvet Falernum"
+			"2 oz Mount Gay Eclipse Amber rum",
+			"1 oz Lime juice",
+			".5 oz Cointreau",
+			".5 oz Velvet Falernum"
 		],
 		"procedure": "Shake, coupe, lime wheel"
 	},
 	{
 		"name": "RYE WITCH",
 		"ingredients": [
-			"2 oz. Rittenhouse Bonded Rye",
-			".25 oz. Strega",
-			".25 oz. Lustau Palo Cortado Sherry",
+			"2 oz Rittenhouse Bonded Rye",
+			".25 oz Strega",
+			".25 oz Lustau Palo Cortado Sherry",
 			"1 Sugar Cube",
 			"2 dashes House Orange Bitters"
 		],
@@ -1777,51 +1784,51 @@ var recipes = [
 	{
 		"name": "SEELBACH COCKTAIL",
 		"ingredients": [
-			"1 oz. Bulleit Bourbon",
-			".5 oz. Cointreau",
-			"3 dashes Peychaud’s Bitters",
+			"1 oz Bulleit Bourbon",
+			".5 oz Cointreau",
+			"3 dashes Peychaud's Bitters",
 			"2 dashes Angostura Bitters",
 			"Champagne"
 		],
-		"procedure": "Stir, coupe. Top with 2 oz. champagne, orange twist"
+		"procedure": "Stir, coupe. Top with 2 oz champagne, orange twist"
 	},
 	{
 		"name": "SILVER LINING",
 		"ingredients": [
-			"1.5 oz. Old Overholt Rye",
-			".75 oz. Licor 43",
-			".75 oz. Lemon juice",
-			".25 oz. Simple syrup",
+			"1.5 oz Old Overholt Rye",
+			".75 oz Licor 43",
+			".75 oz Lemon juice",
+			".25 oz Simple syrup",
 			"1 Egg white"
 		],
-		"procedure": "Double shake, fizz glass. Top with 1 oz. soda"
+		"procedure": "Double shake, fizz glass. Top with 1 oz soda"
 	},
 	{
 		"name": "SLOE GIN FIZZ",
 		"ingredients": [
-			"1 oz. Sloe Gin",
-			"1 oz. Plymouth Gin",
-			".75 oz. Lemon juice",
-			".25 oz. Simple syrup"
+			"1 oz Sloe Gin",
+			"1 oz Plymouth Gin",
+			".75 oz Lemon juice",
+			".25 oz Simple syrup"
 		],
-		"procedure": "Shake, fizz glass. Top with 3 oz. soda"
+		"procedure": "Shake, fizz glass. Top with 3 oz soda"
 	},
 	{
 		"name": "SOLSTICE",
 		"ingredients": [
-			"1.5 oz. Rittenhouse Bonded Rye",
-			".5 oz. Laird’s Bonded Apple Brandy",
-			".5 oz. Nonino Amaro",
-			".5 oz. Dubonnet Rouge",
-			".25 oz. House Grenadine"
+			"1.5 oz Rittenhouse Bonded Rye",
+			".5 oz Laird's Bonded Apple Brandy",
+			".5 oz Nonino Amaro",
+			".5 oz Dubonnet Rouge",
+			".25 oz House Grenadine"
 		],
 		"procedure": "Stir, coupe"
 	},
 	{
 		"name": "STATESMAN",
 		"ingredients": [
-			"2 oz. Beefeater 24 Gin",
-			".5 oz. Pear liqueur",
+			"2 oz Beefeater 24 Gin",
+			".5 oz Pear liqueur",
 			"1 barspn Green Chartreuse",
 			"1 dash Orange bitters"
 		],
@@ -1831,10 +1838,10 @@ var recipes = [
 		"name": "TALBOTT LEAF",
 		"ingredients": [
 			"6 Mint Leaves (muddled)",
-			"2 oz. Old Grand-Dad Bonded Bourbon",
-			".75 oz. Lemon Juice",
-			".5 oz. Green Chartreuse",
-			".25 oz. Cynar",
+			"2 oz Old Grand-Dad Bonded Bourbon",
+			".75 oz Lemon Juice",
+			".5 oz Green Chartreuse",
+			".25 oz Cynar",
 			"1 barspn Strawberry Preserves"
 		],
 		"procedure": "Shake, double strain, coupe, mint leaf"
@@ -1842,9 +1849,9 @@ var recipes = [
 	{
 		"name": "TUXEDO",
 		"ingredients": [
-			"2 oz. Plymouth Gin",
-			"1.5 oz. Dolin Dry Vermouth",
-			".25 oz. Maraschino liqueur",
+			"2 oz Plymouth Gin",
+			"1.5 oz Dolin Dry Vermouth",
+			".25 oz Maraschino liqueur",
 			"2 dashes Orange bitters",
 			"Absinthe (rinse)"
 		],
@@ -1854,9 +1861,9 @@ var recipes = [
 		"name": "VAUVERT SLIM",
 		"ingredients": [
 			"6 Mint Leaves (muddled)",
-			"1 oz. Green Chartreuse",
-			"2 oz. Grapefruit Juice",
-			".5 oz. Lime Juice",
+			"1 oz Green Chartreuse",
+			"2 oz Grapefruit Juice",
+			".5 oz Lime Juice",
 			"1 Egg White",
 			"Laphroaig 10 scotch (rinse)"
 		],
@@ -1865,32 +1872,32 @@ var recipes = [
 	{
 		"name": "VELVET CLUB",
 		"ingredients": [
-			"1 oz. Hine V.S.O.P. cognac",
-			".5 oz. Lillet Blanc",
-			".5 oz. White Crème de Cacao",
+			"1 oz Hine V.S.O.P. cognac",
+			".5 oz Lillet Blanc",
+			".5 oz White Creme de Cacao",
 			"Champagne"
 		],
-		"procedure": "Stir, coupe. Top with 1 oz. champagne"
+		"procedure": "Stir, coupe. Top with 1 oz champagne"
 	},
 	{
 		"name": "VIEUX MOT",
 		"ingredients": [
-			"1.5 oz. Plymouth Gin",
-			".75 oz. Lemon Juice",
-			".5 oz. St. Germain",
-			".5 oz. Simple Syrup"
+			"1.5 oz Plymouth Gin",
+			".75 oz Lemon Juice",
+			".5 oz St. Germain",
+			".5 oz Simple Syrup"
 		],
 		"procedure": "Shake, coupe"
 	},
 	{
-		"name": "VIEUX CARRÉ",
+		"name": "VIEUX CARRe",
 		"ingredients": [
-			"1 oz. Sazerac 6-Year-Old Rye",
-			"1 oz. Hine V.S.O.P. Cognac",
-			"1 oz. Carpano Antica",
-			".25 oz. Bénédictine",
+			"1 oz Sazerac 6-Year-Old Rye",
+			"1 oz Hine V.S.O.P. Cognac",
+			"1 oz Carpano Antica",
+			".25 oz Benedictine",
 			"1 dash Angostura bitters",
-			"1 dash Peychaud’s bitters"
+			"1 dash Peychaud's bitters"
 		],
 		"procedure": "Stir,rocks glass, large cube "
 	},
@@ -1899,29 +1906,29 @@ var recipes = [
 		"ingredients": [
 			"3 Lemon Wedges (muddled)",
 			"6 Mint Leaves (muddled)",
-			"2 oz. Rittenhouse Bonded Rye",
-			".75 oz. Simple syrup"
+			"2 oz Rittenhouse Bonded Rye",
+			".75 oz Simple syrup"
 		],
 		"procedure": "Shake, double strain, rocks, mint sprig"
 	},
 	{
 		"name": "WHITE BIRCH FIZZ",
 		"ingredients": [
-			"1.5 oz. Plymouth Gin",
-			".75 oz. Lemon juice",
-			".5 oz. Strega",
-			".5 oz. Apricot liqueur",
+			"1.5 oz Plymouth Gin",
+			".75 oz Lemon juice",
+			".5 oz Strega",
+			".5 oz Apricot liqueur",
 			"1 Egg White",
 			"Suze (spritz)"
 		],
-		"procedure": "Double shake, Collins glass. Top with 2 oz. soda, spritz of Suze"
+		"procedure": "Double shake, Collins glass. Top with 2 oz soda, spritz of Suze"
 	},
 	{
-		"name": "WITCH’S KISS",
+		"name": "WITCH'S KISS",
 		"ingredients": [
-			"2 oz. José Cuervo Platino tequila",
-			".75 oz. Lemon juice",
-			".5 oz. Strega",
+			"2 oz Jose Cuervo Platino tequila",
+			".75 oz Lemon juice",
+			".5 oz Strega",
 			"1 barspn Apple Butter"
 		],
 		"procedure": "Shake, coupe, lemon twist"
@@ -1951,7 +1958,7 @@ var recipes = [
 		"procedure": "Mix/whip shake, footed pilsner, crushed ice, spiral-cut orange peel, mint sprig"
 	},
 	{
-		"name": "DON’S OWN GROG",
+		"name": "DON'S OWN GROG",
 		"ingredients": [
 			".75 oz Lime juice",
 			".25 oz Demerara syrup",
@@ -1996,7 +2003,7 @@ var recipes = [
 		"ingredients": [
 			"1 lime wedge",
 			".5 oz Lime juice",
-			".5 oz natural crème de cassis",
+			".5 oz natural creme de cassis",
 			"1.5 oz blanco tequila",
 			"4 oz real ginger ale"
 		],
@@ -2054,7 +2061,7 @@ var recipes = [
 		"procedure": "Shake, double strain, coupe, edible orchid"
 	},
 	{
-		"name": "SIDEWINDER’S FANG",
+		"name": "SIDEWINDER'S FANG",
 		"ingredients": [
 			"1.5 oz Lime juice",
 			"1.5 oz Orange juice",
@@ -2077,7 +2084,7 @@ var recipes = [
 		"procedure": "Shake, double strain, coupe, lime peel."
 	},
 	{
-		"name": "CAPTAIN’S GROG",
+		"name": "CAPTAIN'S GROG",
 		"ingredients": [
 			".5 oz Lime juice",
 			".5 oz Grapefruit juice",
@@ -2201,7 +2208,7 @@ var recipes = [
 	{
 		"name": "PEACHTREE PUNCH 2.0",
 		"ingredients": [
-			"half yellow/white peach (muddled)",
+			".5 yellow/white peach (muddled)",
 			"3 oz Orange juice",
 			".5 oz Lemon juice",
 			"1 oz Coconut cream",
@@ -2261,7 +2268,7 @@ var recipes = [
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, lemon twist"
 	},
 	{
-		"name": "MAX’S MISTAKE",
+		"name": "MAX'S MISTAKE",
 		"ingredients": [
 			"1 oz Lemon juice",
 			"1 oz Passionfruit syrup",
@@ -2305,7 +2312,7 @@ var recipes = [
 			".25 oz Drambuie",
 			"2 oz Seltzer",
 			"2 oz Column still aged rum",
-			"2 dashes Peychaud’s bitters",
+			"2 dashes Peychaud's bitters",
 			"1 dash Angostura bitters"
 		],
 		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, edible orchid, mint sprig"
@@ -2338,7 +2345,7 @@ var recipes = [
 		"ingredients": [
 			".75 oz Lime juice",
 			".5 oz Orgeat",
-			".5 oz blue curaçao",
+			".5 oz blue curacao",
 			".5 oz Velvet Falernum",
 			"1.5 oz Blanco tequila",
 			"2 oz champagne or sparkling wine"
@@ -2363,7 +2370,7 @@ var recipes = [
 			".5 oz Hibiscus liqueur",
 			".5 oz Pear liqueur",
 			"1.5 oz Column still aged rum",
-			"1 dash Peychaud’s bitters",
+			"1 dash Peychaud's bitters",
 			"1.5 oz Seltzer"
 		],
 		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower"
@@ -2410,7 +2417,7 @@ var recipes = [
 		"ingredients": [
 			".5 oz Lemon juice",
 			".5 oz Cinnamon syrup",
-			".5 oz Giffard Banane du Brésil banana liqueur",
+			".5 oz Giffard Banane du Bresil banana liqueur",
 			"1.5 oz Black blended rum",
 			".5 oz Pot still lightly aged rum (overproof)",
 			"1 dash Angostura bitters"
@@ -2418,7 +2425,7 @@ var recipes = [
 		"procedure": "Mix/whip shake, tiki mug, crushed ice"
 	},
 	{
-		"name": "SWIZZLE FRANÇAIS",
+		"name": "SWIZZLE FRANcAIS",
 		"ingredients": [
 			".5 oz Lime juice",
 			".5 oz Martinique sugarcane syrup",
@@ -2529,13 +2536,13 @@ var recipes = [
 		"procedure": "Mix/whip shake, tiki mug, crushed ice"
 	},
 	{
-		"name": "HUMUHUMUNUKUNUKUAPUA’A",
+		"name": "HUMUHUMUNUKUNUKUAPUA'A",
 		"ingredients": [
 			".75 oz Lemon juice",
 			".75 oz Pineapple juice",
 			".5 oz Orgeat",
 			"2 oz Gin",
-			"2 dashes Peychaud’s bitters"
+			"2 dashes Peychaud's bitters"
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry"
 	},
@@ -2546,12 +2553,12 @@ var recipes = [
 			".75 oz Pineapple juice",
 			".5 oz Orgeat",
 			"2 oz Blended aged rum",
-			"2 dashes Peychaud’s bitters"
+			"2 dashes Peychaud's bitters"
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry"
 	},
 	{
-		"name": "FOR PETE’S SAKE",
+		"name": "FOR PETE'S SAKE",
 		"ingredients": [
 			".75 oz Lime juice",
 			".5 oz Demerara syrup",
@@ -2580,7 +2587,7 @@ var recipes = [
 			"5 mint leaves (muddled)",
 			".75 oz Demerara syrup",
 			".75 oz Lime juice",
-			"2 oz Pot still aged cachaça"
+			"2 oz Pot still aged cachaca"
 		],
 		"procedure": "Shake, coupe, lime wheel"
 	},
@@ -2690,11 +2697,11 @@ var recipes = [
 		"procedure": "Shake, coupe, lime wheel"
 	},
 	{
-		"name": "BATIDA DE MARACUJÁ E COCO",
+		"name": "BATIDA DE MARACUJA E COCO",
 		"ingredients": [
 			".75 oz Passionfruit puree",
 			"2 oz Coconut milk",
-			"1 oz Pot still aged cachaça",
+			"1 oz Pot still aged cachaca",
 			"1 oz sweetened condensed milk"
 		],
 		"procedure": "Mix/whip shake, old fashioned glass, crushed ice, mint sprig"
@@ -2737,12 +2744,12 @@ var recipes = [
 		"ingredients": [
 			".5 oz Velvet Falernum",
 			"2 oz Blended aged rum (Barbados)",
-			"2 to 4 dashes Angostura bitters"
+			"2-4 dashes Angostura bitters"
 		],
 		"procedure": "Stir, old-fashioned glass, crushed ice"
 	},
 	{
-		"name": "QUEEN’S PARK SWIZZLE",
+		"name": "QUEEN'S PARK SWIZZLE",
 		"ingredients": [
 			"4 mint leaves (muddled)",
 			".5 oz Lime juice",
@@ -2769,7 +2776,7 @@ var recipes = [
 			".5 oz 2:1 Simple syrup",
 			".5 oz Dry Curacao",
 			"1.5 oz Pot still lightly aged rum (New England)",
-			".75 oz Blandy’s 5 Year Verdelho Madeira",
+			".75 oz Blandy's 5 Year Verdelho Madeira",
 			"1 dash Angostura bitters"
 		],
 		"procedure": "Shake, coupe, lemon twist"
@@ -2850,7 +2857,7 @@ var recipes = [
 			".5 oz Dry Curacao",
 			"1 oz R. L. Seale 10 Year rum",
 			"7 dashes Angostura bitters",
-			"7 dashes Peychaud’s bitters",
+			"7 dashes Peychaud's bitters",
 			"4 oz chilled champagne"
 		],
 		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, lemon twist"
@@ -2882,7 +2889,7 @@ var recipes = [
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
 	},
 	{
-		"name": "CARIBEÑO",
+		"name": "CARIBENO",
 		"ingredients": [
 			"4 oz coconut water",
 			".25 oz Demerara syrup",
@@ -2891,13 +2898,13 @@ var recipes = [
 		"procedure": "Mix/whip shake, coconut shell, cracked ice"
 	},
 	{
-		"name": "MONK’S RESPITE",
+		"name": "MONK'S RESPITE",
 		"ingredients": [
 			"3 oz fresh coconut water",
 			".5 oz Lemon juice",
 			".25 oz Honey syrup",
 			".25 oz Yellow Chartreuse",
-			"1.5 oz Broker’s gin",
+			"1.5 oz Broker's gin",
 			"1 oz Seltzer",
 			"1 dash Orange bitters"
 		],
@@ -2913,12 +2920,12 @@ var recipes = [
 			".5 oz Maraschino liqueur",
 			"1.5 oz Blended aged rum",
 			"1.5 oz bourbon",
-			"2 dashes Peychaud’s bitters"
+			"2 dashes Peychaud's bitters"
 		],
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
 	},
 	{
-		"name": "PIÑATA",
+		"name": "PINATA",
 		"ingredients": [
 			"3 oz Pineapple juice",
 			"1 oz Lemon juice",
@@ -2945,7 +2952,7 @@ var recipes = [
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice. Float the overproof rum"
 	},
 	{
-		"name": "PLANTER’S PUNCH",
+		"name": "PLANTER'S PUNCH",
 		"ingredients": [
 			"1 oz Lime juice",
 			".75 oz Demerara syrup",
@@ -3048,11 +3055,11 @@ var recipes = [
 		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, lemon wedge"
 	},
 	{
-		"name": "HONDO HATTIE’S JUNGLE PUNCH!",
+		"name": "HONDO HATTIE'S JUNGLE PUNCH!",
 		"ingredients": [
 			"1 oz Lemon juice",
 			".5 oz Honey syrup",
-			".25 oz blue curaçao",
+			".25 oz blue curacao",
 			".25 oz Tawny port",
 			".5 oz Velvet Falernum",
 			".25 oz Pear liqueur",
@@ -3147,10 +3154,10 @@ var recipes = [
 			".50 Tanqueray Gin",
 			".75 Lemon juice",
 			".50 Simple syrup",
-			"1 dash Peychaud’s bitters",
+			"1 dash Peychaud's bitters",
 			"Cynar (rinse)"
 		],
-		"procedure": "Shake, coupe, 7 drops Peychaud’s bitters"
+		"procedure": "Shake, coupe, 7 drops Peychaud's bitters"
 	},
 	{
 		"name": "BRIAR PATCH",
@@ -3197,7 +3204,7 @@ var recipes = [
 			"2 oz Rittenhouse Rye",
 			".75 oz Carpano Antica Sweet Vermouth",
 			".5 oz Noilly Pratt Dry Vermouth",
-			"2 dash Peychaud’s bitters",
+			"2 dash Peychaud's bitters",
 			"Peach bitters (rinse)",
 			"Laphroig 10 Scotch(rinse)"
 		],
@@ -3207,7 +3214,7 @@ var recipes = [
 		"name": "PART & PARCEL",
 		"ingredients": [
 			"2 oz Plymouth Gin",
-			".75 oz St. Germaine",
+			".75 oz St. Germain",
 			".75 oz Grapefruit juice",
 			".25 oz Lime juice",
 			".50 oz Simple syrup",
@@ -3240,11 +3247,11 @@ var recipes = [
 	{
 		"name": "CHI-TOWN FLIP",
 		"ingredients": [
-			"2.0 oz. Buffalo Trace bourbon",
+			"2.0 oz Buffalo Trace bourbon",
 			".75 oz Tawny Port",
-			"1.0 oz. Heavy cream",
-			".75 oz. Licor 43",
-			".25 oz. Simple syrup",
+			"1.0 oz Heavy cream",
+			".75 oz Licor 43",
+			".25 oz Simple syrup",
 			"1 Whole Egg"
 		],
 		"procedure": "Shake, Collins glass, grated nutmeg, 3 drops Fees Old Fashioned Bitters"
@@ -3256,7 +3263,7 @@ var recipes = [
 			".75 oz Lime juice",
 			".75 oz Simple syrup",
 			"3 dash Grapefruit bitters",
-			"Crème de Violette (rinse)"
+			"Creme de Violette (rinse)"
 		],
 		"procedure": "Shake, coupe"
 	},
@@ -3267,7 +3274,7 @@ var recipes = [
 			".75 oz Blackberry syrup",
 			".75 oz Lemon juice",
 			"1 Egg white",
-			"7 drops Peychaud’s bitters"
+			"7 drops Peychaud's bitters"
 		],
 		"procedure": "Double shake, Collins glass, cracked ice. Top with soda, 5 drops Angostura bitters"
 	},
@@ -3311,9 +3318,9 @@ var recipes = [
 	{
 		"name": "IRON CROSS",
 		"ingredients": [
-			"1.5 ounces Pisco",
-			".75 ounce Lemon juice",
-			".75 ounce Simple syrup",
+			"1.5 oz Pisco",
+			".75 oz Lemon juice",
+			".75 oz Simple syrup",
 			"1 Egg white",
 			"3 drops Orange Flower water",
 			"2 dashes Lavender Grapefruit bitters"
@@ -3367,9 +3374,9 @@ var recipes = [
 	{
 		"name": "THE VIOLET HOUR",
 		"ingredients": [
-			"2 oz. Bourbon (Buffalo Trace)",
-			".75 oz. Carpano Antica sweet vermouth",
-			".25 oz. Noilly Prat or Vya dry vermouth",
+			"2 oz Bourbon (Buffalo Trace)",
+			".75 oz Carpano Antica sweet vermouth",
+			".25 oz Noilly Prat or Vya dry vermouth",
 			".5 tsp Cruzan Black Strap rum",
 			"3 dashes Angostura bitters"
 		],
@@ -3414,7 +3421,7 @@ var recipes = [
 	{
 		"name": "VARIATION ON A THEME",
 		"ingredients": [
-			"2 oz Hayman’s Old Tom Gin",
+			"2 oz Hayman's Old Tom Gin",
 			".5 oz Cherry Heering",
 			".25 oz Campari",
 			".5 barspn Maraschino liqueur",
@@ -3425,7 +3432,7 @@ var recipes = [
 	{
 		"name": "IMPROVED SCOTCH SLING",
 		"ingredients": [
-			"2 oz McClelland’s Islay Single Malt scotch",
+			"2 oz McClelland's Islay Single Malt scotch",
 			".75 oz Sweet Vermouth",
 			".5 oz Lemon juice",
 			".5 oz Honey syrup",
@@ -3435,10 +3442,10 @@ var recipes = [
 		"procedure": "Stir, rocks glass, lemon twist"
 	},
 	{
-		"name": "PIMM’S UP",
+		"name": "PIMM'S UP",
 		"ingredients": [
 			"1 oz Bols Genever",
-			"1 oz Pimm’s",
+			"1 oz Pimm's",
 			".75 oz Lemon juice",
 			".75 oz Simple syrup",
 			"7 drops Celery bitters"
@@ -3452,7 +3459,7 @@ var recipes = [
 			"3 Cucumber slices (muddled)",
 			"3 Grapefruit peels (muddled)",
 			"3 Orange peels (muddled)",
-			"2 oz Peychaud’s bitters",
+			"2 oz Peychaud's bitters",
 			"1 oz Lemon juice",
 			"1 oz Simple syrup",
 			"Sanbitter"
@@ -3482,5 +3489,243 @@ var recipes = [
 			"2 dash Amargo Peruvian bitters"
 		],
 		"procedure": "Stir, double old fashioned glass, large cube, express grapefruit peel"
+	},
+	{
+		"name": "BAMBOO",
+		"ingredients": [
+			"1.5 oz Dolin Blanc vermouth",
+			"1.5 oz Lustau palo cortado sherry",
+			"2 dashes Angostura bitters",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Stir, coupe, lemon twist"
+	},
+	{
+		"name": "OLD FRIEND",
+		"ingredients": [
+			"1.5 oz Beefeater gin",
+			"0.75 oz grapefruit juice",
+			"0.5 oz Campari",
+			"0.25 oz St-Germain"
+		],
+		"procedure": "Shake, coupe, lemon twist."
+	},
+	{
+		"name": "GREEN TEA PUNCH",
+		"ingredients": [
+			"3 oz Banks 5-Island rum",
+			"1.5 oz brewed sencha tea",
+			"1.5 oz brewed mint tisane",
+			"1 oz lime juice",
+			"1 oz Simple syrup"
+		],
+		"procedure": "Stir, punch glass, cracked ice, grated nutmeg"
+	},
+	{
+		"name": "MONTE CARLO",
+		"ingredients": [
+			"2 oz Rittenhouse Rye",
+			".5 oz Benedictine",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Stir, old-Fashioned glass, large cube. Express lemon peel, drop in"
+	},
+	{
+		"name": "AUTUMN OLD-FASHIONED",
+		"ingredients": [
+			".5 oz George Dickel Rye",
+			".5 oz Laird's Apple brandy",
+			".5 oz Tariquet VSOP Bas-Armagnac",
+			".5 oz Bank Note scotch",
+			"1 tsp Grade B maple syrup",
+			"2 dashes Bittermens Xocolatl mole bitters",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Stir, old-Fashioned glass, large cube, express lemon and orange peel, drop in"
+	},
+	{
+		"name": "THE FIELD MARSHALL",
+		"ingredients": [
+			"1 oz Tariquet Classique VS Bas-Armagnac",
+			".5 oz Royal Combier",
+			"2 dashes Angostura bitters",
+			"2 dashes Peychaud's bitters",
+			"Champagne"
+		],
+		"procedure": "Stir first 4 ingredients, Champagne flute. Top with Champagne, lemon twist"
+	},
+	{
+		"name": "SHERRY COBBLER",
+		"ingredients": [
+			"3 orange slices (muddled)",
+			"1 tsp Simple syrup",
+			"3.5 oz amontillado sherry"
+		],
+		"procedure": "Stir, Collins glass, crushed ice, orange wheel, mint sprig"
+	},
+	{
+		"name": "TRACTION",
+		"ingredients": [
+			"2 lemon wedges (muddled)",
+			"1 strawberry (muddled)",
+			"1.5 oz Lustau Los Arcos amontillado sherry",
+			".5 oz Santa Teresa 1796 rum",
+			".75 oz Dry Curacao"
+		],
+		"procedure": "Shake, double strain, old-Fashioned glass, crushed ice, strawberry, lemon wedge, mint sprig"
+	},
+	{
+		"name": "SMOKE AND MIRRORS",
+		"ingredients": [
+			"4 mint leaves (muddled)",
+			".75 oz Simple syrup",
+			"1 oz Blended scotch",
+			".5 oz Laphroaig 10-year scotch",
+			".75 oz Lime juice",
+			"2 dashes Pernod absinthe"
+		],
+		"procedure": "Shake, double old-Fashioned glass, large cube, mint sprig"
+	},
+	{
+		"name": "SMOKESCREEN",
+		"ingredients": [
+			"4 mint leaves (muddled)",
+			".75 oz simple syrup",
+			"1 oz Blended scotch",
+			".5 oz Laphroaig 10-year scotch",
+			".25 oz Green Chartreuse",
+			".75 oz Lime juice"
+		],
+		"procedure": "Shake, double old-Fashioned glass over, large cube, mint sprig"
+	},
+	{
+		"name": "JACK FROST",
+		"ingredients": [
+			".75 oz Cabeza blanco tequila",
+			".75 oz Pear brandy",
+			".75 oz La Quintinye Vermouth Royal extra dry",
+			"1 tsp Creme de Menthe",
+			".75 oz Lime juice",
+			".5 oz Simple syrup"
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, with the mint sprig, sage bouquet, dusting of powdered sugar"
+	},
+	{
+		"name": "RATIONAL THOUGHT",
+		"ingredients": [
+			"1 oz Paul Beau VSOP Cognac",
+			".5 oz Pear brandy",
+			"1 oz Dry Curacao",
+			".75 oz Lemon juice",
+			"1 tsp Cinnamon syrup"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "MAIDEN'S BLUSH",
+		"ingredients": [
+			"1 oz Raspberry Cordial",
+			".75 oz Lemon juice",
+			"1 oz Pernod Absinthe",
+			"1.5 oz Hayman's Old Tom Gin"
+		],
+		"procedure": "Shake, punch glass"
+	},
+	{
+		"name": "RASPBERRY CORDIAL",
+		"ingredients": [
+			"3 oz raspberries",
+			"2 cups Sugar Syrup",
+			".5 oz rose water",
+			".5 oz Everclear"
+		],
+		"procedure": "Puree raspberries, mix in sugar syrup. Strain through a chinois or cheesecloth into a bottle. Add rose water and Everclear and shake"
+	},
+	{
+		"name": "DELICIOUS SOUR",
+		"ingredients": [
+			"3 dashes Eucalyptus Tincture",
+			".5 oz Pistachio Orgeat",
+			"2 oz Laird's Apple brandy",
+			".25 oz Peach liqueur",
+			".75 oz Lime juice",
+			"3 dashes Pernod Absinthe",
+			"1 Egg white"
+		],
+		"procedure": "Shake, punch glass, cracked ice,	grated nutmeg."
+	},
+	{
+		"name": "WHISKEY COCKTAIL #2",
+		"ingredients": [
+			"2 oz Old Overholt Rye",
+			".75 oz Benedictine",
+			".25 oz Royal Combier",
+			"3 dashes Angostura bitters",
+			"3 dashes Orange bitters",
+			"3 dashes Pernod Absinthe"
+		],
+		"procedure": "Stir, cocktail glass, express orange peel"
+	},
+	{
+		"name": "BIJOU",
+		"ingredients": [
+			"1.5 oz Tanqueray Gin",
+			"1.5 oz Sweet vermouth",
+			".5 oz Green Chartreuse",
+			"2 dashes Orange bitters",
+			"2 dashes Angostura bitters",
+			"2 dashes Pernod Absinthe"
+		],
+		"procedure": "Stir, cocktail glass, express orange peel"
+	},
+	{
+		"name": "SUISSESSE #2",
+		"ingredients": [
+			".5 oz Aquavit",
+			".5 oz Creme de Cacao",
+			"1.5 oz La Clandestine Absinthe",
+			"2 dashes Peychaud's bitters",
+			".5 large Egg white",
+			"2 oz Chilled water"
+		],
+		"procedure": "Shake, cocktail glass, express lemon peel, grated nutmeg"
+	},
+	{
+		"name": "FLOR DE JEREZ",
+		"ingredients": [
+			".5 oz Appleton Estate Reserve rum",
+			"1.5 oz Lustau amontillado sherry",
+			".25 oz Apricot liqueur",
+			".75 oz Lemon juice",
+			".5 oz Simple syrup",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "CITY OF GOLD SLING",
+		"ingredients": [
+			"1.5 oz Hayman's Old Tom Gin",
+			".5 oz el Dorado 12-year rum",
+			".75 oz Donn's Spices #2",
+			"1 dash Vieux Pontarlier absinthe",
+			"1 oz Pineapple juice",
+			".5 oz Lime juice",
+			".25 oz Orgeat",
+			"1 dash Peychaud's bitters"
+		],
+		"procedure": "Shake, highball glass, cracked ice, pineapple wedge"
+	},
+	{
+		"name": "PRETTY BIRD",
+		"ingredients": [
+			"1.5 oz Bombay London Dry Gin",
+			".5 oz Rhum Clement Creole Shrub",
+			".75 oz Grapefruit juice",
+			".5 oz Lime juice",
+			".25 oz Grenadine",
+			"1 tsp Cinnamon Bark syrup"
+		],
+		"procedure": "Shake, double rocks glass, large cube, lime wheel, cherry flag"
 	}
 ];

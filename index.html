@@ -11,97 +11,118 @@
 
 	<link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+	<script type="text/javascript" src="constants.js"></script>
 	<script type="text/javascript" src="recipes.js"></script>
-	<script type="text/javascript" src="utils.js"></script>
 </head>
 <body>
-
 	<div class="upperContainer topLevelContainer">
 		<div class="upperContainerContent">
 			<h1>Cocktail Compendium</h1>
 			<div class="subheadCta">
 				Search through
 				<span id="totalRecipesCount" class="totalRecipesCount"></span>
-				cocktails.
+				curated cocktails.
 			</div>
 			<div class="inputContainer">
 				<div class="searchCategoryTitle">
 					FILTER BY NAME
 				</div>
-				<input
-					id="recipeNameInput"
-					class="recipeNameInput"
-					onkeyup="submitOnEnterPressed(event)"
-					onfocus="clearSuggestions()"
-					type="text"
-					placeholder="Title keywords"
-				/>
+				<div class="inputRow">
+					<input
+						id="recipeNameInput"
+						class="recipeNameInput"
+						onkeyup="submitOnEnterPressed(event)"
+						onfocus="clearSuggestions()"
+						type="text"
+						placeholder="Title keywords"
+					/>
+					<img
+						class="closeIcon"
+						src="./close-icon.svg"
+						onclick="clearInput('recipeNameInput')"
+					/>
+				</div>
 			</div>
 			<div class="inputContainer">
 				<div class="searchCategoryTitle">
 					FILTER BY INGREDIENTS
 				</div>
 				<div class="inputsColumn">
-					<input
-						id="ingredient-0"
-						onkeyup="onInputChange(this, event)"
-						onfocus="clearSuggestions()"
-						type="text"
-						placeholder="Ingredient"
-					/>
-					<img
-						class="closeIcon"
-						src="./close-icon.svg"
-						onclick="clearInput(0)"
-					/>
-					<input
-						id="ingredient-1"
-						onkeyup="onInputChange(this, event)"
-						onfocus="clearSuggestions()"
-						type="text"
-						placeholder="Ingredient"
-					/>
-					<img
-						class="closeIcon"
-						src="./close-icon.svg"
-						onclick="clearInput(1)"
-					/>
-					<input
-						id="ingredient-2"
-						onkeyup="onInputChange(this, event)"
-						onfocus="clearSuggestions()"
-						type="text"
-						placeholder="Ingredient"
-					/>
-					<img
-						class="closeIcon"
-						src="./close-icon.svg"
-						onclick="clearInput(2)"
-					/>
-					<input
-						id="ingredient-3"
-						onkeyup="onInputChange(this, event)"
-						onfocus="clearSuggestions()"
-						type="text"
-						placeholder="Ingredient"
-					/>
-					<img
-						class="closeIcon"
-						src="./close-icon.svg"
-						onclick="clearInput(3)"
-					/>
-					<input
-						id="ingredient-4"
-						onkeyup="onInputChange(this, event)"
-						onfocus="clearSuggestions()"
-						type="text"
-						placeholder="Ingredient"
-					/>
-					<img
-						class="closeIcon"
-						src="./close-icon.svg"
-						onclick="clearInput(4)"
-					/>
+					
+					<div class="inputRow">
+						<input
+							id="ingredient-0"
+							onkeyup="onInputChange(this, event)"
+							onfocus="clearSuggestions()"
+							type="text"
+							placeholder="Ingredient"
+						/>
+						<img
+							class="closeIcon"
+							src="./close-icon.svg"
+							onclick="clearInput('ingredient-0')"
+						/>
+					</div>
+					
+					<div class="inputRow">
+						<input
+							id="ingredient-1"
+							onkeyup="onInputChange(this, event)"
+							onfocus="clearSuggestions()"
+							type="text"
+							placeholder="Ingredient"
+						/>
+						<img
+							class="closeIcon"
+							src="./close-icon.svg"
+							onclick="clearInput('ingredient-1')"
+						/>
+					</div>
+					
+					<div class="inputRow">
+						<input
+							id="ingredient-2"
+							onkeyup="onInputChange(this, event)"
+							onfocus="clearSuggestions()"
+							type="text"
+							placeholder="Ingredient"
+						/>
+						<img
+							class="closeIcon"
+							src="./close-icon.svg"
+							onclick="clearInput('ingredient-2')"
+						/>
+					</div>
+					
+					<div class="inputRow">
+						<input
+							id="ingredient-3"
+							onkeyup="onInputChange(this, event)"
+							onfocus="clearSuggestions()"
+							type="text"
+							placeholder="Ingredient"
+						/>
+						<img
+							class="closeIcon"
+							src="./close-icon.svg"
+							onclick="clearInput('ingredient-3')"
+						/>
+					</div>
+					
+					<div class="inputRow">
+						<input
+							id="ingredient-4"
+							onkeyup="onInputChange(this, event)"
+							onfocus="clearSuggestions()"
+							type="text"
+							placeholder="Ingredient"
+						/>
+						<img
+							class="closeIcon"
+							src="./close-icon.svg"
+							onclick="clearInput('ingredient-4')"
+						/>
+					</div>
 				</div>
 
 				<div id="suggestions" class="suggestionsColumn"></div>
@@ -109,18 +130,16 @@
 			<div class="inputContainer">
 				<button id="submitIngredients" class="submitBtn">Search</button>
 			</div>
-		</div>
-	</div>
-	<div id="resultsSummary" class="topLevelContainer">
-		<div class="resultsSummaryContent">
-			Cocktail of the day:
+			<div id="resultsSummary" class="resultsSummary"></div>
 		</div>
 	</div>
 	<div id="results" class="results topLevelContainer"></div>
+
 	<script type="text/javascript" src="./generateCocktailOfTheDay.js"></script>
 	<script type="text/javascript" src="./animateTotalRecipesCount.js"></script>
 	<script type="text/javascript" src="./searchSuggestions.js"></script>
 	<script type="text/javascript" src="./clearInput.js"></script>
+	<script type="text/javascript" src="./modalizeRecipe.js"></script>
 	<script type="text/javascript" src="./search.js"></script>
 	<script type="text/javascript">
 		generateCocktailOfTheDay();

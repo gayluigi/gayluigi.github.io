@@ -1,3 +1,3 @@
-function clearInput(i) {
-	document.getElementById(`ingredient-${i}`).value = "";
+function clearInput(id) {
+	document.getElementById(id).value = "";
 }
