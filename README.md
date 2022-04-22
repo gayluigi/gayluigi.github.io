@@ -1,6 +1,6 @@
 ![Favicon](https://github.com/gayluigi/gayluigi.github.io/raw/main/favicon.svg "Favicon")
 # Cocktail Compendium
-A web app written in javascript intended to make drinking liqour more fun that it already is!
+A web app written in javascript intended to make drinking liquor more fun that it already is!
 
 ## Features
 - Over 300 cocktails included
@@ -10,4 +10,8 @@ A web app written in javascript intended to make drinking liqour more fun that i
 
 ## Usage
 Clone and browse to index.html 
+
 add your own recipes to the recipes.js file. 
+
+
+[Try it out here] (https://gayluigi.github.io/)
