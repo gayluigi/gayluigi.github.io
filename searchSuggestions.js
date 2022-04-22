@@ -1,4 +1,4 @@
-var SUGGESTION_COUNT_LIMIT = 5;
+console.log(unitsRegex);
 
 var allTokens = recipes.map((recipe) =>
 	recipe.ingredients.map((ingredient) =>
@@ -7,7 +7,7 @@ var allTokens = recipes.map((recipe) =>
 )
 .flat()
 .filter((token) => !token.match(/^[\d\.]/))
-.filter((token) => token !== "oz")
+.filter((token) => !unitsRegex.test(token))
 .map((token) => token.toLowerCase());
 
 var allTokensSet = new Set(allTokens);
