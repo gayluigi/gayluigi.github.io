@@ -831,7 +831,7 @@ var recipes = [
 			"1.25 oz Amaro Montenegro",
 			".75 oz Wray and Nephew Overproof rum",
 			".75 oz Orgeat",
-			".75 Lime juice",
+			".75 oz Lime juice",
 			"3 drops Rosewater"
 		],
 		"procedure": "Shake, double strain, coupe, cucumber slice"

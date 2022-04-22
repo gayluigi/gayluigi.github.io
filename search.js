@@ -18,7 +18,7 @@ function getFormattedIngredient(ingredient) {
 	var rest = document.createElement("span");
 	rest.className = "rest";
 
-	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash(es)?|barspns?)?\s*(.*)/;
+	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash(es)?|barspns?|tsps?|grams?|pints?|cups?)?\s*(.*)/;
 	var matches = ingredient.match(regex);
 	if (matches && matches.length >= 5) {
 		measure.innerHTML = matches[1] || "";
