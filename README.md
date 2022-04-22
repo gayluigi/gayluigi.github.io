@@ -14,4 +14,4 @@ Clone and browse to index.html
 add your own recipes to the recipes.js file. 
 
 
-[Try it out here] (https://gayluigi.github.io/)
+[Try it out here](https://gayluigi.github.io/)
