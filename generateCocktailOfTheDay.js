@@ -5,7 +5,8 @@ function generateCocktailOfTheDay() {
 
 	var recipeContainer = document.createElement('div');
 	recipeContainer.className = "match";
-	recipeContainer.innerHTML += "<h2 class='recipeTitle'>" + recipe.name.toUpperCase() + "</h2>";
+	recipeContainer.innerHTML = "<h3 class='cocktailOfTheDayHdr'>Cocktail of the day</h3>"
+		+ "<h2 class='recipeTitle'>" + recipe.name.toUpperCase() + "</h2>";
 	recipe.ingredients.forEach((ingredient) => {
 		var formattedIngredient = getFormattedIngredient(ingredient);
 		recipeContainer.appendChild(formattedIngredient);

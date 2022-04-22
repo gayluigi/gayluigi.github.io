@@ -60,11 +60,8 @@ function search() {
 	var resultContainer = document.getElementById("results");
 	resultContainer.innerHTML = "";
 	var resultsSummaryContainer = document.getElementById("resultsSummary");
-	resultsSummaryContainer.innerHTML = "";
-	var resultsSummary = document.createElement("div");
-	resultsSummary.className = "resultsSummaryContent";
 	if (matches.length == 0) {
-		resultsSummary.innerHTML = "No cocktails match your search.";
+		resultsSummaryContainer.innerHTML = "No cocktails match your search.";
 	} else {
 		matches
 			.sort(() => Math.random() - 0.5)
@@ -79,9 +76,8 @@ function search() {
 				matchContainer.innerHTML += "<div class='procedure'>" + recipe.procedure + "</div>";
 				resultContainer.appendChild(matchContainer);
 			});
-		resultsSummary.innerHTML = `Found ${matches.length} cocktails.`;
+		resultsSummaryContainer.innerHTML = `Found ${matches.length} cocktails.`;
 	}
-	resultsSummaryContainer.appendChild(resultsSummary);
 };
 
 submitBtn.onclick = search;
