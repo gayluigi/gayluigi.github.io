@@ -197,6 +197,14 @@ h2.recipeTitle {
 	width: 320px;
 }
 
+.match:hover {
+	cursor: pointer;
+}
+
+.match.modalized:hover {
+	cursor: default;
+}
+
 .ingredient {
 	display: flex;
 	margin-bottom: 5px;
