@@ -7,6 +7,18 @@ body {
 	margin: 10px 0;
 }
 
+/* 360px and above */
+@media only screen and (min-width: 360px) {
+	body {
+		padding: 10px 0;
+	}
+
+	.upperContainer {
+		width: 100%;
+		align-self: center;
+	}
+}
+
 /* 600px and above */
 @media only screen and (min-width: 600px) {
 	body {
@@ -16,13 +28,6 @@ body {
 	.upperContainer {
 		width: 600px;
 		align-self: center;
-	}
-}
-
-/* 360px and above */
-@media only screen and (min-width: 360px) {
-	body {
-		padding: 10px;
 	}
 }
 
@@ -100,6 +105,20 @@ input::placeholder {
 
 .closeIcon:hover {
 	background-color: #f4f7f9;
+}
+
+.recipeTopRow {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.modalCloseBtn {
+	visibility: hidden;
+}
+
+.modalCloseBtn.modalCloseBtnShown {
+	visibility: visible;
 }
 
 .recipeNameInput {
@@ -217,4 +236,18 @@ h2.recipeTitle {
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #d8d8d8;
+}
+
+.modalBg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 1;
+	position: fixed;
+  left: 0;
+  top: 0;
+	overflow: hidden;
 }

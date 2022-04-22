@@ -68,12 +68,16 @@ function search() {
 			.forEach((recipe) => {
 				var matchContainer = document.createElement('div');
 				matchContainer.className = "match";
-				matchContainer.innerHTML += "<h2 class='recipeTitle'>" + recipe.name.toUpperCase() + "</h2>";
+				matchContainer.innerHTML = "<div class='recipeTopRow'>"
+					+ "<div><h2 class='recipeTitle'>" + recipe.name.toUpperCase() + "</h2></div>"
+					+ "<img class='closeIcon modalCloseBtn' src='close-icon.svg'/>"
+					+ "</div>";
 				recipe.ingredients.forEach((ingredient) => {
 					var formattedIngredient = getFormattedIngredient(ingredient);
 					matchContainer.appendChild(formattedIngredient);
 				});
 				matchContainer.innerHTML += "<div class='procedure'>" + recipe.procedure + "</div>";
+				matchContainer.onclick = modalizeRecipe(matchContainer);
 				resultContainer.appendChild(matchContainer);
 			});
 		resultsSummaryContainer.innerHTML = `Found ${matches.length} cocktails.`;
