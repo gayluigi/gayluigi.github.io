@@ -25,7 +25,7 @@ var recipes = [
 		"name": "Rye Not",
 		"ingredients": [
 			"1.5 oz TLW Knob Creek Rye",
-			".5 oz Combier Kümmel",
+			".5 oz Combier Kummel",
 			".75 oz Lemon juice",
 			".25 oz Orange juice",
 			".25 oz 2:1 Simple syrup"
@@ -160,7 +160,7 @@ var recipes = [
 			"1.25 oz Norden Aquavit",
 			".5 oz Averna",
 			".5 oz Carpano Antica",
-			"1 Tbsp Hot chocolate powder",
+			"1 tbsp Hot chocolate powder",
 			"3 drops Chocolate extract",
 			"3 oz Hot water"
 		],
@@ -190,13 +190,13 @@ var recipes = [
 	{
 		"name": "Osborn",
 		"ingredients": [
-			"1 slice of jalepeño",
+			"1 slice of jalepeno",
 			"2 cubes of pineapple",
 			"2 oz Gin",
 			".5 oz Lime juice",
 			".25 oz Simple syrup"
 		],
-		"procedure": "Muddle jalepeño and pineapple. Shake, double strain, old fashioned glass"
+		"procedure": "Muddle jalepeno and pineapple. Shake, double strain, old fashioned glass"
 	},
 	{
 		"name": "Sunset Curse",
@@ -751,7 +751,7 @@ var recipes = [
 		"procedure": "Lightly muddle lime wedge, mix/whip shake, crushed ice, rocks glass. Dried banana or mint sprig"
 	},
 	{
-		"name": "Keichō Embassy",
+		"name": "Keicho Embassy",
 		"ingredients": [
 			"1.5 oz Suntory Toki Japanese whiskey",
 			".5 oz St. Germain elderflower liqueur",
@@ -765,7 +765,7 @@ var recipes = [
 		"name": "Father Knows Best",
 		"ingredients": [
 			"1.5 oz Macallan 12 year Scotch whiskey",
-			".5 oz Jägermeister",
+			".5 oz Jagermeister",
 			".25 oz Green Chartreuse",
 			".25 oz Root beer syrup"
 		],
@@ -876,16 +876,16 @@ var recipes = [
 		"procedure": "Stir, large ice, cocktail glass orange twist"
 	},
 	{
-		"name": "Pêche Bourbon",
+		"name": "Peche Bourbon",
 		"ingredients": [
-			".5 oz Massenez Creme de Pêche or Peach liqueur",
+			".5 oz Massenez Creme de Peche or Peach liqueur",
 			"1 Brown sugar cube",
-			".5 teaspoon Superfine sugar",
+			".5 tsp Superfine sugar",
 			"3 dashes Peychaud's bitters",
 			"3 dashes Fee Brothers peach bitters",
 			"2 oz Peach-Infused Bourbon"
 		],
-		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de pêche, mint sprig"
+		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de peche, mint sprig"
 	},
 	{
 		"name": "Jersey Devil",
@@ -971,7 +971,7 @@ var recipes = [
 			"1 Orange",
 			"30 Cloves",
 			"1 (750 ml) bottle Ruby port",
-			"1 cup Superɹne sugar"
+			"1 cup Superfine sugar"
 		],
 		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle."
 	},
@@ -1041,7 +1041,7 @@ var recipes = [
 		"procedure": "Shake first 4 ingredients, coupe rinsed with Mezcal"
 	},
 	{
-		"name": "Águil a Azteca",
+		"name": "Aguil a Azteca",
 		"ingredients": [
 			"1.5 oz Jose Cuervo tequila",
 			"1 oz Honeydew Melon juice",
@@ -1474,7 +1474,7 @@ var recipes = [
 			"1.5 oz Barsol Quebranta Pisco",
 			".75 oz Lemon Juice",
 			".5 oz Benedictine",
-			".5 oz Bärenjäger",
+			".5 oz Barenjager",
 			".5 oz Lustau Palo Cortado Sherry"
 		],
 		"procedure": "Shake first 4 ingredients, coupe, float sherry"
@@ -1621,7 +1621,7 @@ var recipes = [
 	{
 		"name": "NOUVEAU CARRe",
 		"ingredients": [
-			"1.5 oz Ocho Añejo Tequila",
+			"1.5 oz Ocho Anejo Tequila",
 			".75 oz Lillet Blanc",
 			".25 oz Benedictine",
 			"3 dashes Peychaud's bitters"
@@ -2208,7 +2208,7 @@ var recipes = [
 	{
 		"name": "PEACHTREE PUNCH 2.0",
 		"ingredients": [
-			"half yellow/white peach (muddled)",
+			".5 yellow/white peach (muddled)",
 			"3 oz Orange juice",
 			".5 oz Lemon juice",
 			"1 oz Coconut cream",
@@ -2697,7 +2697,7 @@ var recipes = [
 		"procedure": "Shake, coupe, lime wheel"
 	},
 	{
-		"name": "BATIDA DE MARACUJÁ E COCO",
+		"name": "BATIDA DE MARACUJA E COCO",
 		"ingredients": [
 			".75 oz Passionfruit puree",
 			"2 oz Coconut milk",
@@ -2889,7 +2889,7 @@ var recipes = [
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
 	},
 	{
-		"name": "CARIBEÑO",
+		"name": "CARIBENO",
 		"ingredients": [
 			"4 oz coconut water",
 			".25 oz Demerara syrup",
@@ -2925,7 +2925,7 @@ var recipes = [
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
 	},
 	{
-		"name": "PIÑATA",
+		"name": "PINATA",
 		"ingredients": [
 			"3 oz Pineapple juice",
 			"1 oz Lemon juice",
@@ -3537,7 +3537,7 @@ var recipes = [
 			".5 oz Laird's Apple brandy",
 			".5 oz Tariquet VSOP Bas-Armagnac",
 			".5 oz Bank Note scotch",
-			"1 teaspoon Grade B maple syrup",
+			"1 tsp Grade B maple syrup",
 			"2 dashes Bittermens Xocolatl mole bitters",
 			"1 dash Angostura bitters"
 		],
@@ -3558,7 +3558,7 @@ var recipes = [
 		"name": "SHERRY COBBLER",
 		"ingredients": [
 			"3 orange slices (muddled)",
-			"1 teaspoon Simple syrup",
+			"1 tsp Simple syrup",
 			"3.5 oz amontillado sherry"
 		],
 		"procedure": "Stir, Collins glass, crushed ice, orange wheel, mint sprig"
@@ -3604,7 +3604,7 @@ var recipes = [
 			".75 oz Cabeza blanco tequila",
 			".75 oz Pear brandy",
 			".75 oz La Quintinye Vermouth Royal extra dry",
-			"1 teaspoon Creme de Menthe",
+			"1 tsp Creme de Menthe",
 			".75 oz Lime juice",
 			".5 oz Simple syrup"
 		],
@@ -3617,7 +3617,7 @@ var recipes = [
 			".5 oz Pear brandy",
 			"1 oz Dry Curacao",
 			".75 oz Lemon juice",
-			"1 teaspoon Cinnamon syrup"
+			"1 tsp Cinnamon syrup"
 		],
 		"procedure": "Shake, coupe"
 	},
@@ -3724,7 +3724,7 @@ var recipes = [
 			".75 oz Grapefruit juice",
 			".5 oz Lime juice",
 			".25 oz Grenadine",
-			"1 teaspoon Cinnamon Bark syrup"
+			"1 tsp Cinnamon Bark syrup"
 		],
 		"procedure": "Shake, double rocks glass, large cube, lime wheel, cherry flag"
 	}
