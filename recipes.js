@@ -56,11 +56,11 @@ var recipes = [
 	{
 		"name": "Borderline",
 		"ingredients": [
-			"1.5 Mezcal",
-			".75 Lime juice",
-			".5 Grenadine",
-			".25 Maraschino",
-			".25 Dry Curacao",
+			"1.5 oz Mezcal",
+			".75 oz Lime juice",
+			".5 oz Grenadine",
+			".25 oz Maraschino",
+			".25 oz Dry Curacao",
 			"Egg white/aquafaba"
 		],
 		"procedure": "Double shake, coupe."
@@ -90,9 +90,9 @@ var recipes = [
 	{
 		"name": "The New Hotness",
 		"ingredients": [
-			"1.5 Lunazul",
-			".75 Grapefruit Liqueur",
-			".75 Dolin Dry vermouth"
+			"1.5 oz Lunazul",
+			".75 oz Grapefruit Liqueur",
+			".75 oz Dolin Dry vermouth"
 		],
 		"procedure": "Stir, coupe, grapefruit peel"
 	},
@@ -284,7 +284,7 @@ var recipes = [
 			"4 Basil leaves (muddled)",
 			"2.0 oz Elijiah Craig Small Batch bourbon",
 			".5 oz Lemon juice",
-			".25 Brown Simple syrup",
+			".25 oz Brown Simple syrup",
 			"5 drops Celery Shrub",
 			"Ginger beer"
 		],
@@ -329,7 +329,7 @@ var recipes = [
 			"1 oz Strawberry balsamic shrub",
 			".5 oz Domaine de Canton",
 			".5 oz Lime juice",
-			".25 2:1 Simple syrup"
+			".25 oz 2:1 Simple syrup"
 		],
 		"procedure": "Shake, collins glass"
 	},
@@ -359,7 +359,7 @@ var recipes = [
 		"ingredients": [
 			"1 oz Green Chartreuse",
 			".5 oz Myers Dark Rum",
-			".25 Laphroaig 10 scotch",
+			".25 oz Laphroaig 10 scotch",
 			"1 oz Lime Juice",
 			".5 oz Pineapple Juice",
 			".5 oz Brown Simple syrup",
@@ -511,10 +511,10 @@ var recipes = [
 	{
 		"name": "The Stampede",
 		"ingredients": [
-			"1.5 Buffalo Trace bourbon",
-			".75 Fernet",
-			".75 Lime juice",
-			".5 2:1 Simple syrup"
+			"1.5 oz Buffalo Trace bourbon",
+			".75 oz Fernet",
+			".75 oz Lime juice",
+			".5 oz 2:1 Simple syrup"
 		],
 		"procedure": "Shake, rocks glass, mint sprig"
 	},
@@ -981,7 +981,7 @@ var recipes = [
 			"2 whole Lemon",
 			"4 whole Lime",
 			"1 whole Orange",
-			"1 Cup 1:1 Simple syrup"
+			"1 cup 1:1 Simple syrup"
 		],
 		"procedure": "Juice all fruit, mix with syrup"
 	},
@@ -1007,7 +1007,7 @@ var recipes = [
 	{
 		"name": "#3 Cup",
 		"ingredients": [
-			"4–5 Mint leaves (muddled)",
+			"4-5 Mint leaves (muddled)",
 			"2 slices Cucumber (muddled)",
 			"1 slice Orange (muddled)",
 			"1 oz Hine V.S.O.P. cognac",
@@ -1266,7 +1266,7 @@ var recipes = [
 	{
 		"name": "Gilchrist",
 		"ingredients": [
-			"1.25 oz Compass Box Asyla Blended Scotch Whisky",
+			"1.25 oz Compass Box Asyla Blended Scotch Whiskey",
 			".75 oz Pear brandy",
 			".75 oz Grapefruit juice",
 			".5 oz Averna Amaro",
@@ -2744,7 +2744,7 @@ var recipes = [
 		"ingredients": [
 			".5 oz Velvet Falernum",
 			"2 oz Blended aged rum (Barbados)",
-			"2 to 4 dashes Angostura bitters"
+			"2-4 dashes Angostura bitters"
 		],
 		"procedure": "Stir, old-fashioned glass, crushed ice"
 	},
