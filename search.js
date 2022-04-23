@@ -13,9 +13,8 @@ function search() {
 	var searchName = document.getElementById("recipeNameInput").value;
 	if (searchName) {
 		var recipeNameLookupRegex = new RegExp("\\b" + searchName + "\\b", "ig");
-		console.log(recipeNameLookupRegex)
-		matches = matches.filter((recipe) => 
-			recipeNameLookupRegex.test(recipe.name)
+		matches = matches.filter(({ name }) => 
+			recipeNameLookupRegex.test(name)
 		);
 	}
 
@@ -23,8 +22,8 @@ function search() {
 		var searchIngredient = document.getElementById("ingredient-" + i).value;
 		if (searchIngredient) {
 			var ingredientLookupRegex = new RegExp("\\b" + searchIngredient + "\\b", "ig");
-			matches = matches.filter((recipe) =>
-				recipe.ingredients.some((ingredient) =>
+			matches = matches.filter(({ ingredients }) =>
+				ingredients.some((ingredient) =>
 					ingredientLookupRegex.test(ingredient)
 				)
 			);
