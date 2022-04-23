@@ -98,6 +98,19 @@ input::placeholder {
   font-style: italic;
 }
 
+.closeIconContainer {
+	/*
+		Keep in sync with
+		.glassIcon.width
+		so that .recipeTitle will
+		always be centered.
+	*/
+	width: 27px;
+
+	align-self: flex-start;
+	text-align: right;
+}
+
 .closeIcon {
 	height: 18px;
 	margin-left: 5px;
@@ -112,6 +125,10 @@ input::placeholder {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #d8d8d8;
 }
 
 .modalCloseBtn {
@@ -177,9 +194,20 @@ h1 {
 	border-bottom: 1px solid #d8d8d8;
 }
 
+
+.recipeTilteContainer {
+	/*
+		320px total space
+		- 27px glass icon
+		- 27px close icon
+		- 8px margin on both sides
+	*/
+	max-width: 250px;
+	text-align: center;
+	text-wrap: balance;
+}
 h2.recipeTitle {
 	font-size: 20px;
-	margin-bottom: 10px;
 	color: #000000;
 }
 
@@ -259,4 +287,14 @@ h2.recipeTitle {
   left: 0;
   top: 0;
 	overflow: hidden;
+}
+
+.glassIcon {
+	/* 
+		Keep in sync with
+		.closeIconContainer.width
+		 so that .recipeTitle will
+		 always be centered.
+	*/
+	width: 27px;
 }
