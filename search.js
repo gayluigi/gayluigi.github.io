@@ -56,8 +56,7 @@ function search() {
 	// the balanced break does:
 	// |    CARAWAY MY      |
 	// |    WAYWARD SON     |
-	var recipeTitleContainers = document.getElementsByClassName("recipeTitle");
-	balanceText(recipeTitleContainers);
+	balanceText(".recipeTitle");
 };
 
 submitBtn.onclick = search;
