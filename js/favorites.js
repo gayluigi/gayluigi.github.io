@@ -40,7 +40,7 @@ function renderFavorites() {
 	if (FAVORITES.length > 0) {
 		resultContainer.innerHTML = "";
 		resultsSummary.innerHTML = `Found ${FAVORITES.length} favorite cocktail${FAVORITES.length === 1 ? "" : "s"}.`
-			+ "<p class='small'>If you un-favorite recipes here, click<br>\"Show favorites\" again to update this list.</p>";
+			+ "<p class='small'>If you un-favorite recipes here, click \"Show favorites\" again to update this list.</p>";
 		document.getElementById("clearFavoritesAction").classList.remove("hidden");
 
 		[...FAVORITES] // [...copy] becasue .reverse() is destructive in-place
