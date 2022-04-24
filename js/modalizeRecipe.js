@@ -1,23 +1,23 @@
 function closeModal(
-	recipeContainerClone,
+	recipeContainer,
 	closeBtn,
 	modalContent,
 	modalBg
 ) {
-	modalContent.removeChild(recipeContainerClone);
+	modalContent.removeChild(recipeContainer);
 	modalContent.removeChild(closeBtn);
 
 	modalBg.removeChild(modalContent);
 	document.body.removeChild(modalBg);
 }
 
-function modalizeRecipe(recipeContainer) {
+function modalizeRecipe(recipe) {
 	return function recipeOnClick() {
-		var recipeContainerClone = recipeContainer.cloneNode(true);
-		recipeContainerClone.className += " modalized";
+		var recipeContainer = generateRecipeCard(recipe);
+		recipeContainer.classList.add("modalized");
 		// Prevent it from opening more modals on top
 		// Also prevent bg click event propagation
-		recipeContainerClone.onclick = (e) => e.stopPropagation();
+		recipeContainer.onclick = (e) => e.stopPropagation();
 
 		var closeBtn = document.createElement("img")
 		closeBtn.className = "closeIcon modalCloseBtn";
@@ -26,12 +26,12 @@ function modalizeRecipe(recipeContainer) {
 		var modalContent = document.createElement("div");
 		modalContent.className = "modalContent";
 		modalContent.appendChild(closeBtn);
-		modalContent.appendChild(recipeContainerClone);
+		modalContent.appendChild(recipeContainer);
 
 		var modalBg = document.createElement("div");
 		modalBg.className = "modalBg";
 		modalBg.onclick = () => closeModal(
-			recipeContainerClone,
+			recipeContainer,
 			closeBtn,
 			modalContent,
 			modalBg

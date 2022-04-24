@@ -68,27 +68,27 @@ h2.recipeTitle {
 	margin-left: 10px;
 }
 
-.resultsSummary {
-	padding: 10px;
-	margin-top: 10px;
-	background-color: white;
-	border-radius: 3px;
-	font-size: 18px;
-}
-
-.cocktailOfTheDayHdr {
-	text-align: center;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	border-bottom: 1px solid #d8d8d8;
-}
-
 .glassIcon {
 	/* 
 		Keep in sync with
-		.closeIconContainer.width
+		.favIconContainer.width
 		 so that .recipeTitle will
 		 always be centered.
 	*/
 	width: 27px;
+}
+
+.favIconContainer {
+	/*
+		Keep in sync with
+		.glassIcon.width
+		so that .recipeTitle will
+		always be centered.
+	*/
+	width: 27px;
+	text-align: right;
+}
+
+.favIcon {
+	height: 25px;
 }

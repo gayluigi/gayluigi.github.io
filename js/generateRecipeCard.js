@@ -36,6 +36,41 @@ function getGlassIconUrl({ procedure }) {
 	return null;
 }
 
+function isRecipeFavorite(recipe) {
+	return FAVORITES.some(({ name }) => name === recipe.name);
+}
+
+function setFavIconSrc(favIcon, recipe) {
+	var favoriteIconUrl = isRecipeFavorite(recipe)
+		? "./img/favorite-filled.svg"
+		: "./img/favorite-empty.svg";
+	favIcon.src = favoriteIconUrl;
+}
+
+function getFavoriteIcon(recipe) {
+	var favIconContainer = document.createElement("div");
+	favIconContainer.className = "favIconContainer";
+
+	var favIcon = document.createElement("img");
+	favIcon.className = "favIcon";
+	setFavIconSrc(favIcon, recipe);
+
+	favIcon.onclick = (e) => {
+		// Prevent modal from opening
+		e.stopPropagation();
+
+		isRecipeFavorite(recipe)
+			// From favorites.js
+			? removeRecipeFromFavorites(recipe)
+			: addRecipeToFavorites(recipe);
+
+		setFavIconSrc(favIcon, recipe);
+	}
+
+	favIconContainer.appendChild(favIcon);
+	return favIconContainer;
+}
+
 function getRecipeTopRow(recipe) {
 	var recipeTopRow = document.createElement("div");
 	recipeTopRow.className = "recipeTopRow";
@@ -50,11 +85,9 @@ function getRecipeTopRow(recipe) {
 	recipeTopRow.innerHTML += "<div class='recipeTilteContainer'>"
 		+ "<h2 class='recipeTitle'>"
 		+ recipe.name.toUpperCase()
-		+ "</h2></div>"
-		+ "<div class='favIconContainer'>"
-		+ "<img class='favIcon' src='favicon.svg'/>"
-		+ "</div>";
+		+ "</h2></div>";
 
+	recipeTopRow.appendChild(getFavoriteIcon(recipe));
 	return recipeTopRow
 }
 
@@ -72,6 +105,6 @@ function generateRecipeCard(recipe) {
 	procedureContainer.className = "procedure";
 	procedureContainer.innerHTML = recipe.procedure;
 	recipeContainer.appendChild(procedureContainer);
-	recipeContainer.onclick = modalizeRecipe(recipeContainer);
+	recipeContainer.onclick = modalizeRecipe(recipe);
 	return recipeContainer;
 }

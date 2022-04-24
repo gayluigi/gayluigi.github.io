@@ -33,6 +33,12 @@ h1 {
 	font-size: 30px;
 }
 
+.small {
+	font-size: 14px;
+	font-style: italic;
+	margin: 0;
+}
+
 .results {
 	display: flex;
 	flex-wrap: wrap;

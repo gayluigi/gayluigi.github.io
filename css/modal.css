@@ -22,17 +22,8 @@
 	box-shadow: none;
 }
 
-.closeIconContainer {
-	/*
-		Keep in sync with
-		.glassIcon.width
-		so that .recipeTitle will
-		always be centered.
-	*/
-	width: 27px;
-
-	align-self: flex-start;
-	text-align: right;
+.recipe.modalized .favIcon {
+	cursor: pointer;
 }
 
 .modalContent {
