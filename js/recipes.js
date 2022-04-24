@@ -1899,7 +1899,7 @@ var recipes = [
 			"1 dash Angostura bitters",
 			"1 dash Peychaud's bitters"
 		],
-		"procedure": "Stir,rocks glass, large cube "
+		"procedure": "Stir, rocks glass, large cube "
 	},
 	{
 		"name": "WHISKEY SMASH",

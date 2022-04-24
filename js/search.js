@@ -32,18 +32,17 @@ function search() {
 
 	var resultContainer = document.getElementById("results");
 	resultContainer.innerHTML = "";
-	var resultsSummaryContainer = document.getElementById("resultsSummary");
+	var resultsSummary = document.getElementById("resultsSummary");
+	document.getElementById("clearFavoritesAction").classList.add("hidden");
 	if (matches.length == 0) {
-		resultsSummaryContainer.innerHTML = "No cocktails match your search.";
+		resultsSummary.innerHTML = "No cocktails match your search.";
 	} else {
 		matches
 			.sort(() => Math.random() - 0.5)
-			.forEach((recipe) => {
-				var matchContainer = generateRecipeCard(recipe);
-				matchContainer.onclick = modalizeRecipe(matchContainer);
-				resultContainer.appendChild(matchContainer);
-			});
-		resultsSummaryContainer.innerHTML = `Found ${matches.length} cocktails.`;
+			.forEach((recipe) =>
+				resultContainer.appendChild(generateRecipeCard(recipe))
+			);
+		resultsSummary.innerHTML = `Found ${matches.length} cocktail${matches.length === 1 ? "" : "s"}.`;
 	}
 
 	// The following logic uses a library to
