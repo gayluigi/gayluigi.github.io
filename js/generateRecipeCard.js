@@ -26,7 +26,7 @@ function getFormattedIngredient(ingredient) {
 }
 
 function getGlassIconUrl({ procedure }) {
-	var GLASSWARE_PREFIX = "./glassware/";
+	var GLASSWARE_PREFIX = "./img/glassware/";
 	var glass = GLASSWARE.find(({ regex }) =>
 		regex.test(procedure)
 	);
@@ -51,9 +51,9 @@ function getRecipeTopRow(recipe) {
 		+ "<h2 class='recipeTitle'>"
 		+ recipe.name.toUpperCase()
 		+ "</h2></div>"
-		+ "<div class='closeIconContainer'>"
-		+ "<img class='closeIcon modalCloseBtn' src='close-icon.svg'/>"
-		+ "</div></div>";
+		+ "<div class='favIconContainer'>"
+		+ "<img class='favIcon' src='favicon.svg'/>"
+		+ "</div>";
 
 	return recipeTopRow
 }

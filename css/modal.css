@@ -1,0 +1,51 @@
+
+.modalBg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 1;
+	position: fixed;
+  left: 0;
+  top: 0;
+	overflow: hidden;
+}
+
+.recipe.modalized {
+	margin: 0;
+}
+
+.recipe.modalized:hover {
+	cursor: default;
+	box-shadow: none;
+}
+
+.closeIconContainer {
+	/*
+		Keep in sync with
+		.glassIcon.width
+		so that .recipeTitle will
+		always be centered.
+	*/
+	width: 27px;
+
+	align-self: flex-start;
+	text-align: right;
+}
+
+.modalContent {
+	display: flex;
+	flex-direction: column;
+	width: 360px;
+}
+
+
+.closeIcon.modalCloseBtn {
+	align-self: flex-end;
+	margin-bottom: 10px;
+	background-color: white;
+	border-radius: 4px;
+}
+

@@ -1,0 +1,142 @@
+/* 360px and above */
+@media only screen and (min-width: 360px) {
+	.upperContainer {
+		width: 100%;
+		align-self: center;
+	}
+}
+
+/* 600px and above */
+@media only screen and (min-width: 600px) {
+	.upperContainer {
+		width: 600px;
+		align-self: center;
+	}
+}
+
+.totalRecipesCount {
+	font-weight: 700;
+	width: 30px;
+	text-align: center;
+}
+
+.upperContainer {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 3px;
+}
+.upperContainerContent {
+	padding: 15px;
+}
+
+.searchCategoryTitle {
+	color: #3e3e3e;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.inputContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.inputsColumn {
+	width: 55%;
+}
+
+.suggestionsColumn {
+	width: 40%;}
+
+.suggestionHeader {
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-style: italic;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted gray;
+}
+
+.inputRow {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+input {
+	height: 25px;
+	width: 80%;
+	padding-left: 8px;
+	opacity: 1;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+input::placeholder {
+  font-style: italic;
+}
+
+
+.recipeNameInput {
+	height: 33px;
+	margin-bottom: 0;
+}
+
+.suggestion {
+	height: 30px;
+	margin-bottom: 7px;
+	display: block;
+	background-color: white;
+	border: 1px solid #d5e1e8;
+	border-radius: 3px;
+	text-align: left;
+	padding: 0 10px;
+	cursor: pointer;
+	background-color: #f4f7f9;
+}
+
+.suggestion:hover {
+	background-color: #d5e1e8;
+}
+
+.addSuggestion {
+	margin-right: 3px;
+	color: #8da3b0;
+}
+
+.submitBtn {
+	width: 100%;
+	height: 40px;
+	background-color: #d5e1e8;
+	border: 0;
+	border-radius: 4px;
+	color: #4c5459;
+	font-size: 16px;
+	cursor: pointer;
+	transition: box-shadow 0.1s ease-out;
+}
+.submitBtn:hover {
+	box-shadow: 2px 2px 2px 0px #c4d1d9;
+}
+
+.subheadCtaContainer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.subheadCta {
+	font-style: italic;
+}
+
+.showFavoritesAction {
+	cursor: pointer;
+	color: #b3c6d0;
+	transition: color 0.1 ease-out;
+}
+.showFavoritesAction:hover {
+	color: #4c5459;
+}

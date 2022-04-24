@@ -1,0 +1,50 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Lato', sans-serif;
+	background-image: url("../img/damask_pattern.png");
+	margin: 10px 0;
+}
+
+/* 360px and above */
+@media only screen and (min-width: 360px) {
+	body {
+		padding: 10px 0;
+	}
+}
+
+/* 600px and above */
+@media only screen and (min-width: 600px) {
+	body {
+		padding: 10px;
+	}
+}
+
+.topLevelContainer {
+	margin: 20px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	color: #101010;
+}
+h1 {
+	font-size: 30px;
+}
+
+.results {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.closeIcon {
+	height: 18px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.closeIcon:hover {
+	background-color: #f4f7f9;
+}
