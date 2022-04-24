@@ -29,7 +29,7 @@ function clearFavorites() {
 	localStorage.removeItem(FAVORITES_KEY);
 	setTimeout(() => {
 		resultsSummary.innerHTML = EMPTY_FAVORITES_MSG;
-		document.getElementById("clearFavoritesAction").classList.add("hidden");
+		document.getElementById("clearFavoritesActionContainer").classList.add("hidden");
 		resultContainer.innerHTML = "";
 	}, 200);
 }
