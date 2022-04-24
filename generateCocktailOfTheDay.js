@@ -1,17 +1,7 @@
 function generateCocktailOfTheDay() {
 	var resultContainer = document.getElementById("results");
-
 	var recipe = recipes[getNumberForDay(recipes.length)];
-
-	var recipeContainer = document.createElement('div');
-	recipeContainer.className = "match";
-	recipeContainer.innerHTML = "<h3 class='cocktailOfTheDayHdr'>Cocktail of the day</h3>"
-		+ "<h2 class='recipeTitle'>" + recipe.name.toUpperCase() + "</h2>";
-	recipe.ingredients.forEach((ingredient) => {
-		var formattedIngredient = getFormattedIngredient(ingredient);
-		recipeContainer.appendChild(formattedIngredient);
-	});
-	recipeContainer.innerHTML += "<div class='procedure'>" + recipe.procedure + "</div>";
+	var recipeContainer = generateRecipeCard(recipe);
 	resultContainer.appendChild(recipeContainer);
 }
 

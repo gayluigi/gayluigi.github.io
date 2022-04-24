@@ -1,5 +1,3 @@
-console.log(unitsRegex);
-
 var allTokens = recipes.map((recipe) =>
 	recipe.ingredients.map((ingredient) =>
 		ingredient.split(" ")
