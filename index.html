@@ -56,7 +56,6 @@
 					FILTER BY INGREDIENTS
 				</div>
 				<div class="inputsColumn">
-
 					<div class="inputRow">
 						<input
 							id="ingredient-0"
@@ -71,7 +70,6 @@
 							onclick="clearInput('ingredient-0')"
 						/>
 					</div>
-
 					<div class="inputRow">
 						<input
 							id="ingredient-1"
@@ -86,7 +84,6 @@
 							onclick="clearInput('ingredient-1')"
 						/>
 					</div>
-
 					<div class="inputRow">
 						<input
 							id="ingredient-2"
@@ -101,7 +98,6 @@
 							onclick="clearInput('ingredient-2')"
 						/>
 					</div>
-
 					<div class="inputRow">
 						<input
 							id="ingredient-3"
@@ -116,7 +112,6 @@
 							onclick="clearInput('ingredient-3')"
 						/>
 					</div>
-
 					<div class="inputRow">
 						<input
 							id="ingredient-4"
@@ -132,7 +127,6 @@
 						/>
 					</div>
 				</div>
-
 				<div id="suggestions" class="suggestionsColumn"></div>
 			</div>
 			<div class="inputContainer">
@@ -141,8 +135,11 @@
 			<div class="resultsSummaryContainer">
 				<div id="resultsSummary" class="resultsSummary"></div>
 			</div>
-			<div id="clearFavoritesAction" class="favoritesAction clearFavoritesAction hidden">
-				Clear favorites
+			<div
+				id="clearFavoritesActionContainer"
+				class="favoritesAction clearFavoritesAction hidden"
+			>
+				<span id="clearFavoritesAction">Delete all favorites</span>
 			</div>
 		</div>
 	</div>

@@ -35,7 +35,7 @@ function search() {
 	var resultContainer = document.getElementById("results");
 	resultContainer.innerHTML = "";
 	var resultsSummary = document.getElementById("resultsSummary");
-	document.getElementById("clearFavoritesAction").classList.add("hidden");
+	document.getElementById("clearFavoritesActionContainer").classList.add("hidden");
 	if (matches.length == 0) {
 		resultsSummary.innerHTML = "No cocktails match your search.";
 	} else {
