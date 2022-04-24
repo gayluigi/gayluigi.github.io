@@ -13,16 +13,18 @@ function search() {
 	var searchName = document.getElementById("recipeNameInput").value;
 	if (searchName) {
 		var recipeNameLookupRegex = new RegExp("\\b" + searchName + "\\b", "ig");
-		matches = matches.filter(({ name }) => 
+		matches = matches.filter(({ name }) =>
 			recipeNameLookupRegex.test(name)
 		);
 	}
+	console.log(matches.length);
 
 	for (var i = 0; i < 5; i++) {
 		var searchIngredient = document.getElementById("ingredient-" + i).value;
 		if (searchIngredient) {
-			var ingredientLookupRegex = new RegExp("\\b" + searchIngredient + "\\b", "ig");
-			matches = matches.filter(({ ingredients }) =>
+			console.log({ searchIngredient });
+			var ingredientLookupRegex = new RegExp("\\b" + searchIngredient + "\\b", "i");
+			matches = matches.filter(({ ingredients, name }) =>
 				ingredients.some((ingredient) =>
 					ingredientLookupRegex.test(ingredient)
 				)
