@@ -38,11 +38,9 @@ function search() {
 	} else {
 		matches
 			.sort(() => Math.random() - 0.5)
-			.forEach((recipe) => {
-				var matchContainer = generateRecipeCard(recipe);
-				matchContainer.onclick = modalizeRecipe(matchContainer);
-				resultContainer.appendChild(matchContainer);
-			});
+			.forEach((recipe) =>
+				resultContainer.appendChild(generateRecipeCard(recipe))
+			);
 		resultsSummaryContainer.innerHTML = `Found ${matches.length} cocktails.`;
 	}
 

@@ -9,7 +9,7 @@ function getFormattedIngredient(ingredient) {
 	var rest = document.createElement("span");
 	rest.className = "rest";
 
-	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash(es)?|barspns?|tb?sps?|grams?|pints?|cups?)?\s*(.*)/;
+	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash(es)?|barspns?|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
 	var matches = ingredient.match(regex);
 	if (matches && matches.length >= 5) {
 		measure.innerHTML = matches[1] || "";
@@ -60,7 +60,7 @@ function getRecipeTopRow(recipe) {
 
 function generateRecipeCard(recipe) {
 	var recipeContainer = document.createElement('div');
-	recipeContainer.className = "match";
+	recipeContainer.className = "recipe";
 
 	recipeContainer.appendChild(getRecipeTopRow(recipe));
 	recipe.ingredients.forEach((ingredient) => {
@@ -72,5 +72,6 @@ function generateRecipeCard(recipe) {
 	procedureContainer.className = "procedure";
 	procedureContainer.innerHTML = recipe.procedure;
 	recipeContainer.appendChild(procedureContainer);
+	recipeContainer.onclick = modalizeRecipe(recipeContainer);
 	return recipeContainer;
 }

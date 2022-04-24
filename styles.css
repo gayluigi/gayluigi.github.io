@@ -175,6 +175,7 @@ input::placeholder {
 	color: #4c5459;
 	font-size: 16px;
 	cursor: pointer;
+	transition: box-shadow 0.1s ease-out;
 }
 .submitBtn:hover {
 	box-shadow: 2px 2px 2px 0px #c4d1d9;
@@ -209,6 +210,7 @@ h1 {
 h2.recipeTitle {
 	font-size: 20px;
 	color: #000000;
+	word-wrap: break-word;
 }
 
 .results {
@@ -217,21 +219,24 @@ h2.recipeTitle {
 	justify-content: center;
 }
 
-.match {
+.recipe {
 	background-color: white;
 	border-radius: 4px;
 	margin: 0 10px 20px 10px;
 	padding: 20px;
 	height: fit-content;
 	width: 320px;
+	transition: box-shadow 0.1s ease-out;
 }
 
-.match:hover {
+.recipe:hover {
 	cursor: pointer;
+	box-shadow: 3px 3px 6px 0px #d8d8d8;
 }
 
-.match.modalized:hover {
+.recipe.modalized:hover {
 	cursor: default;
+	box-shadow: none;
 }
 
 .ingredient {
