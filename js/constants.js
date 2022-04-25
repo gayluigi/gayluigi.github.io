@@ -16,6 +16,10 @@ var GLASSWARE = [
 		regex: /collins/i
 	},
 	{
+		name: "collins",
+		regex: /fizz\s+glass/i
+	},
+	{
 		name: "cordial",
 		regex: /cordial\s+glass/i
 	},
