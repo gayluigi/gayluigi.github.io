@@ -92,5 +92,13 @@ var GLASSWARE = [
 	{
 		name: "pineapple",
 		regex: /hollowed.+pineapple/i
-	}
+	},
+	{
+		name: "julep",
+		regex: /julep\s+cup/i
+	},
+	{
+		name: "punch",
+		regex: /punch\s+glass/i
+	},
 ];

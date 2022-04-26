@@ -16,12 +16,18 @@
 
 .totalRecipesCount {
 	font-weight: 700;
-	width: 30px;
+	width: 36px;
 	text-align: center;
+	border-radius: 6px;
+	transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+.totalRecipesCount.flash {
+	background-color: #d5e1e8;
+	box-shadow: 0px 0px 4px 4px #d5e1e8;
 }
 
 .upperContainer {
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 0.75);
 	border-radius: 3px;
 }
 .upperContainerContent {
@@ -122,6 +128,7 @@ input::placeholder {
 }
 
 .subheadCta {
+	display: flex;
 	font-style: italic;
 	margin-top: 5px;
 	padding-bottom: 5px;
