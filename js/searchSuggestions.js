@@ -22,7 +22,7 @@ function addSuggestionToInput(input) {
 		var suggestion = document.createElement("button");
 		suggestion.onclick = () => { input.value = token };
 		suggestion.className = "suggestion";
-		suggestion.innerHTML = "<span class='addSuggestion'> &#11207; </span>"
+		suggestion.innerHTML = "<img class='addSuggestion' src='./img/curved-arrow-left.svg' />"
 			+ "<span>" + token + "<span>";
 		suggestionsContainer.appendChild(suggestion);
 	}

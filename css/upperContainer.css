@@ -16,12 +16,18 @@
 
 .totalRecipesCount {
 	font-weight: 700;
-	width: 30px;
+	width: 36px;
 	text-align: center;
+	border-radius: 6px;
+	transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+.totalRecipesCount.flash {
+	background-color: #d5e1e8;
+	box-shadow: 0px 0px 4px 4px #d5e1e8;
 }
 
 .upperContainer {
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 0.75);
 	border-radius: 3px;
 }
 .upperContainerContent {
@@ -40,7 +46,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-top: 20px;
+	margin: 10px 0;
 }
 
 .inputsColumn {
@@ -86,8 +92,8 @@ input::placeholder {
 .suggestion {
 	height: 30px;
 	margin-bottom: 7px;
-	display: block;
-	background-color: white;
+	display: flex;
+	align-items: center;
 	border: 1px solid #d5e1e8;
 	border-radius: 3px;
 	text-align: left;
@@ -101,7 +107,8 @@ input::placeholder {
 }
 
 .addSuggestion {
-	margin-right: 3px;
+	width: 16px;
+	margin-right: 5px;
 	color: #8da3b0;
 }
 
@@ -120,16 +127,12 @@ input::placeholder {
 	box-shadow: 2px 2px 2px 0px #c4d1d9;
 }
 
-.subheadCtaContainer {
+.subheadCta {
 	display: flex;
-	justify-content: space-between;
+	font-style: italic;
 	margin-top: 5px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #d8d8d8;
-}
-
-.subheadCta {
-	font-style: italic;
 }
 
 .resultsSummaryContainer {
@@ -139,7 +142,6 @@ input::placeholder {
 }
 
 .resultsSummary {
-	padding: 10px;
 	margin-top: 10px;
 	background-color: white;
 	border-radius: 3px;
@@ -147,14 +149,26 @@ input::placeholder {
 }
 
 .favoritesAction {
-	cursor: pointer;
-	color: #b3c6d0;
-	transition: color 0.1 ease-out;
+	display: block;
 }
-.favoritesAction:hover {
-	color: #4c5459;
+.favoritesAction.showFavoritesAction {
+	margin-top: 5px;
+	text-align: right;
+}
+.favoritesAction.clearFavoritesAction {
+	margin-top: 10px;
+}
+.favoritesAction.hidden {
+	display: none;
 }
 
-.favoritesAction.hidden {
-	visibility: hidden;
+.favoritesAction span {
+	cursor: pointer;
+	color: #b3c6d0;
+	font-weight: 600;
+	transition: color 0.1s ease-out;
+}
+
+.favoritesAction span:hover {
+	color: #4c5459;
 }

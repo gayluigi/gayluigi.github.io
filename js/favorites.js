@@ -29,7 +29,7 @@ function clearFavorites() {
 	localStorage.removeItem(FAVORITES_KEY);
 	setTimeout(() => {
 		resultsSummary.innerHTML = EMPTY_FAVORITES_MSG;
-		document.getElementById("clearFavoritesAction").classList.add("hidden");
+		document.getElementById("clearFavoritesActionContainer").classList.add("hidden");
 		resultContainer.innerHTML = "";
 	}, 200);
 }
@@ -40,8 +40,8 @@ function renderFavorites() {
 	if (FAVORITES.length > 0) {
 		resultContainer.innerHTML = "";
 		resultsSummary.innerHTML = `Found ${FAVORITES.length} favorite cocktail${FAVORITES.length === 1 ? "" : "s"}.`
-			+ "<p class='small'>If you un-favorite recipes here, click<br>\"Show favorites\" again to update this list.</p>";
-		document.getElementById("clearFavoritesAction").classList.remove("hidden");
+			+ "<p class='small'>If you un-favorite recipes here, click \"Show favorites\" again to update this list.</p>";
+		document.getElementById("clearFavoritesActionContainer").classList.remove("hidden");
 
 		[...FAVORITES] // [...copy] becasue .reverse() is destructive in-place
 			.reverse() // Somewhat chronologically descending

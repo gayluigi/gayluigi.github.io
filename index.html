@@ -7,7 +7,7 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
 	<link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen" />
@@ -23,20 +23,13 @@
 	<div class="upperContainer topLevelContainer">
 		<div class="upperContainerContent">
 			<h1>Cocktail Compendium</h1>
-			<div class="subheadCtaContainer">
-				<div class="subheadCta">
-					Search through
-					<span id="totalRecipesCount" class="totalRecipesCount"></span>
-					curated cocktails.
-				</div>
-				<div>
-					<span
-						id="showFavoritesAction"
-						class="favoritesAction"
-					>
-						Show favorites
-					</span>
-				</div>
+			<div class="subheadCta">
+				Search through
+				<span id="totalRecipesCount" class="totalRecipesCount"></span>
+				curated cocktails.
+			</div>
+			<div class="favoritesAction showFavoritesAction">
+				<span id="showFavoritesAction">Show favorites</span>
 			</div>
 			<div class="inputContainer">
 				<div class="searchCategoryTitle">
@@ -63,7 +56,6 @@
 					FILTER BY INGREDIENTS
 				</div>
 				<div class="inputsColumn">
-					
 					<div class="inputRow">
 						<input
 							id="ingredient-0"
@@ -78,7 +70,6 @@
 							onclick="clearInput('ingredient-0')"
 						/>
 					</div>
-					
 					<div class="inputRow">
 						<input
 							id="ingredient-1"
@@ -93,7 +84,6 @@
 							onclick="clearInput('ingredient-1')"
 						/>
 					</div>
-					
 					<div class="inputRow">
 						<input
 							id="ingredient-2"
@@ -108,7 +98,6 @@
 							onclick="clearInput('ingredient-2')"
 						/>
 					</div>
-					
 					<div class="inputRow">
 						<input
 							id="ingredient-3"
@@ -123,7 +112,6 @@
 							onclick="clearInput('ingredient-3')"
 						/>
 					</div>
-					
 					<div class="inputRow">
 						<input
 							id="ingredient-4"
@@ -139,7 +127,6 @@
 						/>
 					</div>
 				</div>
-
 				<div id="suggestions" class="suggestionsColumn"></div>
 			</div>
 			<div class="inputContainer">
@@ -147,9 +134,12 @@
 			</div>
 			<div class="resultsSummaryContainer">
 				<div id="resultsSummary" class="resultsSummary"></div>
-				<div id="clearFavoritesAction" class="favoritesAction hidden">
-					Clear favorites
-				</div>
+			</div>
+			<div
+				id="clearFavoritesActionContainer"
+				class="favoritesAction clearFavoritesAction hidden"
+			>
+				<span id="clearFavoritesAction">Delete all favorites</span>
 			</div>
 		</div>
 	</div>

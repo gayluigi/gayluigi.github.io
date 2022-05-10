@@ -16,6 +16,10 @@ var GLASSWARE = [
 		regex: /collins/i
 	},
 	{
+		name: "collins",
+		regex: /fizz\s+glass/i
+	},
+	{
 		name: "cordial",
 		regex: /cordial\s+glass/i
 	},
@@ -76,5 +80,25 @@ var GLASSWARE = [
 	{
 		name: "wine",
 		regex: /wine\s+glass/i
-	}
+	},
+	{
+		name: "cocktail",
+		regex: /cocktail\s+glass/i
+	},
+	{
+		name: "tiki",
+		regex: /tiki\s+(mug|glass)/i
+	},
+	{
+		name: "pineapple",
+		regex: /hollowed.+pineapple/i
+	},
+	{
+		name: "julep",
+		regex: /julep\s+cup/i
+	},
+	{
+		name: "punch",
+		regex: /punch\s+glass/i
+	},
 ];

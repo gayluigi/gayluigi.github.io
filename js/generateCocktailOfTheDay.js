@@ -1,8 +1,19 @@
+var COCKTAIL_OF_DAY;
+
+function applyCocktailOfTheDaySticker(recipeContainer) {
+	var sticker = document.createElement("div");
+	sticker.className = "cocktailOfTheDay";
+	sticker.innerHTML = "Cocktail of the day";
+	recipeContainer.prepend(sticker);
+}
+
 function generateCocktailOfTheDay() {
 	var resultContainer = document.getElementById("results");
 	var recipe = recipes[getNumberForDay(recipes.length)];
+	COCKTAIL_OF_DAY = recipe;
 	var recipeContainer = generateRecipeCard(recipe);
 	resultContainer.appendChild(recipeContainer);
+	applyCocktailOfTheDaySticker(recipeContainer);
 }
 
 function hashNum(string) {

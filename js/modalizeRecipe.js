@@ -14,6 +14,9 @@ function closeModal(
 function modalizeRecipe(recipe) {
 	return function recipeOnClick() {
 		var recipeContainer = generateRecipeCard(recipe);
+		if (recipeIsCocktailOfTheDay(recipe)) {
+			applyCocktailOfTheDaySticker(recipeContainer);
+		}
 		recipeContainer.classList.add("modalized");
 		// Prevent it from opening more modals on top
 		// Also prevent bg click event propagation

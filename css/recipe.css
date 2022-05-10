@@ -92,3 +92,17 @@ h2.recipeTitle {
 .favIcon {
 	height: 25px;
 }
+
+.cocktailOfTheDay {
+	background-color: #d7ede8;
+	color: #101010;
+	font-size: 13px;
+	position: relative;
+	top: -27px;
+	left: -29px;
+	padding: 3px 6px;
+	width: 107px;
+	margin-bottom: -27px;
+	border-radius: 20px;
+	box-shadow: -2px 2px 2px #c4d1d9;
+}
