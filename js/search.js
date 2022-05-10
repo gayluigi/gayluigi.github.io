@@ -7,6 +7,19 @@ function submitOnEnterPressed(event) {
 	}
 }
 
+function recipeIsFavorite(recipe) {
+	return FAVORITES.some(({ name }) => name === recipe.name);
+}
+function recipeIsNotFavorite(recipe) {
+	return FAVORITES.every(({ name }) => name !== recipe.name)
+}
+function recipeIsCocktailOfTheDay(recipe) {
+	return recipe.name === COCKTAIL_OF_DAY.name;
+}
+function recipeIsNotCocktailOfTheDay(recipe) {
+	return recipe.name !== COCKTAIL_OF_DAY.name;
+}
+
 function search() {
 	var matches = [...recipes];
 
@@ -17,12 +30,10 @@ function search() {
 			recipeNameLookupRegex.test(name)
 		);
 	}
-	console.log(matches.length);
 
 	for (var i = 0; i < 5; i++) {
 		var searchIngredient = document.getElementById("ingredient-" + i).value;
 		if (searchIngredient) {
-			console.log({ searchIngredient });
 			var ingredientLookupRegex = new RegExp("\\b" + searchIngredient + "\\b", "i");
 			matches = matches.filter(({ ingredients, name }) =>
 				ingredients.some((ingredient) =>
@@ -39,11 +50,24 @@ function search() {
 	if (matches.length == 0) {
 		resultsSummary.innerHTML = "No cocktails match your search.";
 	} else {
-		matches
-			.sort(() => Math.random() - 0.5)
-			.forEach((recipe) =>
-				resultContainer.appendChild(generateRecipeCard(recipe))
-			);
+		var matchingFavorites = matches
+			.filter(recipeIsFavorite)
+			.filter(recipeIsNotCocktailOfTheDay);
+		var matchingCoctailOfTheDay = matches
+			.filter(recipeIsCocktailOfTheDay);
+		var otherMatches = matches
+			.filter(recipeIsNotFavorite)
+			.filter(recipeIsNotCocktailOfTheDay)
+			.sort(() => Math.random() - 0.5);
+		[...matchingFavorites, ...matchingCoctailOfTheDay, ...otherMatches]
+			.map((recipe) => {
+				var recipeCard = generateRecipeCard(recipe);
+				if (recipeIsCocktailOfTheDay(recipe)) {
+					applyCocktailOfTheDaySticker(recipeCard);
+				}
+				return recipeCard;
+			})
+			.forEach((recipeCard) => resultContainer.appendChild(recipeCard));
 		resultsSummary.innerHTML = `Found ${matches.length} cocktail${matches.length === 1 ? "" : "s"}.`;
 	}
 
