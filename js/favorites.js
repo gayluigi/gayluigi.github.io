@@ -29,7 +29,7 @@ function clearFavorites() {
 	localStorage.removeItem(FAVORITES_KEY);
 	setTimeout(() => {
 		resultsSummary.innerHTML = EMPTY_FAVORITES_MSG;
-		document.getElementById("clearFavoritesActionContainer").classList.add("hidden");
+		document.getElementById("clearFavoritesAction").classList.add("hidden");
 		resultContainer.innerHTML = "";
 	}, 200);
 }
@@ -37,11 +37,11 @@ var clearFavoritesAction = document.getElementById("clearFavoritesAction");
 clearFavoritesAction.onclick = clearFavorites;
 
 function renderFavorites() {
+	document.getElementById("clearFavoritesActionContainer").classList.remove("hidden");
 	if (FAVORITES.length > 0) {
 		resultContainer.innerHTML = "";
 		resultsSummary.innerHTML = `Found ${FAVORITES.length} favorite cocktail${FAVORITES.length === 1 ? "" : "s"}.`
 			+ "<p class='small'>If you un-favorite recipes here, click \"Show favorites\" again to update this list.</p>";
-		document.getElementById("clearFavoritesActionContainer").classList.remove("hidden");
 
 		[...FAVORITES] // [...copy] becasue .reverse() is destructive in-place
 			.reverse() // Somewhat chronologically descending
@@ -49,6 +49,7 @@ function renderFavorites() {
 				resultContainer.appendChild(generateRecipeCard(recipe))
 			);
 	} else {
+		document.getElementById("clearFavoritesAction").classList.add("hidden");
 		resultsSummary.innerHTML = EMPTY_FAVORITES_MSG;
 		resultContainer.innerHTML = "";
 	}

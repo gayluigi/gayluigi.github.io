@@ -976,16 +976,6 @@ var recipes = [
 		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle."
 	},
 	{
-		"name": "Sour Mix",
-		"ingredients": [
-			"2 whole Lemon",
-			"4 whole Lime",
-			"1 whole Orange",
-			"1 cup 1:1 Simple syrup"
-		],
-		"procedure": "Juice all fruit, mix with syrup"
-	},
-	{
 		"name": "Robb's Grandma",
 		"ingredients": [
 			"2 oz Early Times whiskey",

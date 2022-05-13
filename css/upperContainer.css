@@ -160,7 +160,8 @@ input::placeholder {
 .favoritesAction.clearFavoritesAction {
 	margin-top: 10px;
 }
-.favoritesAction.hidden {
+
+.hidden {
 	display: none;
 }
 
