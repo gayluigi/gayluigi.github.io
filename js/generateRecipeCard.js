@@ -39,6 +39,15 @@ function getGlassIconUrl({ procedure }) {
 function isRecipeFavorite(recipe) {
 	return FAVORITES.some(({ name }) => name === recipe.name);
 }
+function isRecipeNotFavorite(recipe) {
+	return FAVORITES.every(({ name }) => name !== recipe.name)
+}
+function isRecipeCocktailOfTheDay({ name }) {
+	return name === COCKTAIL_OF_DAY.name;
+}
+function isRecipeNotCocktailOfTheDay({ name }) {
+	return name !== COCKTAIL_OF_DAY.name;
+}
 
 function setFavIconSrc(favIcon, recipe) {
 	var favoriteIconUrl = isRecipeFavorite(recipe)
@@ -106,5 +115,9 @@ function generateRecipeCard(recipe) {
 	procedureContainer.innerHTML = recipe.procedure;
 	recipeContainer.appendChild(procedureContainer);
 	recipeContainer.onclick = modalizeRecipe(recipe);
+
+	if (isRecipeCocktailOfTheDay(recipe)) {
+		applyCocktailOfTheDaySticker(recipeContainer);
+	}
 	return recipeContainer;
 }

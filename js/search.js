@@ -7,19 +7,6 @@ function submitOnEnterPressed(event) {
 	}
 }
 
-function recipeIsFavorite(recipe) {
-	return FAVORITES.some(({ name }) => name === recipe.name);
-}
-function recipeIsNotFavorite(recipe) {
-	return FAVORITES.every(({ name }) => name !== recipe.name)
-}
-function recipeIsCocktailOfTheDay(recipe) {
-	return recipe.name === COCKTAIL_OF_DAY.name;
-}
-function recipeIsNotCocktailOfTheDay(recipe) {
-	return recipe.name !== COCKTAIL_OF_DAY.name;
-}
-
 function search() {
 	var matches = [...recipes];
 
@@ -51,22 +38,16 @@ function search() {
 		resultsSummary.innerHTML = "No cocktails match your search.";
 	} else {
 		var matchingFavorites = matches
-			.filter(recipeIsFavorite)
-			.filter(recipeIsNotCocktailOfTheDay);
+			.filter(isRecipeFavorite)
+			.filter(isRecipeNotCocktailOfTheDay);
 		var matchingCoctailOfTheDay = matches
-			.filter(recipeIsCocktailOfTheDay);
+			.filter(isRecipeCocktailOfTheDay);
 		var otherMatches = matches
-			.filter(recipeIsNotFavorite)
-			.filter(recipeIsNotCocktailOfTheDay)
+			.filter(isRecipeNotFavorite)
+			.filter(isRecipeNotCocktailOfTheDay)
 			.sort(() => Math.random() - 0.5);
 		[...matchingFavorites, ...matchingCoctailOfTheDay, ...otherMatches]
-			.map((recipe) => {
-				var recipeCard = generateRecipeCard(recipe);
-				if (recipeIsCocktailOfTheDay(recipe)) {
-					applyCocktailOfTheDaySticker(recipeCard);
-				}
-				return recipeCard;
-			})
+			.map((recipe) => generateRecipeCard(recipe))
 			.forEach((recipeCard) => resultContainer.appendChild(recipeCard));
 		resultsSummary.innerHTML = `Found ${matches.length} cocktail${matches.length === 1 ? "" : "s"}.`;
 	}
