@@ -4104,5 +4104,216 @@ var recipes = [
 			"2 oz Seltzer"
 		],
 		"procedure": "Double shake first 7 ingredients, highball glass. Top with seltzer, mint sprig, express grapefruit peel"
+	},
+	{
+		"name": "GOLDEN EYE",
+		"ingredients": [
+			"5 Rosemary leaves (muddled)",
+			"1 oz Aperol",
+			"1 oz Grand Marnier",
+			".5 oz Lime juice",
+			"3 oz Lambrusco wine"
+		],
+		"procedure": "Shake first 4 ingredients, cocktail glass. Top with Lambrusco, rosemary sprig"
+	},
+	{
+		"name": "SANTIAGO PUNCH",
+		"ingredients": [
+			"3-4 Thai basil leaves (muddled)",
+			"1 oz Barsol Pisco",
+			"1 oz Velvet Falernum",
+			".5 oz Green Chartreuse",
+			".5 oz Pineapple shrub",
+			".5 oz Lime juice",
+			"2 dashes Orange bitters",
+			"2 dashes Tiki bitters"
+		],
+		"procedure": "Shake, double strain, rocks glass, big cube, Thai basil sprig"
+	},
+	{
+		"name": "MONKEY FLIP",
+		"ingredients": [
+			"2 oz Monkey Shoulder Blended scotch",
+			".25 oz Maple Syrup",
+			".25 oz Cinnamon Syrup",
+			".25 oz Allspice Dram",
+			"1 dash Bittermens Xocolatl mole bitters",
+			"1 Whole egg"
+		],
+		"procedure": "Double shake, double strain, cocktail glass, grated cinnamon, dehydrated banana chip"
+	},
+	{
+		"name": "VAGABOND",
+		"ingredients": [
+			"1.5 oz Montelebos Mezcal",
+			".5 oz Angostura Bitters",
+			".5 oz Demerara syrup",
+			".5 oz Lemon juice",
+			".25 oz Pineapple juice"
+		],
+		"procedure": "Shake, cocktail glass"
+	},
+	{
+		"name": "THROUGH THE LOOKING GLASS",
+		"ingredients": [
+			"1.5 oz Novo Fogo Calibri Cachaca",
+			".5 oz Banana liqueur",
+			".25 oz Domaine de Canton",
+			".75 oz Lemon juice",
+			".25 oz Cinnamon syrup",
+			"1 dash Orange bitters",
+			".5 oz Port (float)"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice. Float Port, dehydrated lemon wheel"
+	},
+	{
+		"name": "CARTHUSIAN STAR",
+		"ingredients": [
+			"1 oz White rum",
+			"1 oz Gin",
+			".5 oz Apricot liqueur",
+			".5 oz Lemon juice",
+			".25 oz Green Chartreuse"
+		],
+		"procedure": "Shake, coupe glass"
+	},
+	{
+		"name": "WITCH DOCTOR",
+		"ingredients": [
+			".75 oz Cognac",
+			".75 oz Mezcal",
+			".5 oz Sweet Vermouth",
+			".25 oz Cynar",
+			".25 oz Maraschino liqueur",
+			"2 dashes Grapefruit bitters"
+		],
+		"procedure": "Stir, sage leaf-smoked rocks glass, large cube, express grapefruit peel"
+	},
+	{
+		"name": "LEVIATHAN",
+		"ingredients": [
+			"2 oz Aged Puerto Rican rum",
+			".5 oz Gin",
+			".5 oz Passionfruit syrup",
+			".5 oz Velvet Falernum",
+			".5 oz Lime juice",
+			".5 oz Orange juice",
+			"3 dashes Tiki bitters (float)",
+			"1 dash Grapefruit bitters (float)"
+		],
+		"procedure": "Swizzle, tiki mug, crushed ice. Float bitters, edible orchid"
+	},
+	{
+		"name": "SILK ROAD SOUR",
+		"ingredients": [
+			"1.5 oz London Dry Gin",
+			"2 tsp Benedictine",
+			"2 tsp Apricot Liqueur",
+			".75 oz Lime juice",
+			".25 oz Simple syrup",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Shake, coupe glass, grapefruit twist"
+	},
+	{
+		"name": "CHICAGO TYPEWRITER",
+		"ingredients": [
+			".75 oz Bols Genever",
+			".75 oz Rye",
+			".75 oz Punt e Mes",
+			".75 oz Aperol",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Stir, coupe glass, express lemon peel"
+	},
+	{
+		"name": "STRAW DOG",
+		"ingredients": [
+			"1 Strawberry (muddled)",
+			"1.25 oz Blended scotch",
+			".25 oz Laphroaig 10 Year scotch",
+			"1 oz Dolin Blanc vermouth",
+			".75 oz Lemon juice",
+			".50 oz Simple syrup",
+			"1 dash Grapefruit bitters"
+		],
+		"procedure": "Shake, double strain, coupe glass, strawberry"
+	},
+	{
+		"name": "ABSENT STARS",
+		"ingredients": [
+			"1 oz Rhum Agricole Blanc",
+			"1 oz Campari",
+			".75 oz Lemon juice",
+			".5 oz Passionfruit syrup",
+			".5 oz Apricot liqueur",
+			"5 drops Saline solution",
+			"1 dash Grapefruit bitters"
+		],
+		"procedure": "Shake, cocktail glass, orange twist"
+	},
+	{
+		"name": "TRANSATLANTIC ORBIT",
+		"ingredients": [
+			"1 oz Batavia Arrack",
+			"1 oz Navy Strength Gin",
+			".75 oz Apricot liqueur",
+			".75 oz Cinnamon syrup",
+			"1 oz Lime juice",
+			"1 oz Grapefruit juice",
+			"1 dash Angostura bitters",
+			"1 dash Tiki bitters"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, lime shell, mint sprig"
+	},
+	{
+		"name": "DOPPELGANGER",
+		"ingredients": [
+			".75 oz Bols Genever",
+			".75 oz Rhum Agricole",
+			".5 oz Pineapple juice",
+			".5 oz Lime juice",
+			".25 oz Green Chartreuse",
+			".5 oz Simple syrup"
+		],
+		"procedure": "Shake, cocktail glass, mint sprig"
+	},
+	{
+		"name": "WINCHESTER",
+		"ingredients": [
+			"1 oz Tanqueray London Dry Gin",
+			"1 oz Hayman's Old Tom Gin",
+			"1 oz Martin Miller's Westbourne Strength Gin",
+			"3/4 oz Lime juice",
+			"3/4 oz Grapefruit juice",
+			"3/4 oz St. Germain",
+			"1/2 oz Grenadine",
+			"1/4 oz Ginger syrup",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, mint sprig"
+	},
+	{
+		"name": "LIGHTNING SWORDS OF DEATH",
+		"ingredients": [
+			".75 oz Jeppson's Malort",
+			".75 oz Smith & Cross rum",
+			".5 oz Apricot liqueur",
+			".75 oz Orgeat",
+			".25 oz Demerara syrup",
+			".75 oz Lime juice"
+		],
+		"procedure": "Swizzle, tiki mug, crushed ice, mint sprig"
+	},
+	{
+		"name": "ELIXIR ALPESTRE",
+		"ingredients": [
+			"2 oz Bols Genever",
+			".75 oz St. Germain",
+			".25 oz Becherovka",
+			"1 dash Orange bitters",
+			"6 drops Absinthe"
+		],
+		"procedure": "Stir, coupe glass, lemon twist"
 	}
 ];

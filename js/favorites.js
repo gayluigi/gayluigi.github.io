@@ -55,3 +55,6 @@ function renderFavorites() {
 }
 var showFavoritesAction = document.getElementById("showFavoritesAction");
 showFavoritesAction.onclick = renderFavorites;
+
+var goBackAction = document.getElementById("backAction");
+goBackAction.onclick = () => window.location.reload();
