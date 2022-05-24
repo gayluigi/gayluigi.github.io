@@ -104,5 +104,5 @@ h2.recipeTitle {
 	width: 107px;
 	margin-bottom: -27px;
 	border-radius: 20px;
-	box-shadow: -2px 2px 2px #c4d1d9;
+	border: 2px solid white;
 }
