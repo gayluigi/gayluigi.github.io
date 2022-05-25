@@ -90,8 +90,16 @@ var GLASSWARE = [
 		regex: /tiki\s+(mug|glass)/i
 	},
 	{
+		name: "tikibowl",
+		regex: /tiki\s+bowl/i
+	},
+	{
 		name: "pineapple",
 		regex: /hollowed.+pineapple/i
+	},
+	{
+		name: "coconut",
+		regex: /coconut\s+shell/i
 	},
 	{
 		name: "julep",
