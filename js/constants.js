@@ -91,7 +91,7 @@ var GLASSWARE = [
 	},
 	{
 		name: "tikibowl",
-		regex: /tiki\s+bowl/i
+		regex: /(tiki|scorpion)\s+bowl/i
 	},
 	{
 		name: "pineapple",
