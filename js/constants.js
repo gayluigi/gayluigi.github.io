@@ -29,13 +29,13 @@ var GLASSWARE = [
 	},
 	{
 		name: "doubleoldfashioned",
-		regex: /double\s+old[\-\s]fashioned\s+glass/i
+		regex: /double\s+old[\-\s]fashioned/i
 	},
 	// Order matters for these old fashioneds, regex below would
 	// test true for anything that matches regex above.
 	{
 		name: "oldfashioned",
-		regex: /old[\-\s]fashioned\s+glass/i
+		regex: /old[\-\s]fashioned/i
 	},
 	{
 		name: "goblet",
@@ -43,7 +43,7 @@ var GLASSWARE = [
 	},
 	{
 		name: "highball",
-		regex: /highball\s+glass/i
+		regex: /highball/i
 	},
 	{
 		name: "hurricane",
@@ -63,11 +63,11 @@ var GLASSWARE = [
 	},
 	{
 		name: "pint",
-		regex: /pint\s+glass/i
+		regex: /pint/i
 	},
 	{
 		name: "rocks",
-		regex: /rocks\s+glass/i
+		regex: /rocks/i
 	},
 	{
 		name: "snifter",
@@ -75,7 +75,7 @@ var GLASSWARE = [
 	},
 	{
 		name: "toddy",
-		regex: /toddy\s+glass/i
+		regex: /toddy/i
 	},
 	{
 		name: "wine",
@@ -90,8 +90,16 @@ var GLASSWARE = [
 		regex: /tiki\s+(mug|glass)/i
 	},
 	{
+		name: "tikibowl",
+		regex: /(tiki|scorpion)\s+bowl/i
+	},
+	{
 		name: "pineapple",
 		regex: /hollowed.+pineapple/i
+	},
+	{
+		name: "coconut",
+		regex: /coconut\s+shell/i
 	},
 	{
 		name: "julep",

@@ -976,16 +976,6 @@ var recipes = [
 		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle."
 	},
 	{
-		"name": "Sour Mix",
-		"ingredients": [
-			"2 whole Lemon",
-			"4 whole Lime",
-			"1 whole Orange",
-			"1 cup 1:1 Simple syrup"
-		],
-		"procedure": "Juice all fruit, mix with syrup"
-	},
-	{
 		"name": "Robb's Grandma",
 		"ingredients": [
 			"2 oz Early Times whiskey",
@@ -1002,8 +992,6 @@ var recipes = [
 		],
 		"procedure": "Mix until dissolved"
 	},
-
-
 	{
 		"name": "#3 Cup",
 		"ingredients": [
@@ -4104,5 +4092,807 @@ var recipes = [
 			"2 oz Seltzer"
 		],
 		"procedure": "Double shake first 7 ingredients, highball glass. Top with seltzer, mint sprig, express grapefruit peel"
+	},
+	{
+		"name": "GOLDEN EYE",
+		"ingredients": [
+			"5 Rosemary leaves (muddled)",
+			"1 oz Aperol",
+			"1 oz Grand Marnier",
+			".5 oz Lime juice",
+			"3 oz Lambrusco wine"
+		],
+		"procedure": "Shake first 4 ingredients, cocktail glass. Top with Lambrusco, rosemary sprig"
+	},
+	{
+		"name": "SANTIAGO PUNCH",
+		"ingredients": [
+			"3-4 Thai basil leaves (muddled)",
+			"1 oz Barsol Pisco",
+			"1 oz Velvet Falernum",
+			".5 oz Green Chartreuse",
+			".5 oz Pineapple shrub",
+			".5 oz Lime juice",
+			"2 dashes Orange bitters",
+			"2 dashes Tiki bitters"
+		],
+		"procedure": "Shake, double strain, rocks glass, big cube, Thai basil sprig"
+	},
+	{
+		"name": "MONKEY FLIP",
+		"ingredients": [
+			"2 oz Monkey Shoulder Blended scotch",
+			".25 oz Maple Syrup",
+			".25 oz Cinnamon Syrup",
+			".25 oz Allspice Dram",
+			"1 dash Bittermens Xocolatl mole bitters",
+			"1 Whole egg"
+		],
+		"procedure": "Double shake, double strain, cocktail glass, grated cinnamon, dehydrated banana chip"
+	},
+	{
+		"name": "VAGABOND",
+		"ingredients": [
+			"1.5 oz Montelebos Mezcal",
+			".5 oz Angostura Bitters",
+			".5 oz Demerara syrup",
+			".5 oz Lemon juice",
+			".25 oz Pineapple juice"
+		],
+		"procedure": "Shake, cocktail glass"
+	},
+	{
+		"name": "THROUGH THE LOOKING GLASS",
+		"ingredients": [
+			"1.5 oz Novo Fogo Calibri Cachaca",
+			".5 oz Banana liqueur",
+			".25 oz Domaine de Canton",
+			".75 oz Lemon juice",
+			".25 oz Cinnamon syrup",
+			"1 dash Orange bitters",
+			".5 oz Port (float)"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice. Float Port, dehydrated lemon wheel"
+	},
+	{
+		"name": "CARTHUSIAN STAR",
+		"ingredients": [
+			"1 oz White rum",
+			"1 oz Gin",
+			".5 oz Apricot liqueur",
+			".5 oz Lemon juice",
+			".25 oz Green Chartreuse"
+		],
+		"procedure": "Shake, coupe glass"
+	},
+	{
+		"name": "WITCH DOCTOR",
+		"ingredients": [
+			".75 oz Cognac",
+			".75 oz Mezcal",
+			".5 oz Sweet Vermouth",
+			".25 oz Cynar",
+			".25 oz Maraschino liqueur",
+			"2 dashes Grapefruit bitters"
+		],
+		"procedure": "Stir, sage leaf-smoked rocks glass, large cube, express grapefruit peel"
+	},
+	{
+		"name": "LEVIATHAN",
+		"ingredients": [
+			"2 oz Aged Puerto Rican rum",
+			".5 oz Gin",
+			".5 oz Passionfruit syrup",
+			".5 oz Velvet Falernum",
+			".5 oz Lime juice",
+			".5 oz Orange juice",
+			"3 dashes Tiki bitters (float)",
+			"1 dash Grapefruit bitters (float)"
+		],
+		"procedure": "Swizzle, tiki mug, crushed ice. Float bitters, edible orchid"
+	},
+	{
+		"name": "SILK ROAD SOUR",
+		"ingredients": [
+			"1.5 oz London Dry Gin",
+			"2 tsp Benedictine",
+			"2 tsp Apricot Liqueur",
+			".75 oz Lime juice",
+			".25 oz Simple syrup",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Shake, coupe glass, grapefruit twist"
+	},
+	{
+		"name": "CHICAGO TYPEWRITER",
+		"ingredients": [
+			".75 oz Bols Genever",
+			".75 oz Rye",
+			".75 oz Punt e Mes",
+			".75 oz Aperol",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Stir, coupe glass, express lemon peel"
+	},
+	{
+		"name": "STRAW DOG",
+		"ingredients": [
+			"1 Strawberry (muddled)",
+			"1.25 oz Blended scotch",
+			".25 oz Laphroaig 10 Year scotch",
+			"1 oz Dolin Blanc vermouth",
+			".75 oz Lemon juice",
+			".50 oz Simple syrup",
+			"1 dash Grapefruit bitters"
+		],
+		"procedure": "Shake, double strain, coupe glass, strawberry"
+	},
+	{
+		"name": "ABSENT STARS",
+		"ingredients": [
+			"1 oz Rhum Agricole Blanc",
+			"1 oz Campari",
+			".75 oz Lemon juice",
+			".5 oz Passionfruit syrup",
+			".5 oz Apricot liqueur",
+			"5 drops Saline solution",
+			"1 dash Grapefruit bitters"
+		],
+		"procedure": "Shake, cocktail glass, orange twist"
+	},
+	{
+		"name": "TRANSATLANTIC ORBIT",
+		"ingredients": [
+			"1 oz Batavia Arrack",
+			"1 oz Navy Strength Gin",
+			".75 oz Apricot liqueur",
+			".75 oz Cinnamon syrup",
+			"1 oz Lime juice",
+			"1 oz Grapefruit juice",
+			"1 dash Angostura bitters",
+			"1 dash Tiki bitters"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, lime shell, mint sprig"
+	},
+	{
+		"name": "DOPPELGANGER",
+		"ingredients": [
+			".75 oz Bols Genever",
+			".75 oz Rhum Agricole",
+			".5 oz Pineapple juice",
+			".5 oz Lime juice",
+			".25 oz Green Chartreuse",
+			".5 oz Simple syrup"
+		],
+		"procedure": "Shake, cocktail glass, mint sprig"
+	},
+	{
+		"name": "WINCHESTER",
+		"ingredients": [
+			"1 oz Tanqueray London Dry Gin",
+			"1 oz Hayman's Old Tom Gin",
+			"1 oz Martin Miller's Westbourne Strength Gin",
+			"3/4 oz Lime juice",
+			"3/4 oz Grapefruit juice",
+			"3/4 oz St. Germain",
+			"1/2 oz Grenadine",
+			"1/4 oz Ginger syrup",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, mint sprig"
+	},
+	{
+		"name": "LIGHTNING SWORDS OF DEATH",
+		"ingredients": [
+			".75 oz Jeppson's Malort",
+			".75 oz Smith & Cross rum",
+			".5 oz Apricot liqueur",
+			".75 oz Orgeat",
+			".25 oz Demerara syrup",
+			".75 oz Lime juice"
+		],
+		"procedure": "Swizzle, tiki mug, crushed ice, mint sprig"
+	},
+	{
+		"name": "ELIXIR ALPESTRE",
+		"ingredients": [
+			"2 oz Bols Genever",
+			".75 oz St. Germain",
+			".25 oz Becherovka",
+			"1 dash Orange bitters",
+			"6 drops Absinthe"
+		],
+		"procedure": "Stir, coupe glass, lemon twist"
+	},
+	{
+		"name": "BEACHCOMBER'S PUNCH",
+		"ingredients": [
+			"1.5 oz Demerara rum",
+			".5 oz Apricot liqueur",
+			".5 oz Lime juice",
+			".5 oz Grapefruit juice",
+			".5 oz Simple syrup",
+			"1 dash Angostura bitters",
+			"6 drops Absinthe"
+		],
+		"procedure": "Mix/whip shake, champagne flute, crushed ice, mint sprig"
+	},
+	{
+		"name": "GOLD CUP",
+		"ingredients": [
+			"1.5 oz Gold Jamaican rum",
+			".5 oz Maraschino liqueur",
+			".75 oz Lime juice",
+			".75 oz Simple syrup",
+			"1 tsp Absinthe",
+			"3 drops Almond extract"
+		],
+		"procedure": "Shake, coupe glass"
+	},
+	{
+		"name": "HAWAIIAN ROOM",
+		"ingredients": [
+			"1 oz Light Puerto Rican rum",
+			".5 oz Laird's Apple Brandy",
+			".5 oz Orange Curacao",
+			".5 oz Lemon juice",
+			".5 oz Pineapple juice"
+		],
+		"procedure": "Shake, cocktail glass"
+	},
+	{
+		"name": "PLANET OF THE APES",
+		"ingredients": [
+			"1 oz Dark Jamaican rum",
+			".5 oz Amber 151-proof rum",
+			".75 oz Banana liqueur",
+			".5 oz Lime juice",
+			"1 oz Pineapple juice",
+			"1 oz Orange juice"
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, banana slice, cocktail cherry, edible orchid"
+	},
+	{
+		"name": "RUM RUNNER",
+		"ingredients": [
+			".75 oz 151-proof Caribbean rum",
+			"1 oz Blackberry liqueur",
+			"1 oz Banana liqueur",
+			"1.5 oz Lime juice",
+			".5 oz Grenadine"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice"
+	},
+	{
+		"name": "KRAKATOA",
+		"ingredients": [
+			"1.5 oz Gold Puerto Rican rum",
+			"1.5 oz Demerara rum",
+			".5 oz Velvet Falernum",
+			"1 tsp Coffee liqueur",
+			"1.5 oz Lime juice",
+			"1 oz Orange juice",
+			"1 oz Grapefruit juice",
+			"1 oz Apricot nectar",
+			"1 dash Angostura bitters",
+			"2 oz Kona coffee (float)"
+		],
+		"procedure": "Mix/whip shake large brandy snifter, crushed ice. Float coffee"
+	},
+	{
+		"name": "TORTUGA",
+		"ingredients": [
+			"1 oz Lemon Hart 151-proof Demerara rum",
+			".75 oz 151-proof Bacardi rum",
+			"1 oz Italian vermouth",
+			".5 oz White Creme de cacao",
+			".5 oz Orange juice",
+			".5 oz Lime juice",
+			".5 oz Lemon juice",
+			".5 oz Orange Curacao",
+			".25 oz Grenadine"
+		],
+		"procedure": "Shake, footed pilsner, crushed ice, lime wedge"
+	},
+	{
+		"name": "NEVER SAY DIE",
+		"ingredients": [
+			"1 oz Gold Barbados rum",
+			".5 oz Light Puerto Rican rum",
+			".5 oz Dark Jamaican rum",
+			".25 oz Pineapple juice",
+			".5 oz Lime juice",
+			".5 oz Orange juice",
+			".5 oz Grapefruit juice",
+			".5 oz Honey syrup",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, wine glass, crushed ice"
+	},
+	{
+		"name": "PAINKILLER",
+		"ingredients": [
+			"2.5 oz Pusser’s Navy Rum",
+			"1 oz Coconut cream",
+			"4 oz Pineapple juice",
+			"1 oz Orange juice",
+			"Ground cinnamon (dusting)",
+			"Ground nutmeg (dusting)"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice. Dust with cinnamon and nutmeg, pineapple stick, cinnamon stick, orange wheel"
+	},
+	{
+		"name": "Q.B. COOLER",
+		"ingredients": [
+			"1 oz Gold Jamaican rum",
+			"1 oz Light Puerto Rican rum",
+			".5 oz Demerara rum",
+			".25 oz Velvet Falernum",
+			"1 oz Orange juice",
+			".5 oz Lime juice",
+			".5 oz Honey syrup",
+			".5 tsp Ginger syrup",
+			"1 oz Seltzer",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, multiple mint sprigs"
+	},
+	{
+		"name": "BLACKBEARD'S GHOST",
+		"ingredients": [
+			"1.5 oz Light Virgin Islands rum",
+			".5 oz Demerara rum",
+			"1 oz Velvet Falernum",
+			".5 oz Apricot liqueur",
+			"1.5 oz Orange juice",
+			"1 oz Lemon juice",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, orange slice, cocktail cherry"
+	},
+	{
+		"name": "ANCIENT MARINER",
+		"ingredients": [
+			"1 oz Demerara rum",
+			"1 oz Dark Jamaican rum",
+			".25 oz Allspice dram",
+			".75 oz Lime juice",
+			".5 oz Grapefruit juice",
+			".5 oz Simple syrup"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge"
+	},
+	{
+		"name": "BEACHBUM'S OWN",
+		"ingredients": [
+			"1 oz Demerara rum",
+			"1 oz Dark Jamaican rum",
+			".25 oz Allspice dram",
+			".75 oz Lime juice",
+			".5 oz Grapefruit juice",
+			".5 oz Simple syrup"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge"
+	},
+	{
+		"name": "COCOANUT GROVE COOLER",
+		"ingredients": [
+			"1.5 oz Blended scotch",
+			".75 oz Orange Curacao",
+			".75 oz Lemon juice",
+			".75 oz Pineapple juice",
+			".75 oz Orange juice",
+			"3 tsp Passionfruit puree",
+			"3 tsp Grenadine",
+			".5 tsp Orgeat"
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, orange slice, cocktail cherry, mint sprig"
+	},
+	{
+		"name": "FU MANCHU",
+		"ingredients": [
+			"1 oz Light rum",
+			"1.5 tsp Orange Curacao",
+			".5 oz Lime Juice",
+			"1 tsp Green Creme de menthe",
+			"1 tsp Simple syrup"
+		],
+		"procedure": "Shake, old-fashioned glass, lime wedge, cocktail cherry"
+	},
+	{
+		"name": "GOLDEN DREAM",
+		"ingredients": [
+			"1 oz Galliano",
+			".75 oz Cointreau",
+			"1.5 oz Orange juice",
+			".75 oz Heavy Cream"
+		],
+		"procedure": "Shake, cocktail glass"
+	},
+	{
+		"name": "GOLDEN WAVE",
+		"ingredients": [
+			"1 oz Light Puerto Rican rum",
+			".5 oz Orange Curacao",
+			".5 oz Velvet Falernum",
+			"1 oz Pineapple juice",
+			".75 oz Lemon juice"
+		],
+		"procedure": "Mix/whip shake, old-fashioned glass, crushed ice, pineapple stick, edible orchid"
+	},
+	{
+		"name": "JAGUAR",
+		"ingredients": [
+			"2 oz Dark Jamaican rum",
+			".25 oz Cognac",
+			"1 tsp Sloe gin",
+			"1 tsp Cointreau",
+			"1 tsp Creme de cacao",
+			"1 tsp Port wine",
+			"1 tsp Italian vermouth",
+			"1 oz Lime juice",
+			".25 oz Orgeat",
+			".25 oz Simple syrup",
+			"2 oz Champagne"
+		],
+		"procedure": "Stir first 10 ingredients, Collins glass, crushed ice. Top with champagne, pineapple stick, cocktail cherry"
+	},
+	{
+		"name": "SCHOONER",
+		"ingredients": [
+			".5 oz Light Puerto Rican rum",
+			".5 oz 151-proof Caribbean rum",
+			"2 oz Port wine",
+			"1 oz Lime juice",
+			"1 oz Lemon juice",
+			"1 oz Simple syrup",
+			"1.5 oz Papaya nectar"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice"
+	},
+	{
+		"name": "PARADISE COOLER",
+		"ingredients": [
+			"1 oz White rum",
+			".5 oz Velvet Falernum",
+			".25 oz Cherry Heering",
+			"1 oz Orange juice",
+			".5 oz Lime juice"
+		],
+		"procedure": "Shake, Collins glass, crushed ice, cocktail cherry, apple wedge, mint sprig"
+	},
+	{
+		"name": "KAVA BOWL FOR TWO",
+		"ingredients": [
+			"3 oz Light Puerto Rican rum",
+			".5 oz Rhum Barbancourt",
+			".5 oz Orgeat",
+			".5 oz Grenadine",
+			"2 oz Lemon juice",
+			"1 oz Pineapple juice"
+		],
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice, gardenia"
+	},
+	{
+		"name": "RUM KEG FOR TWO",
+		"ingredients": [
+			"2.5 oz Light Puerto Rican rum",
+			".5 oz Dark Jamaican rum",
+			".5 oz Apricot liqueur",
+			"2 oz Lemon juice",
+			"1 oz Pineapple juice",
+			".5 oz Passionfruit syrup",
+			".5 oz Simple syrup"
+		],
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice"
+	},
+	{
+		"name": "OAHU GIN SLING",
+		"ingredients": [
+			"2 oz Gin",
+			".5 oz Creme de cassis",
+			".5 oz Benedictine",
+			"1 oz Lime juice",
+			"1 tsp Simple syrup",
+			"3 oz Seltzer"
+		],
+		"procedure": "Shake first 5 ingredients, footed pilsner, crushed ice. Top with seltzer, stir, lime spiral"
+	},
+	{
+		"name": "PAGO PAGO",
+		"ingredients": [
+			"3 Pineapple chunks (muddled)",
+			"1.5 oz Gold Puerto Rican rum",
+			".5 oz Green Chartreuse",
+			".25 oz White Creme de cacao",
+			".5 oz Lime juice"
+		],
+		"procedure": "Shake, cocktail glass"
+	},
+	{
+		"name": "RUM BARREL",
+		"ingredients": [
+			"2 oz Dark Jamaican rum",
+			"2 oz White Puerto Rican rum",
+			".75 oz Lime juice",
+			".75 oz Orange juice",
+			".75 oz Grapefruit juice",
+			".75 oz Pineapple juice",
+			".5 oz Passionfruit syrup",
+			".5 oz Honey syrup",
+			"1 dash Angostura bitters",
+			"6 drops Absinthe",
+			"3 drops almond extract"
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, orange peel"
+	},
+	{
+		"name": "SUNDOWNER",
+		"ingredients": [
+			"1.25 oz Cognac",
+			".75 oz Galliano",
+			".75 oz Cointreau",
+			"1 oz Lemon juice"
+		],
+		"procedure": "Shake, old-fashioned glass, crushed ice, lime wheel"
+	},
+	{
+		"name": "MOLOKAI MULE",
+		"ingredients": [
+			"1 oz Demerara rum",
+			"1 oz Light Puerto Rican rum",
+			"1 oz Cognac",
+			"1 oz Orgeat",
+			"2 oz Orange juice",
+			"1 oz Lime juice"
+		],
+		"procedure": "Shake, double old-fashioned glass, crushed ice, pineapple stick, mint sprig, edible orchid"
+	},
+	{
+		"name": "TAHITIAN RUM PUNCH",
+		"ingredients": [
+			"1 oz Gold Jamaican rum",
+			"1.5 oz Light Puerto Rican rum",
+			"1 oz Dry white wine",
+			"1 tsp Banana liqueur",
+			"1 oz Grapefruit juice",
+			"1 oz Orange juice",
+			"1 oz Pineapple juice",
+			".5 oz Lime juice",
+			"1 tsp Demerara syrup",
+			"2 drops Vanilla extract"
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, mint sprig"
+	},
+	{
+		"name": "YELLOW SUBMARINE",
+		"ingredients": [
+			"1.5 oz Gold Virgin Islands rum",
+			".25 oz Banana liqueur",
+			".25 oz White Creme de cacao",
+			"1.5 oz Pineapple juice",
+			".75 oz Lemon juice",
+			".25 oz Simple syrup"
+		],
+		"procedure": "Shake, Collins glass, cracked ice, pineapple chunk, cocktail cherry"
+	},
+	{
+		"name": "ARIKI MAU",
+		"ingredients": [
+			"2 oz Bacardi 8 rum",
+			"1 oz Cruzan Single Barrel Estate rum",
+			".5 oz Benedictine",
+			".5 oz Barenjager",
+			"3 oz Black tea",
+			".5 oz Yerba mate",
+			"1 oz Orange juice"
+		],
+		"procedure": "Shake, large tiki mug, crushed ice, express orange peel, orange wheel"
+	},
+	{
+		"name": "BEACHBUM",
+		"ingredients": [
+			"1 oz Flor de Cana white rum",
+			"1 oz Gold Barbados rum",
+			".5 oz Apricot liqueur",
+			".5 oz Orgeat",
+			"1 oz Pineapple juice",
+			".75 oz Lime juice"
+		],
+		"procedure": "Shake, rocks glass, cracked ice, cocktail cherry, orange slice"
+	},
+	{
+		"name": "CUSCO FIZZ",
+		"ingredients": [
+			"5 Green grapes (muddled)",
+			"2 oz Pisco",
+			"1 oz. St-Germain",
+			".75 oz Lime juice",
+			".5 oz Seltzer"
+		],
+		"procedure": "Shake first 4 ingredients, old-fashioned glass, cracked ice. Top with seltzer"
+	},
+	{
+		"name": "FAREWELL FLIP",
+		"ingredients": [
+			"1 oz El Dorado 12-year Demerara rum",
+			".5 oz Carpano Antica vermouth",
+			".25 oz Cherry Heering",
+			".5 oz Heavy cream",
+			".75 tsp Simple syrup",
+			".75 tsp Vanilla extract",
+			"1 Whole Egg"
+		],
+		"procedure": "Shake, old-fashioned glass, grated nutmeg, chocolate flakes"
+	},
+	{
+		"name": "GANTT'S TOMB",
+		"ingredients": [
+			"1 oz Gosling’s Black Seal rum",
+			"1 oz Rittenhouse 100-proof rye",
+			".5 oz El Dorado 151-proof rum",
+			".25 oz Allspice dram",
+			".75 oz Pineapple juice",
+			".5 oz Lemon juice",
+			".5 oz Orange juice",
+			".5 oz Simple syrup"
+		],
+		"procedure": "Shake, footed pilsner, crushed ice, mint sprig"
+	},
+	{
+		"name": "KIWI'S NEST GROG",
+		"ingredients": [
+			"1 Whole Lemon (muddled)",
+			"1 Half Kiwi fruit (muddled)",
+			"1 oz Amber Martinique rum",
+			"1 oz Light Virgin Islands rum",
+			".5 oz Dark Jamaican rum",
+			".25 oz Allspice dram",
+			"1 oz Orgeat",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Shake, double strain, Collins glass, crushed ice, kiwi fruit wheel"
+	},
+	{
+		"name": "KERALA",
+		"ingredients": [
+			"2-3 Green Cardamom pods (muddled)",
+			"1 oz Scarlet Ibis rum",
+			"1 oz Buffalo Trace bourbon",
+			".5 oz Lemon juice",
+			".5 oz Pineapple juice",
+			".5 oz Simple syrup",
+			"1 dash Angostura bitters",
+			"1 dash Peychaud’s bitters"
+		],
+		"procedure": "Shake, double strain, coupe glass"
+	},
+	{
+		"name": "RUMSCULLION",
+		"ingredients": [
+			"2 oz El Dorado 12-year rum",
+			"1 oz Punt e Mes",
+			"1 tsp Velvet Falernum",
+			"8 drops Absinthe",
+			"1 dash Angostura bitters"
+		],
+		"procedure": "Stir, cocktail glass, express orange peel, orange twist"
+	},
+	{
+		"name": "VAVA VOOM",
+		"ingredients": [
+			"1.75 oz Brugal Añejo rum",
+			".25 oz White Crème de cacao",
+			".25 oz Apricot liqueur",
+			".75 oz Lime juice",
+			".25 oz Simple syrup",
+			"1 dash Angostura bitters",
+			"1 dash Fee’s Old Fashion bitters"
+		],
+		"procedure": "Shake, coupe glass, lime wedge"
+	},
+	{
+		"name": "VOYAGER",
+		"ingredients": [
+			"2 oz Light Puerto Rican rum",
+			".5 oz Benedictine",
+			".5 oz Velvet Falernum",
+			".5 oz Lime juice",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Shake, old-fashioned glass, cracked ice, lime wedge"
+	},
+	{
+		"name": "ROAD TO MANHATTAN",
+		"ingredients": [
+			"1 oz Angostura 1824 rum",
+			"1 oz Amaro di Angostura",
+			".5 oz Domaine de Canton",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Stir, rocks glass, large cube"
+	},
+	{
+		"name": "T & T SOUR",
+		"ingredients": [
+			"1 oz Bourbon",
+			"1 oz Amaro di Angostura",
+			".75 oz Lemon juice",
+			".5 oz Orange juice",
+			".5 oz Maple syrup",
+			"2 dashes Angostura bitters",
+			"1 Egg white"
+		],
+		"procedure": "Double shake, coupe"
+	},
+	{
+		"name": "FLYING ELVIS",
+		"ingredients": [
+			"1.5 oz Privateer Navy Yard rum",
+			".5 oz Amaro di Angostura",
+			".5 oz Banana liqueur",
+			".5 oz Lime juice",
+			"1 Egg white"
+		],
+		"procedure": "Double shake, old-fashioned glass, 3 drops Angostura bitters "
+	},
+	{
+		"name": "BOMBAY GOVERNMENT PUNCH",
+		"ingredients": [
+			"1 oz Batavia Arrack",
+			"1 oz Cognac",
+			".5 oz Demerara syrup",
+			".5 oz Lime juice",
+			"2.5 oz Green tea"
+		],
+		"procedure": "Stir, double old-fashioned glass, cracked ice, grated nutmeg"
+	},
+	{
+		"name": "OLD TIMER",
+		"ingredients": [
+			"1.5 oz Bourbon",
+			".5 oz Cynar",
+			".5 oz Punt e Mes",
+			".5 oz Lemon juice",
+			".25 oz Simple syrup",
+			"3 dashes Angostura Bitters",
+			"2 oz Seltzer"
+		],
+		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, orange twist"
+	},
+	{
+		"name": "NORTH SEA OIL",
+		"ingredients": [
+			"1.5 oz Aquavit",
+			".75 oz Cocchi Americano",
+			".5 oz Laphroaig 10 Year scotch",
+			".25 oz Cointreau"
+		],
+		"procedure": "Stir, double old-fashioned glass, large cube, grapefruit twist"
+	},
+	{
+		"name": "NATIONAL TREASURE",
+		"ingredients": [
+			".75 oz Wild Turkey Rye",
+			".5 oz Laird's Bonded Apple Brandy",
+			".5 oz Carpano Antica",
+			".5 oz Campari",
+			".25 oz Cynar"
+		],
+		"procedure": "Stir, rocks glass, large cube, lemon twist"
+	},
+	{
+		"name": "LAHAINA NOON",
+		"ingredients": [
+			"1.5 oz Mezcal",
+			".75 oz Plantation OFTD Rum",
+			".5 oz Apricot liqueur",
+			".5 oz Cynar",
+			"2 oz Pineapple juice",
+			".5 oz Lime juice",
+			"2 dashes Peychaud's bitters"
+		],
+		"procedure": "Mix/whip shake, tiki mug , crushed ice, mint sprig"
 	}
+
 ];

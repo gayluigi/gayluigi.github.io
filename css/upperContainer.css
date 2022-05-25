@@ -149,7 +149,9 @@ input::placeholder {
 }
 
 .favoritesAction {
-	display: block;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 .favoritesAction.showFavoritesAction {
 	margin-top: 5px;
@@ -158,17 +160,18 @@ input::placeholder {
 .favoritesAction.clearFavoritesAction {
 	margin-top: 10px;
 }
-.favoritesAction.hidden {
+
+.hidden {
 	display: none;
 }
 
-.favoritesAction span {
+.favoritesAction div {
 	cursor: pointer;
 	color: #b3c6d0;
 	font-weight: 600;
 	transition: color 0.1s ease-out;
 }
 
-.favoritesAction span:hover {
+.favoritesAction div:hover {
 	color: #4c5459;
 }

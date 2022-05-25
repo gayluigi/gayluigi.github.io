@@ -13,7 +13,6 @@ function generateCocktailOfTheDay() {
 	COCKTAIL_OF_DAY = recipe;
 	var recipeContainer = generateRecipeCard(recipe);
 	resultContainer.appendChild(recipeContainer);
-	applyCocktailOfTheDaySticker(recipeContainer);
 }
 
 function hashNum(string) {

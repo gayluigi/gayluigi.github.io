@@ -1,26 +1,18 @@
-function exponentialEaseInOut(
-	t,
-	b = 0,
-	c = 35,
-	d = 210
-) {
-	return c * Math.pow(2, 10 * (t/d - 1)) + b;
-};
+const ANIMATION_DURATION_MS = 4000;
 
 function animateTotalRecipesCount() {
 	var totalRecipesCountContainer = document.getElementById("totalRecipesCount");
 	recipes.forEach((r, idx) =>
 		setTimeout(() =>
 			totalRecipesCountContainer.innerHTML = idx + 1,
-			exponentialEaseInOut(idx)
+			idx * (ANIMATION_DURATION_MS / recipes.length)
 		)
 	);
 
-	var lastFrameTimeout = exponentialEaseInOut(recipes.length);
 	setTimeout(() => {
 		totalRecipesCountContainer.classList.add("flash");
-	}, lastFrameTimeout);
+	}, ANIMATION_DURATION_MS);
 	setTimeout(() => {
 		totalRecipesCountContainer.classList.remove("flash");
-	}, lastFrameTimeout + 200);
+	}, ANIMATION_DURATION_MS + 200);
 }
