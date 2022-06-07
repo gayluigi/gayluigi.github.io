@@ -2,17 +2,22 @@ function closeModal(
 	recipeContainer,
 	closeBtn,
 	modalContent,
-	modalBg
+	modalBg,
+	screenLock
 ) {
 	modalContent.removeChild(recipeContainer);
 	modalContent.removeChild(closeBtn);
 
 	modalBg.removeChild(modalContent);
 	document.body.removeChild(modalBg);
+
+	releaseScreenWakeLock(screenLock);
 }
 
 function modalizeRecipe(recipe) {
-	return function recipeOnClick() {
+	return async function recipeOnClick() {
+		var screenLock = await getScreenWakeLock();
+
 		var recipeContainer = generateRecipeCard(recipe);
 		recipeContainer.classList.add("modalized");
 		// Prevent it from opening more modals on top
@@ -34,7 +39,8 @@ function modalizeRecipe(recipe) {
 			recipeContainer,
 			closeBtn,
 			modalContent,
-			modalBg
+			modalBg,
+			screenLock
 		);
 
 		modalBg.appendChild(modalContent);
