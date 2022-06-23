@@ -5208,6 +5208,7 @@ var recipes = [
 			".75 oz Lemon juice",
 			"1 tsp Apple juice",
 			".5 tsp Simple syrup"
+		],
 		"procedure": "Shake, goblet, lemon twist"
 	},
 	{
