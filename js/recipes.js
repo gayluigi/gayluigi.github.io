@@ -5306,7 +5306,7 @@ var recipes = [
 			".5 oz Cinnamon syrup",
 			"9 drops Fee Brothers Old Fashion Bitters"
 		],
-		    "Shake, coupe, lemon twist"
+		"procedure": "Shake, coupe, lemon twist"
 	},
 	{
 		"name": "STEEPLECHASE",
