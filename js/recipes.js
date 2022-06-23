@@ -5444,6 +5444,6 @@ var recipes = [
 			"2 oz Ginger beer"
 		],
 		"procedure": "Shake first 4 ingredients, rocks glass, cracked ice. Top with ginger beer, mint sprig"
-	}.
+	}
 	
 ];
