@@ -5403,7 +5403,7 @@ var recipes = [
 			".5 oz Orgeat",        
 			".5 oz Ginger syrup",
 			".5 oz Honey syrup",
-			"1 oz Lemon juice".
+			"1 oz Lemon juice",
 			".25 oz Laphroaig scotch"
 		],
 		"procedure": "Shake, Tiki mug, crushed ice, candied ginger, lemon wheel, pineapple frond"
