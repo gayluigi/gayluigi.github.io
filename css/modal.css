@@ -40,3 +40,28 @@
 	border-radius: 4px;
 }
 
+.multiplier {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: center;
+	padding: 30px 0;
+}
+
+.multiplier button {
+	height: 40px;
+	width: 40px;
+	color: #4c5459;
+	font-size: 16px;
+	border-radius: 20px;
+	border: 0;
+	cursor: pointer;
+}
+
+.multiplier input {
+	width:  50px;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid gray;
+}

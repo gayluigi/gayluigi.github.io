@@ -54,12 +54,12 @@ h2.recipeTitle {
 }
 
 .measure {
-	width: 30px;
+	width: 45px;
 	text-align: right;
 }
 
 .unit {
-	width: 50px;
+	width: 35px;
 	margin-left: 10px;
 }
 

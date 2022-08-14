@@ -1,4 +1,5 @@
-function getFormattedIngredient(ingredient) {
+function getFormattedIngredient(ingredient, factor=1) {
+	const multiplier = parseFloat(factor) || 1;
 	var ingredientContainer = document.createElement('div');
 	ingredientContainer.className = "ingredient";
 
@@ -9,12 +10,15 @@ function getFormattedIngredient(ingredient) {
 	var rest = document.createElement("span");
 	rest.className = "rest";
 
-	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash(es)?|barspns?|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
+	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash|bspn|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
 	var matches = ingredient.match(regex);
-	if (matches && matches.length >= 5) {
-		measure.innerHTML = matches[1] || "";
+	console.log(matches);
+	if (matches && matches.length >= 4) {
+		measure.innerHTML = Math.round(
+			parseFloat(matches[1]) * multiplier * 1000
+		) / 1000 || "";
 		unit.innerHTML = matches[2] || "";
-		rest.innerHTML = matches[4] || "";
+		rest.innerHTML = matches[3] || "";
 	} else {
 		rest.innerHTML = ingredient;
 	}
@@ -103,12 +107,23 @@ function getRecipeTopRow(recipe) {
 function generateRecipeCard(recipe) {
 	var recipeContainer = document.createElement('div');
 	recipeContainer.className = "recipe";
-
 	recipeContainer.appendChild(getRecipeTopRow(recipe));
+
+	var ingredientsContainer = document.createElement("div");
 	recipe.ingredients.forEach((ingredient) => {
 		var formattedIngredient = getFormattedIngredient(ingredient);
-		recipeContainer.appendChild(formattedIngredient);
+		ingredientsContainer.appendChild(formattedIngredient);
 	});
+
+	recipeContainer.multiplyMeasures = function multiply(factor) {
+		ingredientsContainer.innerHTML = "";
+		recipe.ingredients.forEach((ingredient) => {
+			var formattedIngredient = getFormattedIngredient(ingredient, factor);
+			ingredientsContainer.appendChild(formattedIngredient);
+		});
+	};
+
+	recipeContainer.appendChild(ingredientsContainer);
 
 	var procedureContainer = document.createElement("div");
 	procedureContainer.className = "procedure";
