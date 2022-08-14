@@ -68,6 +68,16 @@ h2.recipeTitle {
 	margin-left: 10px;
 }
 
+.rest .recipeLink {
+	color: #4c5459;
+	cursor: pointer;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+.rest .recipeLink:hover {
+	color: #b3c6d0;
+}
+
 .glassIcon {
 	/* 
 		Keep in sync with

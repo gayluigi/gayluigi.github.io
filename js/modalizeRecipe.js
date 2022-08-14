@@ -1,22 +1,13 @@
-function closeModal(
-	recipeContainer,
-	closeBtn,
-	modalContent,
-	modalBg,
-	screenLock
-) {
-	modalContent.removeChild(recipeContainer);
-	modalContent.removeChild(closeBtn);
-
-	modalBg.removeChild(modalContent);
-	document.body.removeChild(modalBg);
-
-	releaseScreenWakeLock(screenLock);
+function closeAllModals() {
+	var modal = document.getElementById("modal");
+	if (modal) {
+		document.body.removeChild(modal);
+	}
 }
 
 function modalizeRecipe(recipe) {
-	return async function recipeOnClick() {
-		var screenLock = await getScreenWakeLock();
+	return function recipeOnClick() {
+		closeAllModals();
 
 		var recipeContainer = generateRecipeCard(recipe);
 		recipeContainer.classList.add("modalized");
@@ -38,18 +29,13 @@ function modalizeRecipe(recipe) {
 
 		var modalBg = document.createElement("div");
 		modalBg.className = "modalBg";
+		modalBg.id = "modal";
 		// Prevent it from opening more modals on top
 		// Also prevent bg click event propagation
 		modalBg.onclick = (e) => e.stopPropagation();
 		modalBg.appendChild(modalContent);
 
-		closeBtn.onclick = () => closeModal(
-			recipeContainer,
-			closeBtn,
-			modalContent,
-			modalBg,
-			screenLock
-		);
+		closeBtn.onclick = closeAllModals;
 		document.body.appendChild(modalBg);
 	}
 }
