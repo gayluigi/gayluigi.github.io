@@ -38,7 +38,7 @@ var recipes = [
 			"1 oz Norden Aquavit",
 			"1 oz Meletti",
 			".75 oz Cold Brew",
-			"2 Dashes Cherry Vanilla Bark bitters"
+			"2 dash Cherry Vanilla Bark bitters"
 		],
 		"procedure": "Stirred, coupe. Dehydrated lemon wheel"
 	},
@@ -226,7 +226,7 @@ var recipes = [
 			".5 oz St. Germain",
 			".75 oz Lime juice",
 			".75 oz Honey syrup",
-			"3 dashes Saline solution"
+			"3 dash Saline solution"
 		],
 		"procedure": "Shake, absinthe-rinsed glass, one mint leaf"
 	},
@@ -296,7 +296,7 @@ var recipes = [
 			"1.5 oz Wild Turkey whiskey",
 			"1 oz Smoked Domaine de Canton",
 			".75 oz Carpano Antica",
-			"2 dashes Orange bitters"
+			"2 dash Orange bitters"
 		],
 		"procedure": "stir, rocks glass, grapefruit peel"
 	},
@@ -363,7 +363,7 @@ var recipes = [
 			"1 oz Lime juice",
 			".5 oz Pineapple juice",
 			".5 oz Brown Simple syrup",
-			"2 Dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, crushed ice, dragon glass, lime wheel"
 	},
@@ -525,7 +525,7 @@ var recipes = [
 			"0.5 oz Benedictine",
 			"0.5 oz Tawny Port",
 			"0.5 oz Carpano Antica",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Stir, rocks glass, big cube, lemon wheel"
 	},
@@ -653,7 +653,7 @@ var recipes = [
 			"2 oz Pineapple juice",
 			".5 oz Lime juice",
 			"1 tsp Allspice dram",
-			"2 dashes Jamaican bitters"
+			"2 dash Jamaican bitters"
 		],
 		"procedure": "Shake, collins, crushed ice"
 	},
@@ -799,7 +799,7 @@ var recipes = [
 			".75 oz Lemon juice",
 			".375 oz 2:1 Simple syrup",
 			".375 oz Passionfruit syrup",
-			"2 dashes Angostura bitters",
+			"2 dash Angostura bitters",
 			"1 Egg white",
 			"IPA beer"
 		],
@@ -881,8 +881,8 @@ var recipes = [
 			".5 oz Massenez Creme de Peche or Peach liqueur",
 			"1 Brown sugar cube",
 			".5 tsp Superfine sugar",
-			"3 dashes Peychaud's bitters",
-			"3 dashes Fee Brothers peach bitters",
+			"3 dash Peychaud's bitters",
+			"3 dash Fee Brothers peach bitters",
 			"2 oz Peach-Infused Bourbon"
 		],
 		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de peche, mint sprig"
@@ -893,7 +893,7 @@ var recipes = [
 			"1.75 oz English Bishop",
 			"1.5 oz Laird's straight apple brandy",
 			".5 oz Berentzen Apfelkorn apple liqueur",
-			"3 dashes Peychaud's bitters"
+			"3 dash Peychaud's bitters"
 		],
 		"procedure": "Stir, large ice, cocktail glass, orange wheel"
 	},
@@ -1054,7 +1054,7 @@ var recipes = [
 			"1.5 oz Plymouth Gin",
 			".75 oz Lillet Blanc",
 			"75 oz Green Chartreuse",
-			"1 barspn St. Germain",
+			"1 bspn St. Germain",
 			"1 dash Orange bitters"
 		],
 		"procedure": "Stir, coupe, orange twist"
@@ -1087,7 +1087,7 @@ var recipes = [
 			"1.5 oz Plymouth Gin",
 			".75 oz Sloe Gin",
 			".75 oz Carpano Antica",
-			"2 dashes Orange bitters"
+			"2 dash Orange bitters"
 		],
 		"procedure": "Stir, coupe, orange twist"
 	},
@@ -1131,7 +1131,7 @@ var recipes = [
 			".75 oz Simple syrup",
 			".5 oz Lemon juice",
 			".5 oz Lime juice",
-			"2 dashes Orange bitters",
+			"2 dash Orange bitters",
 			"1 Egg white"
 		],
 		"procedure": "Double shake, coupe"
@@ -1153,8 +1153,8 @@ var recipes = [
 			"2 oz Wild Turkey Rye",
 			".75 oz Dolin Sweet vermouth",
 			".75 oz Benedictine",
-			"3 dashes Absinthe",
-			"3 dashes Peychaud's bitters"
+			"3 dash Absinthe",
+			"3 dash Peychaud's bitters"
 		],
 		"procedure": "Stir, coupe, three brandied cherries"
 	},
@@ -1165,7 +1165,7 @@ var recipes = [
 			".5 oz Dry Curacao",
 			".5 oz Pineapple juice",
 			".25 oz Pampero Aniversario rum",
-			"2 dashes Orange bitters"
+			"2 dash Orange bitters"
 		],
 		"procedure": "Shake, coupe, orange twist"
 	},
@@ -1185,7 +1185,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz Ransom Old Tom Gin",
 			"1 oz Dolin Blanc vermouth",
-			"1 barspn St. Germain",
+			"1 bspn St. Germain",
 			"1 dash Celery bitters"
 		],
 		"procedure": "Stir, coupe, grapefruit twist"
@@ -1222,7 +1222,7 @@ var recipes = [
 			".5 oz Creme Yvette",
 			".5 oz Lemon juice",
 			".5 oz Pineapple juice",
-			"1 barspn Maraschino liqueur"
+			"1 bspn Maraschino liqueur"
 		],
 		"procedure": "Shake, coupe, brandied cherry"
 	},
@@ -1233,7 +1233,7 @@ var recipes = [
 			".5 oz Aperol",
 			".5 oz Dubonnet Rouge",
 			".5 oz Lustau Manzanilla sherry",
-			"1 barspn Dark Creme de Cacao",
+			"1 bspn Dark Creme de Cacao",
 			"1 dash Rhubarb bitters"
 		],
 		"procedure": "Stir, rocks glass, ice sphere, orange twist"
@@ -1258,7 +1258,7 @@ var recipes = [
 			".75 oz Pear brandy",
 			".75 oz Grapefruit juice",
 			".5 oz Averna Amaro",
-			"2 dashes Fee Brothers Grapefruit bitters"
+			"2 dash Fee Brothers Grapefruit bitters"
 		],
 		"procedure": "Shake, coupe, lemon twist"
 	},
@@ -1311,7 +1311,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz Rittenhouse Bonded Rye",
 			"1 oz Punt e Mes",
-			"1 barspn Yellow Chartreuse",
+			"1 bspn Yellow Chartreuse",
 			"1 dash Angostura bitters"
 		],
 		"procedure": "Stir, coupe"
@@ -1323,7 +1323,7 @@ var recipes = [
 			"1 oz Lillet Blanc",
 			".5 oz Laird's Bonded Apple Brandy",
 			".25 oz Green Chartreuse",
-			"3 dashes Abbott's bitters"
+			"3 dash Abbott's bitters"
 		],
 		"procedure": "Stir, coupe, orange twist"
 	},
@@ -1407,7 +1407,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz Hine V.S.O.P. cognac",
 			".5 oz Orgeat",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
@@ -1431,7 +1431,7 @@ var recipes = [
 			"2 oz Rittenhouse Bonded Rye",
 			".75 oz Lime juice",
 			".5 oz Benedictine",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, coupe"
 	},
@@ -1474,7 +1474,7 @@ var recipes = [
 			"75 oz Lime juice",
 			".5 oz Creme de Cacao",
 			".25 oz Martini Sweet vermouth",
-			"1 barspn Grenadine"
+			"1 bspn Grenadine"
 		],
 		"procedure": "Shake, coupe, lime wheel"
 	},
@@ -1497,7 +1497,7 @@ var recipes = [
 			".75 oz Lemon juice",
 			".5 oz Apricot liqueur",
 			".25 oz Simple syrup",
-			"2 dashes Orange bitters"
+			"2 dash Orange bitters"
 		],
 		"procedure": "Shake, double strain, coupe"
 	},
@@ -1530,10 +1530,10 @@ var recipes = [
 			"1.5 oz Nikka Taketsuru 12-Year-Old Japanese whiskey",
 			".5 oz Luxardo Amaretto",
 			".5 oz Lemon juice",
-			"1 barspn Demerara syrup",
+			"1 bspn Demerara syrup",
 			"Peychaud's bitters"
 		],
-		"procedure": "Swizzle, rocks glass, crushed ice, 3 dashes bitters, mint sprig"
+		"procedure": "Swizzle, rocks glass, crushed ice, 3 dash bitters, mint sprig"
 	},
 	{
 		"name": "MEZCAL MULE",
@@ -1570,7 +1570,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz Beefeater Gin",
 			"1 oz Orange juice",
-			"1 barspn Pomegranate Molasses",
+			"1 bspn Pomegranate Molasses",
 			"Absinthe (rinse)"
 		],
 		"procedure": "Shake, rinsed coupe"
@@ -1591,8 +1591,8 @@ var recipes = [
 		"ingredients": [
 			"2 oz Bols Genever",
 			"1 oz Kirschwasser",
-			"1 barspn Demerara syrup",
-			"2 dashes Peychaud's bitters"
+			"1 bspn Demerara syrup",
+			"2 dash Peychaud's bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
@@ -1612,7 +1612,7 @@ var recipes = [
 			"1.5 oz Ocho Anejo Tequila",
 			".75 oz Lillet Blanc",
 			".25 oz Benedictine",
-			"3 dashes Peychaud's bitters"
+			"3 dash Peychaud's bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
@@ -1623,7 +1623,7 @@ var recipes = [
 			"1 oz Laird's Bonded Apple Brandy",
 			".5 oz Green Chartreuse",
 			"1 Demerara Sugar cube",
-			"2 dashes Fee Brothers Whiskey Barrel Aged bitters"
+			"2 dash Fee Brothers Whiskey Barrel Aged bitters"
 		],
 		"procedure": "Muddle bitters with sugar cube, add the rest, stir, rocks glass, large cube, orange and lemon twist"
 	},
@@ -1653,7 +1653,7 @@ var recipes = [
 			".5 oz Lillet Blanc",
 			".5 oz Grapefruit juice",
 			".5 oz Lemon juice",
-			"1 barspn Orange Marmalade",
+			"1 bspn Orange Marmalade",
 			"Absinthe (rinse)"
 		],
 		"procedure": "Shake, rinsed coupe, grapefruit twist"
@@ -1686,7 +1686,7 @@ var recipes = [
 			"2 oz Wild Turkey Russell's Reserve 6-Year-Old Rye",
 			".75 oz Carpano Antica",
 			".5 oz Cherry Heering",
-			"1 barspn Pernod"
+			"1 bspn Pernod"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
@@ -1709,7 +1709,7 @@ var recipes = [
 			".75 oz Lime juice",
 			".5 oz Rhum Clement Creole Shrubb",
 			".25 oz Martinique Sugar Cane syrup",
-			"2 dashes Angostura bitters",
+			"2 dash Angostura bitters",
 			"1 dash Orange bitters"
 		],
 		"procedure": "Shake, coupe, orange wedge"
@@ -1765,7 +1765,7 @@ var recipes = [
 			".25 oz Strega",
 			".25 oz Lustau Palo Cortado Sherry",
 			"1 Sugar Cube",
-			"2 dashes Orange bitters"
+			"2 dash Orange bitters"
 		],
 		"procedure": "Muddle bitters and sugar cube, add the rest, stir, rocks glass, express orange peel"
 	},
@@ -1774,8 +1774,8 @@ var recipes = [
 		"ingredients": [
 			"1 oz Bulleit Bourbon",
 			".5 oz Cointreau",
-			"3 dashes Peychaud's bitters",
-			"2 dashes Angostura bitters",
+			"3 dash Peychaud's bitters",
+			"2 dash Angostura bitters",
 			"Champagne"
 		],
 		"procedure": "Stir, coupe. Top with 2 oz champagne, orange twist"
@@ -1817,7 +1817,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz Beefeater 24 Gin",
 			".5 oz Pear liqueur",
-			"1 barspn Green Chartreuse",
+			"1 bspn Green Chartreuse",
 			"1 dash Orange bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
@@ -1830,7 +1830,7 @@ var recipes = [
 			".75 oz Lemon juice",
 			".5 oz Green Chartreuse",
 			".25 oz Cynar",
-			"1 barspn Strawberry preserves"
+			"1 bspn Strawberry preserves"
 		],
 		"procedure": "Shake, double strain, coupe, mint leaf"
 	},
@@ -1840,7 +1840,7 @@ var recipes = [
 			"2 oz Plymouth Gin",
 			"1.5 oz Dolin Dry vermouth",
 			".25 oz Maraschino liqueur",
-			"2 dashes Orange bitters",
+			"2 dash Orange bitters",
 			"Absinthe (rinse)"
 		],
 		"procedure": "Stir, rinsed coupe, lemon twist, cherry"
@@ -1917,7 +1917,7 @@ var recipes = [
 			"2 oz Jose Cuervo Platino tequila",
 			".75 oz Lemon juice",
 			".5 oz Strega",
-			"1 barspn Apple Butter"
+			"1 bspn Apple Butter"
 		],
 		"procedure": "Shake, coupe, lemon twist"
 	},
@@ -2095,7 +2095,7 @@ var recipes = [
 			".25 oz Demerara syrup",
 			"1 oz London Dry Gin",
 			"1 oz Brandy",
-			"2 dashes Angostura bitters",
+			"2 dash Angostura bitters",
 			"4 oz Ginger beer"
 		],
 		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, mint sprig"
@@ -2132,7 +2132,7 @@ var recipes = [
 			"1.25 oz Black blended rum",
 			"1 oz Black blended overproof rum",
 			"1 oz Column still aged rum",
-			"2 dashes Herbstura"
+			"2 dash Herbstura"
 		],
 		"procedure": "Mix/blend, tiki bowl, crushed ice, edible orchid"
 	},
@@ -2226,7 +2226,7 @@ var recipes = [
 			".5 oz Apricot liqueur",
 			"1 oz Blended aged rum",
 			"1 oz Blended lightly aged rum",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, Collins glass, cracked ice"
 	},
@@ -2300,7 +2300,7 @@ var recipes = [
 			".25 oz Drambuie",
 			"2 oz Seltzer",
 			"2 oz Column still aged rum",
-			"2 dashes Peychaud's bitters",
+			"2 dash Peychaud's bitters",
 			"1 dash Angostura bitters"
 		],
 		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, edible orchid, mint sprig"
@@ -2451,9 +2451,9 @@ var recipes = [
 		"ingredients": [
 			"1 oz Lemon juice",
 			"1 oz Passionfruit Honey syrup",
-			".25 barspn Li Hing Mui powder",
+			".25 bspn Li Hing Mui powder",
 			"2 oz Seltzer",
-			"1 barspn Maraschino liqueur",
+			"1 bspn Maraschino liqueur",
 			"2 oz Pot Still Unaged rum"
 		],
 		"procedure": "Mix/whip shake, footed pilsner glass, crushed ice, mint sprig"
@@ -2465,7 +2465,7 @@ var recipes = [
 			".5 oz Grade A maple syrup",
 			".5 oz Velvet Falernum",
 			"2 oz Blended aged rum (Guyana)",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig"
 	},
@@ -2530,7 +2530,7 @@ var recipes = [
 			".75 oz Pineapple juice",
 			".5 oz Orgeat",
 			"2 oz Gin",
-			"2 dashes Peychaud's bitters"
+			"2 dash Peychaud's bitters"
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry"
 	},
@@ -2541,7 +2541,7 @@ var recipes = [
 			".75 oz Pineapple juice",
 			".5 oz Orgeat",
 			"2 oz Blended aged rum",
-			"2 dashes Peychaud's bitters"
+			"2 dash Peychaud's bitters"
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry"
 	},
@@ -2595,7 +2595,7 @@ var recipes = [
 		"name": "MARY PICKFORD",
 		"ingredients": [
 			"1.5 oz Pineapple juice",
-			"1 barspn Grenadine",
+			"1 bspn Grenadine",
 			"6 drops Maraschino liqueur",
 			"1.5 oz Blended lightly aged rum"
 		],
@@ -2732,7 +2732,7 @@ var recipes = [
 		"ingredients": [
 			".5 oz Velvet Falernum",
 			"2 oz Blended aged rum (Barbados)",
-			"2-4 dashes Angostura bitters"
+			"2-4 dash Angostura bitters"
 		],
 		"procedure": "Stir, old-fashioned glass, crushed ice"
 	},
@@ -2743,7 +2743,7 @@ var recipes = [
 			".5 oz Lime juice",
 			".5 oz Demerara syrup",
 			"2 oz Black blended rum",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig"
 	},
@@ -2834,7 +2834,7 @@ var recipes = [
 			".75 oz Lime juice",
 			".75 oz Licor 43",
 			"2 oz Rhum agricole blanc",
-			"2 dashes Angostura bitters",
+			"2 dash Angostura bitters",
 			"2 oz Bundaberg guava soda"
 		],
 		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with soda, mint sprig, cinnamon stick, lime wheel"
@@ -2844,8 +2844,8 @@ var recipes = [
 		"ingredients": [
 			".5 oz Dry Curacao",
 			"1 oz R. L. Seale 10 Year rum",
-			"7 dashes Angostura bitters",
-			"7 dashes Peychaud's bitters",
+			"7 dash Angostura bitters",
+			"7 dash Peychaud's bitters",
 			"4 oz Champagne"
 		],
 		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, lemon twist"
@@ -2908,7 +2908,7 @@ var recipes = [
 			".5 oz Maraschino liqueur",
 			"1.5 oz Blended aged rum",
 			"1.5 oz Bourbon",
-			"2 dashes Peychaud's bitters"
+			"2 dash Peychaud's bitters"
 		],
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
 	},
@@ -2946,7 +2946,7 @@ var recipes = [
 			".75 oz Demerara syrup",
 			".25 oz Allspice dram",
 			"3 oz Blended aged rum (Jamaica)",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint Sprig"
 	},
@@ -2985,7 +2985,7 @@ var recipes = [
 			"1.5 oz Blended aged rum",
 			"1.5 oz Column still aged rum",
 			"1 oz Black blended overproof rum",
-			"2 dashes Herbstura"
+			"2 dash Herbstura"
 		],
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint sprig"
 	},
@@ -3075,7 +3075,7 @@ var recipes = [
 			"1 oz Passionfruit Honey",
 			".25 oz Allspice dram",
 			"1.5 oz Pot still unaged rum",
-			"2 dashes Angostura bitters",
+			"2 dash Angostura bitters",
 			"Grated nutmeg (pinch)"
 		],
 		"procedure": "Stir, punch glass, cracked ice, mint sprig"
@@ -3114,7 +3114,7 @@ var recipes = [
 			".25 oz Cinnamon syrup",
 			"1 oz Blended aged rum",
 			"1 oz Blended lightly aged rum",
-			"2 dashes Herbstura"
+			"2 dash Herbstura"
 		],
 		"procedure": "Stir, punch glass, cracked ice"
 	},
@@ -3162,7 +3162,7 @@ var recipes = [
 		"ingredients": [
 			"1 pint Blackberries (muddled)",
 			"1 cup Simple syrup",
-			"4 dashes Angostura bitters"
+			"4 dash Angostura bitters"
 		],
 		"procedure": "Infuse for 1 hour, strain through a fine chinois or cheesecloth"
 	},
@@ -3311,7 +3311,7 @@ var recipes = [
 			".75 oz Simple syrup",
 			"1 Egg white",
 			"3 drops Orange Flower water",
-			"2 dashes Lavender Grapefruit bitters"
+			"2 dash Lavender Grapefruit bitters"
 		],
 		"procedure": "Dry shake, shake with ice for two minutes, coupe, 4 drops Angostura bitters"
 	},
@@ -3366,7 +3366,7 @@ var recipes = [
 			".75 oz Carpano Antica",
 			".25 oz Noilly Prat or Vya dry vermouth",
 			".5 tsp Cruzan Black Strap rum",
-			"3 dashes Angostura bitters"
+			"3 dash Angostura bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
 	},
@@ -3412,7 +3412,7 @@ var recipes = [
 			"2 oz Hayman's Old Tom Gin",
 			".5 oz Cherry Heering",
 			".25 oz Campari",
-			".5 barspn Maraschino liqueur",
+			".5 bspn Maraschino liqueur",
 			"1 dash Orange bitters"
 		],
 		"procedure": "Stir, rocks glass, orange twist"
@@ -3424,8 +3424,8 @@ var recipes = [
 			".75 oz Sweet vermouth",
 			".5 oz Lemon juice",
 			".5 oz Honey syrup",
-			"1 barspn Maraschino liqueur",
-			"2 dashes Angostura bitters"
+			"1 bspn Maraschino liqueur",
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Stir, rocks glass, lemon twist"
 	},
@@ -3483,7 +3483,7 @@ var recipes = [
 		"ingredients": [
 			"1.5 oz Dolin Blanc vermouth",
 			"1.5 oz Lustau palo cortado sherry",
-			"2 dashes Angostura bitters",
+			"2 dash Angostura bitters",
 			"1 dash Orange bitters"
 		],
 		"procedure": "Stir, coupe, lemon twist"
@@ -3514,7 +3514,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz Rittenhouse Rye",
 			".5 oz Benedictine",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Stir, old-Fashioned glass, large cube. Express lemon peel, drop in"
 	},
@@ -3526,7 +3526,7 @@ var recipes = [
 			".5 oz Tariquet VSOP Bas-Armagnac",
 			".5 oz Bank Note scotch",
 			"1 tsp Grade B maple syrup",
-			"2 dashes Bittermens Xocolatl mole bitters",
+			"2 dash Bittermens Xocolatl mole bitters",
 			"1 dash Angostura bitters"
 		],
 		"procedure": "Stir, old-Fashioned glass, large cube, express lemon and orange peel, drop in"
@@ -3536,8 +3536,8 @@ var recipes = [
 		"ingredients": [
 			"1 oz Tariquet Classique VS Bas-Armagnac",
 			".5 oz Royal Combier",
-			"2 dashes Angostura bitters",
-			"2 dashes Peychaud's bitters",
+			"2 dash Angostura bitters",
+			"2 dash Peychaud's bitters",
 			"Champagne"
 		],
 		"procedure": "Stir first 4 ingredients, Champagne flute. Top with Champagne, lemon twist"
@@ -3570,7 +3570,7 @@ var recipes = [
 			"1 oz Blended scotch",
 			".5 oz Laphroaig 10-year scotch",
 			".75 oz Lime juice",
-			"2 dashes Absinthe"
+			"2 dash Absinthe"
 		],
 		"procedure": "Shake, double old-Fashioned glass, large cube, mint sprig"
 	},
@@ -3632,12 +3632,12 @@ var recipes = [
 	{
 		"name": "DELICIOUS SOUR",
 		"ingredients": [
-			"3 dashes Eucalyptus Tincture",
+			"3 dash Eucalyptus Tincture",
 			".5 oz Pistachio Orgeat",
 			"2 oz Laird's Apple brandy",
 			".25 oz Peach liqueur",
 			".75 oz Lime juice",
-			"3 dashes Pernod Absinthe",
+			"3 dash Pernod Absinthe",
 			"1 Egg white"
 		],
 		"procedure": "Shake, punch glass, cracked ice,	grated nutmeg."
@@ -3648,9 +3648,9 @@ var recipes = [
 			"2 oz Old Overholt Rye",
 			".75 oz Benedictine",
 			".25 oz Royal Combier",
-			"3 dashes Angostura bitters",
-			"3 dashes Orange bitters",
-			"3 dashes Pernod Absinthe"
+			"3 dash Angostura bitters",
+			"3 dash Orange bitters",
+			"3 dash Pernod Absinthe"
 		],
 		"procedure": "Stir, cocktail glass, express orange peel"
 	},
@@ -3660,9 +3660,9 @@ var recipes = [
 			"1.5 oz Tanqueray Gin",
 			"1.5 oz Sweet vermouth",
 			".5 oz Green Chartreuse",
-			"2 dashes Orange bitters",
-			"2 dashes Angostura bitters",
-			"2 dashes Pernod Absinthe"
+			"2 dash Orange bitters",
+			"2 dash Angostura bitters",
+			"2 dash Pernod Absinthe"
 		],
 		"procedure": "Stir, cocktail glass, express orange peel"
 	},
@@ -3672,7 +3672,7 @@ var recipes = [
 			".5 oz Aquavit",
 			".5 oz Creme de Cacao",
 			"1.5 oz La Clandestine Absinthe",
-			"2 dashes Peychaud's bitters",
+			"2 dash Peychaud's bitters",
 			".5 Egg white",
 			"2 oz Chilled water"
 		],
@@ -3780,10 +3780,10 @@ var recipes = [
 		"name": "THE WARDLOW",
 		"ingredients": [
 			"2 oz Bulliet Rye",
-			".5 Benedictine",
+			".5 oz Benedictine",
 			".75 oz Lemon juice",
 			".5 oz Honey syrup",
-			"2 dashes Peychaud's bitters"
+			"2 dash Peychaud's bitters"
 		],
 		"procedure": "Shake, coupe, 2 spritzes Absinthe"
 	},
@@ -3848,7 +3848,7 @@ var recipes = [
 			"2 oz Pigs Nose blended scotch",
 			".5 oz Passionfruit syrup",
 			"1 oz Lemon juice",
-			"2 barspn Honey syrup",
+			"2 bspn Honey syrup",
 			"1 Egg white"
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice, pineapple wedge, mint sprig"
@@ -3905,7 +3905,7 @@ var recipes = [
 			"1.5 oz Pineapple juice",
 			".75 oz Lime juice",
 			"1 tsp Fernet Branca",
-			"3 dashes Angostura bitters",
+			"3 dash Angostura bitters",
 			"Seltzer"
 		],
 		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, orange twist"
@@ -3928,7 +3928,7 @@ var recipes = [
 			".75 oz Laird's Apple brandy",
 			".75 oz Carpano Antica",
 			".25 oz Strega",
-			"2 dashes Cinnamon tincture"
+			"2 dash Cinnamon tincture"
 		],
 		"procedure": "Stir, old fashioned glass, cracked ice, orange peel"
 	},
@@ -3962,7 +3962,7 @@ var recipes = [
 			".5 oz Clement Premiere Canne Rhum Agricole",
 			".75 oz Dolin Blanc vermouth",
 			"0.25 oz Banana liqueur",
-			"2 dashes Orange bitters"
+			"2 dash Orange bitters"
 		],
 		"procedure": "Stir, cocktail glass, lemon twist"
 	},
@@ -3975,7 +3975,7 @@ var recipes = [
 			".25 oz Grenadine",
 			".25 oz Lemon juice",
 			".75 oz Orange juice",
-			"3 dashes Orange bitters"
+			"3 dash Orange bitters"
 		],
 		"procedure": "Shake, tiki mug, crushed ice, orange slice, mint sprig, pinch of curry powder"
 	},
@@ -3999,7 +3999,7 @@ var recipes = [
 			"1 oz Campari",
 			".5 oz Don's Mix",
 			".5 oz Velvet Falernum",
-			"1 barspn Grenadine",
+			"1 bspn Grenadine",
 			"1 dash Angostura bitters",
 			"6 drops Absinthe"
 		],
@@ -4013,7 +4013,7 @@ var recipes = [
 			".5 oz Domaine de Canton",
 			".5 oz Lime juice",
 			".5 oz Orange juice",
-			"1 barspn Allspice dram",
+			"1 bspn Allspice dram",
 			"1 Egg White"
 		],
 		"procedure": "Double shake, cocktail glass, float star anise pod"
@@ -4036,7 +4036,7 @@ var recipes = [
 			"1.5 oz Anejo Tequila",
 			".5 oz Amontillado Sherry",
 			".25 oz Chamomile syrup",
-			"2 dashes Angostura bitters",
+			"2 dash Angostura bitters",
 			"1 dash Amargo Peruvian bitters"
 		],
 		"procedure": "Stir, rocks glass, large cube, lemon peel, chamomile flowers"
@@ -4086,7 +4086,7 @@ var recipes = [
 			".75 oz Aperol",
 			".5 oz Lime juice",
 			".5 oz Grapefruit juice",
-			"2 dashes Grapefruit bitters",
+			"2 dash Grapefruit bitters",
 			"1 dash Vanilla extract",
 			"1 Egg White",
 			"2 oz Seltzer"
@@ -4113,8 +4113,8 @@ var recipes = [
 			".5 oz Green Chartreuse",
 			".5 oz Pineapple shrub",
 			".5 oz Lime juice",
-			"2 dashes Orange bitters",
-			"2 dashes Tiki bitters"
+			"2 dash Orange bitters",
+			"2 dash Tiki bitters"
 		],
 		"procedure": "Shake, double strain, rocks glass, big cube, Thai basil sprig"
 	},
@@ -4173,7 +4173,7 @@ var recipes = [
 			".5 oz Sweet vermouth",
 			".25 oz Cynar",
 			".25 oz Maraschino liqueur",
-			"2 dashes Grapefruit bitters"
+			"2 dash Grapefruit bitters"
 		],
 		"procedure": "Stir, sage leaf-smoked rocks glass, large cube, express grapefruit peel"
 	},
@@ -4186,7 +4186,7 @@ var recipes = [
 			".5 oz Velvet Falernum",
 			".5 oz Lime juice",
 			".5 oz Orange juice",
-			"3 dashes Tiki bitters (float)",
+			"3 dash Tiki bitters (float)",
 			"1 dash Grapefruit bitters (float)"
 		],
 		"procedure": "Swizzle, tiki mug, crushed ice. Float bitters, edible orchid"
@@ -4210,7 +4210,7 @@ var recipes = [
 			".75 oz Rye",
 			".75 oz Punt e Mes",
 			".75 oz Aperol",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Stir, coupe glass, express lemon peel"
 	},
@@ -4433,7 +4433,7 @@ var recipes = [
 			".5 oz Honey syrup",
 			".5 tsp Ginger syrup",
 			"1 oz Seltzer",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, multiple mint sprigs"
 	},
@@ -4446,7 +4446,7 @@ var recipes = [
 			".5 oz Apricot liqueur",
 			"1.5 oz Orange juice",
 			"1 oz Lemon juice",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, orange slice, cocktail cherry"
 	},
@@ -4798,7 +4798,7 @@ var recipes = [
 			".5 oz Benedictine",
 			".5 oz Velvet Falernum",
 			".5 oz Lime juice",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, old-fashioned glass, cracked ice, lime wedge"
 	},
@@ -4808,7 +4808,7 @@ var recipes = [
 			"1 oz Angostura 1824 rum",
 			"1 oz Amaro di Angostura",
 			".5 oz Domaine de Canton",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Stir, rocks glass, large cube"
 	},
@@ -4820,7 +4820,7 @@ var recipes = [
 			".75 oz Lemon juice",
 			".5 oz Orange juice",
 			".5 oz Maple syrup",
-			"2 dashes Angostura bitters",
+			"2 dash Angostura bitters",
 			"1 Egg white"
 		],
 		"procedure": "Double shake, coupe"
@@ -4855,7 +4855,7 @@ var recipes = [
 			".5 oz Punt e Mes",
 			".5 oz Lemon juice",
 			".25 oz Simple syrup",
-			"3 dashes Angostura bitters",
+			"3 dash Angostura bitters",
 			"2 oz Seltzer"
 		],
 		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, orange twist"
@@ -4890,7 +4890,7 @@ var recipes = [
 			".5 oz Cynar",
 			"2 oz Pineapple juice",
 			".5 oz Lime juice",
-			"2 dashes Peychaud's bitters"
+			"2 dash Peychaud's bitters"
 		],
 		"procedure": "Mix/whip shake, tiki mug , crushed ice, mint sprig"
 	},
@@ -4944,7 +4944,7 @@ var recipes = [
 			".5 oz Blood orange juice",
 			".5 oz Fernet Branca",
 			".5 oz Cinnamon syrup",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Stir first four ingredients, cocktail glass. Top with bitters, lemon twist"
 	},
@@ -4969,7 +4969,7 @@ var recipes = [
 			".5 oz Peach juice",
 			".5 oz Brown simple syrup",
 			".25 oz Lemon juice",
-			"2 dashes Peychaud's bitters"
+			"2 dash Peychaud's bitters"
 		],
 		"procedure": "Stir, old-fashioned glass, cracked ice, sliced peaches"
 	},
@@ -4990,7 +4990,7 @@ var recipes = [
 			"2 oz Gin",
 			"1 oz Apricot liqueur",
 			".5 oz Lemon juice",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, cocktail glass, lemon twist"
 	},
@@ -5067,8 +5067,8 @@ var recipes = [
 		"ingredients": [
 			"1 oz Hayman's Old Tom Gin",
 			"1 oz Dry vermouth",
-			"3 dashes Benedictine",
-			"3 dashes Orange bitters"
+			"3 dash Benedictine",
+			"3 dash Orange bitters"
 		],
 		"procedure": "Stir, martini glass, orange twist"
 	},
@@ -5101,7 +5101,7 @@ var recipes = [
 			".75 oz Dry vermouth",
 			".75 oz Sweet vermouth",
 			".75 oz Orange juice",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, cocktail glass, orange wheel"
 	},
@@ -5152,7 +5152,7 @@ var recipes = [
 			"1.5 oz Gin",
 			".5 oz Cointreau",
 			".75 oz Lime juice",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, coupe"
 	},
@@ -5161,7 +5161,7 @@ var recipes = [
 		"ingredients": [
 			"2 oz Gin",
 			"1 oz Apricot liqueur",
-			"2-3 dashes Peychaud's bitters",
+			"2-3 dash Peychaud's bitters",
 			"3/4 oz Lime juice"
 		],
 		"procedure": "Shake, cocktail glass"
@@ -5193,8 +5193,8 @@ var recipes = [
 		"ingredients": [
 			"1 oz Old Forester bourbon",
 			".5 oz Cointreau",
-			"7 dashes Angostura bitters",
-			"7 dashes Peychaud's bitters",
+			"7 dash Angostura bitters",
+			"7 dash Peychaud's bitters",
 			"5 oz Champagne"
 		],
 		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, orange twist"
@@ -5218,8 +5218,8 @@ var recipes = [
 			".5 oz Kirschwasser",
 			".5 oz Benedictine",
 			".75 oz Lemon juice",
-			"2 dashes Orange bitters",
-			"2 dashes Angostura bitters",
+			"2 dash Orange bitters",
+			"2 dash Angostura bitters",
 			"Seltzer"
 		],
 		"procedure": "Shake first 6 ingredients, champagne flute. Top with seltzer, cherry, orange wheel, lemon twist"
@@ -5232,8 +5232,8 @@ var recipes = [
 			"1 oz Laird's Bonded Applejack",
 			"1 oz Pama Pomegranate Liqueur",
 			".75 oz Lemon juice",
-			"3 dashes Bittermens Burlesque bitters",
-			"3 dashes Absinthe",
+			"3 dash Bittermens Burlesque bitters",
+			"3 dash Absinthe",
 			"1 Egg white"
 		],
 		"procedure": "Shake, punch glass"
@@ -5246,7 +5246,7 @@ var recipes = [
 			".5 oz Orange juice",
 			".5 oz Lemon juice",
 			".75 oz Orgeat",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, coupe"
 	},
@@ -5316,7 +5316,7 @@ var recipes = [
 			".25 oz Blackberry liqueur",
 			".25 oz Dry Curacao",
 			"2 oz Orange juice",
-			"2 dashes Angostura bitters"
+			"2 dash Angostura bitters"
 		],
 		"procedure": "Shake, rocks glass, mint sprig"
 	},
@@ -5327,7 +5327,7 @@ var recipes = [
 			"1 oz Yellow Chartreuse",            
 			"1 oz Lemon juice",
 			".75 oz Pineapple syrup",
-			"2 dashes Fee Brothers Barrel-Aged bitters"
+			"2 dash Fee Brothers Barrel-Aged bitters"
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, pineapple slice, mint sprig"
 	},
@@ -5419,7 +5419,7 @@ var recipes = [
 			".5 oz Lime juice",
 			".5 oz Grapefruit juice",
 			"1 oz Pineapple juice",
-			"4 dashes Absinthe"
+			"4 dash Absinthe"
 		],
 		"procedure": "Mix/whip shake, rocks glass, crushed ice, pineapple wedge, mint sprig"
 	},
@@ -5431,7 +5431,7 @@ var recipes = [
 			".5 oz Orange juice",
 			".5 oz Lemon juice",
 			".75 oz Simple syrup",
-			"2 dashes Orange bitters"
+			"2 dash Orange bitters"
 		],
 		"procedure": "Shake, rocks glass, crushed ice, mint sprig, grated cinnamon"
 	},

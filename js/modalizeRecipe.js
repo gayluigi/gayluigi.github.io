@@ -28,22 +28,28 @@ function modalizeRecipe(recipe) {
 		closeBtn.className = "closeIcon modalCloseBtn";
 		closeBtn.src = "./img/close-icon.svg";
 
+		var multiplier = getMultiplierComponent(recipeContainer);
+
 		var modalContent = document.createElement("div");
 		modalContent.className = "modalContent";
 		modalContent.appendChild(closeBtn);
 		modalContent.appendChild(recipeContainer);
+		modalContent.appendChild(multiplier);
 
 		var modalBg = document.createElement("div");
 		modalBg.className = "modalBg";
-		modalBg.onclick = () => closeModal(
+		// Prevent it from opening more modals on top
+		// Also prevent bg click event propagation
+		modalBg.onclick = (e) => e.stopPropagation();
+		modalBg.appendChild(modalContent);
+
+		closeBtn.onclick = () => closeModal(
 			recipeContainer,
 			closeBtn,
 			modalContent,
 			modalBg,
 			screenLock
 		);
-
-		modalBg.appendChild(modalContent);
 		document.body.appendChild(modalBg);
 	}
 }
