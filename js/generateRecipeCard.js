@@ -1,3 +1,10 @@
+function getLinkIconSvg() {
+	var sourceLinkIconSvg = document.getElementById("linkSvg");
+	var linkIconSvg = sourceLinkIconSvg.cloneNode(true);
+	linkIconSvg.classList.remove("hiddenSvg");
+	return linkIconSvg;
+}
+
 function getFormattedIngredient(ingredient, factor=1) {
 	const multiplier = parseFloat(factor) || 1;
 	var ingredientContainer = document.createElement('div');
@@ -29,6 +36,8 @@ function getFormattedIngredient(ingredient, factor=1) {
 	);
 
 	if (matchingRecipe) {
+		var linkIcon = getLinkIconSvg();
+		restContent.appendChild(linkIcon);
 		restContent.onclick = modalizeRecipe(matchingRecipe);
 		restContent.classList.add("recipeLink");
 	}
