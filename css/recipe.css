@@ -126,4 +126,5 @@ h2.recipeTitle {
 .strikethrough {
 	color: #b3c6d0;
 	text-decoration: line-through;
+	transition: color 0.1s;
 }

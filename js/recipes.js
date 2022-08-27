@@ -987,6 +987,7 @@ var recipes = [
 	},
 	{
 		"name": "Citric Acid Solution",
+		"isIngredient": true,
 		"ingredients": [
 			"100 grams filtered water",
 			"25 grams citric acid powder"

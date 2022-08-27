@@ -47,8 +47,12 @@ function getFormattedIngredient(ingredient, factor=1) {
 	ingredientContainer.appendChild(unit);
 	ingredientContainer.appendChild(rest);
 
-	ingredientContainer.onclick = () =>
-		ingredientContainer.classList.toggle("strikethrough");
+	ingredientContainer.onclick = function applyStrikethrough() {
+		var recipeContainer = ingredientContainer.parentNode.parentNode;
+		if (recipeContainer.classList.contains("modalized")) {
+			ingredientContainer.classList.toggle("strikethrough");
+		}
+	}
 	return ingredientContainer;
 }
 
