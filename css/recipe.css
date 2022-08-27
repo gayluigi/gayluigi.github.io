@@ -122,3 +122,8 @@ h2.recipeTitle {
 	border-radius: 20px;
 	border: 2px solid white;
 }
+
+.strikethrough {
+	color: #b3c6d0;
+	text-decoration: line-through;
+}

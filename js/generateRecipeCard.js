@@ -46,6 +46,9 @@ function getFormattedIngredient(ingredient, factor=1) {
 	ingredientContainer.appendChild(measure);
 	ingredientContainer.appendChild(unit);
 	ingredientContainer.appendChild(rest);
+
+	ingredientContainer.onclick = () =>
+		ingredientContainer.classList.toggle("strikethrough");
 	return ingredientContainer;
 }
 
