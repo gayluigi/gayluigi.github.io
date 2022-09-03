@@ -71,6 +71,10 @@
 	width: 100%;
 }
 
+.inputGroup {
+	margin-bottom: 30px;
+}
+
 .upperContainer input {
 	height: 25px;
 	width: 80%;

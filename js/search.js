@@ -1,3 +1,8 @@
+const INGREDIENT_TYPE = {
+	INCLUDE: "includeIngredient",
+	EXCLUDE: "excludeIngredient",
+};
+
 const submitBtn = document.getElementById("submitIngredients");
 
 function submitOnEnterPressed(event) {
@@ -10,12 +15,19 @@ function submitOnEnterPressed(event) {
 function getNameMatches(list) {
 	const searchName = document.getElementById("recipeNameInput").value;
 	if (searchName) {
-		var recipeNameLookupRegex = new RegExp("\\b" + searchName + "\\b", "ig");
+		const recipeNameLookupRegex = new RegExp("\\b" + searchName + "\\b", "ig");
 		return list.filter(({ name }) =>
 			recipeNameLookupRegex.test(name)
 		);
 	}
 	return list;
+}
+
+function getIngredientRegexes(ingredientType) {
+	const includeIngredientInputs = document.getElementsByClassName(ingredientType);
+	return [...includeIngredientInputs]
+		.filter(({ value }) => value)
+		.map(({ value }) => new RegExp("\\b" + value + "\\b", "i"));
 }
 
 function getIncludeIngredientsMatches(list, regexes, idx) {
@@ -28,27 +40,31 @@ function getIncludeIngredientsMatches(list, regexes, idx) {
 		ingredientLookupRegex.test(ingredient)
 	));
 
-	/*
-	exclude
+	return getIncludeIngredientsMatches(filteredList, regexes, idx+1);
+}
+
+function getExcludeIngredientsMatches(list, regexes, idx) {
+	const ingredientLookupRegex = regexes[idx];
+	if (!ingredientLookupRegex) {
+		return list;
+	}
+
 	const filteredList = list
 		.filter(({ ingredients }) => ingredients.every((ingredient) =>
 		!ingredientLookupRegex.test(ingredient)
 	));
-	*/
 
-	return getIncludeIngredientsMatches(filteredList, regexes, idx+1);
+	return getExcludeIngredientsMatches(filteredList, regexes, idx+1);
 }
 
 function search() {
 	const nameMatches = getNameMatches(recipes);
 
-	const includeIngredientInputs = document.getElementsByClassName(INGREDIENT_TYPE.INCLUDE);
-	const includeIngredientRegexes = [...includeIngredientInputs]
-		.filter(({ value }) => value)
-		.map(({ value }) => new RegExp("\\b" + value + "\\b", "i"));
+	const includeIngredientRegexes = getIngredientRegexes(INGREDIENT_TYPE.INCLUDE);
 	const includeIngredientsMatches = getIncludeIngredientsMatches(nameMatches, includeIngredientRegexes, 0);
 
-	const excludeIngredientsMatches = includeIngredientsMatches;
+	const excludeIngredientRegexes = getIngredientRegexes(INGREDIENT_TYPE.EXCLUDE);
+	const excludeIngredientsMatches = getExcludeIngredientsMatches(includeIngredientsMatches, excludeIngredientRegexes, 0);
 
 	handleResultsUi(excludeIngredientsMatches);
 };

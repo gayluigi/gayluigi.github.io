@@ -1,25 +1,25 @@
-var COCKTAIL_OF_DAY;
+let COCKTAIL_OF_DAY;
 
 function applyCocktailOfTheDaySticker(recipeContainer) {
-	var sticker = document.createElement("div");
+	const sticker = document.createElement("div");
 	sticker.className = "cocktailOfTheDay";
 	sticker.innerHTML = "Cocktail of the day";
 	recipeContainer.prepend(sticker);
 }
 
 function generateCocktailOfTheDay() {
-	var resultContainer = document.getElementById("results");
-	var candidateRecipes = recipes
+	const resultContainer = document.getElementById("results");
+	const candidateRecipes = recipes
 		.filter(({ isIngredient }) => !isIngredient);
-	var numberForDay = getNumberForDay(candidateRecipes.length);
+	const numberForDay = getNumberForDay(candidateRecipes.length);
 	COCKTAIL_OF_DAY = candidateRecipes[numberForDay];;
-	var recipeContainer = generateRecipeCard(COCKTAIL_OF_DAY);
+	const recipeContainer = generateRecipeCard(COCKTAIL_OF_DAY);
 	resultContainer.appendChild(recipeContainer);
 }
 
 function hashNum(string) {
 	//set variable hash as 0
-	var hash = 0;
+	let hash = 0;
 	// if the length of the string is 0, return 0
 	if (string.length == 0) return hash;
 	for (i = 0 ;i<string.length ; i++)
@@ -32,7 +32,7 @@ function hashNum(string) {
 }
 
 function getNumberForDay(upperBound) {
-	var today = new Date();
-	var dateString = `${today.getUTCFullYear()}${today.getUTCMonth()}${today.getUTCDate()}`;
+	const today = new Date();
+	const dateString = `${today.getUTCFullYear()}${today.getUTCMonth()}${today.getUTCDate()}`;
 	return Math.abs(hashNum(dateString) % upperBound);
 }

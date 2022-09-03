@@ -37,24 +37,26 @@
 					<div class="searchCategoryTitle">
 						SEARCH BY NAME
 					</div>
-					<div class="inputRow">
-						<input
-							id="recipeNameInput"
-							onkeyup="onRecipeNameInputChange(this, event)"
-							onfocus="clearSuggestions()"
-							type="text"
-							placeholder="Title keywords"
-						/>
-						<img
-							class="closeIcon"
-							src="./img/close-icon.svg"
-							onclick="clearInput('recipeNameInput')"
-						/>
+					<div class="inputGroup">
+						<div class="inputRow">
+							<input
+								id="recipeNameInput"
+								onkeyup="onRecipeNameInputChange(this, event)"
+								onfocus="clearSuggestions()"
+								type="text"
+								placeholder="Title keywords"
+							/>
+							<img
+								class="closeIcon"
+								src="./img/close-icon.svg"
+								onclick="clearInput('recipeNameInput')"
+							/>
+						</div>
 					</div>
 					<div class="searchCategoryTitle">
 						INCLUDE INGREDIENTS
 					</div>
-					<div id="includeIngredientsContainer">
+					<div id="includeIngredientsContainer" class="inputGroup">
 						<div class="inputRow">
 							<input
 								id="includeIngredient-0"
@@ -68,6 +70,26 @@
 								class="closeIcon"
 								src="./img/close-icon.svg"
 								onclick="clearInput('includeIngredient-0')"
+							/>
+						</div>
+					</div>
+					<div class="searchCategoryTitle">
+						EXCLUDE INGREDIENTS
+					</div>
+					<div id="excludeIngredientsContainer" class="inputGroup">
+						<div class="inputRow">
+							<input
+								id="excludeIngredient-0"
+								class="excludeIngredient"
+								onkeyup="onIngredientInputChange(event)"
+								onfocus="clearSuggestions()"
+								type="text"
+								placeholder="Ingredient"
+							/>
+							<img
+								class="closeIcon"
+								src="./img/close-icon.svg"
+								onclick="clearInput('excludeIngredient-0')"
 							/>
 						</div>
 					</div>

@@ -1,8 +1,8 @@
-var unitsRegex = /^oz\.?|drops?|dash(es)?|barspns?|tb?sps?|grams?|pints?|cups?$/;
+const unitsRegex = /^oz\.?|drops?|dash(es)?|barspns?|tb?sps?|grams?|pints?|cups?$/;
 
-var SUGGESTION_COUNT_LIMIT = 5;
+const SUGGESTION_COUNT_LIMIT = 5;
 
-var GLASSWARE = [
+const GLASSWARE = [
 	{
 		name: "absinthe",
 		regex: /absinthe\s+glass/i

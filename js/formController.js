@@ -1,8 +1,3 @@
-const INGREDIENT_TYPE = {
-	INCLUDE: "includeIngredient",
-	EXCLUDE: "excludeIngredient",
-};
-
 function areAllFieldsFilledIn(className) {
     const fields = document.getElementsByClassName(className);
     return [...fields].every(({ value }) => value);
@@ -43,16 +38,17 @@ function addNewIngredientInput(input, ingredientType) {
 function onIngredientInputChange(event) {
 	submitOnEnterPressed(event);
 	const input = event.target;
-	var inputValue = input.value;
+    const [ingredientType] = input.classList;
+	const inputValue = input.value;
 	if (inputValue.length > 1) {
 		generateSuggestions(input, inputValue, ingredientTokens);
-		addNewIngredientInput(input, INGREDIENT_TYPE.INCLUDE);
+		addNewIngredientInput(input, ingredientType);
 	}
 }
 
 function onRecipeNameInputChange(input, event) {
 	submitOnEnterPressed(event);
-	var inputValue = input.value;
+	const inputValue = input.value;
 	if (inputValue.length > 1) {
 		generateSuggestions(input, inputValue, nameTokens);
 	}
