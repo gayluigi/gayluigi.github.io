@@ -1,4 +1,4 @@
-var submitBtn = document.getElementById("submitIngredients");
+const submitBtn = document.getElementById("submitIngredients");
 
 function submitOnEnterPressed(event) {
 	if (event.keyCode === 13) {
@@ -7,42 +7,66 @@ function submitOnEnterPressed(event) {
 	}
 }
 
-function search() {
-	var matches = [...recipes];
-
-	var searchName = document.getElementById("recipeNameInput").value;
+function getNameMatches(list) {
+	const searchName = document.getElementById("recipeNameInput").value;
 	if (searchName) {
 		var recipeNameLookupRegex = new RegExp("\\b" + searchName + "\\b", "ig");
-		matches = matches.filter(({ name }) =>
+		return list.filter(({ name }) =>
 			recipeNameLookupRegex.test(name)
 		);
 	}
+	return list;
+}
 
-	for (var i = 0; i < 5; i++) {
-		var searchIngredient = document.getElementById("ingredient-" + i).value;
-		if (searchIngredient) {
-			var ingredientLookupRegex = new RegExp("\\b" + searchIngredient + "\\b", "i");
-			matches = matches.filter(({ ingredients, name }) =>
-				ingredients.some((ingredient) =>
-					ingredientLookupRegex.test(ingredient)
-				)
-			);
-		}
+function getIncludeIngredientsMatches(list, regexes, idx) {
+	const ingredientLookupRegex = regexes[idx];
+	if (!ingredientLookupRegex) {
+		return list;
 	}
+	const filteredList = list
+		.filter(({ ingredients }) => ingredients.some((ingredient) =>
+		ingredientLookupRegex.test(ingredient)
+	));
 
-	var resultContainer = document.getElementById("results");
+	/*
+	exclude
+	const filteredList = list
+		.filter(({ ingredients }) => ingredients.every((ingredient) =>
+		!ingredientLookupRegex.test(ingredient)
+	));
+	*/
+
+	return getIncludeIngredientsMatches(filteredList, regexes, idx+1);
+}
+
+function search() {
+	const nameMatches = getNameMatches(recipes);
+
+	const includeIngredientInputs = document.getElementsByClassName(INGREDIENT_TYPE.INCLUDE);
+	const includeIngredientRegexes = [...includeIngredientInputs]
+		.filter(({ value }) => value)
+		.map(({ value }) => new RegExp("\\b" + value + "\\b", "i"));
+	const includeIngredientsMatches = getIncludeIngredientsMatches(nameMatches, includeIngredientRegexes, 0);
+
+	const excludeIngredientsMatches = includeIngredientsMatches;
+
+	handleResultsUi(excludeIngredientsMatches);
+};
+
+function handleResultsUi(matches) {
+	const resultContainer = document.getElementById("results");
 	resultContainer.innerHTML = "";
-	var resultsSummary = document.getElementById("resultsSummary");
+	const resultsSummary = document.getElementById("resultsSummary");
 	document.getElementById("clearFavoritesActionContainer").classList.add("hidden");
 	if (matches.length == 0) {
 		resultsSummary.innerHTML = "No cocktails match your search.";
 	} else {
-		var matchingFavorites = matches
+		const matchingFavorites = matches
 			.filter(isRecipeFavorite)
 			.filter(isRecipeNotCocktailOfTheDay);
-		var matchingCoctailOfTheDay = matches
+		const matchingCoctailOfTheDay = matches
 			.filter(isRecipeCocktailOfTheDay);
-		var otherMatches = matches
+		const otherMatches = matches
 			.filter(isRecipeNotFavorite)
 			.filter(isRecipeNotCocktailOfTheDay)
 			.sort(() => Math.random() - 0.5);
@@ -63,6 +87,6 @@ function search() {
 	// |    CARAWAY MY      |
 	// |    WAYWARD SON     |
 	balanceText(".recipeTitle");
-};
+}
 
 submitBtn.onclick = search;

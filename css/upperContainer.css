@@ -83,12 +83,6 @@ input::placeholder {
   font-style: italic;
 }
 
-
-.recipeNameInput {
-	height: 33px;
-	margin-bottom: 0;
-}
-
 .suggestion {
 	height: 30px;
 	margin-bottom: 7px;
