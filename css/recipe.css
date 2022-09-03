@@ -68,12 +68,28 @@ h2.recipeTitle {
 	margin-left: 10px;
 }
 
+.rest .recipeLink {
+	display: flex;
+	align-items: baseline;
+	color: #4c5459;
+	transition: color 0.2s;
+	cursor: pointer;
+}
+.rest .recipeLink:hover {
+	color: #b3c6d0;
+}
+
+.linkIcon {
+	margin-left: 4px;
+	width: 12px;
+}
+
 .glassIcon {
 	/* 
 		Keep in sync with
 		.favIconContainer.width
-		 so that .recipeTitle will
-		 always be centered.
+		so that .recipeTitle will
+		always be centered.
 	*/
 	width: 27px;
 }
@@ -105,4 +121,10 @@ h2.recipeTitle {
 	margin-bottom: -27px;
 	border-radius: 20px;
 	border: 2px solid white;
+}
+
+.strikethrough {
+	color: #b3c6d0;
+	text-decoration: line-through;
+	transition: color 0.1s;
 }

@@ -1,3 +1,10 @@
+function getLinkIconSvg() {
+	var sourceLinkIconSvg = document.getElementById("linkSvg");
+	var linkIconSvg = sourceLinkIconSvg.cloneNode(true);
+	linkIconSvg.classList.remove("hiddenSvg");
+	return linkIconSvg;
+}
+
 function getFormattedIngredient(ingredient, factor=1) {
 	const multiplier = parseFloat(factor) || 1;
 	var ingredientContainer = document.createElement('div');
@@ -8,24 +15,44 @@ function getFormattedIngredient(ingredient, factor=1) {
 	var unit = document.createElement("span");
 	unit.className = "unit";
 	var rest = document.createElement("span");
-	rest.className = "rest";
+	rest.classList.add("rest");
+
+	var restContent = document.createElement("span");
 
 	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash|bspn|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
 	var matches = ingredient.match(regex);
-	console.log(matches);
 	if (matches && matches.length >= 4) {
 		measure.innerHTML = Math.round(
 			parseFloat(matches[1]) * multiplier * 1000
 		) / 1000 || "";
 		unit.innerHTML = matches[2] || "";
-		rest.innerHTML = matches[3] || "";
+		restContent.innerHTML = matches[3] || "";
 	} else {
-		rest.innerHTML = ingredient;
+		restContent.innerHTML = ingredient;
 	}
 
+	var matchingRecipe = recipes.find(({ name }) =>
+		restContent.innerHTML.toLowerCase() === name.toLowerCase()
+	);
+
+	if (matchingRecipe) {
+		var linkIcon = getLinkIconSvg();
+		restContent.appendChild(linkIcon);
+		restContent.onclick = modalizeRecipe(matchingRecipe);
+		restContent.classList.add("recipeLink");
+	}
+
+	rest.appendChild(restContent);
 	ingredientContainer.appendChild(measure);
 	ingredientContainer.appendChild(unit);
 	ingredientContainer.appendChild(rest);
+
+	ingredientContainer.onclick = function applyStrikethrough() {
+		var recipeContainer = ingredientContainer.parentNode.parentNode;
+		if (recipeContainer.classList.contains("modalized")) {
+			ingredientContainer.classList.toggle("strikethrough");
+		}
+	}
 	return ingredientContainer;
 }
 

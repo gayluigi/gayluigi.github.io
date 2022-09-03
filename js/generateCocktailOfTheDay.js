@@ -9,9 +9,11 @@ function applyCocktailOfTheDaySticker(recipeContainer) {
 
 function generateCocktailOfTheDay() {
 	var resultContainer = document.getElementById("results");
-	var recipe = recipes[getNumberForDay(recipes.length)];
-	COCKTAIL_OF_DAY = recipe;
-	var recipeContainer = generateRecipeCard(recipe);
+	var candidateRecipes = recipes
+		.filter(({ isIngredient }) => !isIngredient);
+	var numberForDay = getNumberForDay(candidateRecipes.length);
+	COCKTAIL_OF_DAY = candidateRecipes[numberForDay];;
+	var recipeContainer = generateRecipeCard(COCKTAIL_OF_DAY);
 	resultContainer.appendChild(recipeContainer);
 }
 

@@ -54,3 +54,7 @@ h1 {
 .closeIcon:hover {
 	background-color: #f4f7f9;
 }
+
+.hiddenSvg {
+	display: none;
+}
