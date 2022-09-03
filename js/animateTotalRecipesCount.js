@@ -1,7 +1,7 @@
 const ANIMATION_DURATION_MS = 4000;
 
 function animateTotalRecipesCount() {
-	var totalRecipesCountContainer = document.getElementById("totalRecipesCount");
+	const totalRecipesCountContainer = document.getElementById("totalRecipesCount");
 	recipes.forEach((r, idx) =>
 		setTimeout(() =>
 			totalRecipesCountContainer.innerHTML = idx + 1,

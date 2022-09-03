@@ -1,4 +1,4 @@
-var recipes = [
+const recipes = [
 	{
 		"name": "Osedax",
 		"ingredients": [
@@ -3184,7 +3184,7 @@ var recipes = [
 			"1 cup Plymouth Gin",
 			".5 cup Maraschino liqueur",
 			".25 cup Campari",
-			"1 cup Pinapple cubes"
+			"1 cup Pineapple cubes"
 		],
 		"procedure": "Combine and let sit for 24 hours, strain through a fine chinois or cheesecloth"
 	},

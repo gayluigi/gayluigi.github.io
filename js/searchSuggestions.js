@@ -1,4 +1,4 @@
-var allTokens = recipes.map((recipe) =>
+const allTokens = recipes.map((recipe) =>
 	recipe.ingredients.map((ingredient) =>
 		ingredient.split(" ")
 	).flat()
@@ -7,37 +7,47 @@ var allTokens = recipes.map((recipe) =>
 .filter((token) => !token.match(/^[\d\.]/))
 .filter((token) => !unitsRegex.test(token))
 .map((token) => token.toLowerCase());
+const allTokensSet = new Set(allTokens);
+const ingredientTokens = Array.from(allTokensSet);
 
-var allTokensSet = new Set(allTokens);
-var ingredientTokens = Array.from(allTokensSet);
+const allNameTokens = recipes.map(
+	({ name }) => name.split(" ")
+)
+.flat()
+.map((token) => token.toLowerCase());
 
-var suggestionsContainer = document.getElementById("suggestions");
+const allNameTokensSet = new Set(allNameTokens);
+const nameTokens = Array.from(allNameTokensSet);
 
 function clearSuggestions() {
+	const suggestionsContainer = document.getElementById("suggestions");
 	suggestionsContainer.innerHTML = "";
 }
 
 function addSuggestionToInput(input) {
 	return function addSuggestion(token) {
-		var suggestion = document.createElement("button");
+		const suggestion = document.createElement("button");
 		suggestion.onclick = () => { input.value = token };
 		suggestion.className = "suggestion";
 		suggestion.innerHTML = "<img class='addSuggestion' src='./img/curved-arrow-left.svg' />"
 			+ "<span>" + token + "<span>";
+		const suggestionsContainer = document.getElementById("suggestions");
 		suggestionsContainer.appendChild(suggestion);
 	}
 }
 
-function generateSuggestions(input, inputValue, ingredientTokens) {
+function generateSuggestions(input, inputValue, tokens) {
 	clearSuggestions();
-	var matchingTokens = ingredientTokens.filter((token) =>
+	const matchingTokens = tokens.filter((token) =>
 		token.startsWith(inputValue.toLowerCase())
 	).slice(0, SUGGESTION_COUNT_LIMIT);
 	if (matchingTokens.length > 0) {
-		var suggestionHdr = document.createElement("div");
-			suggestionHdr.className = "suggestionHeader";
-			suggestionHdr.innerHTML = "Suggestions:";
-			suggestionsContainer.appendChild(suggestionHdr);
+		const suggestionHdr = document.createElement("div");
+		suggestionHdr.className = "suggestionHeader";
+		suggestionHdr.innerHTML = "Suggestions:";
+		const suggestionsContainer = document.getElementById("suggestions");
+		suggestionsContainer.appendChild(suggestionHdr);
 		matchingTokens.forEach(addSuggestionToInput(input));
 	}
 }
+

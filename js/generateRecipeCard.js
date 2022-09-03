@@ -1,26 +1,26 @@
 function getLinkIconSvg() {
-	var sourceLinkIconSvg = document.getElementById("linkSvg");
-	var linkIconSvg = sourceLinkIconSvg.cloneNode(true);
+	const sourceLinkIconSvg = document.getElementById("linkSvg");
+	const linkIconSvg = sourceLinkIconSvg.cloneNode(true);
 	linkIconSvg.classList.remove("hiddenSvg");
 	return linkIconSvg;
 }
 
 function getFormattedIngredient(ingredient, factor=1) {
 	const multiplier = parseFloat(factor) || 1;
-	var ingredientContainer = document.createElement('div');
+	const ingredientContainer = document.createElement('div');
 	ingredientContainer.className = "ingredient";
 
-	var measure = document.createElement("span");
+	const measure = document.createElement("span");
 	measure.className = "measure";
-	var unit = document.createElement("span");
+	const unit = document.createElement("span");
 	unit.className = "unit";
-	var rest = document.createElement("span");
+	const rest = document.createElement("span");
 	rest.classList.add("rest");
 
-	var restContent = document.createElement("span");
+	const restContent = document.createElement("span");
 
-	var regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash|bspn|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
-	var matches = ingredient.match(regex);
+	const regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash|bspn|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
+	const matches = ingredient.match(regex);
 	if (matches && matches.length >= 4) {
 		measure.innerHTML = Math.round(
 			parseFloat(matches[1]) * multiplier * 1000
@@ -31,12 +31,12 @@ function getFormattedIngredient(ingredient, factor=1) {
 		restContent.innerHTML = ingredient;
 	}
 
-	var matchingRecipe = recipes.find(({ name }) =>
+	const matchingRecipe = recipes.find(({ name }) =>
 		restContent.innerHTML.toLowerCase() === name.toLowerCase()
 	);
 
 	if (matchingRecipe) {
-		var linkIcon = getLinkIconSvg();
+		const linkIcon = getLinkIconSvg();
 		restContent.appendChild(linkIcon);
 		restContent.onclick = modalizeRecipe(matchingRecipe);
 		restContent.classList.add("recipeLink");
@@ -48,7 +48,7 @@ function getFormattedIngredient(ingredient, factor=1) {
 	ingredientContainer.appendChild(rest);
 
 	ingredientContainer.onclick = function applyStrikethrough() {
-		var recipeContainer = ingredientContainer.parentNode.parentNode;
+		const recipeContainer = ingredientContainer.parentNode.parentNode;
 		if (recipeContainer.classList.contains("modalized")) {
 			ingredientContainer.classList.toggle("strikethrough");
 		}
@@ -57,8 +57,8 @@ function getFormattedIngredient(ingredient, factor=1) {
 }
 
 function getGlassIconUrl({ procedure }) {
-	var GLASSWARE_PREFIX = "./img/glassware/";
-	var glass = GLASSWARE.find(({ regex }) =>
+	const GLASSWARE_PREFIX = "./img/glassware/";
+	const glass = GLASSWARE.find(({ regex }) =>
 		regex.test(procedure)
 	);
 	if (glass) {
@@ -81,17 +81,17 @@ function isRecipeNotCocktailOfTheDay({ name }) {
 }
 
 function setFavIconSrc(favIcon, recipe) {
-	var favoriteIconUrl = isRecipeFavorite(recipe)
+	const favoriteIconUrl = isRecipeFavorite(recipe)
 		? "./img/favorite-filled.svg"
 		: "./img/favorite-empty.svg";
 	favIcon.src = favoriteIconUrl;
 }
 
 function getFavoriteIcon(recipe) {
-	var favIconContainer = document.createElement("div");
+	const favIconContainer = document.createElement("div");
 	favIconContainer.className = "favIconContainer";
 
-	var favIcon = document.createElement("img");
+	const favIcon = document.createElement("img");
 	favIcon.className = "favIcon";
 	setFavIconSrc(favIcon, recipe);
 
@@ -112,10 +112,10 @@ function getFavoriteIcon(recipe) {
 }
 
 function getRecipeTopRow(recipe) {
-	var recipeTopRow = document.createElement("div");
+	const recipeTopRow = document.createElement("div");
 	recipeTopRow.className = "recipeTopRow";
 
-	var glassIconUrl = getGlassIconUrl(recipe);
+	const glassIconUrl = getGlassIconUrl(recipe);
 	if (glassIconUrl) {
 		recipeTopRow.innerHTML = `<img class='glassIcon' src='${glassIconUrl}' />`;
 	} else {
@@ -132,27 +132,27 @@ function getRecipeTopRow(recipe) {
 }
 
 function generateRecipeCard(recipe) {
-	var recipeContainer = document.createElement('div');
+	const recipeContainer = document.createElement('div');
 	recipeContainer.className = "recipe";
 	recipeContainer.appendChild(getRecipeTopRow(recipe));
 
-	var ingredientsContainer = document.createElement("div");
+	const ingredientsContainer = document.createElement("div");
 	recipe.ingredients.forEach((ingredient) => {
-		var formattedIngredient = getFormattedIngredient(ingredient);
+		const formattedIngredient = getFormattedIngredient(ingredient);
 		ingredientsContainer.appendChild(formattedIngredient);
 	});
 
 	recipeContainer.multiplyMeasures = function multiply(factor) {
 		ingredientsContainer.innerHTML = "";
 		recipe.ingredients.forEach((ingredient) => {
-			var formattedIngredient = getFormattedIngredient(ingredient, factor);
+			const formattedIngredient = getFormattedIngredient(ingredient, factor);
 			ingredientsContainer.appendChild(formattedIngredient);
 		});
 	};
 
 	recipeContainer.appendChild(ingredientsContainer);
 
-	var procedureContainer = document.createElement("div");
+	const procedureContainer = document.createElement("div");
 	procedureContainer.className = "procedure";
 	procedureContainer.innerHTML = recipe.procedure;
 	recipeContainer.appendChild(procedureContainer);

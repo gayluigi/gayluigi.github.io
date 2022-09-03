@@ -1,23 +1,23 @@
-var FAVORITES_KEY = "favorites";
-var favoritesRaw = localStorage.getItem(FAVORITES_KEY);
-var FAVORITES = favoritesRaw
+const FAVORITES_KEY = "favorites";
+const favoritesRaw = localStorage.getItem(FAVORITES_KEY);
+let FAVORITES = favoritesRaw
 	? JSON.parse(favoritesRaw)
 	: [];
 
-var EMPTY_FAVORITES_MSG = "You have no favorite cocktails."
+const EMPTY_FAVORITES_MSG = "You have no favorite cocktails."
 	+ "<p class='small'>Click the star in the search results to add them to your favorites.</p>";
 
-var resultsSummary = document.getElementById("resultsSummary");
-var resultContainer = document.getElementById("results");
+const resultsSummary = document.getElementById("resultsSummary");
+const resultContainer = document.getElementById("results");
 
 function addRecipeToFavorites(recipe) {
-	var newFavorites = [...FAVORITES, recipe];
+	const newFavorites = [...FAVORITES, recipe];
 	localStorage.setItem(FAVORITES_KEY, JSON.stringify(newFavorites));
 	FAVORITES = newFavorites;
 }
 
 function removeRecipeFromFavorites(recipe) {
-	var newFavorites = FAVORITES.filter(({ name }) =>
+	const newFavorites = FAVORITES.filter(({ name }) =>
 		recipe.name !== name
 	);
 	localStorage.setItem(FAVORITES_KEY, JSON.stringify(newFavorites));
@@ -33,7 +33,7 @@ function clearFavorites() {
 		resultContainer.innerHTML = "";
 	}, 200);
 }
-var clearFavoritesAction = document.getElementById("clearFavoritesAction");
+const clearFavoritesAction = document.getElementById("clearFavoritesAction");
 clearFavoritesAction.onclick = clearFavorites;
 
 function renderFavorites() {
@@ -54,8 +54,8 @@ function renderFavorites() {
 		resultContainer.innerHTML = "";
 	}
 }
-var showFavoritesAction = document.getElementById("showFavoritesAction");
+const showFavoritesAction = document.getElementById("showFavoritesAction");
 showFavoritesAction.onclick = renderFavorites;
 
-var goBackAction = document.getElementById("backAction");
+const goBackAction = document.getElementById("backAction");
 goBackAction.onclick = () => window.location.reload();
