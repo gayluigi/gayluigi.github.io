@@ -1,12 +1,12 @@
-/* 360px and above */
-@media only screen and (min-width: 360px) {
+/* small screens */
+@media only screen and (min-width: 0px) {
 	.upperContainer {
 		width: 100%;
 		align-self: center;
 	}
 
 	.inputsColumn {
-		width: 90%;
+		width: 100%;
 	}
 }
 
