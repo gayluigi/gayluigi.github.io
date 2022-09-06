@@ -1,3 +1,5 @@
+const TIME_TO_FINISH_SUGGESTION_BTN_INTERACTIONS = 200;
+
 const allTokens = recipes.map((recipe) =>
 	recipe.ingredients.map((ingredient) =>
 		ingredient.split(" ")
@@ -26,7 +28,7 @@ function getSuggestionsContainerLocationForInput(input) {
 function removeSuggestions(input) {
 	const suggestionsContainer = getSuggestionsContainerLocationForInput(input);
 	if (suggestionsContainer) {
-		suggestionsContainer.remove();
+		window.setTimeout(() => suggestionsContainer.remove(), TIME_TO_FINISH_SUGGESTION_BTN_INTERACTIONS);
 	}
 }
 

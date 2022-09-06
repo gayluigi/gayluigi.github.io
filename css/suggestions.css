@@ -1,30 +1,36 @@
 .suggestionsContainer {
-	border: 3px solid green;
-}
+	height: 0px;
+	overflow: visible;
+	z-index: 1;
 
-.suggestionsColumn {
-	width: 40%;
-}
-
-.suggestionHeader {
-	margin-bottom: 5px;
-	font-size: 13px;
-	font-style: italic;
-	padding-bottom: 5px;
-	border-bottom: 1px dotted gray;
+	/* maintain same as .upperContainer input */
+	width: 90%;
 }
 
 .suggestion {
-	height: 30px;
-	margin-bottom: 7px;
+	height: 40px;
+	width: 100%;
 	display: flex;
 	align-items: center;
-	border: 1px solid #d5e1e8;
-	border-radius: 3px;
+	border-top: 0;
+	border-left: 1px solid #d5e1e8;
+	border-right: 1px solid #d5e1e8;
+	border-bottom: 0;
 	text-align: left;
 	padding: 0 10px;
 	cursor: pointer;
 	background-color: #f4f7f9;
+	box-shadow: 0px 4px 10px 0px #c4d1d9;
+}
+
+.suggestion:first-child {
+	border-top: 1px solid #d5e1e8;
+	margin-top: 3px;
+}
+
+.suggestion:last-child {
+	border-radius: 0 0 5px 5px;
+	border-bottom: 1px solid #d5e1e8;
 }
 
 .suggestion:hover {
