@@ -8,7 +8,7 @@ function addNewIngredientInput(input, ingredientType) {
 		const nextIndex = parseInt(input.id.slice(-1)) + 1
 		const nextRowId = `${ingredientType}Row-${nextIndex}`;
 		const nextInputId = `${ingredientType}-${nextIndex}`;
-	
+
 		const newInputRow = document.createElement("div");
 		newInputRow.id = nextRowId;
 		newInputRow.classList.add("inputRow");
