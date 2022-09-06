@@ -5447,6 +5447,359 @@ const recipes = [
 			"2 oz Ginger beer"
 		],
 		"procedure": "Shake first 4 ingredients, rocks glass, cracked ice. Top with ginger beer, mint sprig"
+	},
+		{
+		"name": "THE FINAL WARD",
+		"ingredients": [
+			".75 oz Rye",
+			".75 oz Green Chartreuse",
+			".75 oz Maraschino liqueur",
+			".75 oz Lemon juice"
+		],
+		"procedure": "Shake, cocktail glass"
+	},
+	{
+		"name": "OLD NUMBER ONE",
+		"ingredients": [
+			"1 oz Laird's Apple Brandy",
+			"1 oz Blended Scotch",
+			"1 oz Sweet vermouth",
+			"2 dashes Angostura bitters"
+		],
+		"procedure": "Stir, coupe, cherry"
+	},
+	{
+		"name": "EARTHBOUND",
+		"ingredients": [
+			"1.5 oz Blanco Tequila",
+			"1 oz Aperol",
+			".75 oz Honey syrup",
+			".75 oz Lime juice"
+		],
+		"procedure": "Shake, coupe, grapefruit twist"
+	},
+	{
+		"name": "BURROUGH'S REVIVER",
+		"ingredients": [
+			"1.5 oz Beefeater 24 Gin",
+			".75 oz Aquavit",
+			".5 oz Orgeat",
+			".5 oz Lemon juice",
+			"2 dashes Absinthe"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "RIKI TIKI TAVI",
+		"ingredients": [
+			"1 oz Plantation Pineapple rum",
+			"1 oz Blended scotch",
+			".5 oz Velvet Falernum",
+			".25 oz Pear Liqueur",
+			"1 dashes Angostura bitters",
+			"2 dashes Orange bitters"
+		],
+		"procedure": "Swizzle, Julep cup, crushed ice, mint sprig, grated cinnamon"
+	},
+	{
+		"name": "IMMIGRANT SONG",
+		"ingredients": [
+			"1.25 oz Old Overholt Rye",
+			".75 oz Aquavit",
+			".5 oz Amontillado sherry",
+			".25 oz Apricot liqueur",
+			"2 dashes Celery bitters"
+		],
+		"procedure": "Stir, rocks glass, cracked ice, lemon twist"
+	},
+	{
+		"name": "THE FRONTIER",
+		"ingredients": [
+			".75 oz Templeton Rye",
+			".75 oz Amaro Nonino",
+			".75 oz Lemon juice",
+			".5 oz Aquavit",
+			".5 oz Demerara syrup"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "ELEVENTH HOUR",
+		"ingredients": [
+			"1 oz Aquavit",
+			"1 oz Reposado Tequila",
+			".25 oz Mezcal",
+			".5 oz Yellow Chartreuse",
+			".75 oz Lime juice",
+			"1 barspn Cane Syrup"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "MASTER'S CHAIR",
+		"ingredients": [
+			"2 oz Larceny Bourbon",
+			".75 oz Aquavit",
+			".5 oz Cherry Heering",
+			"1 dash Angostura bitters",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Stir, coupe"
+	},
+	{
+		"name": "BROKEN COMPASS",
+		"ingredients": [
+			".75 oz Smith & Cross rum",
+			".75 oz Aquavit",
+			".75 oz Manzanilla Sherry",
+			".5 oz Dry Curaçao",
+			".25 oz Grenadine",
+			"5 drops Almond Extract"
+		],
+		"procedure": "Stir, rocks glass, large cube, orange peel"
+	},
+	{
+		"name": "MR. WEDNESDAY",
+		"ingredients": [
+			"1.25 oz Aquavit",
+			".5 oz Smith & Cross rum",
+			".25 oz Cruzan Black Strap rum",
+			"1 oz Lemon juice",
+			".75 oz Orgeat",
+			".5 oz Banana liqueur"
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid"
+	},
+	{
+		"name": "MILES AHEAD",
+		"ingredients": [
+			"2 Cardamon pods (muddled)",
+			".75 oz Rittenhouse Rye",
+			".75 oz Aquavit",
+			".5 oz Lemon juice",
+			".5 oz Dolin Blanc vermouth",
+			".5 oz Amontillado Sherry",
+			".5 oz Velvet Falernum",
+			".25 oz Honey syrup",
+			"2 dashes Orange bitters"
+		],
+		"procedure": "Shake, coupe"
+	},
+	{
+		"name": "SAILOR'S DELIGHT",
+		"ingredients": [
+			".75 oz Laird's Applejack",
+			".75 oz Beefeater Gin",
+			".5 oz Orange juice",
+			".5 oz Lemon juice",
+			".25 oz Amontillado Sherry",
+			".25 oz Orgeat",
+			"1 dash Angostura bitters",
+			".25 oz Cherry Heering (float)"
+		],
+		"procedure": "Shake, Collins glass, crushed ice, cherry"
+	},
+	{
+		"name": "LOST HORIZON",
+		"ingredients": [
+			"1 oz Appleton Signature rum",
+			"1 oz Cognac",
+			"2 tsp Banana liqueur",
+			"1 tsp Fernet Branca",
+			"Laphroaig Scotch (rinse)"
+		],
+		"procedure": "Stir, rinsed old fashioned glass, orange twist"
+	},
+	{
+		"name": "GOLDEN TICKET",
+		"ingredients": [
+			"1.5 oz Bourbon",
+			".5 oz Amaro Montenegro",
+			".5 oz Honey syrup",
+			".5 oz Lemon juice"
+		],
+		"procedure": "Shake, coupe, lemon twist"
+	},
+	{
+		"name": "THE MINTON",
+		"ingredients": [
+			"1.5 oz Hayman's Old Tom Gin",
+			"1 oz Dolin Sweet sermouth",
+			".5 oz Cynar",
+			".5 oz Aperol",
+			"3 dashes Orange bitters"
+		],
+		"procedure": "Stir, coupe"
+	},
+	{
+		"name": "SHADDOCK",
+		"ingredients": [
+			".75 oz Bols Genever",
+			".75 oz St. Germain",
+			".75 oz Aperol",
+			".75 oz Lemon juice"
+		],
+		"procedure": "Shake, cocktail glass, lemon twist"
+	},
+	{
+		"name": "NORMANDIE CLUB COLLINS",
+		"ingredients": [
+			"1.5 oz Beefeater Gin",
+			".5 oz Amaro Montenegro",
+			".75 oz Strawberry syrup",
+			".75 oz Lemon juice",
+			"Seltzer"
+		],
+		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, lemon wheel"
+	},
+	{
+		"name": "A MAN ABOUT TOWN",
+		"ingredients": [
+			"1.5 oz Rittenhouse Rye",
+			"1 oz Aperol",
+			".75 oz Amaro Montenegro",
+			".5 oz Dolin Dry Vermouth",
+			"2 dashes Orange bitters"
+		],
+		"procedure": "Stir, rocks glass, cracked ice, orange twist"
+	},
+	{
+		"name": "SEAWARD",
+		"ingredients": [
+			"1.5 oz Appleton V/X Rum",
+			".5 oz Privateer Silver Rum",
+			".5 oz Amaro Montenegro",
+			".5 oz Maraschino Liqueur",
+			"2 dash Orange bitters",
+			"2 Lemon peels"
+		],
+		"procedure": "Express oil from peels into mixing glass. Add all ingredients, stir, coupe"
+	},
+	{
+		"name": "FALLBACK",
+		"ingredients": [
+			"1 oz Old Overholt Rye",
+			"1 oz Laird's Applejack",
+			".5 oz Amaro Montenegro",
+			".5 oz Sweet Vermouth",
+			"2 dash Peychaud's Bitters"
+		],
+		"procedure": "Stir, cocktail glass, orange twist"
+	},
+	{
+		"name": "TOUCH OF LOVE",
+		"ingredients": [
+			"1.5 oz Black Rum",
+			"1.5 oz Bourbon",
+			"1.5 oz Amaro Montenegro",
+			".5 oz Dry Curacao",
+			"2.5 oz Pineapple juice",
+			"1 oz Lime juice",
+			"Seltzer"
+		],
+		"procedure": "Shake, Tiki mug, crushed ice. Top with seltzer, mint sprig"
+	},
+	{
+		"name": "HARRISON BERGERON",
+		"ingredients": [
+			"1 oz Four Roses Bourbon",
+			"1 oz Carpano Antica",
+			"1 oz Amaro Montengro"
+		],
+		"procedure": "Stir, double old-fashioned glass, cracked ice, orange twist"
+	},
+	{
+		"name": "FLOWER & VINE",
+		"ingredients": [
+			"1 oz Manzanilla Sherry",
+			"1 oz Mezcal",
+			".5 oz Lemon juice",
+			".5 oz Pineapple syrup",
+			".5 oz Amaro Montenegro",
+			".5 oz Banana Liqueur",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Shake, double old-fashioned glass"
+	},
+	{
+		"name": "LETTERS OF MARQUE",
+		"ingredients": [
+			"1 oz Scarlet Ibis Rum",
+			"1 oz Cynar",
+			".5 oz Dry Curacao",
+			".5 oz Galliano"
+		],
+		"procedure": "Stir, coupe, flamed orange oil"
+	},
+	{
+		"name": "PRETEDANT NOBEL",
+		"ingredients": [
+			"1.5 oz Grand Marnier",
+			".75 oz Amaro Montenegro",
+			".75 oz Lemon juice",
+			"1 dash Orange bitters"
+		],
+		"procedure": "Shake, cocktail glass, lemon twist"
+	},
+	{
+		"name": "HUNGRY LIKE THE WOLF",
+		"ingredients": [
+			"1 oz Four Roses Bourbon",
+			"1 oz Pimm's",
+			".5 oz St. Germain",
+			".5 oz Lemon juice",
+			"2 oz Ginger beer (float)"
+		],
+		"procedure": "Shake, rocks glass, crushed ice. Top with ginger beer, lemon twist"
+	},
+	{
+		"name": "BOURBON SWIZZLE",
+		"ingredients": [
+			"2 oz Bonded Bourbon",
+			"1 oz Lemon juice",
+			".5 oz Dry Curacao",
+			".25 oz Cinnamon syrup",
+			".25 oz Don's Spices #2"
+		],
+		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, grated nutmeg"
+	},
+	{
+		"name": "ANALOGUE",
+		"ingredients": [
+			"1 oz Four Roses Bourbon",
+			"1.5 oz Dark Rum",
+			".5 oz Velvet Falernum",
+			".25 oz Domaine de Canton",
+			".25 oz Allspice Dram",
+			"3 dash Angostura bitters"
+		],
+		"procedure": "Stir, rocks glass, large cube, lemon twist"
+	},
+	{
+		"name": "IN BLOOM",
+		"ingredients": [
+			"1.5 oz Mezcal",
+			".75 oz Sweet Vermouth",
+			".5 oz St. Germain",
+			".5 oz Campari",
+			"Rosewater (rinse)"
+		],
+		"procedure": "Stir, rinsed coupe, flamed orange oil"
+	},
+	{
+		"name": "DON'S MIX",
+		"ingredients": [
+			"1 oz Cinnamon syrup",
+			"2 oz White grapefruit juice"
+		],
+		"procedure": "Mix"
+	},
+	{
+		"name": "DON'S SPICES #2",
+		"ingredients": [
+			"1 oz Vanilla syrup",
+			"1 oz Allspice Dram"
+		],
+		"procedure": "Mix"
 	}
-	
 ];

@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/upperContainer.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/recipe.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/modal.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="./css/suggestions.css" media="screen" />
 
 	<script type="text/javascript" src="./js/lib/balancetext.min.js"></script>
 	<script type="text/javascript" src="./js/constants.js"></script>
@@ -41,12 +42,11 @@
 						<div class="inputRow">
 							<input
 								id="recipeNameInput"
-								onkeyup="onRecipeNameInputChange(this, event)"
-								onfocus="clearSuggestions()"
-								type="text"
+								onkeyup="onRecipeNameInputChange(event)"
+								onfocus="createSuggestionsContainer(this)"
+								onblur="removeSuggestions(this)"type="text"
 								placeholder="Title keywords"
-							/>
-							<img
+							/><img
 								class="closeIcon"
 								src="./img/close-icon.svg"
 								onclick="clearInput('recipeNameInput')"
@@ -62,11 +62,11 @@
 								id="includeIngredient-0"
 								class="includeIngredient"
 								onkeyup="onIngredientInputChange(event)"
-								onfocus="clearSuggestions()"
+								onfocus="createSuggestionsContainer(this)"
+								onblur="removeSuggestions(this)"
 								type="text"
 								placeholder="Ingredient"
-							/>
-							<img
+							/><img
 								class="closeIcon"
 								src="./img/close-icon.svg"
 								onclick="clearInput('includeIngredient-0')"
@@ -82,11 +82,11 @@
 								id="excludeIngredient-0"
 								class="excludeIngredient"
 								onkeyup="onIngredientInputChange(event)"
-								onfocus="clearSuggestions()"
+								onfocus="createSuggestionsContainer(this)"
+								onblur="removeSuggestions(this)"
 								type="text"
 								placeholder="Ingredient"
-							/>
-							<img
+							/><img
 								class="closeIcon"
 								src="./img/close-icon.svg"
 								onclick="clearInput('excludeIngredient-0')"
@@ -94,7 +94,6 @@
 						</div>
 					</div>
 				</div>
-				<div id="suggestions" class="suggestionsColumn"></div>
 			</div>
 			<div class="inputContainer">
 				<button id="submitIngredients" class="submitBtn">Search</button>
@@ -113,12 +112,13 @@
 	</div>
 	<div id="results" class="results topLevelContainer"></div>
 
+	<script type="text/javascript" src="./js/utils.js"></script>
 	<script type="text/javascript" src="./js/favorites.js"></script>
 	<script type="text/javascript" src="./js/multiplier.js"></script>
 	<script type="text/javascript" src="./js/generateRecipeCard.js"></script>
 	<script type="text/javascript" src="./js/generateCocktailOfTheDay.js"></script>
 	<script type="text/javascript" src="./js/animateTotalRecipesCount.js"></script>
-	<script type="text/javascript" src="./js/searchSuggestions.js"></script>
+	<script type="text/javascript" src="./js/suggestions.js"></script>
 	<script type="text/javascript" src="./js/formController.js"></script>
 	<script type="text/javascript" src="./js/modalizeRecipe.js"></script>
 	<script type="text/javascript" src="./js/search.js"></script>
