@@ -6,9 +6,8 @@
 	}
 
 	.inputsColumn {
-		width: 100%;
+		width: 90%;
 	}
-	
 }
 
 /* 600px and above */
@@ -20,7 +19,7 @@
 
 	.inputsColumn {
 		width: 70%;
-	}	
+	}
 }
 
 .totalRecipesCount {
