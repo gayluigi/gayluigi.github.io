@@ -1,14 +1,14 @@
 function areAllFieldsFilledIn(className) {
-    const fields = document.getElementsByClassName(className);
-    return [...fields].every(({ value }) => value);
+	const fields = document.getElementsByClassName(className);
+	return [...fields].every(({ value }) => value);
 }
 
 function addNewIngredientInput(input, ingredientType) {
-    if (areAllFieldsFilledIn(ingredientType)) {
-        const nextIndex = parseInt(input.id.slice(-1)) + 1
-        const nextRowId = `${ingredientType}Row-${nextIndex}`;
-        const nextInputId = `${ingredientType}-${nextIndex}`;
-    
+	if (areAllFieldsFilledIn(ingredientType)) {
+		const nextIndex = parseInt(input.id.slice(-1)) + 1
+		const nextRowId = `${ingredientType}Row-${nextIndex}`;
+		const nextInputId = `${ingredientType}-${nextIndex}`;
+	
 		const newInputRow = document.createElement("div");
 		newInputRow.id = nextRowId;
 		newInputRow.classList.add("inputRow");
@@ -19,17 +19,18 @@ function addNewIngredientInput(input, ingredientType) {
 		newInput.type = "text";
 		newInput.placeholder = "Ingredient";
 		newInput.onkeyup = onIngredientInputChange;
-		newInput.onfocus = clearSuggestions;
+		newInput.onfocus = () => createSuggestionsContainer(newInput);
+		newInput.onblur = () => removeSuggestions(newInput);
 		newInputRow.appendChild(newInput);
 		
 		const newCloseIcon = document.createElement("img");
-        newCloseIcon.classList.add("closeIcon");
-        newCloseIcon.src = "./img/close-icon.svg";
-        newCloseIcon.onclick = () => {
-            newInputRow.innerHTML = "";
-            newInputRow.remove();
-        };
-        newInputRow.appendChild(newCloseIcon);
+		newCloseIcon.classList.add("closeIcon");
+		newCloseIcon.src = "./img/close-icon.svg";
+		newCloseIcon.onclick = () => {
+			newInputRow.innerHTML = "";
+			newInputRow.remove();
+		};
+		newInputRow.appendChild(newCloseIcon);
 
 		document.getElementById(`${ingredientType}sContainer`).appendChild(newInputRow);
 	}
@@ -38,7 +39,7 @@ function addNewIngredientInput(input, ingredientType) {
 function onIngredientInputChange(event) {
 	submitOnEnterPressed(event);
 	const input = event.target;
-    const [ingredientType] = input.classList;
+	const [ingredientType] = input.classList;
 	const inputValue = input.value;
 	if (inputValue.length > 1) {
 		generateSuggestions(input, inputValue, ingredientTokens);
@@ -46,8 +47,9 @@ function onIngredientInputChange(event) {
 	}
 }
 
-function onRecipeNameInputChange(input, event) {
+function onRecipeNameInputChange(event) {
 	submitOnEnterPressed(event);
+	const input = event.target;
 	const inputValue = input.value;
 	if (inputValue.length > 1) {
 		generateSuggestions(input, inputValue, nameTokens);

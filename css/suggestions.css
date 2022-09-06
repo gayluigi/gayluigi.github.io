@@ -1,0 +1,38 @@
+.suggestionsContainer {
+	border: 3px solid green;
+}
+
+.suggestionsColumn {
+	width: 40%;
+}
+
+.suggestionHeader {
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-style: italic;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted gray;
+}
+
+.suggestion {
+	height: 30px;
+	margin-bottom: 7px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #d5e1e8;
+	border-radius: 3px;
+	text-align: left;
+	padding: 0 10px;
+	cursor: pointer;
+	background-color: #f4f7f9;
+}
+
+.suggestion:hover {
+	background-color: #d5e1e8;
+}
+
+.addSuggestion {
+	width: 16px;
+	margin-right: 5px;
+	color: #8da3b0;
+}

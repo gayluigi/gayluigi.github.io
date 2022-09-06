@@ -19,35 +19,52 @@ const allNameTokens = recipes.map(
 const allNameTokensSet = new Set(allNameTokens);
 const nameTokens = Array.from(allNameTokensSet);
 
-function clearSuggestions() {
-	const suggestionsContainer = document.getElementById("suggestions");
-	suggestionsContainer.innerHTML = "";
+function getSuggestionsContainerLocationForInput(input) {
+	return input.nextSibling?.nextSibling;
 }
 
-function addSuggestionToInput(input) {
+function removeSuggestions(input) {
+	const suggestionsContainer = getSuggestionsContainerLocationForInput(input);
+	if (suggestionsContainer) {
+		suggestionsContainer.remove();
+	}
+}
+
+function clearSuggestions(input) {
+	const suggestionsContainer = getSuggestionsContainerLocationForInput(input);
+	if (suggestionsContainer) {
+		suggestionsContainer.innerHTML = "";
+	}
+}
+
+
+function addSuggestionToContainer(input) {
 	return function addSuggestion(token) {
 		const suggestion = document.createElement("button");
 		suggestion.onclick = () => { input.value = token };
 		suggestion.className = "suggestion";
 		suggestion.innerHTML = "<img class='addSuggestion' src='./img/curved-arrow-left.svg' />"
 			+ "<span>" + token + "<span>";
-		const suggestionsContainer = document.getElementById("suggestions");
-		suggestionsContainer.appendChild(suggestion);
+		const suggestionsContainer = getSuggestionsContainerLocationForInput(input);
+		if (suggestionsContainer) {
+			suggestionsContainer.appendChild(suggestion);
+		}
 	}
 }
 
 function generateSuggestions(input, inputValue, tokens) {
-	clearSuggestions();
+	clearSuggestions(input)
 	const matchingTokens = tokens.filter((token) =>
 		token.startsWith(inputValue.toLowerCase())
 	).slice(0, SUGGESTION_COUNT_LIMIT);
 	if (matchingTokens.length > 0) {
-		const suggestionHdr = document.createElement("div");
-		suggestionHdr.className = "suggestionHeader";
-		suggestionHdr.innerHTML = "Suggestions:";
-		const suggestionsContainer = document.getElementById("suggestions");
-		suggestionsContainer.appendChild(suggestionHdr);
-		matchingTokens.forEach(addSuggestionToInput(input));
+		matchingTokens.forEach(addSuggestionToContainer(input));
 	}
 }
 
+function createSuggestionsContainer(input) {
+	const suggestionsContainer = document.createElement("div");
+	suggestionsContainer.classList.add("suggestionsContainer");
+	const siblingAfterCloseIcon = getSuggestionsContainerLocationForInput(input);
+	input.parentNode.insertBefore(suggestionsContainer, siblingAfterCloseIcon);
+}
