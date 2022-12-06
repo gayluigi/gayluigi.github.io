@@ -5,6 +5,11 @@ function getLinkIconSvg() {
 	return linkIconSvg;
 }
 
+function getIngredientParts(ingredient) {
+	const regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash|bspn|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
+	return ingredient.match(regex);
+}
+
 function getFormattedIngredient(ingredient, factor=1) {
 	const multiplier = parseFloat(factor) || 1;
 	const ingredientContainer = document.createElement('div');
@@ -19,14 +24,13 @@ function getFormattedIngredient(ingredient, factor=1) {
 
 	const restContent = document.createElement("span");
 
-	const regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash|bspn|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
-	const matches = ingredient.match(regex);
-	if (matches && matches.length >= 4) {
+	const ingredientParts = getIngredientParts(ingredient);
+	if (ingredientParts && ingredientParts.length >= 4) {
 		measure.innerHTML = Math.round(
-			parseFloat(matches[1]) * multiplier * 1000
+			parseFloat(ingredientParts[1]) * multiplier * 1000
 		) / 1000 || "";
-		unit.innerHTML = matches[2] || "";
-		restContent.innerHTML = matches[3] || "";
+		unit.innerHTML = ingredientParts[2] || "";
+		restContent.innerHTML = ingredientParts[3] || "";
 	} else {
 		restContent.innerHTML = ingredient;
 	}
