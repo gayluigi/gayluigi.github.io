@@ -1,5 +1,5 @@
-const SIX_PM_24_HRS = 23; // 18;
-const ONE_HOUR_MS = 3000; //60 * 60 * 1000;
+const SIX_PM_24_HRS = 18
+const FIVE_MIN_MS = 5 * 60 * 1000;
 const NOTIF_LAST_SHOWN_DATE_KEY = "notifLastShownDate";
 
 function getNotifBody({ ingredients }) {
@@ -43,6 +43,6 @@ window.addEventListener("load",
 					});
 				}
 			}
-		}, ONE_HOUR_MS);
+		}, FIVE_MIN_MS);
 	})
 );
