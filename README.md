@@ -3,7 +3,7 @@
 A web app written in javascript intended to make drinking liquor more fun that it already is!
 
 ## Features
-- Over 300 cocktails included
+- Over 500 cocktails included
 - Randomized cocktail of the day
 - Responsive theme with mobile support
 - Search by ingredient, name, or both at the same time

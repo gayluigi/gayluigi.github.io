@@ -5,6 +5,30 @@ function closeAllModals() {
 	}
 }
 
+function getActionRow(recipeName) {
+	const actionRow = document.createElement("div");
+	actionRow.className = "modalActionRow";
+
+	const recipeLink = `${window.location.host}?cocktail=${encodeURIComponent(recipeName)}`;
+	const shareBtn = document.createElement("button")
+	shareBtn.className = "modalAction shareAction";
+	shareBtn.innerHTML = "Copy link";
+	shareBtn.onclick = () => {
+		shareBtn.innerHTML = "&check; Copied";
+		navigator.clipboard.writeText(recipeLink);
+	};
+
+	const closeBtn = document.createElement("img")
+	closeBtn.className = "modalAction closeIcon";
+	closeBtn.src = "./img/close-icon.svg";
+	closeBtn.onclick = closeAllModals;
+
+	actionRow.appendChild(shareBtn);
+	actionRow.appendChild(closeBtn);
+
+	return actionRow;
+}
+
 function modalizeRecipe(recipe) {
 	return function recipeOnClick() {
 		closeAllModals();
@@ -15,15 +39,13 @@ function modalizeRecipe(recipe) {
 		// Also prevent bg click event propagation
 		recipeContainer.onclick = (e) => e.stopPropagation();
 
-		const closeBtn = document.createElement("img")
-		closeBtn.className = "closeIcon modalCloseBtn";
-		closeBtn.src = "./img/close-icon.svg";
+		const actionRow = getActionRow(recipe.name);
 
 		const multiplier = getMultiplierComponent(recipeContainer);
 
 		const modalContent = document.createElement("div");
 		modalContent.className = "modalContent";
-		modalContent.appendChild(closeBtn);
+		modalContent.appendChild(actionRow);
 		modalContent.appendChild(recipeContainer);
 		modalContent.appendChild(multiplier);
 
@@ -35,7 +57,6 @@ function modalizeRecipe(recipe) {
 		modalBg.onclick = (e) => e.stopPropagation();
 		modalBg.appendChild(modalContent);
 
-		closeBtn.onclick = closeAllModals;
 		document.body.appendChild(modalBg);
 	}
 }
