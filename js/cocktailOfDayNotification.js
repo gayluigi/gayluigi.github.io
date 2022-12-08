@@ -1,4 +1,4 @@
-const SIX_PM_24_HRS = 18
+const SIX_PM_24_HRS = 18;
 const FIVE_MIN_MS = 5 * 60 * 1000;
 const NOTIF_LAST_SHOWN_DATE_KEY = "notifLastShownDate";
 

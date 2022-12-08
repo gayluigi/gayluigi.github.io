@@ -8,14 +8,16 @@ function closeAllModals() {
 function getActionRow(recipeName) {
 	const actionRow = document.createElement("div");
 	actionRow.className = "modalActionRow";
-
+	alert(window.location.host);
 	const recipeLink = `${window.location.host}?cocktail=${encodeURIComponent(recipeName)}`;
 	const shareBtn = document.createElement("button")
 	shareBtn.className = "modalAction shareAction";
 	shareBtn.innerHTML = "Copy link";
 	shareBtn.onclick = () => {
 		shareBtn.innerHTML = "&check; Copied";
-		navigator.clipboard.writeText(recipeLink);
+		navigator.clipboard.writeText(recipeLink)
+			.then(() => alert("Copied"))
+			.catch((e) => alert(JSON.stringify(e)));
 	};
 
 	const closeBtn = document.createElement("img")
