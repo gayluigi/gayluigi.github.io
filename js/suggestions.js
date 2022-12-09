@@ -1,26 +1,5 @@
 const TIME_TO_FINISH_SUGGESTION_BTN_INTERACTIONS = 200;
 
-const allTokens = recipes.map((recipe) =>
-	recipe.ingredients.map((ingredient) =>
-		ingredient.split(" ")
-	).flat()
-)
-.flat()
-.filter((token) => !token.match(/^[\d\.]/))
-.filter((token) => !unitsRegex.test(token))
-.map((token) => token.toLowerCase());
-const allTokensSet = new Set(allTokens);
-const ingredientTokens = Array.from(allTokensSet);
-
-const allNameTokens = recipes.map(
-	({ name }) => name.split(" ")
-)
-.flat()
-.map((token) => token.toLowerCase());
-
-const allNameTokensSet = new Set(allNameTokens);
-const nameTokens = Array.from(allNameTokensSet);
-
 function getSuggestionsContainerLocationForInput(input) {
 	return input.nextSibling?.nextSibling;
 }
@@ -39,28 +18,56 @@ function clearSuggestions(input) {
 	}
 }
 
-
-function addSuggestionToContainer(input) {
-	return function addSuggestion(token) {
-		const suggestion = document.createElement("button");
-		suggestion.onclick = () => { input.value = token };
-		suggestion.className = "suggestion";
-		suggestion.innerHTML = "<img class='addSuggestion' src='./img/curved-arrow-left.svg' />"
-			+ "<span>" + token + "<span>";
+function addSuggestionToContainer(input, onClick) {
+	return function addSuggestion(suggestion, index) {
+		const suggestionBtn = document.createElement("button");
+		suggestionBtn.onclick = () => onClick(suggestion, index);
+		suggestionBtn.className = "suggestion";
+		suggestionBtn.innerHTML = "<img class='addSuggestion' src='./img/curved-arrow-left.svg' />"
+			+ "<span>" + suggestion + "<span>";
 		const suggestionsContainer = getSuggestionsContainerLocationForInput(input);
 		if (suggestionsContainer) {
-			suggestionsContainer.appendChild(suggestion);
+			suggestionsContainer.appendChild(suggestionBtn);
 		}
 	}
 }
 
-function generateSuggestions(input, inputValue, tokens) {
+function generateIngredientSuggestions(input, inputValue) {
 	clearSuggestions(input)
-	const matchingTokens = tokens.filter((token) =>
-		token.startsWith(inputValue.toLowerCase())
-	).slice(0, SUGGESTION_COUNT_LIMIT);
-	if (matchingTokens.length > 0) {
-		matchingTokens.forEach(addSuggestionToContainer(input));
+	const ingredientMatches = FUSE_INGREDIENT_SEARCH
+		.search(inputValue)
+		.slice(0, SUGGESTION_COUNT_LIMIT)
+		.map(({ item }) => item)
+		.map(toTitleCase);
+
+	function onSuggestionClick(suggestion) {
+		input.value = suggestion;
+	}
+
+	if (ingredientMatches.length > 0) {
+		ingredientMatches.forEach(addSuggestionToContainer(input, onSuggestionClick));
+	}
+}
+
+function generateNameSuggestions(input, inputValue) {
+	clearSuggestions(input);
+
+	const matchingRecipes = FUSE_NAME_SEARCH
+		.search(inputValue)
+		.slice(0, SUGGESTION_COUNT_LIMIT)
+		.map(({ item }) => item);
+		
+	const nameMatches = matchingRecipes
+		.map(({ name }) => name)
+		.map(toTitleCase);
+
+	function onSuggestionClick(suggestion, index) {
+		const clickedRecipe = matchingRecipes[index];
+		modalizeRecipe(clickedRecipe)();
+	}
+
+	if (nameMatches.length > 0) {
+		nameMatches.forEach(addSuggestionToContainer(input, onSuggestionClick));
 	}
 }
 

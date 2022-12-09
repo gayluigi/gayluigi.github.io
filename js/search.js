@@ -12,13 +12,12 @@ function submitOnEnterPressed(event) {
 	}
 }
 
-function getNameMatches(list) {
+function getNameMatches() {
 	const searchName = document.getElementById("recipeNameInput").value;
 	if (searchName) {
-		const recipeNameLookupRegex = new RegExp("\\b" + searchName + "\\b", "ig");
-		return list.filter(({ name }) =>
-			recipeNameLookupRegex.test(name)
-		);
+		return FUSE_NAME_SEARCH
+			.search(searchName)
+			.map(({ item }) => item);
 	}
 	return list;
 }
@@ -58,7 +57,7 @@ function getExcludeIngredientsMatches(list, regexes, idx) {
 }
 
 function search() {
-	const nameMatches = getNameMatches(recipes);
+	const nameMatches = getNameMatches();
 
 	const includeIngredientRegexes = getIngredientRegexes(INGREDIENT_TYPE.INCLUDE);
 	const includeIngredientsMatches = getIncludeIngredientsMatches(nameMatches, includeIngredientRegexes, 0);

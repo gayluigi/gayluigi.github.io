@@ -42,7 +42,7 @@ function onIngredientInputChange(event) {
 	const [ingredientType] = input.classList;
 	const inputValue = input.value;
 	if (inputValue.length > 1) {
-		generateSuggestions(input, inputValue, ingredientTokens);
+		generateIngredientSuggestions(input, inputValue);
 		addNewIngredientInput(input, ingredientType);
 	}
 }
@@ -52,7 +52,7 @@ function onRecipeNameInputChange(event) {
 	const input = event.target;
 	const inputValue = input.value;
 	if (inputValue.length > 1) {
-		generateSuggestions(input, inputValue, nameTokens);
+		generateNameSuggestions(input, inputValue);
 	}
 }
 

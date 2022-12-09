@@ -5,11 +5,6 @@ function getLinkIconSvg() {
 	return linkIconSvg;
 }
 
-function getIngredientParts(ingredient) {
-	const regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash|bspn|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
-	return ingredient.match(regex);
-}
-
 function getFormattedIngredient(ingredient, factor=1) {
 	const multiplier = parseFloat(factor) || 1;
 	const ingredientContainer = document.createElement('div');

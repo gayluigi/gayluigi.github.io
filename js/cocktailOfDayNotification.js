@@ -2,12 +2,8 @@ const SIX_PM_24_HRS = 18;
 const FIVE_MIN_MS = 5 * 60 * 1000;
 const NOTIF_LAST_SHOWN_DATE_KEY = "notifLastShownDate";
 
-function getNotifBody({ ingredients }) {
-	const ingredientsStr = ingredients
-		.map(getIngredientParts)
-		.map((parts) => parts[3] || null)
-		.filter(Boolean)
-		.join(", ");
+function getNotifBody(recipe) {
+	const ingredientsStr = getIngredientsFromRecipe(recipe).join(", ");
 	return `Ingredients: ${ingredientsStr}`;
 }
 

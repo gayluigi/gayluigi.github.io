@@ -358,7 +358,7 @@ const recipes = [
 		"name": "Snake Oil Salesman",
 		"ingredients": [
 			"1 oz Green Chartreuse",
-			".5 oz Myers Dark Rum",
+			".5 oz Myers's Dark Rum",
 			".25 oz Laphroaig 10 scotch",
 			"1 oz Lime juice",
 			".5 oz Pineapple juice",
@@ -5803,3 +5803,19 @@ const recipes = [
 		"procedure": "Mix"
 	}
 ];
+
+const FUSE_NAME_SEARCH = new Fuse(recipes, {
+	includeScore: true,
+	keys: ["name"],
+});
+
+const ingredientsWithDupes = recipes
+	.map(getIngredientsFromRecipe)
+	.flat(1)
+	.map((ing) => ing.toLowerCase());
+
+const ingredients = Array.from(new Set(ingredientsWithDupes));
+
+const FUSE_INGREDIENT_SEARCH = new Fuse(ingredients, {
+	includeScore: true,
+});
