@@ -19,7 +19,7 @@ function getNameMatches() {
 			.search(searchName)
 			.map(({ item }) => item);
 	}
-	return list;
+	return recipes;
 }
 
 function getIngredientRegexes(ingredientType) {
