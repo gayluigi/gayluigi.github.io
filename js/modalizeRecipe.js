@@ -11,7 +11,7 @@ function getActionRow(recipeName) {
 
 	const recipeLink = `${window.location.host}?cocktail=${encodeURIComponent(recipeName)}`;
 	const shareBtn = document.createElement("button")
-	shareBtn.className = "modalAction shareAction";
+	shareBtn.className = "modalAction copyAction";
 	shareBtn.innerHTML = "Copy link";
 	shareBtn.onclick = async () => {
 		shareBtn.innerHTML = "&check; Copied";

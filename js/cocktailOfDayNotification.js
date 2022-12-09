@@ -15,9 +15,9 @@ function getNotifConfig(cocktailOfTheDay) {
 	const title = `Cocktail of the day: ${cocktailOfTheDay.name}`;
 	const config = {
 		body: getNotifBody(cocktailOfTheDay),
-		icon: `${window.location.host}/img/appIcon.png`,
+		icon: `https://cocktails.medhi.xyz/img/appIcon.png`,
 		data: {
-			url: `${window.location.host}?cocktail=${encodeURIComponent(cocktailOfTheDay.name)}`
+			url: `https://cocktails.medhi.xyz?cocktail=${encodeURIComponent(cocktailOfTheDay.name)}`
 		},
 		actions: [{ action: "openLink", title: 'See recipe' }],
 	};
