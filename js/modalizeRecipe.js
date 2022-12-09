@@ -13,12 +13,9 @@ function getActionRow(recipeName) {
 	const shareBtn = document.createElement("button")
 	shareBtn.className = "modalAction copyAction";
 	shareBtn.innerHTML = "Copy link";
-	shareBtn.onclick = async () => {
+	shareBtn.onclick = () => {
 		shareBtn.innerHTML = "&check; Copied";
-		const { state } = await navigator.permissions.query({ name: "clipboard-write" });
-		if (state == "granted" || state == "prompt") {
-			await navigator.clipboard.writeText(recipeLink);
-		}
+		navigator.clipboard.writeText(recipeLink);
 	};
 
 	const closeBtn = document.createElement("img")
