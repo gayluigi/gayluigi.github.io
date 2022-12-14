@@ -1,12 +1,20 @@
 const BASE_10_RADIX = 10;
 const RECIPE_WIDTH_WITH_MARGIN = 10 + 360 + 10;
 
-function getResultsColumns(resultContainer) {
+function getNumCols() {
 	const containerWidth = resultContainer.clientWidth;
 	const numCols = Number.parseInt(
 		containerWidth / RECIPE_WIDTH_WITH_MARGIN,
 		BASE_10_RADIX
 	);
+	if (numCols === 0) {
+		return 1;
+	}
+	return numCols;
+}
+
+function getResultsColumns(resultContainer) {
+	const numCols = getNumCols();
 	return [...Array(numCols)].map(() => document.createElement("div"));
 }
 
