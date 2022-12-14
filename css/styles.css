@@ -41,6 +41,7 @@ h1 {
 
 .results {
 	display: flex;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	justify-content: center;
 }
