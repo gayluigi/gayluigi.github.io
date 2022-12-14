@@ -39,15 +39,12 @@ clearFavoritesAction.onclick = clearFavorites;
 function renderFavorites() {
 	document.getElementById("clearFavoritesActionContainer").classList.remove("hidden");
 	if (FAVORITES.length > 0) {
-		resultContainer.innerHTML = "";
 		resultsSummary.innerHTML = `Found ${FAVORITES.length} favorite cocktail${FAVORITES.length === 1 ? "" : "s"}.`
 			+ "<p class='small'>If you un-favorite recipes here, click \"Show favorites\" again to update this list.</p>";
 
-		[...FAVORITES] // [...copy] becasue .reverse() is destructive in-place
-			.reverse() // Somewhat chronologically descending
-			.forEach((recipe) =>
-				resultContainer.appendChild(generateRecipeCard(recipe))
-			);
+		const favoriteRecipes = [...FAVORITES] // [...copy] becasue .reverse() is destructive in-place
+			.reverse(); // Somewhat chronologically descending
+		layoutRecipes(favoriteRecipes);
 	} else {
 		document.getElementById("clearFavoritesAction").classList.add("hidden");
 		resultsSummary.innerHTML = EMPTY_FAVORITES_MSG;

@@ -63,9 +63,30 @@ function search() {
 	const includeIngredientsMatches = getIncludeIngredientsMatches(nameMatches, includeIngredientRegexes, 0);
 
 	const excludeIngredientRegexes = getIngredientRegexes(INGREDIENT_TYPE.EXCLUDE);
-	const excludeIngredientsMatches = getExcludeIngredientsMatches(includeIngredientsMatches, excludeIngredientRegexes, 0);
+	const matches = getExcludeIngredientsMatches(includeIngredientsMatches, excludeIngredientRegexes, 0);
 
-	handleResultsUi(excludeIngredientsMatches);
+	const resultsSummary = document.getElementById("resultsSummary");
+	document.getElementById("clearFavoritesActionContainer").classList.add("hidden");
+	if (matches.length == 0) {
+		resultsSummary.innerHTML = "No cocktails match your search.";
+	} else {
+		const matchingFavorites = matches
+			.filter(isRecipeFavorite)
+			.filter(isRecipeNotCocktailOfTheDay);
+		const matchingCoctailOfTheDay = matches
+			.filter(isRecipeCocktailOfTheDay);
+		const otherMatches = matches
+			.filter(isRecipeNotFavorite)
+			.filter(isRecipeNotCocktailOfTheDay)
+			.sort(() => Math.random() - 0.5);
+		const recipes = [
+			...matchingFavorites,
+			...matchingCoctailOfTheDay,
+			...otherMatches
+		];
+		layoutRecipes(recipes);
+		resultsSummary.innerHTML = `Found ${matches.length} cocktail${matches.length === 1 ? "" : "s"}.`;
+	}
 };
 
 submitBtn.onclick = search;

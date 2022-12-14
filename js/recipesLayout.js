@@ -26,31 +26,25 @@ function appendResultToColumn(columns) {
 	};
 }
 
-function handleResultsUi(matches) {
+var timer;
+function layoutRecipes(recipes) {
+	window.onresize = function () {
+		clearTimeout(timer);
+		timer = setTimeout(
+			() => layoutRecipes(recipes),
+			500
+		);
+	};
+
 	const resultContainer = document.getElementById("results");
 	resultContainer.innerHTML = "";
-	const resultsSummary = document.getElementById("resultsSummary");
-	document.getElementById("clearFavoritesActionContainer").classList.add("hidden");
-	if (matches.length == 0) {
-		resultsSummary.innerHTML = "No cocktails match your search.";
-	} else {
-		resultsColumns = getResultsColumns(resultContainer);
-		resultsColumns.forEach((resultCol) => resultContainer.appendChild(resultCol));
 
-		const matchingFavorites = matches
-			.filter(isRecipeFavorite)
-			.filter(isRecipeNotCocktailOfTheDay);
-		const matchingCoctailOfTheDay = matches
-			.filter(isRecipeCocktailOfTheDay);
-		const otherMatches = matches
-			.filter(isRecipeNotFavorite)
-			.filter(isRecipeNotCocktailOfTheDay)
-			.sort(() => Math.random() - 0.5);
-		[...matchingFavorites, ...matchingCoctailOfTheDay, ...otherMatches]
-			.map((recipe) => generateRecipeCard(recipe))
-			.forEach(appendResultToColumn(resultsColumns));
-		resultsSummary.innerHTML = `Found ${matches.length} cocktail${matches.length === 1 ? "" : "s"}.`;
-	}
+	resultsColumns = getResultsColumns(resultContainer);
+	resultsColumns.forEach((resultCol) => resultContainer.appendChild(resultCol));
+
+	recipes
+		.map(generateRecipeCard)
+		.forEach(appendResultToColumn(resultsColumns));
 
 	// The following logic uses a library to
 	// split text titles more intelligently.
