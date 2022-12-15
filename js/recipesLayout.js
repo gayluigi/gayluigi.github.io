@@ -1,5 +1,6 @@
 const BASE_10_RADIX = 10;
 const RECIPE_WIDTH_WITH_MARGIN = 10 + 360 + 10;
+const MOBILE_SCREEN_WIDTH_MAX = 1040; // 1024 with a little wiggle room
 
 function getNumCols() {
 	const containerWidth = resultContainer.clientWidth;
@@ -36,13 +37,15 @@ function appendResultToColumn(columns) {
 
 var timer;
 function layoutRecipes(recipes) {
-	window.onresize = function () {
-		clearTimeout(timer);
-		timer = setTimeout(
-			() => layoutRecipes(recipes),
-			500
-		);
-	};
+	if (screen.width > MOBILE_SCREEN_WIDTH_MAX) {
+		window.onresize = function () {
+			clearTimeout(timer);
+			timer = setTimeout(
+				() => layoutRecipes(recipes),
+				500
+			);
+		};
+	}
 
 	const resultContainer = document.getElementById("results");
 	resultContainer.innerHTML = "";
