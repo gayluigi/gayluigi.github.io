@@ -35,9 +35,11 @@ function getIncludeIngredientsMatches(list, regexes, idx) {
 		return list;
 	}
 	const filteredList = list
-		.filter(({ ingredients }) => ingredients.some(({ ingredient }) =>
-		ingredientLookupRegex.test(ingredient)
-	));
+		.filter(
+			({ ingredients }) => ingredients.some(
+				({ ingredient }) => ingredientLookupRegex.test(ingredient)
+			)
+		);
 
 	return getIncludeIngredientsMatches(filteredList, regexes, idx + 1);
 }
@@ -49,11 +51,13 @@ function getExcludeIngredientsMatches(list, regexes, idx) {
 	}
 
 	const filteredList = list
-		.filter(({ ingredients }) => ingredients.every((ingredient) =>
-		!ingredientLookupRegex.test(ingredient)
-	));
+		.filter(
+			({ ingredients }) => ingredients.every(
+				(ingredient) => !ingredientLookupRegex.test(ingredient)
+			)
+		);
 
-	return getExcludeIngredientsMatches(filteredList, regexes, idx+1);
+	return getExcludeIngredientsMatches(filteredList, regexes, idx + 1);
 }
 
 function search() {
