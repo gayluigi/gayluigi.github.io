@@ -5,46 +5,38 @@ function getLinkIconSvg() {
 	return linkIconSvg;
 }
 
-function getFormattedIngredient(ingredient, factor=1) {
+function getFormattedIngredient({ measure, unit, ingredient }, factor=1) {
 	const multiplier = parseFloat(factor) || 1;
 	const ingredientContainer = document.createElement('div');
 	ingredientContainer.className = "ingredient";
 
-	const measure = document.createElement("span");
-	measure.className = "measure";
-	const unit = document.createElement("span");
-	unit.className = "unit";
-	const rest = document.createElement("span");
-	rest.classList.add("rest");
+	const measureSpan = document.createElement("span");
+	measureSpan.className = "measure";
+	const unitSpan = document.createElement("span");
+	unitSpan.className = "unit";
+	const ingredientSpan = document.createElement("span");
+	ingredientSpan.classList.add("ingredient");
 
-	const restContent = document.createElement("span");
-
-	const ingredientParts = getIngredientParts(ingredient);
-	if (ingredientParts && ingredientParts.length >= 4) {
-		measure.innerHTML = Math.round(
-			parseFloat(ingredientParts[1]) * multiplier * 1000
-		) / 1000 || "";
-		unit.innerHTML = ingredientParts[2] || "";
-		restContent.innerHTML = ingredientParts[3] || "";
-	} else {
-		restContent.innerHTML = ingredient;
-	}
+	measureSpan.innerHTML = Math.round(
+		measure * multiplier * 1000
+	) / 1000 || "";
+	unitSpan.innerHTML = unit || "";
+	ingredientSpan.innerHTML = ingredient || "";
 
 	const matchingRecipe = recipes.find(({ name }) =>
-		restContent.innerHTML.toLowerCase() === name.toLowerCase()
+		ingredientSpan.innerHTML.toLowerCase() === name.toLowerCase()
 	);
 
 	if (matchingRecipe) {
 		const linkIcon = getLinkIconSvg();
-		restContent.appendChild(linkIcon);
-		restContent.onclick = modalizeRecipe(matchingRecipe);
-		restContent.classList.add("recipeLink");
+		ingredientSpan.appendChild(linkIcon);
+		ingredientSpan.onclick = modalizeRecipe(matchingRecipe);
+		ingredientSpan.classList.add("recipeLink");
 	}
 
-	rest.appendChild(restContent);
-	ingredientContainer.appendChild(measure);
-	ingredientContainer.appendChild(unit);
-	ingredientContainer.appendChild(rest);
+	ingredientContainer.appendChild(measureSpan);
+	ingredientContainer.appendChild(unitSpan);
+	ingredientContainer.appendChild(ingredientSpan);
 
 	ingredientContainer.onclick = function applyStrikethrough() {
 		const recipeContainer = ingredientContainer.parentNode.parentNode;

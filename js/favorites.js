@@ -56,3 +56,31 @@ showFavoritesAction.onclick = renderFavorites;
 
 const goBackAction = document.getElementById("backAction");
 goBackAction.onclick = () => window.location.reload();
+
+function getIngredientParts(ingredient) {
+	if (typeof ingredient === "string") {
+		const regex = /^([\d\.\-]*)\s+(oz\.?|drops?|dash|bspn|tb?sps?|grams?|pints?|cups?)?\s*(.*)/i;
+		const ingredientParts = ingredient.match(regex);
+		if (ingredientParts?.length === 4) {
+			return ingredientParts;
+		}
+		return [null, null, null, ingredient];
+	}
+	return [null, ingredient.measure, ingredient.unit, ingredient.ingredient];
+}
+function migrateLegacyFavorites() {
+	const fixedFavorites = FAVORITES
+		.map(({ ingredients, ...recipe }) => ({
+			...recipe,
+			ingredients: ingredients
+				.map(getIngredientParts)
+				.map(([m, measure, unit, ingredient]) => ({
+					measure,
+					unit,
+					ingredient,
+				})),
+		}));
+	localStorage.setItem(FAVORITES_KEY, JSON.stringify(fixedFavorites));
+	FAVORITES = fixedFavorites;
+}
+setTimeout(migrateLegacyFavorites, 2000);

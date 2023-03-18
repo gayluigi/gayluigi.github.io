@@ -1,5 +1,3 @@
-const unitsRegex = /^oz\.?|drops?|dash(es)?|barspns?|tb?sps?|grams?|pints?|cups?$/;
-
 const SUGGESTION_COUNT_LIMIT = 5;
 
 const GLASSWARE = [

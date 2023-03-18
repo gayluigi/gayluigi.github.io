@@ -59,23 +59,22 @@ h2.recipeTitle {
 }
 
 .unit {
-	width: 35px;
+	width: 50px;
 	margin-left: 10px;
 }
 
-.rest {
-	width: 240px;
+.ingredient {
 	margin-left: 10px;
 }
 
-.rest .recipeLink {
+.recipeLink {
 	display: flex;
 	align-items: baseline;
 	color: #4c5459;
 	transition: color 0.2s;
 	cursor: pointer;
 }
-.rest .recipeLink:hover {
+.recipeLink:hover {
 	color: #b3c6d0;
 }
 

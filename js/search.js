@@ -35,7 +35,7 @@ function getIncludeIngredientsMatches(list, regexes, idx) {
 		return list;
 	}
 	const filteredList = list
-		.filter(({ ingredients }) => ingredients.some((ingredient) =>
+		.filter(({ ingredients }) => ingredients.some(({ ingredient }) =>
 		ingredientLookupRegex.test(ingredient)
 	));
 

@@ -1,5808 +1,16724 @@
 const recipes = [
 	{
 		"name": "Osedax",
+		"procedure": "Rocks glass over big rock, dehydrated orange wheel",
 		"ingredients": [
-			"2 oz Elijah Craig Bourbon",
-			".5 oz Fernet Valet",
-			".25 oz Benedictine",
-			".5 oz Dry Curacao"
-		],
-		"procedure": "Rocks glass over big rock, dehydrated orange wheel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Elijah Craig Bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Fernet Valet"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			}
+		]
 	},
 	{
 		"name": "It Slaps",
+		"procedure": "Double shake, crushed ice, rocks glass, grapefruit peel.",
 		"ingredients": [
-			"1 oz Reyka Vodka",
-			"1 oz Combier Pamplemousse Rose",
-			".5 oz Lemon juice",
-			".5 oz Grapefruit juice",
-			".5 oz Aquafaba",
-			".25 oz 2:1 Simple syrup"
-		],
-		"procedure": "Double shake, crushed ice, rocks glass, grapefruit peel."
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Reyka Vodka"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Combier Pamplemousse Rose"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Aquafaba"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "2:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Rye Not",
+		"procedure": "Shake, rocks glass, dehydrated lemon wheel",
 		"ingredients": [
-			"1.5 oz TLW Knob Creek Rye",
-			".5 oz Combier Kummel",
-			".75 oz Lemon juice",
-			".25 oz Orange juice",
-			".25 oz 2:1 Simple syrup"
-		],
-		"procedure": "Shake, rocks glass, dehydrated lemon wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "TLW Knob Creek Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Combier Kummel"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "2:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "The Allfathers Eye",
+		"procedure": "Stirred, coupe. Dehydrated lemon wheel",
 		"ingredients": [
-			"1 oz Norden Aquavit",
-			"1 oz Meletti",
-			".75 oz Cold Brew",
-			"2 dash Cherry Vanilla Bark bitters"
-		],
-		"procedure": "Stirred, coupe. Dehydrated lemon wheel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Norden Aquavit"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Meletti"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cold Brew"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Cherry Vanilla Bark bitters"
+			}
+		]
 	},
 	{
 		"name": "There's Always Money in the Banana Stand",
+		"procedure": "Shake, coupe. Dehydrated banana chip",
 		"ingredients": [
-			"1 oz Banhez mezcal",
-			".75 oz Banana Liqueur",
-			".5 oz Domaine de Canton",
-			".75 oz Lime juice",
-			".5 oz Pineapple juice"
-		],
-		"procedure": "Shake, coupe. Dehydrated banana chip"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Banhez mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Banana Liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "Borderline",
+		"procedure": "Double shake, coupe.",
 		"ingredients": [
-			"1.5 oz Mezcal",
-			".75 oz Lime juice",
-			".5 oz Grenadine",
-			".25 oz Maraschino liqueur",
-			".25 oz Dry Curacao",
-			"Egg white/aquafaba"
-		],
-		"procedure": "Double shake, coupe."
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Egg white/aquafaba"
+			}
+		]
 	},
 	{
 		"name": "Sweet Talker",
+		"procedure": "Shake. Collins. Cube ice, top with kombucha, mint sprig",
 		"ingredients": [
-			"1.5 oz Titos vodka",
-			".75 oz Lime juice",
-			".75 oz Strawberry Mint syrup",
-			".25 oz Simple syrup",
-			"Kombucha"
-		],
-		"procedure": "Shake. Collins. Cube ice, top with kombucha, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Titos vodka"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Strawberry Mint syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Kombucha"
+			}
+		]
 	},
 	{
 		"name": "Nice Guy",
+		"procedure": "Shake, double strain into Collins. Cube ice, top with soda, dehydrated lemon wheel",
 		"ingredients": [
-			"1.5 oz Elijah Craig bourbon",
-			"1 oz Peach Shrub",
-			".75 oz Lemon juice",
-			".25 oz Yellow Chartreuse",
-			".25 oz Orgeat"
-		],
-		"procedure": "Shake, double strain into Collins. Cube ice, top with soda, dehydrated lemon wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Elijah Craig bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Peach Shrub"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			}
+		]
 	},
 	{
 		"name": "The New Hotness",
+		"procedure": "Stir, coupe, grapefruit peel",
 		"ingredients": [
-			"1.5 oz Lunazul",
-			".75 oz Grapefruit Liqueur",
-			".75 oz Dolin Dry vermouth"
-		],
-		"procedure": "Stir, coupe, grapefruit peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lunazul"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit Liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dolin Dry vermouth"
+			}
+		]
 	},
 	{
 		"name": "Honma Highball",
+		"procedure": "Shake, Collins, cube ice. Carbonate before pouring or add a splash of soda. Orange peel",
 		"ingredients": [
-			"1 oz Japanese Plum liqueur",
-			".75 oz Hibiscus-infused Aperol",
-			"3 oz Cold-brewed Oolong Tea",
-			".25 oz Orgeat",
-			".25 oz Citric/Malic Acid Solution",
-			"1 oz Suntory Toki scotch or Suntori Roku Gin"
-		],
-		"procedure": "Shake, Collins, cube ice. Carbonate before pouring or add a splash of soda. Orange peel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Japanese Plum liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Hibiscus-infused Aperol"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Cold-brewed Oolong Tea"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Citric/Malic Acid Solution"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Suntory Toki scotch or Suntori Roku Gin"
+			}
+		]
 	},
 	{
 		"name": "Norden Sour",
+		"procedure": "Shake, chilled rocks glass, no ice, lemon zest (discard). Three marigold flowers",
 		"ingredients": [
-			"2 oz Norden Aquavit",
-			".25 oz Apricot brandy",
-			".75 oz Lemon juice",
-			".25 oz Orange juice",
-			"1 oz Aquafaba",
-			".5 oz 2:1 or .75 oz 1:1 Simple syrup"
-		],
-		"procedure": "Shake, chilled rocks glass, no ice, lemon zest (discard). Three marigold flowers"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Norden Aquavit"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Apricot brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Aquafaba"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "2:1 or .75 oz 1:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Hunter's Rally",
+		"procedure": "Double shake, double strain into Collins, dehydrated lime, Angostura bitters drops",
 		"ingredients": [
-			".75 oz Pisco",
-			".75 oz Plantation Dark rum",
-			"1 oz Grenadine",
-			".75 oz Lime juice",
-			".25 oz Lemon juice",
-			".5 oz Egg white"
-		],
-		"procedure": "Double shake, double strain into Collins, dehydrated lime, Angostura bitters drops"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pisco"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Plantation Dark rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Egg white"
+			}
+		]
 	},
 	{
 		"name": "You're My Boy Blue",
+		"procedure": "Muddle blueberries, add the rest. Shake, double strain into rocks glass with ice.",
 		"ingredients": [
-			"7-8 Blueberries",
-			"1.5 oz Elijah Craig bourbon",
-			".75 oz St. Germain",
-			".75 oz Lemon juice",
-			".25 oz Simple syrup"
-		],
-		"procedure": "Muddle blueberries, add the rest. Shake, double strain into rocks glass with ice."
+			{
+				"measure": 7,
+				"ingredient": "Blueberries"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Elijah Craig bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Caraway My Wayward Son",
+		"procedure": "Shake, coupe, orange peel.",
 		"ingredients": [
-			"1 oz Norden Aquavit",
-			".75 oz Montenegro",
-			".25 oz Don Ciccio & Figli",
-			".75 oz Lemon juice",
-			".5 oz Honey syrup"
-		],
-		"procedure": "Shake, coupe, orange peel."
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Norden Aquavit"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Montenegro"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Don Ciccio & Figli"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			}
+		]
 	},
 	{
 		"name": "Hot Chocavit",
+		"procedure": "Coffee mug or toddy glass, stir, top with Caraway whipped cream, cocoa dust",
 		"ingredients": [
-			"1.25 oz Norden Aquavit",
-			".5 oz Averna",
-			".5 oz Carpano Antica",
-			"1 tbsp Hot chocolate powder",
-			"3 drops Chocolate extract",
-			"3 oz Hot water"
-		],
-		"procedure": "Coffee mug or toddy glass, stir, top with Caraway whipped cream, cocoa dust"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Norden Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Averna"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 1,
+				"unit": "tbsp",
+				"ingredient": "Hot chocolate powder"
+			},
+			{
+				"measure": 3,
+				"unit": "drops",
+				"ingredient": "Chocolate extract"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Hot water"
+			}
+		]
 	},
 	{
 		"name": "Kentucky Square",
+		"procedure": "Stir, rocks glass, big cube, dehydrated orange wheel",
 		"ingredients": [
-			"1.25 oz Phoenix Barrel Brandy",
-			".75 oz Punt e mes",
-			".5 oz Becherovka",
-			".5 oz Berentzen Apple",
-			"Dash Orange bitters"
-		],
-		"procedure": "Stir, rocks glass, big cube, dehydrated orange wheel"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Phoenix Barrel Brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Punt e mes"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Becherovka"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Berentzen Apple"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Dash Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Rosie",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1 oz Rose Gin",
-			".5 oz Lemon juice",
-			".5 oz St. Germain",
-			".25 oz Simple syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Rose Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Osborn",
+		"procedure": "Muddle jalepeno and pineapple. Shake, double strain, old fashioned glass",
 		"ingredients": [
-			"1 Jalepeno slice",
-			"2 Pineapple cubes",
-			"2 oz Gin",
-			".5 oz Lime juice",
-			".25 oz Simple syrup"
-		],
-		"procedure": "Muddle jalepeno and pineapple. Shake, double strain, old fashioned glass"
+			{
+				"measure": 1,
+				"ingredient": "Jalepeno slice"
+				},
+			{
+				"measure": 2,
+				"ingredient": "Pineapple cubes"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Sunset Curse",
+		"procedure": "Stirred, cocktail glass, flamed orange peel",
 		"ingredients": [
-			"1.5 oz Espelon Reposado tequila",
-			".5 oz Grenadine",
-			".5 oz Ancho Reyes",
-			".25 oz Dry Curacao",
-			".25 oz Allspice dram"
-		],
-		"procedure": "Stirred, cocktail glass, flamed orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Espelon Reposado tequila"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Ancho Reyes"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			}
+		]
 	},
 	{
 		"name": "Christmas in Cozmel",
+		"procedure": "Stirred, coupe glass, lime flag",
 		"ingredients": [
-			"1.5 oz Don Julio reposado",
-			".5 oz Amaro Montenegro",
-			".5 oz Lustau Oloroso sherry",
-			".25 oz Agave"
-		],
-		"procedure": "Stirred, coupe glass, lime flag"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Don Julio reposado"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lustau Oloroso sherry"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Agave"
+			}
+		]
 	},
 	{
 		"name": "Hold Up",
+		"procedure": "Shake, absinthe-rinsed glass, one mint leaf",
 		"ingredients": [
-			"1.5 oz Norden Aquavit",
-			".5 oz St. Germain",
-			".75 oz Lime juice",
-			".75 oz Honey syrup",
-			"3 dash Saline solution"
-		],
-		"procedure": "Shake, absinthe-rinsed glass, one mint leaf"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Norden Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Saline solution"
+			}
+		]
 	},
 	{
 		"name": "Manhattan #1",
+		"procedure": "Stir, rocks glass, lemon flag",
 		"ingredients": [
-			"2.25 oz Wild Turkey whiskey",
-			".75 oz Carpano Antica"
-		],
-		"procedure": "Stir, rocks glass, lemon flag"
+			{
+				"measure": 2.25,
+				"unit": "oz",
+				"ingredient": "Wild Turkey whiskey"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			}
+		]
 	},
 	{
 		"name": "Manhattan #2",
+		"procedure": "Stir, rocks glass, orange flag",
 		"ingredients": [
-			"2.0 oz Rittenhouse Rye",
-			"1.0 oz Carpano punt e Mes",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Stir, rocks glass, orange flag"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Carpano punt e Mes"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "The Last Word",
+		"procedure": "Shake, martini glass, lime Wheel",
 		"ingredients": [
-			".75 oz Plymouth Gin",
-			".75 oz Green Chartreuse",
-			".75 oz Maraschino liqueur",
-			".75 oz Lime juice"
-		],
-		"procedure": "Shake, martini glass, lime Wheel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "Los Lobos",
+		"procedure": "Shake, rocks glass, crushed pink peppercorn",
 		"ingredients": [
-			"1.5 oz Lunazul Blanco tequila",
-			".75 oz Lime juice",
-			".75 oz Agave syrup",
-			".75 oz Pineapple juice"
-		],
-		"procedure": "Shake, rocks glass, crushed pink peppercorn"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lunazul Blanco tequila"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Agave syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "Cabaret",
+		"procedure": "Shake, martini glass, lime wheel",
 		"ingredients": [
-			"1.5 oz Titos vodka",
-			".75 oz Lime juice",
-			".5 oz Amaretto",
-			".5 oz Agave syrup",
-			"1 dash Bitter Truth Jerry Thomas bitters"
-		],
-		"procedure": "Shake, martini glass, lime wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Titos vodka"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaretto"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Agave syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Bitter Truth Jerry Thomas bitters"
+			}
+		]
 	},
 	{
 		"name": "Kentucky Sunshine",
+		"procedure": "Shake first 5 ingredients, double strain, rocks glass. Top with ginger beer, basil leaf",
 		"ingredients": [
-			"4 Basil leaves (muddled)",
-			"2.0 oz Elijiah Craig Small Batch bourbon",
-			".5 oz Lemon juice",
-			".25 oz Brown Simple syrup",
-			"5 drops Celery Shrub",
-			"Ginger beer"
-		],
-		"procedure": "Shake first 5 ingredients, double strain, rocks glass. Top with ginger beer, basil leaf"
+			{
+				"measure": 4,
+				"ingredient": "Basil leaves (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Elijiah Craig Small Batch bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Brown Simple syrup"
+			},
+			{
+				"measure": 5,
+				"unit": "drops",
+				"ingredient": "Celery Shrub"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Ginger beer"
+			}
+		]
 	},
 	{
 		"name": "Old West Side",
+		"procedure": "stir, rocks glass, grapefruit peel",
 		"ingredients": [
-			"1.5 oz Wild Turkey whiskey",
-			"1 oz Smoked Domaine de Canton",
-			".75 oz Carpano Antica",
-			"2 dash Orange bitters"
-		],
-		"procedure": "stir, rocks glass, grapefruit peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Wild Turkey whiskey"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Smoked Domaine de Canton"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Baker Street",
+		"procedure": "Stir, coupe, rosemary sprig",
 		"ingredients": [
-			"1.5 oz St. George Terroir Gin",
-			".75 oz Dolin Blanc vermouth",
-			".5 oz Dry Curacao",
-			".25 oz Green Chartreuse"
-		],
-		"procedure": "Stir, coupe, rosemary sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "St. George Terroir Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			}
+		]
 	},
 	{
 		"name": "Mother's Ruin",
+		"procedure": "Shake, cocktail glass, rosemary sprig.",
 		"ingredients": [
-			"1.25 oz Tanqueray Gin",
-			".75 oz Cynar",
-			".75 oz Lemon juice",
-			".75 oz Pineapple juice",
-			".5 oz Grapefruit juice",
-			".25 oz Orgeat"
-		],
-		"procedure": "Shake, cocktail glass, rosemary sprig."
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Tanqueray Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			}
+		]
 	},
 	{
 		"name": "Party Police",
+		"procedure": "Shake, collins glass",
 		"ingredients": [
-			"1 oz Vida Mezcal",
-			"1 oz Strawberry balsamic shrub",
-			".5 oz Domaine de Canton",
-			".5 oz Lime juice",
-			".25 oz 2:1 Simple syrup"
-		],
-		"procedure": "Shake, collins glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Vida Mezcal"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Strawberry balsamic shrub"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "2:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Smash Brothers",
+		"procedure": "Shake, highball glass. Top with soda, sage leaf.",
 		"ingredients": [
-			"1.5 oz Elijah Craig bourbon",
-			".25 oz Limoncello",
-			".75 oz Black Sage syrup",
-			".5 oz Lemon juice",
-			".25 oz 2:1 Simple syrup"
-		],
-		"procedure": "Shake, highball glass. Top with soda, sage leaf."
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Elijah Craig bourbon"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Limoncello"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black Sage syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "2:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "A Morning Rum",
+		"procedure": "Stir, rocks glass, dehydrated lime or orange wheel",
 		"ingredients": [
-			"1.5 oz Plantation Original Dark rum",
-			".5 oz Chicory syrup",
-			"1 oz Cold brew",
-			"7 drops Banana extract"
-		],
-		"procedure": "Stir, rocks glass, dehydrated lime or orange wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plantation Original Dark rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Chicory syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cold brew"
+			},
+			{
+				"measure": 7,
+				"unit": "drops",
+				"ingredient": "Banana extract"
+			}
+		]
 	},
 	{
 		"name": "Snake Oil Salesman",
+		"procedure": "Shake, crushed ice, dragon glass, lime wheel",
 		"ingredients": [
-			"1 oz Green Chartreuse",
-			".5 oz Myers's Dark Rum",
-			".25 oz Laphroaig 10 scotch",
-			"1 oz Lime juice",
-			".5 oz Pineapple juice",
-			".5 oz Brown Simple syrup",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, crushed ice, dragon glass, lime wheel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Myers's Dark Rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Laphroaig 10 scotch"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Brown Simple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "The Heist",
+		"procedure": "Shake, Absinthe glass, lemon peel",
 		"ingredients": [
-			"1.5 oz Hayman's Old Tom Gin",
-			".5 oz Averna",
-			".75 oz Lemon juice",
-			".5 oz 2:1 Honey syrup"
-		],
-		"procedure": "Shake, Absinthe glass, lemon peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Hayman's Old Tom Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Averna"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "2:1 Honey syrup"
+			}
+		]
 	},
 	{
 		"name": "Rhum Old Fashioned",
+		"procedure": "Stir, rocks glass, orange peel",
 		"ingredients": [
-			"2.0 oz Clement Barrel Select rhum agricole",
-			".25 oz Orgeat",
-			"2 dash Cherry Vanilla Bark bitters",
-			"1 Dash Angostura bitters"
-		],
-		"procedure": "Stir, rocks glass, orange peel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Clement Barrel Select rhum agricole"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Cherry Vanilla Bark bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "Dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "Kissed by a Rose",
+		"procedure": "Double shake, coupe, rose bud",
 		"ingredients": [
-			"1.5 oz Hayman's gin",
-			".5 oz Claret syrup",
-			".5 oz Lemon juice",
-			".5 oz Egg white"
-		],
-		"procedure": "Double shake, coupe, rose bud"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Hayman's gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Claret syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Egg white"
+			}
+		]
 	},
 	{
 		"name": "(C)ole' fashioned",
+		"procedure": "Stir, big cube, rocks glass, lemon peel",
 		"ingredients": [
-			"1.5 oz Wild Turkey 101 whiskey",
-			".5 oz Dolin Genepy",
-			".25 oz 2:1 Brown Simple syrup",
-			"2 dash Peychaud's bitters",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Stir, big cube, rocks glass, lemon peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Wild Turkey 101 whiskey"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Genepy"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "2:1 Brown Simple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "Senor Burns",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"7 drops Jalapeno tincture",
-			"1.5 oz Mezcal",
-			".75 oz Lime juice",
-			".75 oz Ancho Reyes",
-			".25 oz 2:1 Simple syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 7,
+				"unit": "drops",
+				"ingredient": "Jalapeno tincture"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Ancho Reyes"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "2:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Pining Princess",
+		"procedure": "Shake, crushed ice, Collins glass",
 		"ingredients": [
-			"1 oz Amaro Montenegro",
-			"1 oz Pineapple juice",
-			"1 oz Lime juice",
-			".25 oz Orgeat",
-			".5 oz Dry Curacao"
-		],
-		"procedure": "Shake, crushed ice, Collins glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			}
+		]
 	},
 	{
 		"name": "Sacred Heart",
+		"procedure": "Shake, coupe, grapefruit peel",
 		"ingredients": [
-			"1 oz Mezcal",
-			"1 oz Aperol",
-			".5 oz Lime juice",
-			".5 oz Orgeat",
-			".25 oz Streyga"
-		],
-		"procedure": "Shake, coupe, grapefruit peel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Streyga"
+			}
+		]
 	},
 	{
 		"name": "Queen of Cups",
+		"procedure": "Shake, cocktail glass, rosemary sprig",
 		"ingredients": [
-			"1.5 oz Haymans Old Tom Gin",
-			".75 oz Lemon juice",
-			".5 oz Fennel liqueur",
-			".25 oz Becherovka",
-			".25 oz Orgeat"
-		],
-		"procedure": "Shake, cocktail glass, rosemary sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Haymans Old Tom Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Fennel liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Becherovka"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			}
+		]
 	},
 	{
 		"name": "Ice Planet",
+		"procedure": "Stir, rocks glass, orange peel",
 		"ingredients": [
-			"1.5 oz Reyka",
-			".5 oz Dolin Blanc vermouth",
-			".5 oz Becherovka",
-			".5 oz Streyga",
-			".25 oz Orgeat",
-			"2 dash Peychaud's bitters"
-		],
-		"procedure": "Stir, rocks glass, orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Reyka"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Becherovka"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Streyga"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "Sea Castle",
+		"procedure": "Double shake, martini glass, Peychaud's bitters",
 		"ingredients": [
-			"1.5 oz Vida Mezcal",
-			".75 oz Lemon juice",
-			".5 oz Creme de Violette",
-			".25 oz Orgeat",
-			".5 oz Egg white or Aquafaba"
-		],
-		"procedure": "Double shake, martini glass, Peychaud's bitters"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Vida Mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Creme de Violette"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Egg white or Aquafaba"
+			}
+		]
 	},
 	{
 		"name": "Last Minute",
+		"procedure": "Shake, double strain, martini glass, grapefruit peel",
 		"ingredients": [
-			"Muddled Ginger",
-			"1 oz Tanqueray Gin",
-			"1 oz Domaine de Canton",
-			".75 oz Grapefruit juice",
-			".5 oz Simple syrup",
-			".5 oz Lemon juice"
-		],
-		"procedure": "Shake, double strain, martini glass, grapefruit peel"
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Muddled Ginger"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Tanqueray Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "Estrella Negra",
+		"procedure": "Shake, rocks glass, big cube",
 		"ingredients": [
-			"1.75 oz Don Julio Reposado tequila",
-			".25 oz Fernet Valet",
-			".5 oz Piloncillo syrup",
-			".5 oz Hyperion Cold Brew"
-		],
-		"procedure": "Shake, rocks glass, big cube"
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "Don Julio Reposado tequila"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Fernet Valet"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Piloncillo syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Hyperion Cold Brew"
+			}
+		]
 	},
 	{
 		"name": "Tell Me No Fibs, I'll Tell You No Lies",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.25 oz Copper & Kings American Brandy",
-			".75 oz Don Ciccio e Figli Fennel liqueur",
-			".5 oz Lemon juice",
-			".25 oz Berentzen Apple liqueur",
-			".25 oz 1:1 Simple syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Copper & Kings American Brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Don Ciccio e Figli Fennel liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Berentzen Apple liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "1:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "The Stampede",
+		"procedure": "Shake, rocks glass, mint sprig",
 		"ingredients": [
-			"1.5 oz Buffalo Trace bourbon",
-			".75 oz Fernet Branca",
-			".75 oz Lime juice",
-			".5 oz 2:1 Simple syrup"
-		],
-		"procedure": "Shake, rocks glass, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Buffalo Trace bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "2:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "TRUE GRIT",
+		"procedure": "Stir, rocks glass, big cube, lemon wheel",
 		"ingredients": [
-			"1.5 oz Bulleit Rye",
-			"0.5 oz Benedictine",
-			"0.5 oz Tawny Port",
-			"0.5 oz Carpano Antica",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Stir, rocks glass, big cube, lemon wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bulleit Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Tawny Port"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "Roaring 40's",
+		"procedure": "Muddle with sea salt. Shake, double strain, coupe, cucumber slice",
 		"ingredients": [
-			"1 Thick cucumber slice (muddled)",
-			"1.5 oz Barsol Pisco",
-			"1 oz Aperol",
-			".5 oz Lime juice"
-		],
-		"procedure": "Muddle with sea salt. Shake, double strain, coupe, cucumber slice"
+			{
+				"measure": 1,
+				"ingredient": "Thick cucumber slice (muddled)"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Barsol Pisco"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "Rye Daiquiri",
+		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
-			"1.75 oz Bulliet Rye",
-			".75 oz Lime juice",
-			".5 oz Orgeat",
-			".25 oz Maraschino liqueur"
-		],
-		"procedure": "Shake, coupe, lime wheel"
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "Bulliet Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			}
+		]
 	},
 	{
 		"name": "Basil & Bubbles",
+		"procedure": "Shake first 4 ingredients, double strain, champagne flute. Top with champagne, basil leaf",
 		"ingredients": [
-			"3 Basil leaves (muddled)",
-			"2 oz Gin",
-			".75 oz Lemon juice",
-			".75 oz Simple syrup",
-			"Champagne"
-		],
-		"procedure": "Shake first 4 ingredients, double strain, champagne flute. Top with champagne, basil leaf"
+			{
+				"measure": 3,
+				"ingredient": "Basil leaves (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "The Purple Gang",
+		"procedure": "Shake, champagne flute. Top with champagne, lemon twist.",
 		"ingredients": [
-			"1.0 oz Titos vodka",
-			".5 oz Creme de Violette",
-			".5 oz St. Germain",
-			"Champagne"
-		],
-		"procedure": "Shake, champagne flute. Top with champagne, lemon twist."
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Titos vodka"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Creme de Violette"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "Wise Guy",
+		"procedure": "Stir, coupe, orange peel",
 		"ingredients": [
-			"1.5 oz Buffalo Trace bourbon",
-			".5 oz Cynar",
-			".5 oz Lazzeroni Amaretto",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Buffalo Trace bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lazzeroni Amaretto"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Paradiso Sour",
+		"procedure": "Double shake, rocks glass, orange peel",
 		"ingredients": [
-			".75 oz Buffalo Trace bourbon",
-			".75 oz Aperol",
-			".75 oz Grapefruit juice",
-			".25 oz Lemon juice",
-			".25 oz Simple syrup",
-			"Egg White"
-		],
-		"procedure": "Double shake, rocks glass, orange peel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Buffalo Trace bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Egg White"
+			}
+		]
 	},
 	{
 		"name": "Nevermore",
+		"procedure": "Shake, rocks glass, orange peel",
 		"ingredients": [
-			"1.5 oz Four Roses bourbon",
-			".75 oz Cynar",
-			".5 oz Branca Menta",
-			".5 oz Cold brew"
-		],
-		"procedure": "Shake, rocks glass, orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Four Roses bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Branca Menta"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cold brew"
+			}
+		]
 	},
 	{
 		"name": "Blood & Smoke",
+		"procedure": "Shake, martini glass",
 		"ingredients": [
-			"1 oz Mezcal",
-			".75 oz Punt E Mes",
-			".5 oz Cherry Heering",
-			".75 oz Orange juice"
-		],
-		"procedure": "Shake, martini glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Punt E Mes"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			}
+		]
 	},
 	{
 		"name": "Dr. Ordinaire",
+		"procedure": "Shake, coupe with one drop of Peychaud's in glass, orange peel",
 		"ingredients": [
-			"1.5 oz Tanqueray Gin",
-			".5 oz Absinthe Ordinaire",
-			".5 oz Lime juice",
-			".5 oz 1:1 Simple syrup"
-		],
-		"procedure": "Shake, coupe with one drop of Peychaud's in glass, orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Tanqueray Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Absinthe Ordinaire"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "1:1 Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Red Rum",
+		"procedure": "Shake, rocks glass, orange cherry flag",
 		"ingredients": [
-			".75 oz Ron Zacapa rum",
-			".75 oz Rum Barbancourt 8 rum",
-			"1.0 oz Carpano Antica",
-			".5 oz Maraschino liqueur",
-			"2 dash Orange bitters"
-		],
-		"procedure": "Shake, rocks glass, orange cherry flag"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Ron Zacapa rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Rum Barbancourt 8 rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Spice and Everything Nice",
+		"procedure": "Stir, rocks glass, big rock, express orange peel, torched cinnamon stick",
 		"ingredients": [
-			"1.5 oz Colonel Taylor Small Batch bourbon",
-			".5 oz Allspice dram",
-			".5 oz Tawny Port",
-			".25 oz Benedictine",
-			".25 oz Carpano Antica"
-		],
-		"procedure": "Stir, rocks glass, big rock, express orange peel, torched cinnamon stick"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Colonel Taylor Small Batch bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Tawny Port"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			}
+		]
 	},
 	{
 		"name": "Yellow Bird",
+		"procedure": "Shake, collins, crushed ice",
 		"ingredients": [
-			"2.25 oz El Dorado 3 Year Demerara rum",
-			"1 oz Banana liqueur",
-			"1 oz Apricot brandy",
-			"2 oz Pineapple juice",
-			".5 oz Lime juice",
-			"1 tsp Allspice dram",
-			"2 dash Jamaican bitters"
-		],
-		"procedure": "Shake, collins, crushed ice"
+			{
+				"measure": 2.25,
+				"unit": "oz",
+				"ingredient": "El Dorado 3 Year Demerara rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Apricot brandy"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Jamaican bitters"
+			}
+		]
 	},
 	{
 		"name": "Apricot Julep",
+		"procedure": "Stir with crushed ice. Mint sprig",
 		"ingredients": [
-			"2 oz Bourbon",
-			".5 oz Apricot liqueur",
-			".5 oz Simple syrup",
-			"10-14 Mint leaves (muddled)",
-			"3 Apricot slices (muddled)"
-		],
-		"procedure": "Stir with crushed ice. Mint sprig"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 10,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 3,
+				"ingredient": "Apricot slices (muddled)"
+				}
+		]
 	},
 	{
 		"name": "Age of Aquarius",
+		"procedure": "Shake first 4 ingredients, rocks glass, crushed ice. Float Campari, mint sprig",
 		"ingredients": [
-			"1.5 oz Mezcal",
-			".75 oz Lime juice",
-			".75 oz Passionfruit syrup",
-			".25 oz Honey syrup",
-			".5 oz Campari"
-		],
-		"procedure": "Shake first 4 ingredients, rocks glass, crushed ice. Float Campari, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			}
+		]
 	},
 	{
 		"name": "Scofflaw",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"1.5 oz Rye",
-			"1 oz Dolin Blanc vermouth",
-			".5 oz Lemon juice",
-			".5 oz Grenadine",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Lost Lake",
+		"procedure": "Mix/whip shake, crushed ice, footed pilsner",
 		"ingredients": [
-			"2 oz Jamaican rum",
-			".25 oz Campari",
-			".25 oz Maraschino liqueur",
-			".75 oz Lime juice",
-			".75 oz Passionfruit syrup",
-			".5 oz Pineapple juice"
-		],
-		"procedure": "Mix/whip shake, crushed ice, footed pilsner"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Jamaican rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "Bitter Mai Tai",
+		"procedure": "Mix/whip shake, crushed ice, rocks glass. Mint, lime wheel",
 		"ingredients": [
-			"1 oz Campari",
-			"1 oz Smith & Cross rum",
-			".5 oz Dry Curacao",
-			"1 oz Lime juice",
-			".5 oz Orgeat"
-		],
-		"procedure": "Mix/whip shake, crushed ice, rocks glass. Mint, lime wheel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Smith & Cross rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			}
+		]
 	},
 	{
 		"name": "Mr. Bodi Hai",
+		"procedure": "Mix/whip shake with crushed ice, pour into footed pilsner. Top up, pineapple fronds",
 		"ingredients": [
-			"1.5 oz Real McCoy Rum",
-			".25 oz Coffee liqueur",
-			".25 oz Banana liqueur",
-			"1.5 oz Pineapple juice",
-			".75 oz Lemon juice",
-			".5 oz Macadamia Orgeat",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake with crushed ice, pour into footed pilsner. Top up, pineapple fronds"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Real McCoy Rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Coffee liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Macadamia Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "Banana Farmer",
+		"procedure": "Mix/whip shake, crushed ice, Collins glass, pineapple fronds",
 		"ingredients": [
-			"1 oz Smith & Cross rum",
-			"1 oz Plantation 3 Star white rum",
-			"1 oz Banana liqueur",
-			".5 oz Velvet Falernum",
-			"1 oz Lime juice",
-			".75 oz Pineapple juice"
-		],
-		"procedure": "Mix/whip shake, crushed ice, Collins glass, pineapple fronds"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Smith & Cross rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Plantation 3 Star white rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "Fay Wray",
+		"procedure": "Lightly muddle lime wedge, mix/whip shake, crushed ice, rocks glass. Dried banana or mint sprig",
 		"ingredients": [
-			".75 oz Gold Rum Barbancourt",
-			".75 oz Cognac",
-			".75 oz Banana liqueur",
-			".75 oz Lime juice",
-			".25 oz Rhum agricole",
-			".25 oz 2:1 Demerara syrup"
-		],
-		"procedure": "Lightly muddle lime wedge, mix/whip shake, crushed ice, rocks glass. Dried banana or mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Gold Rum Barbancourt"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Rhum agricole"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "2:1 Demerara syrup"
+			}
+		]
 	},
 	{
 		"name": "Keicho Embassy",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Suntory Toki Japanese whiskey",
-			".5 oz St. Germain",
-			".25 oz Yellow Chartreuse",
-			"1 oz Fuji apple juice",
-			"1 oz Lemon juice"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Suntory Toki Japanese whiskey"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Fuji apple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "Father Knows Best",
+		"procedure": "Stir with ice, pour into bottle and smoke. Pour into rocks glass with large cube",
 		"ingredients": [
-			"1.5 oz Macallan 12 year Scotch whiskey",
-			".5 oz Jagermeister",
-			".25 oz Green Chartreuse",
-			".25 oz Root beer syrup"
-		],
-		"procedure": "Stir with ice, pour into bottle and smoke. Pour into rocks glass with large cube"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Macallan 12 year Scotch whiskey"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Jagermeister"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Root beer syrup"
+			}
+		]
 	},
 	{
 		"name": "Arrack Punch",
+		"procedure": "Mix/whip shake, crushed ice, goblet. Fresh fruit, pineapple fronds",
 		"ingredients": [
-			"1.5 oz Batavia Arrack",
-			".5 oz Jamaican rum",
-			".75 oz Lemon juice",
-			".75 oz Simple syrup",
-			".5 oz Pineapple juice"
-		],
-		"procedure": "Mix/whip shake, crushed ice, goblet. Fresh fruit, pineapple fronds"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Jamaican rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "Seven Seas Swizzle",
+		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, lime wheel, grated nutmeg",
 		"ingredients": [
-			"2 oz Batavia Arrack",
-			".5 oz Lime juice",
-			".5 oz Green Tea syrup",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, lime wheel, grated nutmeg"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Tea syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Boilermaker House Sour",
+		"procedure": "Double shake all but beer, cocktail glass. Top with IPA",
 		"ingredients": [
-			"2 oz JW Double Black Scotch whiskey",
-			".75 oz Lemon juice",
-			".375 oz 2:1 Simple syrup",
-			".375 oz Passionfruit syrup",
-			"2 dash Angostura bitters",
-			"1 Egg white",
-			"IPA beer"
-		],
-		"procedure": "Double shake all but beer, cocktail glass. Top with IPA"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "JW Double Black Scotch whiskey"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.375,
+				"unit": "oz",
+				"ingredient": "2:1 Simple syrup"
+			},
+			{
+				"measure": 0.375,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "IPA beer"
+			}
+		]
 	},
 	{
 		"name": "Chamomile Sour",
+		"procedure": "Double shake, chilled coupe, chamomile flowers",
 		"ingredients": [
-			"1.5 oz Chamomile Gin",
-			".5 oz Dolin Blanc vermouth",
-			".75 oz Lemon juice",
-			".5 oz Simple syrup",
-			"1 Egg white"
-		],
-		"procedure": "Double shake, chilled coupe, chamomile flowers"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Chamomile Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "Chamomile Gin",
+		"procedure": "Shake or stir gently to combine, let infuse for 5 days or to taste",
 		"ingredients": [
-			"8 oz Gin",
-			"8 grams Chamomile flowers or tea bags"
-		],
-		"procedure": "Shake or stir gently to combine, let infuse for 5 days or to taste"
+			{
+				"measure": 8,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 8,
+				"unit": "grams",
+				"ingredient": "Chamomile flowers or tea bags"
+			}
+		]
 	},
 	{
 		"name": "Guardian Angel",
+		"procedure": "Shake, double strain, coupe, cucumber slice",
 		"ingredients": [
-			"2-3 Cucumber slices (lightly muddled)",
-			"1.25 oz Amaro Montenegro",
-			".75 oz Wray and Nephew Overproof rum",
-			".75 oz Orgeat",
-			".75 oz Lime juice",
-			"3 drops Rosewater"
-		],
-		"procedure": "Shake, double strain, coupe, cucumber slice"
+			{
+				"measure": 2,
+				"ingredient": "Cucumber slices (lightly muddled)"
+				},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Wray and Nephew Overproof rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 3,
+				"unit": "drops",
+				"ingredient": "Rosewater"
+			}
+		]
 	},
 	{
 		"name": "Billionaire",
+		"procedure": "Shake, cocktail glass, dehydrated lemon wheel",
 		"ingredients": [
-			"2 oz Overproof Bourbon",
-			".5 oz Simple syrup",
-			".5 oz Campari",
-			".25 oz Absinthe bitters",
-			"1 oz Lemon juice"
-		],
-		"procedure": "Shake, cocktail glass, dehydrated lemon wheel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Overproof Bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Absinthe bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "Blood and Sand",
+		"procedure": "Shake first 3 ingredients, rocks glass. Top with orange juice",
 		"ingredients": [
-			".75 oz Scotch",
-			".75 oz Cherry Heering",
-			".75 oz Sweet vermouth",
-			".75 oz Orange juice"
-		],
-		"procedure": "Shake first 3 ingredients, rocks glass. Top with orange juice"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Scotch"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			}
+		]
 	},
 	{
 		"name": "Fernando",
+		"procedure": "Stir, large ice, cocktail glass, mint sprig",
 		"ingredients": [
-			"1.25 oz Fernet Branca",
-			"1.75 oz Cinzano Bianco vermouth",
-			".75 oz Galliano"
-		],
-		"procedure": "Stir, large ice, cocktail glass, mint sprig"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "Cinzano Bianco vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Galliano"
+			}
+		]
 	},
 	{
 		"name": "Nerina",
+		"procedure": "Stir, large ice, cocktail glass orange twist",
 		"ingredients": [
-			"1.25 oz Plymouth Gin",
-			"1.25 oz Meletti amaro",
-			"1.25 oz Punt e Mes"
-		],
-		"procedure": "Stir, large ice, cocktail glass orange twist"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Meletti amaro"
+			},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			}
+		]
 	},
 	{
 		"name": "Peche Bourbon",
+		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de peche, mint sprig",
 		"ingredients": [
-			".5 oz Massenez Creme de Peche or Peach liqueur",
-			"1 Brown sugar cube",
-			".5 tsp Superfine sugar",
-			"3 dash Peychaud's bitters",
-			"3 dash Fee Brothers peach bitters",
-			"2 oz Peach-Infused Bourbon"
-		],
-		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de peche, mint sprig"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Massenez Creme de Peche or Peach liqueur"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Brown sugar cube"
+				},
+			{
+				"measure": 0.5,
+				"unit": "tsp",
+				"ingredient": "Superfine sugar"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Fee Brothers peach bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Peach-Infused Bourbon"
+			}
+		]
 	},
 	{
 		"name": "Jersey Devil",
+		"procedure": "Stir, large ice, cocktail glass, orange wheel",
 		"ingredients": [
-			"1.75 oz English Bishop",
-			"1.5 oz Laird's straight apple brandy",
-			".5 oz Berentzen Apfelkorn apple liqueur",
-			"3 dash Peychaud's bitters"
-		],
-		"procedure": "Stir, large ice, cocktail glass, orange wheel"
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "English Bishop"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Laird's straight apple brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Berentzen Apfelkorn apple liqueur"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "Mata Hari",
+		"procedure": "Shake, cocktail glass, 3 dried rose buds",
 		"ingredients": [
-			"1.25 oz Louis Royer Force 53 VSOP cognac",
-			"1 oz Chai-Infused Sweet vermouth",
-			".75 oz Lemon juice",
-			".75 oz Pomegranate juice",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Shake, cocktail glass, 3 dried rose buds"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Louis Royer Force 53 VSOP cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Chai-Infused Sweet vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pomegranate juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Pisco Punch",
+		"procedure": "Muddle pineapple and pineapple syrup, add the rest, shake, double strain, goblet filled with ice. Lemon wheel, pineapple wedge",
 		"ingredients": [
-			"2 1-inch cubes Pineapple",
-			"1.5 oz Pineapple syrup",
-			"2 oz Barsol Pisco",
-			".5 oz Lemon juice",
-			".5 oz Lime juice",
-			"5 drops Bitter Truth Celery bitters"
-		],
-		"procedure": "Muddle pineapple and pineapple syrup, add the rest, shake, double strain, goblet filled with ice. Lemon wheel, pineapple wedge"
+			{
+				"measure": 2,
+				"ingredient": "1-inch cubes Pineapple"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Barsol Pisco"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 5,
+				"unit": "drops",
+				"ingredient": "Bitter Truth Celery bitters"
+			}
+		]
 	},
 	{
 		"name": "Ruby Tuesday",
+		"procedure": "Shake, strain into chilled cocktail glass. Lemon twist",
 		"ingredients": [
-			".75 oz 5 ripe Black cherries (muddled)",
-			"1.5 oz Wild Turkey 101 Rye",
-			"1 oz Benedictine",
-			".75 oz Lemon juice",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Shake, strain into chilled cocktail glass. Lemon twist"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "5 ripe Black cherries (muddled)"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Wild Turkey 101 Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Waterloo",
+		"procedure": "Muddle watermelon and syrup until liquid. Add the rest, shake, unstrained into collins glass. Watermelon wedge.",
 		"ingredients": [
-			"4 (1-2 inch) cubes Watermelon",
-			".75 oz Simple syrup",
-			"1.5 oz Plymouth Gin",
-			".5 oz Lemon juice",
-			".5 oz Campari"
-		],
-		"procedure": "Muddle watermelon and syrup until liquid. Add the rest, shake, unstrained into collins glass. Watermelon wedge."
+			{
+				"measure": 4,
+				"ingredient": "(1-2 inch) cubes Watermelon"
+				},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			}
+		]
 	},
 	{
 		"name": "Yellow Jacket",
+		"procedure": "Stir, large ice, cocktail glass, lemon twist",
 		"ingredients": [
-			"2 oz Partida Reposado tequila",
-			"1 oz St. Germain",
-			".75 oz Yellow Chartreuse",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, large ice, cocktail glass, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Partida Reposado tequila"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Mid-Morning Fizz",
+		"procedure": "Pour chartreuse into collins glass with ice and club soda, chill. Shake the other ingredients for 2 minutes. Strain into glass. Orange wheel",
 		"ingredients": [
-			".5 oz Green Chartreuse",
-			"1 oz Seltzer",
-			"1.75 oz Martin Miller's Westbourne Strength 100-proof Gin",
-			"1 oz Lemon juice",
-			".75 oz Simple syrup",
-			"5 drops Orange Blossom water",
-			"1 Egg white"
-		],
-		"procedure": "Pour chartreuse into collins glass with ice and club soda, chill. Shake the other ingredients for 2 minutes. Strain into glass. Orange wheel"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "Martin Miller's Westbourne Strength 100-proof Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 5,
+				"unit": "drops",
+				"ingredient": "Orange Blossom water"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "English Bishop",
 		"isIngredient": true,
+		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle.",
 		"ingredients": [
-			"1 Orange",
-			"30 Cloves",
-			"1 (750 ml) bottle Ruby port",
-			"1 cup Superfine sugar"
-		],
-		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle."
+			{
+				"measure": 1,
+				"ingredient": "Orange"
+				},
+			{
+				"measure": 30,
+				"ingredient": "Cloves"
+				},
+			{
+				"measure": 1,
+				"ingredient": "(750 ml) bottle Ruby port"
+				},
+			{
+				"measure": 1,
+				"unit": "cup",
+				"ingredient": "Superfine sugar"
+			}
+		]
 	},
 	{
 		"name": "Robb's Grandma",
+		"procedure": "Rocks glass, large cube, barspoon of cherry syrup, stir",
 		"ingredients": [
-			"2 oz Early Times whiskey",
-			"1 oz Sweet vermouth",
-			"2 Maraschino cherries"
-		],
-		"procedure": "Rocks glass, large cube, barspoon of cherry syrup, stir"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Early Times whiskey"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 2,
+				"ingredient": "Maraschino cherries"
+				}
+		]
 	},
 	{
 		"name": "Citric Acid Solution",
 		"isIngredient": true,
+		"procedure": "Mix until dissolved",
 		"ingredients": [
-			"100 grams filtered water",
-			"25 grams citric acid powder"
-		],
-		"procedure": "Mix until dissolved"
+			{
+				"measure": 100,
+				"unit": "grams",
+				"ingredient": "filtered water"
+			},
+			{
+				"measure": 25,
+				"unit": "grams",
+				"ingredient": "citric acid powder"
+			}
+		]
 	},
 	{
 		"name": "#3 Cup",
+		"procedure": "Shake, double strain, Collins glass, mint sprig, orange slice",
 		"ingredients": [
-			"4-5 Mint leaves (muddled)",
-			"2 Cucumber slices (muddled)",
-			"1 Orange slice (muddled)",
-			"1 oz Hine V.S.O.P. cognac",
-			"1 oz Ginger Beer",
-			".75 oz Martini sweet vermouth",
-			".5 oz Dry Curacao",
-			".5 oz Cherry Heering",
-			".5 oz Lemon juice"
-		],
-		"procedure": "Shake, double strain, Collins glass, mint sprig, orange slice"
+			{
+				"measure": 4,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 2,
+				"ingredient": "Cucumber slices (muddled)"
+				},
+			{
+				"measure": 1,
+				"ingredient": "Orange slice (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Hine V.S.O.P. cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Ginger Beer"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Martini sweet vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "20th Century",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Plymouth Gin",
-			".75 oz Creme de Cacao",
-			".75 oz Lillet Blanc",
-			"75 oz Lemon juice"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Creme de Cacao"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "Against All Odds",
+		"procedure": "Shake first 4 ingredients, coupe rinsed with Mezcal",
 		"ingredients": [
-			"1.5 oz Bushmills Irish Whiskey",
-			"1.5 oz Channing Daughters Scuttlehole Chardonnay",
-			".5 oz Apricot liqueur",
-			".25 oz Rhum Clement Creole Shrubb",
-			".5 oz Mezcal"
-		],
-		"procedure": "Shake first 4 ingredients, coupe rinsed with Mezcal"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bushmills Irish Whiskey"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Channing Daughters Scuttlehole Chardonnay"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Rhum Clement Creole Shrubb"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			}
+		]
 	},
 	{
 		"name": "Aguil a Azteca",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Jose Cuervo tequila",
-			"1 oz Honeydew Melon juice",
-			".25 oz Domaine de Canton",
-			".25 oz Creme de Violette"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Jose Cuervo tequila"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Honeydew Melon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Creme de Violette"
+			}
+		]
 	},
 	{
 		"name": "Airmail",
+		"procedure": "Shake, coupe, top with 1 oz champagne, lime wheel",
 		"ingredients": [
-			"1 oz Banks 5 Island Rum",
-			"5 oz Lime juice",
-			"5 oz Honey syrup",
-			"Champagne"
-		],
-		"procedure": "Shake, coupe, top with 1 oz champagne, lime wheel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Banks 5 Island Rum"
+			},
+			{
+				"measure": 5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "Albert Mathieu",
+		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
-			"1.5 oz Plymouth Gin",
-			".75 oz Lillet Blanc",
-			"75 oz Green Chartreuse",
-			"1 bspn St. Germain",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 75,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Applejack Rabbit",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"2 oz Apple Brandy",
-			".75 oz Lemon juice",
-			".75 oz Orange juice",
-			".5 oz Grade B Maple syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Apple Brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grade B Maple syrup"
+			}
+		]
 	},
 	{
 		"name": "Blackbeard",
+		"procedure": "Dry shake, unstrained pour, rocks glass, pebble ice, mint sprig",
 		"ingredients": [
-			"4 Blackberries (muddled)",
-			"1.5 oz Beefeater Gin",
-			".75 oz Aquavit",
-			".75 oz Pineapple juice",
-			".5 oz Lemon juice",
-			".5 oz Agave syrup"
-		],
-		"procedure": "Dry shake, unstrained pour, rocks glass, pebble ice, mint sprig"
+			{
+				"measure": 4,
+				"ingredient": "Blackberries (muddled)"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Beefeater Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Agave syrup"
+			}
+		]
 	},
 	{
 		"name": "Black Thorn",
+		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
-			"1.5 oz Plymouth Gin",
-			".75 oz Sloe Gin",
-			".75 oz Carpano Antica",
-			"2 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sloe Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Champs-elysees",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"2 oz Hine V.S.O.P. cognac",
-			".75 oz Lemon juice",
-			".5 oz Green Chartreuse",
-			".25 oz Simple syrup",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Hine V.S.O.P. cognac"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "Chrysanthemum",
+		"procedure": "Stir, coupe",
 		"ingredients": [
-			"2 oz Dolin Dry vermouth",
-			".75 oz Benedictine",
-			".25 oz Vieux Pontarlier Absinthe",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Dolin Dry vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Vieux Pontarlier Absinthe"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "Cloister",
+		"procedure": "Shake, coupe, grapefruit twist",
 		"ingredients": [
-			"1.5 oz Tanqueray Gin",
-			".5 oz Yellow Chartreuse",
-			".5 oz Grapefruit juice",
-			".25 oz Lemon juice",
-			".25 oz Simple syrup"
-		],
-		"procedure": "Shake, coupe, grapefruit twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Tanqueray Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "Conquistador",
+		"procedure": "Double shake, coupe",
 		"ingredients": [
-			"1 oz Matusalem Gran Reserva rum",
-			"1 oz Siembra Azul Blanco tequila",
-			".75 oz Simple syrup",
-			".5 oz Lemon juice",
-			".5 oz Lime juice",
-			"2 dash Orange bitters",
-			"1 Egg white"
-		],
-		"procedure": "Double shake, coupe"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Matusalem Gran Reserva rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Siembra Azul Blanco tequila"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "Corpse Reviver #2",
+		"procedure": "Shake, rinsed coupe",
 		"ingredients": [
-			".75 oz Plymouth Gin",
-			".75 oz Cointreau",
-			".75 oz Lillet Blanc",
-			".75 oz Lemon juice",
-			"Absinthe (rinse)"
-		],
-		"procedure": "Shake, rinsed coupe"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Absinthe (rinse)"
+			}
+		]
 	},
 	{
 		"name": "De La Louisiane",
+		"procedure": "Stir, coupe, three brandied cherries",
 		"ingredients": [
-			"2 oz Wild Turkey Rye",
-			".75 oz Dolin Sweet vermouth",
-			".75 oz Benedictine",
-			"3 dash Absinthe",
-			"3 dash Peychaud's bitters"
-		],
-		"procedure": "Stir, coupe, three brandied cherries"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Wild Turkey Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dolin Sweet vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Absinthe"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "East India Cocktail",
+		"procedure": "Shake, coupe, orange twist",
 		"ingredients": [
-			"1.75 oz Martell V.S.O.P. cognac",
-			".5 oz Dry Curacao",
-			".5 oz Pineapple juice",
-			".25 oz Pampero Aniversario rum",
-			"2 dash Orange bitters"
-		],
-		"procedure": "Shake, coupe, orange twist"
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "Martell V.S.O.P. cognac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Pampero Aniversario rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "El Puente",
+		"procedure": "Shake, coupe, grapefruit twist",
 		"ingredients": [
-			"1.5 oz Jose Cuervo Platino Tequila",
-			".75 oz Grapefruit juice",
-			".5 oz Martini Bianco vermouth",
-			".5 oz St. Germain",
-			".5 oz Mezcal (rinse)"
-		],
-		"procedure": "Shake, coupe, grapefruit twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Jose Cuervo Platino Tequila"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Martini Bianco vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Mezcal (rinse)"
+			}
+		]
 	},
 	{
 		"name": "Ephemeral",
+		"procedure": "Stir, coupe, grapefruit twist",
 		"ingredients": [
-			"2 oz Ransom Old Tom Gin",
-			"1 oz Dolin Blanc vermouth",
-			"1 bspn St. Germain",
-			"1 dash Celery bitters"
-		],
-		"procedure": "Stir, coupe, grapefruit twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Ransom Old Tom Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Celery bitters"
+			}
+		]
 	},
 	{
 		"name": "Espresso Bongo",
+		"procedure": "Shake, unstrained pour, tiki mug",
 		"ingredients": [
-			"2 oz Appleton Reserve rum",
-			".5 oz Espresso Liqueur",
-			".5 oz Lime juice",
-			".5 oz Pineapple juice",
-			".5 oz Orange juice",
-			"1 oz Passionfruit syrup"
-		],
-		"procedure": "Shake, unstrained pour, tiki mug"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Appleton Reserve rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Espresso Liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			}
+		]
 	},
 	{
 		"name": "Fish House Punch",
+		"procedure": "Shake, rocks glass",
 		"ingredients": [
-			"1.5 oz Gosling's Black Seal rum",
-			".5 oz Pierre Ferrand Ambre cognac",
-			".5 oz Peach liqueur",
-			".5 oz Lemon juice",
-			".5 oz Simple syrup",
-			".25 oz Lime juice"
-		],
-		"procedure": "Shake, rocks glass"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gosling's Black Seal rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pierre Ferrand Ambre cognac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Peach liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "Flying Dutchman",
+		"procedure": "Shake, coupe, brandied cherry",
 		"ingredients": [
-			".75 oz Clear Creek Plum brandy",
-			".75 oz Bols Genever",
-			".5 oz Creme Yvette",
-			".5 oz Lemon juice",
-			".5 oz Pineapple juice",
-			"1 bspn Maraschino liqueur"
-		],
-		"procedure": "Shake, coupe, brandied cherry"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Clear Creek Plum brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Creme Yvette"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Maraschino liqueur"
+			}
+		]
 	},
 	{
 		"name": "Foreign Legion",
+		"procedure": "Stir, rocks glass, ice sphere, orange twist",
 		"ingredients": [
-			"1.5 oz Mount Gay X.O. rum",
-			".5 oz Aperol",
-			".5 oz Dubonnet Rouge",
-			".5 oz Lustau Manzanilla sherry",
-			"1 bspn Dark Creme de Cacao",
-			"1 dash Rhubarb bitters"
-		],
-		"procedure": "Stir, rocks glass, ice sphere, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Mount Gay X.O. rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dubonnet Rouge"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lustau Manzanilla sherry"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Dark Creme de Cacao"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Rhubarb bitters"
+			}
+		]
 	},
 	{
 		"name": "French Maid",
+		"procedure": "Shake, double strain, Collins glass, mint sprig in cucumber wheel",
 		"ingredients": [
-			"3 Cucumber wheels (muddled)",
-			"6-8 Mint leaves (muddled)",
-			"1.5 oz Hine V.S.O.P. cognac",
-			"1 oz Ginger beer",
-			".75 oz Lime juice",
-			".75 oz Simple syrup",
-			".25 oz Velvet Falernum"
-		],
-		"procedure": "Shake, double strain, Collins glass, mint sprig in cucumber wheel"
+			{
+				"measure": 3,
+				"ingredient": "Cucumber wheels (muddled)"
+				},
+			{
+				"measure": 6,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Hine V.S.O.P. cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Ginger beer"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			}
+		]
 	},
 	{
 		"name": "Gilchrist",
+		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
-			"1.25 oz Compass Box Asyla Blended Scotch Whiskey",
-			".75 oz Pear brandy",
-			".75 oz Grapefruit juice",
-			".5 oz Averna Amaro",
-			"2 dash Fee Brothers Grapefruit bitters"
-		],
-		"procedure": "Shake, coupe, lemon twist"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Compass Box Asyla Blended Scotch Whiskey"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pear brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Averna Amaro"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Fee Brothers Grapefruit bitters"
+			}
+		]
 	},
 	{
 		"name": "GOLDEN STAR FIZZ",
+		"procedure": "Shake first 5 ingredients, double strain, rinsed fizz glass. Top with jasmine tea, cucumber slice",
 		"ingredients": [
-			"3 Cucumber slices (muddled)",
-			"1 Dill sprig (muddled)",
-			"2 oz Krogstad Aquavit",
-			".75 oz Lemon juice",
-			".75 oz Pineapple juice",
-			"3 oz Sparkling White Jasmine Tea",
-			"Absinthe (rinse)"
-		],
-		"procedure": "Shake first 5 ingredients, double strain, rinsed fizz glass. Top with jasmine tea, cucumber slice"
+			{
+				"measure": 3,
+				"ingredient": "Cucumber slices (muddled)"
+				},
+			{
+				"measure": 1,
+				"ingredient": "Dill sprig (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Krogstad Aquavit"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Sparkling White Jasmine Tea"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Absinthe (rinse)"
+			}
+		]
 	},
 	{
 		"name": "GREAT PUMPKIN",
+		"procedure": "Stir, double shake, strain into fizz glass, grated nutmeg",
 		"ingredients": [
-			"2 oz Southampton Pumpkin Ale",
-			"1 oz Rittenhouse Bonded Rye",
-			"1 oz Laird's Bonded Apple Brandy",
-			".5 oz Grade B Maple syrup",
-			"1 Whole Egg"
-		],
-		"procedure": "Stir, double shake, strain into fizz glass, grated nutmeg"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Southampton Pumpkin Ale"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Bonded Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grade B Maple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Whole Egg"
+				}
+		]
 	},
 	{
 		"name": "GREEN DEACON",
+		"procedure": "Shake, rinsed coupe",
 		"ingredients": [
-			"1.5 oz Plymouth Gin",
-			"1 oz Grapefruit juice",
-			".75 oz Sloe Gin",
-			"Absinthe (rinse)"
-		],
-		"procedure": "Shake, rinsed coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sloe Gin"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Absinthe (rinse)"
+			}
+		]
 	},
 	{
 		"name": "GREEN HARVEST",
+		"procedure": "Stir, double strain, fizz glass, three concord grapes",
 		"ingredients": [
-			"7 Concord Grapes (muddled)",
-			"2 oz Chilled Brewed Hibiscus Tea",
-			"1.5 oz Jose Cuervo Platino Tequila",
-			".5 oz Green Chartreuse"
-		],
-		"procedure": "Stir, double strain, fizz glass, three concord grapes"
+			{
+				"measure": 7,
+				"ingredient": "Concord Grapes (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Chilled Brewed Hibiscus Tea"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Jose Cuervo Platino Tequila"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			}
+		]
 	},
 	{
 		"name": "GREENPOINT",
+		"procedure": "Stir, coupe",
 		"ingredients": [
-			"2 oz Rittenhouse Bonded Rye",
-			"1 oz Punt e Mes",
-			"1 bspn Yellow Chartreuse",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Stir, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Bonded Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "HARVEST MOON",
+		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
-			"1.5 oz Wild Turkey Rye",
-			"1 oz Lillet Blanc",
-			".5 oz Laird's Bonded Apple Brandy",
-			".25 oz Green Chartreuse",
-			"3 dash Abbott's bitters"
-		],
-		"procedure": "Stir, coupe, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Wild Turkey Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Abbott's bitters"
+			}
+		]
 	},
 	{
 		"name": "HARVEST SLING",
+		"procedure": "Shake, Collins glass, cherry and orange flag",
 		"ingredients": [
-			"1.5 oz Laird's Bonded Apple Brandy",
-			".5 oz Sweet vermouth",
-			".5 oz Benedictine",
-			".5 oz Cherry Heering",
-			".5 oz Lemon juice",
-			".5 oz Ginger beer"
-		],
-		"procedure": "Shake, Collins glass, cherry and orange flag"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Ginger beer"
+			}
+		]
 	},
 	{
 		"name": "HEIRLOOM",
+		"procedure": "Shake, double strain, coupe, two spritzes anise hyssop essence",
 		"ingredients": [
-			"7 Concord Grapes (muddled)",
-			"1.5 oz Hayman's Old Tom Gin",
-			".5 oz Cynar",
-			".5 oz Lime juice",
-			".25 oz Strega"
-		],
-		"procedure": "Shake, double strain, coupe, two spritzes anise hyssop essence"
+			{
+				"measure": 7,
+				"ingredient": "Concord Grapes (muddled)"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Hayman's Old Tom Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Strega"
+			}
+		]
 	},
 	{
 		"name": "HEMINGWAY DAIQUIRI",
+		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
-			"2 oz Banks 5 Island rum",
-			".75 oz Lime juice",
-			".5 oz Maraschino liqueur",
-			".5 oz Grapefruit juice"
-		],
-		"procedure": "Shake, coupe, lime wheel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Banks 5 Island rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			}
+		]
 	},
 	{
 		"name": "HENRY HUDSON",
+		"procedure": "Stir, rocks glass, large cube, grated nutmeg ",
 		"ingredients": [
-			"1.5 oz Bols Genever",
-			"1 oz Chardonnay",
-			".5 oz Lemon juice",
-			".5 oz Simple syrup",
-			".25 oz Batavia Arrack"
-		],
-		"procedure": "Stir, rocks glass, large cube, grated nutmeg "
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Chardonnay"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			}
+		]
 	},
 	{
 		"name": "HONEYMOON COCKTAIL",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"2 oz Laird's Bonded Apple Brandy",
-			".5 oz Dry Curacao",
-			".5 oz Benedictine",
-			".5 oz Lemon juice"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "HOTEL D'ALSACE",
+		"procedure": "Stir, double strain, rocks glass, large cube, rosemary sprig",
 		"ingredients": [
-			"1 Small sprig Rosemary (muddled)",
-			"2 oz Bushmills Irish Whiskey",
-			".5 oz Cointreau",
-			".5 oz Benedictine"
-		],
-		"procedure": "Stir, double strain, rocks glass, large cube, rosemary sprig"
+			{
+				"measure": 1,
+				"ingredient": "Small sprig Rosemary (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bushmills Irish Whiskey"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			}
+		]
 	},
 	{
 		"name": "JAPANESE COURAGE",
+		"procedure": "Stir, pre-heated mug, lemon wheel studded with 6 cloves",
 		"ingredients": [
-			"6 oz Kamoizumi “Shusen” Sake (warm)",
-			"1 oz Bols Genever",
-			".5 oz Yellow Chartreuse",
-			".25 oz Domaine de Canton",
-			".25 oz Honey syrup"
-		],
-		"procedure": "Stir, pre-heated mug, lemon wheel studded with 6 cloves"
+			{
+				"measure": 6,
+				"unit": "oz",
+				"ingredient": "Kamoizumi “Shusen” Sake (warm)"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			}
+		]
 	},
 	{
 		"name": "JAPANESE COCKTAIL",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"2 oz Hine V.S.O.P. cognac",
-			".5 oz Orgeat",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Hine V.S.O.P. cognac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "JUDGMENT DAY",
+		"procedure": "Double shake, rinsed coupe, 2 spritzes allspice dram",
 		"ingredients": [
-			"1.5 oz Macchu Pisco",
-			".5 oz St. Germain",
-			".5 oz Lime juice",
-			".5 oz Lemon juice",
-			".5 oz Simple syrup",
-			"1 Egg White",
-			"Absinthe (rinse)",
-			"Allspice dram (spritz)"
-		],
-		"procedure": "Double shake, rinsed coupe, 2 spritzes allspice dram"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Macchu Pisco"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg White"
+				},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Absinthe (rinse)"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Allspice dram (spritz)"
+			}
+		]
 	},
 	{
 		"name": "JUNIOR",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"2 oz Rittenhouse Bonded Rye",
-			".75 oz Lime juice",
-			".5 oz Benedictine",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Bonded Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "KANSAI KICK",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Yamazaki 12-Year-Old whiskey",
-			".75 oz Blandy's Sercial Madeira",
-			".75 oz Lime juice",
-			".4 oz Orgeat"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Yamazaki 12-Year-Old whiskey"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Blandy's Sercial Madeira"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.4,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			}
+		]
 	},
 	{
 		"name": "KINA MIELE",
+		"procedure": "Stir, rocks glass, large cube, grapefruit twist",
 		"ingredients": [
-			"1 oz Dolin Dry vermouth",
-			".75 oz Cocchi Americano",
-			".5 oz Nonino Gioiello",
-			".25 oz Pear Brandy",
-			"1 dash Lemon bitters"
-		],
-		"procedure": "Stir, rocks glass, large cube, grapefruit twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dolin Dry vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cocchi Americano"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Nonino Gioiello"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Pear Brandy"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Lemon bitters"
+			}
+		]
 	},
 	{
 		"name": "KING BEE",
+		"procedure": "Shake first 4 ingredients, coupe, float sherry",
 		"ingredients": [
-			"1.5 oz Barsol Quebranta Pisco",
-			".75 oz Lemon juice",
-			".5 oz Benedictine",
-			".5 oz Barenjager",
-			".5 oz Lustau Palo Cortado Sherry"
-		],
-		"procedure": "Shake first 4 ingredients, coupe, float sherry"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Barsol Quebranta Pisco"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Barenjager"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lustau Palo Cortado Sherry"
+			}
+		]
 	},
 	{
 		"name": "LA FLORIDA COCKTAIL",
+		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
-			"2 oz Banks 5 Island rum",
-			"75 oz Lime juice",
-			".5 oz Creme de Cacao",
-			".25 oz Martini Sweet vermouth",
-			"1 bspn Grenadine"
-		],
-		"procedure": "Shake, coupe, lime wheel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Banks 5 Island rum"
+			},
+			{
+				"measure": 75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Creme de Cacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Martini Sweet vermouth"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Grenadine"
+			}
+		]
 	},
 	{
 		"name": "LA LOUCHE",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Hendricks Gin",
-			"1 oz Lillet Rouge",
-			".5 oz Lime juice",
-			".25 oz Yellow Chartreuse",
-			".25 oz Simple syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Hendricks Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lillet Rouge"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "LEAPFROG",
+		"procedure": "Shake, double strain, coupe",
 		"ingredients": [
-			"6 Mint leaves (muddled)",
-			"2 oz Plymouth Gin",
-			".75 oz Lemon juice",
-			".5 oz Apricot liqueur",
-			".25 oz Simple syrup",
-			"2 dash Orange bitters"
-		],
-		"procedure": "Shake, double strain, coupe"
+			{
+				"measure": 6,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "LE PeRE BIS",
+		"procedure": "Stir, pre-heated mug, lemon wedge studded with three cloves",
 		"ingredients": [
-			"4 oz Chamomile Tea",
-			"1.5 oz Ardbeg 10-Year-Old Single Malt scotch",
-			".5 oz St. Germain",
-			".5 oz Honey syrup"
-		],
-		"procedure": "Stir, pre-heated mug, lemon wedge studded with three cloves"
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "Chamomile Tea"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Ardbeg 10-Year-Old Single Malt scotch"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			}
+		]
 	},
 	{
 		"name": "LUAU",
+		"procedure": "Shake, rocks glass, crushed ice, lime wheel, orange slice",
 		"ingredients": [
-			".75 oz Wray & Nephew Overproof rum",
-			".75 oz Appleton Estate V/X rum",
-			".75 oz El Dorado 15-Year-Old rum",
-			".5 oz Lime juice",
-			".5 oz Passionfruit syrup",
-			".25 oz Orgeat",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Shake, rocks glass, crushed ice, lime wheel, orange slice"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Wray & Nephew Overproof rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Appleton Estate V/X rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "El Dorado 15-Year-Old rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "MASATAKA SWIZZLE",
+		"procedure": "Swizzle, rocks glass, crushed ice, 3 dash bitters, mint sprig",
 		"ingredients": [
-			"1.5 oz Nikka Taketsuru 12-Year-Old Japanese whiskey",
-			".5 oz Luxardo Amaretto",
-			".5 oz Lemon juice",
-			"1 bspn Demerara syrup",
-			"Peychaud's bitters"
-		],
-		"procedure": "Swizzle, rocks glass, crushed ice, 3 dash bitters, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Nikka Taketsuru 12-Year-Old Japanese whiskey"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Luxardo Amaretto"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "MEZCAL MULE",
+		"procedure": "Shake, rocks glass, candied ginger, cucumber slice, pinch of ground chili",
 		"ingredients": [
-			"3 Cucumber slices (muddled)",
-			"1.5 oz Sombra Mezcal",
-			"1 oz Ginger beer",
-			".75 oz Lime juice",
-			".5 oz Passionfruit syrup"
-		],
-		"procedure": "Shake, rocks glass, candied ginger, cucumber slice, pinch of ground chili"
+			{
+				"measure": 3,
+				"ingredient": "Cucumber slices (muddled)"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Sombra Mezcal"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Ginger beer"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			}
+		]
 	},
 	{
 		"name": "NEW ORLEANS MILK PUNCH",
+		"procedure": "Shake, rocks glass, large cube",
 		"ingredients": [
-			"1.5 oz Whole Milk",
-			"1 oz Pierre Ferrand Ambre cognac",
-			"1 oz Myers's Dark rum",
-			".75 oz Simple syrup"
-		],
-		"procedure": "Shake, rocks glass, large cube"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Whole Milk"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pierre Ferrand Ambre cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Myers's Dark rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "MONTGOMERY SMITH",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"2 oz Hine V.S.O.P. Cognac",
-			".5 oz Benedictine",
-			".25 oz Fernet Branca"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Hine V.S.O.P. Cognac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Fernet Branca"
+			}
+		]
 	},
 	{
 		"name": "MONKEY GLAND",
+		"procedure": "Shake, rinsed coupe",
 		"ingredients": [
-			"2 oz Beefeater Gin",
-			"1 oz Orange juice",
-			"1 bspn Pomegranate Molasses",
-			"Absinthe (rinse)"
-		],
-		"procedure": "Shake, rinsed coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Beefeater Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Pomegranate Molasses"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Absinthe (rinse)"
+			}
+		]
 	},
 	{
 		"name": "MOUNT VERNON",
+		"procedure": "Shake, coupe, three brandied cherries",
 		"ingredients": [
-			"1 oz Kirschwasser",
-			"1 oz Brandy de Jerez",
-			".75 oz Grapefruit juice",
-			".5 oz Lustau Pedro Ximenez sherry",
-			".5 oz Cherry Heering"
-		],
-		"procedure": "Shake, coupe, three brandied cherries"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Kirschwasser"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Brandy de Jerez"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lustau Pedro Ximenez sherry"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			}
+		]
 	},
 	{
 		"name": "NEW AMSTERDAM",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"2 oz Bols Genever",
-			"1 oz Kirschwasser",
-			"1 bspn Demerara syrup",
-			"2 dash Peychaud's bitters"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Kirschwasser"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "NEWARK",
+		"procedure": "Stir, coupe",
 		"ingredients": [
-			"2 oz Laird's Bonded Apple Brandy",
-			"1 oz Vya Sweet vermouth",
-			".25 oz Fernet Branca",
-			".25 oz Maraschino Liqueur"
-		],
-		"procedure": "Stir, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Vya Sweet vermouth"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Maraschino Liqueur"
+			}
+		]
 	},
 	{
 		"name": "NOUVEAU CARRe",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"1.5 oz Ocho Anejo Tequila",
-			".75 oz Lillet Blanc",
-			".25 oz Benedictine",
-			"3 dash Peychaud's bitters"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Ocho Anejo Tequila"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "NTH DEGREE",
+		"procedure": "Muddle bitters with sugar cube, add the rest, stir, rocks glass, large cube, orange and lemon twist",
 		"ingredients": [
-			"1 oz Rhum Clement V.S.O.P.",
-			"1 oz Laird's Bonded Apple Brandy",
-			".5 oz Green Chartreuse",
-			"1 Demerara Sugar cube",
-			"2 dash Fee Brothers Whiskey Barrel Aged bitters"
-		],
-		"procedure": "Muddle bitters with sugar cube, add the rest, stir, rocks glass, large cube, orange and lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Rhum Clement V.S.O.P."
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Demerara Sugar cube"
+				},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Fee Brothers Whiskey Barrel Aged bitters"
+			}
+		]
 	},
 	{
 		"name": "OCCIDENTAL",
+		"procedure": "Stir, rinsed coupe, orange twist",
 		"ingredients": [
-			"2 oz Linie Aquavit",
-			".75 oz Grand Marnier",
-			".5 oz Amaro Nonino",
-			"Fernet Branca (rinse)"
-		],
-		"procedure": "Stir, rinsed coupe, orange twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Linie Aquavit"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grand Marnier"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Nonino"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Fernet Branca (rinse)"
+			}
+		]
 	},
 	{
 		"name": "OLD PAL",
+		"procedure": "Stir, coupe",
 		"ingredients": [
-			"2 oz Old Overholt Rye",
-			".75 oz Dolin Dry vermouth",
-			".75 oz Campari"
-		],
-		"procedure": "Stir, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Old Overholt Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dolin Dry vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Campari"
+			}
+		]
 	},
 	{
 		"name": "PADDINGTON",
+		"procedure": "Shake, rinsed coupe, grapefruit twist",
 		"ingredients": [
-			"1.5 oz Banks 5 Island rum",
-			".5 oz Lillet Blanc",
-			".5 oz Grapefruit juice",
-			".5 oz Lemon juice",
-			"1 bspn Orange Marmalade",
-			"Absinthe (rinse)"
-		],
-		"procedure": "Shake, rinsed coupe, grapefruit twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Banks 5 Island rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Orange Marmalade"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Absinthe (rinse)"
+			}
+		]
 	},
 	{
 		"name": "PHARAOH COOLER",
+		"procedure": "Shake, Collins glass, top with 1 oz soda",
 		"ingredients": [
-			"1.5 oz Partida Blanco Tequila",
-			"1 oz Watermelon juice",
-			".75 oz Grenadine",
-			".5 oz Lime juice",
-			"4 drops Rosewater"
-		],
-		"procedure": "Shake, Collins glass, top with 1 oz soda"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Partida Blanco Tequila"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Watermelon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 4,
+				"unit": "drops",
+				"ingredient": "Rosewater"
+			}
+		]
 	},
 	{
 		"name": "PROFESSOR",
+		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
-			"2 oz Rhum Clement V.S.O.P",
-			".75 oz Dow's Tawny Port",
-			".5 oz Carpano Antica",
-			"1 dash Angostura bitters",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, orange twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rhum Clement V.S.O.P"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dow's Tawny Port"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "REMEMBER THE MAINE",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"2 oz Wild Turkey Russell's Reserve 6-Year-Old Rye",
-			".75 oz Carpano Antica",
-			".5 oz Cherry Heering",
-			"1 bspn Pernod"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Wild Turkey Russell's Reserve 6-Year-Old Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Pernod"
+			}
+		]
 	},
 	{
 		"name": "RESTING POINT",
+		"procedure": "Shake, double strain, coupe, strawberry fan",
 		"ingredients": [
-			"1 Strawberry (muddled)",
-			"1.5 oz Siete Leguas Reposado tequila",
-			".5 oz Yellow Chartreuse",
-			".5 oz Punt e Mes",
-			".5 oz Lemon juice",
-			".5 oz Agave syrup"
-		],
-		"procedure": "Shake, double strain, coupe, strawberry fan"
+			{
+				"measure": 1,
+				"ingredient": "Strawberry (muddled)"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Siete Leguas Reposado tequila"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Agave syrup"
+			}
+		]
 	},
 	{
 		"name": "RHUM CLUB",
+		"procedure": "Shake, coupe, orange wedge",
 		"ingredients": [
-			"2 oz Banks 5 Island Rum",
-			".75 oz Lime juice",
-			".5 oz Rhum Clement Creole Shrubb",
-			".25 oz Martinique Sugar Cane syrup",
-			"2 dash Angostura bitters",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Shake, coupe, orange wedge"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Banks 5 Island Rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Rhum Clement Creole Shrubb"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Martinique Sugar Cane syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "RIO BRAVO",
+		"procedure": "Shake, double strain, coupe, orange twist",
 		"ingredients": [
-			"3 Ginger slices (muddled)",
-			"2 oz Sagatiba Cachaca",
-			".75 oz Lime juice",
-			".5 oz Orgeat"
-		],
-		"procedure": "Shake, double strain, coupe, orange twist"
+			{
+				"measure": 3,
+				"ingredient": "Ginger slices (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Sagatiba Cachaca"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			}
+		]
 	},
 	{
 		"name": "ROSITA",
+		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
-			"1.5 oz Partida Reposado tequila",
-			".5 oz Martini Sweet vermouth",
-			".5 oz Dolin Dry vermouth",
-			".5 oz Campari",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Stir, coupe, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Partida Reposado tequila"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Martini Sweet vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Dry vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "RUST BELT",
+		"procedure": "Double shake, coupe, 2 spritzes Angostura bitters",
 		"ingredients": [
-			"1.5 oz Barbancourt 8-Year-Old Rhum",
-			".5 oz Navan Vanilla liqueur",
-			".5 oz Lemon juice",
-			".5 oz Lime juice",
-			".25 oz Orgeat",
-			"1 Egg White",
-			"Angostura bitters (spritz)"
-		],
-		"procedure": "Double shake, coupe, 2 spritzes Angostura bitters"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Barbancourt 8-Year-Old Rhum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Navan Vanilla liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg White"
+				},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Angostura bitters (spritz)"
+			}
+		]
 	},
 	{
 		"name": "ROYAL BERMUDA YACHTCLUB COCKTAIL",
+		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
-			"2 oz Mount Gay Eclipse Amber rum",
-			"1 oz Lime juice",
-			".5 oz Cointreau",
-			".5 oz Velvet Falernum"
-		],
-		"procedure": "Shake, coupe, lime wheel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Mount Gay Eclipse Amber rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			}
+		]
 	},
 	{
 		"name": "RYE WITCH",
+		"procedure": "Muddle bitters and sugar cube, add the rest, stir, rocks glass, express orange peel",
 		"ingredients": [
-			"2 oz Rittenhouse Bonded Rye",
-			".25 oz Strega",
-			".25 oz Lustau Palo Cortado Sherry",
-			"1 Sugar Cube",
-			"2 dash Orange bitters"
-		],
-		"procedure": "Muddle bitters and sugar cube, add the rest, stir, rocks glass, express orange peel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Bonded Rye"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Strega"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lustau Palo Cortado Sherry"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Sugar Cube"
+				},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "SEELBACH COCKTAIL",
+		"procedure": "Stir, coupe. Top with 2 oz champagne, orange twist",
 		"ingredients": [
-			"1 oz Bulleit Bourbon",
-			".5 oz Cointreau",
-			"3 dash Peychaud's bitters",
-			"2 dash Angostura bitters",
-			"Champagne"
-		],
-		"procedure": "Stir, coupe. Top with 2 oz champagne, orange twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bulleit Bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "SILVER LINING",
+		"procedure": "Double shake, fizz glass. Top with 1 oz soda",
 		"ingredients": [
-			"1.5 oz Old Overholt Rye",
-			".75 oz Licor 43",
-			".75 oz Lemon juice",
-			".25 oz Simple syrup",
-			"1 Egg white"
-		],
-		"procedure": "Double shake, fizz glass. Top with 1 oz soda"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Old Overholt Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Licor 43"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "SLOE GIN FIZZ",
+		"procedure": "Shake, fizz glass. Top with 3 oz soda",
 		"ingredients": [
-			"1 oz Sloe Gin",
-			"1 oz Plymouth Gin",
-			".75 oz Lemon juice",
-			".25 oz Simple syrup"
-		],
-		"procedure": "Shake, fizz glass. Top with 3 oz soda"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Sloe Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "SOLSTICE",
+		"procedure": "Stir, coupe",
 		"ingredients": [
-			"1.5 oz Rittenhouse Bonded Rye",
-			".5 oz Laird's Bonded Apple Brandy",
-			".5 oz Nonino Amaro",
-			".5 oz Dubonnet Rouge",
-			".25 oz Grenadine"
-		],
-		"procedure": "Stir, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Bonded Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Nonino Amaro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dubonnet Rouge"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			}
+		]
 	},
 	{
 		"name": "STATESMAN",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"2 oz Beefeater 24 Gin",
-			".5 oz Pear liqueur",
-			"1 bspn Green Chartreuse",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Beefeater 24 Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "TALBOTT LEAF",
+		"procedure": "Shake, double strain, coupe, mint leaf",
 		"ingredients": [
-			"6 Mint leaves (muddled)",
-			"2 oz Old Grand-Dad Bonded Bourbon",
-			".75 oz Lemon juice",
-			".5 oz Green Chartreuse",
-			".25 oz Cynar",
-			"1 bspn Strawberry preserves"
-		],
-		"procedure": "Shake, double strain, coupe, mint leaf"
+			{
+				"measure": 6,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Old Grand-Dad Bonded Bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Strawberry preserves"
+			}
+		]
 	},
 	{
 		"name": "TUXEDO",
+		"procedure": "Stir, rinsed coupe, lemon twist, cherry",
 		"ingredients": [
-			"2 oz Plymouth Gin",
-			"1.5 oz Dolin Dry vermouth",
-			".25 oz Maraschino liqueur",
-			"2 dash Orange bitters",
-			"Absinthe (rinse)"
-		],
-		"procedure": "Stir, rinsed coupe, lemon twist, cherry"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Dolin Dry vermouth"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Absinthe (rinse)"
+			}
+		]
 	},
 	{
 		"name": "VAUVERT SLIM",
+		"procedure": "Double shake, double strain, rinsed coupe, mint leaf",
 		"ingredients": [
-			"6 Mint leaves (muddled)",
-			"1 oz Green Chartreuse",
-			"2 oz Grapefruit juice",
-			".5 oz Lime juice",
-			"1 Egg white",
-			"Laphroaig 10 scotch (rinse)"
-		],
-		"procedure": "Double shake, double strain, rinsed coupe, mint leaf"
+			{
+				"measure": 6,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Laphroaig 10 scotch (rinse)"
+			}
+		]
 	},
 	{
 		"name": "VELVET CLUB",
+		"procedure": "Stir, coupe. Top with 1 oz champagne",
 		"ingredients": [
-			"1 oz Hine V.S.O.P. cognac",
-			".5 oz Lillet Blanc",
-			".5 oz White Creme de Cacao",
-			"Champagne"
-		],
-		"procedure": "Stir, coupe. Top with 1 oz champagne"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Hine V.S.O.P. cognac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "White Creme de Cacao"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "VIEUX MOT",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Plymouth Gin",
-			".75 oz Lemon juice",
-			".5 oz St. Germain",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "VIEUX CARRe",
+		"procedure": "Stir, rocks glass, large cube ",
 		"ingredients": [
-			"1 oz Sazerac 6-Year-Old Rye",
-			"1 oz Hine V.S.O.P. Cognac",
-			"1 oz Carpano Antica",
-			".25 oz Benedictine",
-			"1 dash Angostura bitters",
-			"1 dash Peychaud's bitters"
-		],
-		"procedure": "Stir, rocks glass, large cube "
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Sazerac 6-Year-Old Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Hine V.S.O.P. Cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "WHISKEY SMASH",
+		"procedure": "Shake, double strain, rocks, mint sprig",
 		"ingredients": [
-			"3 Lemon Wedges (muddled)",
-			"6 Mint Leaves (muddled)",
-			"2 oz Rittenhouse Bonded Rye",
-			".75 oz Simple syrup"
-		],
-		"procedure": "Shake, double strain, rocks, mint sprig"
+			{
+				"measure": 3,
+				"ingredient": "Lemon Wedges (muddled)"
+				},
+			{
+				"measure": 6,
+				"ingredient": "Mint Leaves (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Bonded Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "WHITE BIRCH FIZZ",
+		"procedure": "Double shake, Collins glass. Top with 2 oz soda, spritz of Suze",
 		"ingredients": [
-			"1.5 oz Plymouth Gin",
-			".75 oz Lemon juice",
-			".5 oz Strega",
-			".5 oz Apricot liqueur",
-			"1 Egg White",
-			"Suze (spritz)"
-		],
-		"procedure": "Double shake, Collins glass. Top with 2 oz soda, spritz of Suze"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Strega"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg White"
+				},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Suze (spritz)"
+			}
+		]
 	},
 	{
 		"name": "WITCH'S KISS",
+		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
-			"2 oz Jose Cuervo Platino tequila",
-			".75 oz Lemon juice",
-			".5 oz Strega",
-			"1 bspn Apple Butter"
-		],
-		"procedure": "Shake, coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Jose Cuervo Platino tequila"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Strega"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Apple Butter"
+			}
+		]
 	},
 	{
 		"name": "AKU AKU",
+		"procedure": "Mix/whip shake, double-strain, coupe, mint sprig",
 		"ingredients": [
-			"5 (1-inch-square) chunks pineapple (muddled)",
-			"1 oz Lime juice",
-			".5 oz Demerara syrup",
-			".5 oz Peach liqueur",
-			"1.5 oz Blended lightly aged rum"
-		],
-		"procedure": "Mix/whip shake, double-strain, coupe, mint sprig"
+			{
+				"measure": 5,
+				"ingredient": "(1-inch-square) chunks pineapple (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Peach liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			}
+		]
 	},
 	{
 		"name": "PUPULE",
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, spiral-cut orange peel, mint sprig",
 		"ingredients": [
-			".75 oz Lime juice",
-			".75 oz Orange juice",
-			".25 oz Cinnamon syrup",
-			".25 oz Vanilla syrup",
-			".25 oz Allspice dram",
-			"2 oz Column still aged rum",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, spiral-cut orange peel, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Vanilla syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "DON'S OWN GROG",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, freshly grated nutmeg",
 		"ingredients": [
-			".75 oz Lime juice",
-			".25 oz Demerara syrup",
-			"1 dash Grenadine",
-			".5 oz Blackberry Liqueur",
-			"1 oz Blended aged rum",
-			".5 oz Blended lightly aged rum",
-			".5 oz Black blended rum",
-			"1 dash Angosutra bitters"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, freshly grated nutmeg"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Blackberry Liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angosutra bitters"
+			}
+		]
 	},
 	{
 		"name": "PORT AU PRINCE",
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lime wedge",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Pineapple juice",
-			".25 oz Demerara syrup",
-			"1 dash Grenadine",
-			".5 oz Velvet Falernum",
-			"1.5 oz Cane coffey still aged rum",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lime wedge"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Cane coffey still aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "THREE DOTS AND A DASH",
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, three maraschino cherries and pineapple chunk",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Orange juice",
-			".5 oz Honey syrup",
-			".25 oz Velvet Falernum",
-			".25 oz Allspice dram",
-			"1.5 oz Rhum agricole vieux",
-			".5 oz Blended aged rum",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, three maraschino cherries and pineapple chunk"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Rhum agricole vieux"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "MEXICAN EL DIABLO",
+		"procedure": "Swizzle, collins glass, cracked ice",
 		"ingredients": [
-			"1 Lime wedge (lightly muddled)",
-			".5 oz Lime juice",
-			".5 oz Creme de Cassis",
-			"1.5 oz Blanco tequila",
-			"4 oz Ginger ale"
-		],
-		"procedure": "Swizzle, collins glass, cracked ice"
+			{
+				"measure": 1,
+				"ingredient": "Lime wedge (lightly muddled)"
+				},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Creme de Cassis"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blanco tequila"
+			},
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "Ginger ale"
+			}
+		]
 	},
 	{
 		"name": "PORT LIGHT",
+		"procedure": "Dry shake egg white and bourbon, add the rest, Mix/whip shake, footed pilsner, crushed ice",
 		"ingredients": [
-			"1 oz Egg white",
-			"2 oz Bourbon",
-			"1 oz Lemon juice",
-			".75 oz Honey syrup",
-			".5 oz Passionfruit syrup"
-		],
-		"procedure": "Dry shake egg white and bourbon, add the rest, Mix/whip shake, footed pilsner, crushed ice"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Egg white"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			}
+		]
 	},
 	{
 		"name": "DEMERARA DRY FLOAT",
+		"procedure": "Mix/whip shake first 6 ingredients, double old-fashioned glass, crushed ice, serve with overproof rum on the side",
 		"ingredients": [
-			"2 oz Lime juice",
-			"1 tsp Lemon juice",
-			"1.5 oz Passionfruit syrup",
-			".25 oz Demerara syrup",
-			".25 oz Maraschino liqueur",
-			"1.5 oz Blended aged rum",
-			".75 oz Black blended overproof rum"
-		],
-		"procedure": "Mix/whip shake first 6 ingredients, double old-fashioned glass, crushed ice, serve with overproof rum on the side"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			}
+		]
 	},
 	{
 		"name": "JET PILOT",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Grapefruit juice",
-			".5 oz Cinnamon syrup",
-			".5 oz Velvet Falernum",
-			"1 oz Black blended rum",
-			".75 oz Blended aged rum",
-			".75 oz Black blended overproof rum",
-			"1 dash Herbstura"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Herbstura"
+			}
+		]
 	},
 	{
 		"name": "HALEKULANI COCKTAIL",
+		"procedure": "Shake, double strain, coupe, edible orchid",
 		"ingredients": [
-			".5 oz Lemon juice",
-			".5 oz Orange juice",
-			".5 oz Pineapple juice",
-			".25 oz Demerara syrup",
-			".5 tsp Grenadine",
-			"1.5 oz Bourbon",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Shake, double strain, coupe, edible orchid"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "tsp",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "SIDEWINDER'S FANG",
+		"procedure": "Mix/whip shake, strain, large brandy snifter, cracked ice, sidewinder's fang orange peel, mint sprig.",
 		"ingredients": [
-			"1.5 oz Lime juice",
-			"1.5 oz Orange juice",
-			"1.5 oz Passionfruit syrup",
-			"3 oz Seltzer",
-			"1 oz Blended aged rum",
-			"1 oz Black blended rum"
-		],
-		"procedure": "Mix/whip shake, strain, large brandy snifter, cracked ice, sidewinder's fang orange peel, mint sprig."
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			}
+		]
 	},
 	{
 		"name": "HAWAIIAN SUNSET",
+		"procedure": "Shake, double strain, coupe, lime peel.",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Lemon juice",
-			".5 oz Orgeat",
-			"1 tsp Grenadine",
-			"1.5 oz Vodka"
-		],
-		"procedure": "Shake, double strain, coupe, lime peel."
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Vodka"
+			}
+		]
 	},
 	{
 		"name": "CAPTAIN'S GROG",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Grapefruit juice",
-			".5 oz Grade A Maple syrup",
-			"3 drops Vanilla extract",
-			"3 drops Almond extract",
-			"1 oz Seltzer",
-			".5 oz Velvet Falernum",
-			".5 oz Dry Curacao",
-			".75 oz Black Blended rum",
-			".75 oz Blended Lightly Aged rum",
-			".75 oz Blended Aged rum"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grade A Maple syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "drops",
+				"ingredient": "Vanilla extract"
+			},
+			{
+				"measure": 3,
+				"unit": "drops",
+				"ingredient": "Almond extract"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black Blended rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Blended Lightly Aged rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Blended Aged rum"
+			}
+		]
 	},
 	{
 		"name": "SUFFERING BASTARD",
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, mint sprig",
 		"ingredients": [
-			".5 oz Lime juice",
-			".25 oz Demerara syrup",
-			"1 oz London Dry Gin",
-			"1 oz Brandy",
-			"2 dash Angostura bitters",
-			"4 oz Ginger beer"
-		],
-		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, mint sprig"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "London Dry Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Brandy"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "Ginger beer"
+			}
+		]
 	},
 	{
 		"name": "MERCILESS VIRGIN",
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, Maraschino cherry",
 		"ingredients": [
-			".75 oz Lemon juice",
-			".5 oz Seltzer",
-			".5 oz Cherry Heering",
-			".5 oz Velvet Falernum",
-			".25 oz Dry Curacao",
-			"1.5 oz Blended lightly aged rum"
-		],
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, Maraschino cherry"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			}
+		]
 	},
 	{
 		"name": "SATURN",
+		"procedure": "Shake, coupe, lemon peel rings",
 		"ingredients": [
-			".75 oz Lemon juice",
-			".5 oz Passionfruit syrup",
-			".25 oz Orgeat",
-			".25 oz Velvet Falernum",
-			"1.25 oz London Dry Gin"
-		],
-		"procedure": "Shake, coupe, lemon peel rings"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "London Dry Gin"
+			}
+		]
 	},
 	{
 		"name": "TIKI BOWL FOR TWO",
+		"procedure": "Mix/blend, tiki bowl, crushed ice, edible orchid",
 		"ingredients": [
-			"1.5 oz Orange juice",
-			".75 oz Lime juice",
-			"1 oz Honey syrup",
-			"1.25 oz Black blended rum",
-			"1 oz Black blended overproof rum",
-			"1 oz Column still aged rum",
-			"2 dash Herbstura"
-		],
-		"procedure": "Mix/blend, tiki bowl, crushed ice, edible orchid"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Herbstura"
+			}
+		]
 	},
 	{
 		"name": "HURRICANE",
+		"procedure": "Mix/whip shake, hurricane glass, crushed ice, lemon wedge",
 		"ingredients": [
-			"2 oz Lemon juice",
-			"2 oz Passionfruit syrup",
-			"4 oz Black blended rum"
-		],
-		"procedure": "Mix/whip shake, hurricane glass, crushed ice, lemon wedge"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			}
+		]
 	},
 	{
 		"name": "MUNDO PERDIDO",
+		"procedure": "Shake, coupe.",
 		"ingredients": [
-			".75 oz Lemon juice",
-			".25 oz Cinnamon syrup",
-			".25 oz Demerara syrup",
-			".5 oz Apple brandy",
-			"1.5 oz Black blended rum"
-		],
-		"procedure": "Shake, coupe."
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apple brandy"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			}
+		]
 	},
 	{
 		"name": "FORMIDABLE DRAGON",
+		"procedure": "Mix/Blend, large brandy snifter, crushed ice, edible orchid, multiple mint sprigs",
 		"ingredients": [
-			".75 oz Lemon juice",
-			".75 oz Lime juice",
-			".5 oz Honey syrup",
-			".75 oz Molasses syrup",
-			".5 oz Amaro Di Angostura",
-			"1.5 oz Blended aged rum",
-			"1 oz Black blended rum",
-			".25 oz Pot still lightly aged rum (overproof)",
-			"1 oz Seltzer"
-		],
-		"procedure": "Mix/Blend, large brandy snifter, crushed ice, edible orchid, multiple mint sprigs"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Molasses syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Di Angostura"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Pot still lightly aged rum (overproof)"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "LEI LANI NOUVEAU",
+		"procedure": "Shake first 4 ingredients, double strain, Collins glass, cracked ice. Top with guava soda, edible orchid",
 		"ingredients": [
-			"1.5 oz Pineapple juice",
-			".75 oz Lime juice",
-			"1 oz Coconut cream",
-			"1.5 oz Blended aged rum",
-			"3 oz Bundaberg Guava soda"
-		],
-		"procedure": "Shake first 4 ingredients, double strain, Collins glass, cracked ice. Top with guava soda, edible orchid"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Coconut cream"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Bundaberg Guava soda"
+			}
+		]
 	},
 	{
 		"name": "TRADEWINDS",
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lemon wedge",
 		"ingredients": [
-			"1 oz Lemon juice",
-			"1.5 oz Coconut cream",
-			"1 oz Apricot liqueur",
-			"1 oz Black blended rum",
-			"1 oz Blended lightly aged rum"
-		],
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lemon wedge"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Coconut cream"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			}
+		]
 	},
 	{
 		"name": "PEACHTREE PUNCH 2.0",
+		"procedure": "Mix/whip shake, double strain, double old-fashioned glass, cracked ice, grated nutmeg, peach wedge",
 		"ingredients": [
-			".5 Yellow/White peach (muddled)",
-			"3 oz Orange juice",
-			".5 oz Lemon juice",
-			"1 oz Coconut cream",
-			".25 oz Peach liqueur",
-			"2 oz Blended lightly aged rum",
-			"1 oz Seltzer"
-		],
-		"procedure": "Mix/whip shake, double strain, double old-fashioned glass, cracked ice, grated nutmeg, peach wedge"
+			{
+				"measure": 0.5,
+				"ingredient": "Yellow/White peach (muddled)"
+				},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Coconut cream"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Peach liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "JUNGLE BIRD",
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, pineapple fronds",
 		"ingredients": [
-			"2 oz Pineapple juice",
-			".5 oz Lime juice",
-			".5 oz Demerara syrup",
-			".75 oz Campari",
-			"1.5 oz Black blended rum"
-		],
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, pineapple fronds"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			}
+		]
 	},
 	{
 		"name": "GOLDEN GUN",
+		"procedure": "Shake, Collins glass, cracked ice",
 		"ingredients": [
-			".75 oz Lime juice",
-			".5 oz Grapefruit juice",
-			".5 oz Demerara syrup",
-			".5 oz Apricot liqueur",
-			"1 oz Blended aged rum",
-			"1 oz Blended lightly aged rum",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, Collins glass, cracked ice"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "HINKY DINKS FIZZY",
+		"procedure": "Mix/whip shake first 6 ingredients, large brandy snifter, crushed ice. Top with sparkling wine, mint sprig",
 		"ingredients": [
-			"1.5 oz Pineapple juice",
-			".5 oz Lime juice",
-			".5 oz Passionfruit syrup",
-			".5 oz Apricot liqueur",
-			"1 oz London Dry Gin",
-			"1 oz Blended Lightly Aged rum",
-			"2 oz Sparkling wine"
-		],
-		"procedure": "Mix/whip shake first 6 ingredients, large brandy snifter, crushed ice. Top with sparkling wine, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "London Dry Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended Lightly Aged rum"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Sparkling wine"
+			}
+		]
 	},
 	{
 		"name": "PAMPANITO",
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, lemon twist",
 		"ingredients": [
-			"1 oz Lemon juice",
-			"1 oz Molasses syrup",
-			"2.5 oz Seltzer",
-			".25 oz Allspice dram",
-			"1.5 oz Black blended rum",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Molasses syrup"
+			},
+			{
+				"measure": 2.5,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "MAX'S MISTAKE",
+		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, mint sprig",
 		"ingredients": [
-			"1 oz Lemon juice",
-			"1 oz Passionfruit syrup",
-			".5 oz Honey syrup",
-			"2 oz London Dry Gin",
-			"1 dash Angostura bitters",
-			"2 oz Fentimans Victorian Lemonade"
-		],
-		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "London Dry Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Fentimans Victorian Lemonade"
+			}
+		]
 	},
 	{
 		"name": "LA GUILDIVE",
+		"procedure": "Shake first 4 ingredients, coupe. Top with ginger beer, lime twist, pinch of cinnamon",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Licor 43",
-			".25 oz Peach liqueur",
-			"2 oz Blended aged rum",
-			"1 oz Ginger beer"
-		],
-		"procedure": "Shake first 4 ingredients, coupe. Top with ginger beer, lime twist, pinch of cinnamon"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Licor 43"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Peach liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Ginger beer"
+			}
+		]
 	},
 	{
 		"name": "THE TWENTY SEVENTY SWIZZLE",
+		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Demerara syrup",
-			".5 oz Honey syrup",
-			".25 oz Allspice dram",
-			"1 oz Column still aged rum",
-			"1 oz Black blended overproof rum",
-			"1 dash Herbstura"
-		],
-		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Herbstura"
+			}
+		]
 	},
 	{
 		"name": "SHUDDERS IN A WHISPER",
+		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, edible orchid, mint sprig",
 		"ingredients": [
-			".75 oz Lime juice",
-			".5 oz Passionfruit syrup",
-			".5 oz Pear liqueur",
-			".25 oz Drambuie",
-			"2 oz Seltzer",
-			"2 oz Column still aged rum",
-			"2 dash Peychaud's bitters",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, edible orchid, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Drambuie"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "CUEVAS",
+		"procedure": "Shake, coupe, maraschino cherry",
 		"ingredients": [
-			".25 oz Cinnamon syrup",
-			".5 oz Punt e Mes",
-			".25 oz Tawny port",
-			"2 oz Blended aged rum",
-			"6 drops Bittermens ‘Elemakule Tiki bitters"
-		],
-		"procedure": "Shake, coupe, maraschino cherry"
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Tawny port"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Bittermens ‘Elemakule Tiki bitters"
+			}
+		]
 	},
 	{
 		"name": "NORWEGIAN PARALYSIS",
+		"procedure": "Shake, Collins glass, cracked ice, lemon wedge",
 		"ingredients": [
-			"1.5 oz Orange juice",
-			"1.5 oz Pineapple juice",
-			".5 oz Lemon juice",
-			".25 oz Demerara syrup",
-			".25 oz Orgeat",
-			"1.5 oz Aquavit"
-		],
-		"procedure": "Shake, Collins glass, cracked ice, lemon wedge"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			}
+		]
 	},
 	{
 		"name": "JUAN HO ROYALE",
+		"procedure": "Shake first 5 ingredients, coupe. Top with champagne",
 		"ingredients": [
-			".75 oz Lime juice",
-			".5 oz Orgeat",
-			".5 oz Blue curacao",
-			".5 oz Velvet Falernum",
-			"1.5 oz Blanco tequila",
-			"2 oz Champagne or Sparkling wine"
-		],
-		"procedure": "Shake first 5 ingredients, coupe. Top with champagne"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Blue curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blanco tequila"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Champagne or Sparkling wine"
+			}
+		]
 	},
 	{
 		"name": "CHARTREUSE SWIZZLE",
+		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig",
 		"ingredients": [
-			"1 oz Pineapple juice",
-			".75 oz Lime juice",
-			".5 oz Velvet Falernum",
-			"1.5 oz Green Chartreuse"
-		],
-		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			}
+		]
 	},
 	{
 		"name": "ROSELITA",
+		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Orgeat",
-			".5 oz Hibiscus liqueur",
-			".5 oz Pear liqueur",
-			"1.5 oz Column still aged rum",
-			"1 dash Peychaud's bitters",
-			"1.5 oz Seltzer"
-		],
-		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Hibiscus liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "CENTER OF THE GALAXY",
+		"procedure": "Shake, coupe, raspberry on lime wheel",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Demerara syrup",
-			".5 oz Honey syrup",
-			".5 oz Raspberry liqueur",
-			"2 oz Blended aged rum",
-			"Ground cinnamon (pinch)"
-		],
-		"procedure": "Shake, coupe, raspberry on lime wheel"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Raspberry liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Ground cinnamon (pinch)"
+			}
+		]
 	},
 	{
 		"name": "CALLALOO COOLER",
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer, grated cinnamon, mint sprig",
 		"ingredients": [
-			".75 oz Lime juice",
-			".5 oz Cinnamon syrup",
-			".5 oz Cherry Heering",
-			"2 oz Blended lightly aged rum",
-			"1 dash Angostura bitters",
-			"1 oz Seltzer"
-		],
-		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer, grated cinnamon, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "TOP NOTCH VOLCANO FOR TWO",
+		"procedure": "Mix/whip shake, scorpion bowl, lime and orange slices, fire",
 		"ingredients": [
-			"2 oz Lime juice",
-			"2 oz Pineapple juice",
-			"1 oz Passionfruit syrup",
-			"1 oz Demerara syrup",
-			".5 oz Maraschino liqueur",
-			"2 oz Blended lightly aged rum",
-			"2 oz Blended aged rum"
-		],
-		"procedure": "Mix/whip shake, scorpion bowl, lime and orange slices, fire"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			}
+		]
 	},
 	{
 		"name": "THE NAKED APE",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice",
 		"ingredients": [
-			".5 oz Lemon juice",
-			".5 oz Cinnamon syrup",
-			".5 oz Giffard Banane du Bresil banana liqueur",
-			"1.5 oz Black blended rum",
-			".5 oz Pot still lightly aged rum (overproof)",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Giffard Banane du Bresil banana liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pot still lightly aged rum (overproof)"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "SWIZZLE FRANcAIS",
+		"procedure": "Swizzle, Collins glass, crushed ice, ground nutmeg",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Martinique sugarcane syrup",
-			".25 oz Allspice dram",
-			"2 oz Rhum agricole vieux"
-		],
-		"procedure": "Swizzle, Collins glass, crushed ice, ground nutmeg"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Martinique sugarcane syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rhum agricole vieux"
+			}
+		]
 	},
 	{
 		"name": "SPARKLING MAI TAI",
+		"procedure": "Stir first 5 ingredients, champagne flute. Top with sparkling wine, lime twist, mint leaf",
 		"ingredients": [
-			".25 oz Lime juice",
-			".25 oz Orgeat",
-			".5 oz Dry Curacao",
-			".25 oz Black blended overproof rum",
-			".5 oz Blended aged rum",
-			"4 oz chilled sparkling wine"
-		],
-		"procedure": "Stir first 5 ingredients, champagne flute. Top with sparkling wine, lime twist, mint leaf"
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "chilled sparkling wine"
+			}
+		]
 	},
 	{
 		"name": "THE ERNESTO",
+		"procedure": "Shake first 5 ingredients, double old-fashioned glass, cracked ice. Top with soda, lime wheel, edible orchid",
 		"ingredients": [
-			"1 oz Lime juice",
-			"1 oz Honey syrup",
-			".5 oz Apricot liqueur",
-			"2 oz Blanco tequila",
-			"1 dash Herbstura",
-			"2 oz Ting Grapefruit soda"
-		],
-		"procedure": "Shake first 5 ingredients, double old-fashioned glass, cracked ice. Top with soda, lime wheel, edible orchid"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blanco tequila"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Herbstura"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Ting Grapefruit soda"
+			}
+		]
 	},
 	{
 		"name": "HANA REVIVER",
+		"procedure": "Mix/whip shake, footed pilsner glass, crushed ice, mint sprig",
 		"ingredients": [
-			"1 oz Lemon juice",
-			"1 oz Passionfruit Honey syrup",
-			".25 bspn Li Hing Mui powder",
-			"2 oz Seltzer",
-			"1 bspn Maraschino liqueur",
-			"2 oz Pot Still Unaged rum"
-		],
-		"procedure": "Mix/whip shake, footed pilsner glass, crushed ice, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Passionfruit Honey syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "bspn",
+				"ingredient": "Li Hing Mui powder"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pot Still Unaged rum"
+			}
+		]
 	},
 	{
 		"name": "KAITEUR SWIZZLE",
+		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig",
 		"ingredients": [
-			".75 oz Lime juice",
-			".5 oz Grade A maple syrup",
-			".5 oz Velvet Falernum",
-			"2 oz Blended aged rum (Guyana)",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grade A maple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum (Guyana)"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "THE EXPEDITION",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid",
 		"ingredients": [
-			"1 oz Lime juice",
-			".5 oz Cinnamon syrup",
-			".5 oz Honey syrup",
-			".25 oz Vanilla syrup",
-			"2 oz Seltzer",
-			".25 oz Bittermens New Orleans Coffee Liqueur",
-			"2 oz Black Blended rum",
-			"1 oz Bourbon"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Vanilla syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Bittermens New Orleans Coffee Liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Black Blended rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			}
+		]
 	},
 	{
 		"name": "THE UNDEAD GENTLEMAN",
+		"procedure": "Shake, rinsed coupe, intertwined lime and grapefruit twists",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Grapefruit juice (white or pink)",
-			".5 oz Cinnamon syrup",
-			".5 oz Velvet Falernum",
-			"1 oz Black blended overproof rum",
-			"1.5 oz Blended aged rum",
-			"1 dash Angostura bitters",
-			"Absinthe Blanc (rinse)"
-		],
-		"procedure": "Shake, rinsed coupe, intertwined lime and grapefruit twists"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice (white or pink)"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Absinthe Blanc (rinse)"
+			}
+		]
 	},
 	{
 		"name": "THE DEAD RECKONING",
+		"procedure": "Mix/whip shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, pineapple fronds, mint spring, lemon spiral",
 		"ingredients": [
-			"1 oz Lemon juice",
-			"1 oz Pineapple juice",
-			".5 oz Grade A maple syrup",
-			".5 oz Vanilla-infused brandy",
-			".5 oz Tawny port",
-			"2 oz Blended aged rum",
-			"1 dash Angostura bitters",
-			"1 oz Seltzer"
-		],
-		"procedure": "Mix/whip shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, pineapple fronds, mint spring, lemon spiral"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grade A maple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Vanilla-infused brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Tawny port"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "FALINUM",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice",
 		"ingredients": [
-			"1 oz Lemon juice",
-			"1 oz Coconut cream",
-			"1 oz Seltzer",
-			".5 oz Velvet Falernum",
-			"2 oz Column still aged rum",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Coconut cream"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "HUMUHUMUNUKUNUKUAPUA'A",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry",
 		"ingredients": [
-			".75 oz Lemon juice",
-			".75 oz Pineapple juice",
-			".5 oz Orgeat",
-			"2 oz Gin",
-			"2 dash Peychaud's bitters"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "LAUWILIWILINUKUNUKU'OI'OI",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry",
 		"ingredients": [
-			".75 oz Lemon juice",
-			".75 oz Pineapple juice",
-			".5 oz Orgeat",
-			"2 oz Blended aged rum",
-			"2 dash Peychaud's bitters"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "FOR PETE'S SAKE",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible hibiscus flower, maraschino cherry",
 		"ingredients": [
-			".75 oz Lime juice",
-			".5 oz Demerara syrup",
-			".5 oz Hibiscus liqueur",
-			".5 oz Cherry Heering",
-			"1.5 oz Pisco",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible hibiscus flower, maraschino cherry"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Hibiscus liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pisco"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "ARRACK PUNCH FOR TWO",
+		"procedure": "Mix/whip shake, tiki bowl, lemon and lime slices",
 		"ingredients": [
-			"1 oz Lemon juice",
-			"1 oz Lime juice",
-			"1.5 oz Demerara syrup",
-			"3 oz Batavia Arrack",
-			"1 oz Pot still lightly aged rum (overproof)",
-			"3 oz Carbonated Chai Tea"
-		],
-		"procedure": "Mix/whip shake, tiki bowl, lemon and lime slices"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pot still lightly aged rum (overproof)"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Carbonated Chai Tea"
+			}
+		]
 	},
 	{
 		"name": "EL DRAQUE",
+		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
-			"5 Mint leaves (muddled)",
-			".75 oz Demerara syrup",
-			".75 oz Lime juice",
-			"2 oz Pot Still Aged cachaca"
-		],
-		"procedure": "Shake, coupe, lime wheel"
+			{
+				"measure": 5,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pot Still Aged cachaca"
+			}
+		]
 	},
 	{
 		"name": "CALIBOGUS",
+		"procedure": "Mix/whip shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer",
 		"ingredients": [
-			".25 oz Lime juice",
-			".75 oz Molasses syrup",
-			"1 drop Spruce Beer Soda extract",
-			".75 oz Zirbenz Stone Pine liqueur",
-			"1.25 oz Blended Aged rum",
-			"3 oz Seltzer"
-		],
-		"procedure": "Mix/whip shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer"
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Molasses syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "drop",
+				"ingredient": "Spruce Beer Soda extract"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Zirbenz Stone Pine liqueur"
+			},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Blended Aged rum"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "MARY PICKFORD",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Pineapple juice",
-			"1 bspn Grenadine",
-			"6 drops Maraschino liqueur",
-			"1.5 oz Blended lightly aged rum"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			}
+		]
 	},
 	{
 		"name": "DAIQUIRI NO. 1",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			".75 oz Lime juice",
-			".5 oz Demerara syrup",
-			"2 oz Blended Lightly Aged rum"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended Lightly Aged rum"
+			}
+		]
 	},
 	{
 		"name": "HOTEL NACIONAL SPECIAL",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"4 (1-inch-square) pineapple chunks (muddled)",
-			".75 oz Lime juice",
-			".5 oz Demerara syrup",
-			".5 oz Apricot liqueur",
-			"1.5 oz Blended lightly aged rum"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 4,
+				"ingredient": "(1-inch-square) pineapple chunks (muddled)"
+				},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			}
+		]
 	},
 	{
 		"name": "DAISY DE SANTIAGO",
+		"procedure": "Shake, double old-fashioned glass, crushed ice, mint sprig",
 		"ingredients": [
-			"1 oz Lime juice",
-			"1.5 tsp Demerara syrup",
-			"1 oz Seltzer",
-			".5 oz Yellow Chartreuse",
-			"1.5 oz Blended lightly aged rum"
-		],
-		"procedure": "Shake, double old-fashioned glass, crushed ice, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "tsp",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			}
+		]
 	},
 	{
 		"name": "EL PRESIDENTE",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			".5 tsp Grenadine",
-			".75 oz Dry vermouth",
-			".5 oz Dry Curacao",
-			"1.5 oz Blended Lightly Aged rum"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 0.5,
+				"unit": "tsp",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dry vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended Lightly Aged rum"
+			}
+		]
 	},
 	{
 		"name": "TWELVE MILE LIMIT",
+		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
-			".5 oz Lemon juice",
-			".5 oz Grenadine",
-			"1 oz Blended Lightly Aged rum",
-			".5 oz Rye",
-			".5 oz Brandy"
-		],
-		"procedure": "Shake, coupe, lemon twist"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended Lightly Aged rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Brandy"
+			}
+		]
 	},
 	{
 		"name": "PARISIAN BLONDE",
+		"procedure": "Stir first two ingredients, coupe. Float the cream, grated cinnamon",
 		"ingredients": [
-			"1 oz Dry Curacao",
-			"1 oz Blended aged rum",
-			"1 oz Sweeted Heavy cream"
-		],
-		"procedure": "Stir first two ingredients, coupe. Float the cream, grated cinnamon"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Sweeted Heavy cream"
+			}
+		]
 	},
 	{
 		"name": "CORA MIDDLETON",
+		"procedure": "Double shake, coupe, Angostura bitters drops",
 		"ingredients": [
-			".5 oz Egg white",
-			"2 oz Blended Aged rum",
-			".75 oz Lime juice",
-			".25 oz Demerara syrup",
-			".5 oz Raspberry Gum syrup"
-		],
-		"procedure": "Double shake, coupe, Angostura bitters drops"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Egg white"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended Aged rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Raspberry Gum syrup"
+			}
+		]
 	},
 	{
 		"name": "MILLIONAIRE COCKTAIL #1",
+		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
-			".75 oz Lime juice",
-			"1 dash Grenadine",
-			".75 oz Apricot liqueur",
-			".75 oz Black Pot Still rum or Blended Aged rum",
-			".75 oz Sloe Gin"
-		],
-		"procedure": "Shake, coupe, lime wheel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black Pot Still rum or Blended Aged rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sloe Gin"
+			}
+		]
 	},
 	{
 		"name": "BATIDA DE MARACUJA E COCO",
+		"procedure": "Mix/whip shake, old fashioned glass, crushed ice, mint sprig",
 		"ingredients": [
-			".75 oz Passionfruit puree",
-			"2 oz Coconut milk",
-			"1 oz Pot Still Aged cachaca",
-			"1 oz Sweetened Condensed milk"
-		],
-		"procedure": "Mix/whip shake, old fashioned glass, crushed ice, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Passionfruit puree"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Coconut milk"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pot Still Aged cachaca"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Sweetened Condensed milk"
+			}
+		]
 	},
 	{
 		"name": "HIBISCUS RUM PUNCH",
+		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower, lime wheel",
 		"ingredients": [
-			".5 oz Lime juice",
-			"1 oz Hibiscus liqueur",
-			".33 oz Demerara syrup",
-			"1.5 oz Blended aged rum (Jamaica)",
-			"2 oz Seltzer"
-		],
-		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower, lime wheel"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Hibiscus liqueur"
+			},
+			{
+				"measure": 0.33,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum (Jamaica)"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "BARBADOS RUM PUNCH",
+		"procedure": "Shake, footed pilsner, cracked ice, grated nutmeg",
 		"ingredients": [
-			"1 oz Lime juice",
-			"1 oz Demerara syrup",
-			"2 oz Blended aged rum (Barbados)",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Shake, footed pilsner, cracked ice, grated nutmeg"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum (Barbados)"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "JAMAICAN MILK PUNCH",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, grated nutmeg.",
 		"ingredients": [
-			"1 oz Whole milk",
-			"1 oz Heavy whipping cream",
-			".5 oz Demerara syrup",
-			"1 oz Black Blended Jamaican rum",
-			"6 drops Vanilla extract",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, grated nutmeg."
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Whole milk"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Heavy whipping cream"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black Blended Jamaican rum"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Vanilla extract"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "CORN AND OIL",
+		"procedure": "Stir, old-fashioned glass, crushed ice",
 		"ingredients": [
-			".5 oz Velvet Falernum",
-			"2 oz Blended aged rum (Barbados)",
-			"2-4 dash Angostura bitters"
-		],
-		"procedure": "Stir, old-fashioned glass, crushed ice"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum (Barbados)"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "QUEEN'S PARK SWIZZLE",
+		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig",
 		"ingredients": [
-			"4 Mint leaves (muddled)",
-			".5 oz Lime juice",
-			".5 oz Demerara syrup",
-			"2 oz Black blended rum",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig"
+			{
+				"measure": 4,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "THE CHADBURN",
+		"procedure": "Stir, coupe",
 		"ingredients": [
-			".5 oz Tawny port",
-			".5 oz Pear liqueur",
-			"2 oz Blended aged rum",
-			"6 drops Bittermens Xocolatl (Chocolate) Mole bitters"
-		],
-		"procedure": "Stir, coupe"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Tawny port"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Bittermens Xocolatl (Chocolate) Mole bitters"
+			}
+		]
 	},
 	{
 		"name": "A WISH FOR GRACE",
+		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
-			".75 oz Lemon juice",
-			".5 oz 2:1 Simple syrup",
-			".5 oz Dry Curacao",
-			"1.5 oz Pot still lightly aged rum (New England)",
-			".75 oz Blandy's 5 Year Verdelho Madeira",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Shake, coupe, lemon twist"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "2:1 Simple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pot still lightly aged rum (New England)"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Blandy's 5 Year Verdelho Madeira"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "ABRICOT VIEUX",
+		"procedure": "Stir, coupe, express orange peel",
 		"ingredients": [
-			".5 oz Apricot liqueur",
-			"2 oz Rhum agricole vieux",
-			"1 dash Angostura bitters",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, express orange peel"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rhum agricole vieux"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "PANIOLO OLD-FASHIONED",
+		"procedure": "Stir, old-fashioned glass, large cube, express orange peel, drop peel in",
 		"ingredients": [
-			"1 tsp Li Hing Mui syrup",
-			"2 oz Blended aged rum",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Stir, old-fashioned glass, large cube, express orange peel, drop peel in"
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Li Hing Mui syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "PORT ROYAL",
+		"procedure": "Shake, coupe, five spread-out drops Hellfire tincture",
 		"ingredients": [
-			".75 oz Lime juice",
-			".75 oz Jamaican Jerk syrup",
-			"1.5 oz Blended lightly aged rum",
-			".5 oz Wray & Nephew white overproof rum",
-			"Hellfire tincture"
-		],
-		"procedure": "Shake, coupe, five spread-out drops Hellfire tincture"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Jamaican Jerk syrup"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Wray & Nephew white overproof rum"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Hellfire tincture"
+			}
+		]
 	},
 	{
 		"name": "KINGSTON PALAKA",
+		"procedure": "Shake, coupe, lemon peel",
 		"ingredients": [
-			".5 oz Lemon juice",
-			".125 tsp Li hing mui powder",
-			"1 oz Drambuie",
-			"1.5 oz Blended aged rum (Jamaica)"
-		],
-		"procedure": "Shake, coupe, lemon peel"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.125,
+				"unit": "tsp",
+				"ingredient": "Li hing mui powder"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Drambuie"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum (Jamaica)"
+			}
+		]
 	},
 	{
 		"name": "DONN DAY AFTERNOON",
+		"procedure": "Stir, double old-fashioned glass, express grapefruit peel, drop peel in",
 		"ingredients": [
-			".5 oz Lime juice",
-			".5 oz Cinnamon syrup",
-			"4 oz Stiegl-Radler",
-			"2 oz Rhum Agricole blanc"
-		],
-		"procedure": "Stir, double old-fashioned glass, express grapefruit peel, drop peel in"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "Stiegl-Radler"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rhum Agricole blanc"
+			}
+		]
 	},
 	{
 		"name": "BAIE DU GALION",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			".5 oz Green Chartreuse",
-			".25 oz Drambuie",
-			"2 oz Rhum agricole blanc"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Drambuie"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rhum agricole blanc"
+			}
+		]
 	},
 	{
 		"name": "AGRICOLE GUAVA COOLER",
+		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with soda, mint sprig, cinnamon stick, lime wheel",
 		"ingredients": [
-			".75 oz Lime juice",
-			".75 oz Licor 43",
-			"2 oz Rhum agricole blanc",
-			"2 dash Angostura bitters",
-			"2 oz Bundaberg guava soda"
-		],
-		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with soda, mint sprig, cinnamon stick, lime wheel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Licor 43"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rhum agricole blanc"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bundaberg guava soda"
+			}
+		]
 	},
 	{
 		"name": "RICHARD SEALEBACH",
+		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, lemon twist",
 		"ingredients": [
-			".5 oz Dry Curacao",
-			"1 oz R. L. Seale 10 Year rum",
-			"7 dash Angostura bitters",
-			"7 dash Peychaud's bitters",
-			"4 oz Champagne"
-		],
-		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, lemon twist"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "R. L. Seale 10 Year rum"
+			},
+			{
+				"measure": 7,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 7,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "COSA NOSTRA #2",
+		"procedure": "Stir first 4 ingredients, footed pilsner glass, cracked ice. Top with ginger ale, lemon twist",
 		"ingredients": [
-			".75 oz Lemon juice",
-			"1.5 oz Amaro Averna",
-			"1 oz Blended Lightly Aged rum",
-			"1 dash Angostura bitters",
-			"2 oz Ginger ale"
-		],
-		"procedure": "Stir first 4 ingredients, footed pilsner glass, cracked ice. Top with ginger ale, lemon twist"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Amaro Averna"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended Lightly Aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Ginger ale"
+			}
+		]
 	},
 	{
 		"name": "BOO LOO FOR TWO",
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice",
 		"ingredients": [
-			"6 (1-inch-square) chunks pineapple (muddled)",
-			"2.5 oz Pineapple juice",
-			"1.5 oz Lime juice",
-			"1.25 oz Honey syrup",
-			"1.5 oz Blended aged rum",
-			"1.5 oz Column still aged rum",
-			".75 oz Black blended rum",
-			".75 oz Black blended overproof rum",
-			"1.5 oz Seltzer"
-		],
-		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
+			{
+				"measure": 6,
+				"ingredient": "(1-inch-square) chunks pineapple (muddled)"
+				},
+			{
+				"measure": 2.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "CARIBENO",
+		"procedure": "Mix/whip shake, coconut shell, cracked ice",
 		"ingredients": [
-			"4 oz Coconut water",
-			".25 oz Demerara syrup",
-			"2 oz Column Still Lightly Aged rum or London Dry Gin"
-		],
-		"procedure": "Mix/whip shake, coconut shell, cracked ice"
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "Coconut water"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Column Still Lightly Aged rum or London Dry Gin"
+			}
+		]
 	},
 	{
 		"name": "MONK'S RESPITE",
+		"procedure": "Mix/whip shake, coconut shell, crushed ice",
 		"ingredients": [
-			"3 oz Coconut water",
-			".5 oz Lemon juice",
-			".25 oz Honey syrup",
-			".25 oz Yellow Chartreuse",
-			"1.5 oz Broker's Gin",
-			"1 oz Seltzer",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Mix/whip shake, coconut shell, crushed ice"
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Coconut water"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Broker's Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "THE MASTADON",
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice",
 		"ingredients": [
-			"3 oz Pineapple juice",
-			".5 oz Lime juice",
-			"1 oz Passionfruit puree",
-			".5 oz Licor 43",
-			".5 oz Maraschino liqueur",
-			"1.5 oz Blended aged rum",
-			"1.5 oz Bourbon",
-			"2 dash Peychaud's bitters"
-		],
-		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice"
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Passionfruit puree"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Licor 43"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "PINATA",
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice, freshly grated nutmeg",
 		"ingredients": [
-			"3 oz Pineapple juice",
-			"1 oz Lemon juice",
-			".25 oz Demerara syrup",
-			"1 oz Domaine de Canton",
-			".5 oz Allspice dram",
-			"1 oz Black blended rum",
-			"1 oz Blended lightly aged rum"
-		],
-		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice, freshly grated nutmeg"
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			}
+		]
 	},
 	{
 		"name": "BUMBOAT",
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice. Float the overproof rum",
 		"ingredients": [
-			"2 oz Pineapple juice",
-			"1.5 oz Lemon juice",
-			".75 oz Cinnamon syrup",
-			"1 oz Rye",
-			"1 oz Blended Lightly Aged rum",
-			"3 drops Almond extract",
-			"6 drops Bittermens ‘Elemakule Tiki bitters",
-			".75 oz Black Blended Overproof rum (float)"
-		],
-		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice. Float the overproof rum"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended Lightly Aged rum"
+			},
+			{
+				"measure": 3,
+				"unit": "drops",
+				"ingredient": "Almond extract"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Bittermens ‘Elemakule Tiki bitters"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black Blended Overproof rum (float)"
+			}
+		]
 	},
 	{
 		"name": "PLANTER'S PUNCH",
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint Sprig",
 		"ingredients": [
-			"1 oz Lime juice",
-			".75 oz Demerara syrup",
-			".25 oz Allspice dram",
-			"3 oz Blended aged rum (Jamaica)",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint Sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Blended aged rum (Jamaica)"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "MAI TAI",
+		"procedure": "Shake, double old-fashioned glass, crushed ice, lime shell, mint sprig",
 		"ingredients": [
-			".75 oz Lime juice",
-			".25 oz Mai Tai syrup",
-			".25 oz Orgeat",
-			".5 oz Dry Curacao",
-			"2 oz Blended aged rum"
-		],
-		"procedure": "Shake, double old-fashioned glass, crushed ice, lime shell, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Mai Tai syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			}
+		]
 	},
 	{
 		"name": "DOCTOR FUNK",
+		"procedure": "Mix/whip shake, double old-fashioned, crushed ice, ti leaf or pineapple fronds",
 		"ingredients": [
-			".5 oz Lemon juice",
-			".25 oz Grenadine",
-			".5 oz Lime juice",
-			".5 oz Demerara syrup",
-			".25 oz Herbsaint",
-			"2.25 oz black Pot still unaged rum",
-			"1 oz Seltzer"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned, crushed ice, ti leaf or pineapple fronds"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Herbsaint"
+			},
+			{
+				"measure": 2.25,
+				"unit": "oz",
+				"ingredient": "black Pot still unaged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "ZOMBIE",
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint sprig",
 		"ingredients": [
-			".75 oz Lime juice",
-			".25 oz Grapefruit juice",
-			".25 oz Cinnamon syrup",
-			"1 tsp Grenadine",
-			".5 oz Velvet Falernum",
-			"1.5 oz Blended aged rum",
-			"1.5 oz Column still aged rum",
-			"1 oz Black blended overproof rum",
-			"2 dash Herbstura"
-		],
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Herbstura"
+			}
+		]
 	},
 	{
 		"name": "NAVY GROG",
+		"procedure": "Mix/whip shake, double old-fashioned glass, ice cone, mint sprig",
 		"ingredients": [
-			".75 oz Lime juice",
-			".75 oz Grapefruit juice",
-			".25 oz Demerara syrup",
-			".25 oz Allspice dram",
-			"1 oz Pot still lightly aged (overproof) rum",
-			"1 oz Blended lightly aged rum",
-			"1 oz Column still aged rum"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, ice cone, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pot still lightly aged (overproof) rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			}
+		]
 	},
 	{
 		"name": "SCORPION BOWL FOR TWO",
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice",
 		"ingredients": [
-			"1 oz Lime juice",
-			"2 oz Orange juice",
-			".75 oz Demerara syrup",
-			"1 oz Orgeat",
-			"1 oz Brandy",
-			"2 oz London Dry Gin",
-			"2 oz Blended Lightly Aged rum"
-		],
-		"procedure": "Mix/whip shake, tiki bowl, cracked ice"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Brandy"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "London Dry Gin"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended Lightly Aged rum"
+			}
+		]
 	},
 	{
 		"name": "FOG CUTTER",
+		"procedure": "Mix/whip shake, Fog Cutter mug, crushed ice. Float sherry, mint sprig",
 		"ingredients": [
-			"1.5 oz Lemon juice",
-			"1.5 oz Orange juice",
-			".5 oz Orgeat",
-			"1 oz Pisco",
-			".5 oz Gin",
-			"2 oz Blended lightly Aged rum",
-			".5 oz Oloroso sherry (float)"
-		],
-		"procedure": "Mix/whip shake, Fog Cutter mug, crushed ice. Float sherry, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pisco"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended lightly Aged rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Oloroso sherry (float)"
+			}
+		]
 	},
 	{
 		"name": "SINGAPORE SLING",
+		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, lemon wedge",
 		"ingredients": [
-			".75 oz Lemon juice",
-			".25 oz Demerara syrup",
-			".5 oz Cherry Heering",
-			".25 oz Benedictine",
-			"1.5 oz London Dry Gin",
-			"1 dash Angostura bitters",
-			"1 dash Orange bitters",
-			"2 oz Seltzer"
-		],
-		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, lemon wedge"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "London Dry Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "HONDO HATTIE'S JUNGLE PUNCH!",
+		"procedure": "Stir, punch glass, cracked ice",
 		"ingredients": [
-			"1 oz Lemon juice",
-			".5 oz Honey syrup",
-			".25 oz Blue curacao",
-			".25 oz Tawny port",
-			".5 oz Velvet Falernum",
-			".25 oz Pear liqueur",
-			"2 oz Blended Aged rum",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Stir, punch glass, cracked ice"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Blue curacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Tawny port"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blended Aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "KAHIKO PUNCH",
+		"procedure": "Stir, punch glass, cracked ice, edible orchid",
 		"ingredients": [
-			"1 oz Lemon juice",
-			"1.5 oz Passionfruit Honey",
-			".5 oz Cinnamon syrup",
-			".5 oz Hibiscus liqueur",
-			"2 oz Pot still unaged rum",
-			"6 drops Bittermans ‘Elemakule Tiki bitters"
-		],
-		"procedure": "Stir, punch glass, cracked ice, edible orchid"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit Honey"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Hibiscus liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pot still unaged rum"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Bittermans ‘Elemakule Tiki bitters"
+			}
+		]
 	},
 	{
 		"name": "TRIUMVIRATE PUNCH",
+		"procedure": "Stir, punch glass, cracked ice, mint sprig",
 		"ingredients": [
-			".75 oz Lime juice",
-			"1 oz Passionfruit Honey",
-			".25 oz Allspice dram",
-			"1.5 oz Pot still unaged rum",
-			"2 dash Angostura bitters",
-			"Grated nutmeg (pinch)"
-		],
-		"procedure": "Stir, punch glass, cracked ice, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Passionfruit Honey"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pot still unaged rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Grated nutmeg (pinch)"
+			}
+		]
 	},
 	{
 		"name": "EUREKA PUNCH",
+		"procedure": "Stir, punch glass, cracked ice, lemon twist, mint sprig",
 		"ingredients": [
-			"1.5 oz Lemon juice",
-			"1 oz Honey syrup",
-			".5 oz Yellow Chartreuse",
-			"1.5 oz Column still aged rum",
-			"1 dash Angostura bitters",
-			"2 oz Ginger ale"
-		],
-		"procedure": "Stir, punch glass, cracked ice, lemon twist, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Column still aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Ginger ale"
+			}
+		]
 	},
 	{
 		"name": "YULETIDAL WAVE",
+		"procedure": "Stir, punch glass, cracked ice",
 		"ingredients": [
-			"2 oz Pineapple juice",
-			"1 oz Lemon juice",
-			".5 oz Pear liqueur",
-			".5 oz Licor 43",
-			".25 oz Allspice dram",
-			".5 oz Brandy",
-			"1 oz Bourbon",
-			"1 oz Column Still Aged rum"
-		],
-		"procedure": "Stir, punch glass, cracked ice"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Licor 43"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Brandy"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Column Still Aged rum"
+			}
+		]
 	},
 	{
 		"name": "RUMBUSTION PUNCH",
+		"procedure": "Stir, punch glass, cracked ice",
 		"ingredients": [
-			"1 oz Lime juice",
-			".5 oz Demerara syrup",
-			".25 oz Cinnamon syrup",
-			"1 oz Blended aged rum",
-			"1 oz Blended lightly aged rum",
-			"2 dash Herbstura"
-		],
-		"procedure": "Stir, punch glass, cracked ice"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Herbstura"
+			}
+		]
 	},
 	{
 		"name": "PUKA PUNCH",
+		"procedure": "Mix/whip shake first 10 ingredients, large brandy snifter, crushed ice. Float the overproof rum, mint sprig",
 		"ingredients": [
-			"1 oz Lime juice",
-			".75 oz Orange juice",
-			".75 oz Pineapple juice",
-			"1 oz Honey syrup",
-			".75 oz Passionfruit syrup",
-			".5 oz Velvet Falernum",
-			"1 oz Blended aged rum",
-			"1 oz Blended lightly aged rum",
-			".75 oz Black blended rum",
-			"1 dash Angostura bitters",
-			".75 oz Black blended overproof rum"
-		],
-		"procedure": "Mix/whip shake first 10 ingredients, large brandy snifter, crushed ice. Float the overproof rum, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended lightly aged rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black blended rum"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Black blended overproof rum"
+			}
+		]
 	},
 	{
 		"name": "THE FOX HUNT",
+		"procedure": "Shake, coupe, 7 drops Peychaud's bitters",
 		"ingredients": [
-			"1.5 oz Pimm's",
-			".50 Tanqueray Gin",
-			".75 Lemon juice",
-			".50 Simple syrup",
-			"1 dash Peychaud's bitters",
-			"Cynar (rinse)"
-		],
-		"procedure": "Shake, coupe, 7 drops Peychaud's bitters"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pimm's"
+			},
+			{
+				"measure": 0.5,
+				"ingredient": "Tanqueray Gin"
+				},
+			{
+				"measure": 0.75,
+				"ingredient": "Lemon juice"
+				},
+			{
+				"measure": 0.5,
+				"ingredient": "Simple syrup"
+				},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Cynar (rinse)"
+			}
+		]
 	},
 	{
 		"name": "BRIAR PATCH",
+		"procedure": "Shake first 3 ingredients, Collins glass, crushed ice. Top with blackberry cordial, blackberry, lemon twist",
 		"ingredients": [
-			"1.5 oz Plymouth Gin",
-			".75 oz Lemon juice",
-			".5 oz Simple syrup",
-			".25 oz Blackberry cordial"
-		],
-		"procedure": "Shake first 3 ingredients, Collins glass, crushed ice. Top with blackberry cordial, blackberry, lemon twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Blackberry cordial"
+			}
+		]
 	},
 	{
 		"name": "BLACKBERRY CORDIAL",
+		"procedure": "Infuse for 1 hour, strain through a fine chinois or cheesecloth",
 		"ingredients": [
-			"1 pint Blackberries (muddled)",
-			"1 cup Simple syrup",
-			"4 dash Angostura bitters"
-		],
-		"procedure": "Infuse for 1 hour, strain through a fine chinois or cheesecloth"
+			{
+				"measure": 1,
+				"unit": "pint",
+				"ingredient": "Blackberries (muddled)"
+			},
+			{
+				"measure": 1,
+				"unit": "cup",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 4,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "THE RIVIERA",
+		"procedure": "Double shake, coupe, mint leaf, orange bitters drops",
 		"ingredients": [
-			"2 oz Pineapple Infused Gin",
-			".75 oz Lemon juice",
-			".75 oz Simple syrup",
-			"1 Egg White"
-		],
-		"procedure": "Double shake, coupe, mint leaf, orange bitters drops"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pineapple Infused Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg White"
+				}
+		]
 	},
 	{
 		"name": "PINEAPPLE INFUSED GIN",
+		"procedure": "Combine and let sit for 24 hours, strain through a fine chinois or cheesecloth",
 		"ingredients": [
-			"1 cup Plymouth Gin",
-			".5 cup Maraschino liqueur",
-			".25 cup Campari",
-			"1 cup Pineapple cubes"
-		],
-		"procedure": "Combine and let sit for 24 hours, strain through a fine chinois or cheesecloth"
+			{
+				"measure": 1,
+				"unit": "cup",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "cup",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "cup",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 1,
+				"unit": "cup",
+				"ingredient": "Pineapple cubes"
+			}
+		]
 	},
 	{
 		"name": "BLUE RIDGE MANHATTAN",
+		"procedure": "Shake, rinsed coupe, lemon twist",
 		"ingredients": [
-			"2 oz Rittenhouse Rye",
-			".75 oz Carpano Antica",
-			".5 oz Noilly Pratt Dry vermouth",
-			"2 dash Peychaud's bitters",
-			"Peach bitters (rinse)",
-			"Laphroig 10 Scotch(rinse)"
-		],
-		"procedure": "Shake, rinsed coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Noilly Pratt Dry vermouth"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Peach bitters (rinse)"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Laphroig 10 Scotch(rinse)"
+			}
+		]
 	},
 	{
 		"name": "PART & PARCEL",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"2 oz Plymouth Gin",
-			".75 oz St. Germain",
-			".75 oz Grapefruit juice",
-			".25 oz Lime juice",
-			".50 oz Simple syrup",
-			"5 drops Grapefruit bitters"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 5,
+				"unit": "drops",
+				"ingredient": "Grapefruit bitters"
+			}
+		]
 	},
 	{
 		"name": "RANGOON FIZZ",
+		"procedure": "Shake, Collins glass, cracked ice. Top with tonic water, mint Sprig",
 		"ingredients": [
-			"2 oz Tanqueray Gin",
-			".75 oz Ginger syrup",
-			"1 oz Lime juice",
-			"9 drops Angostura bitters",
-			"5 Mint sprigs",
-			"Tonic water"
-		],
-		"procedure": "Shake, Collins glass, cracked ice. Top with tonic water, mint Sprig"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Tanqueray Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Ginger syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 9,
+				"unit": "drops",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 5,
+				"ingredient": "Mint sprigs"
+				},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Tonic water"
+			}
+		]
 	},
 	{
 		"name": "SAZERAC #1",
+		"procedure": "Stir, rinsed old fashioned glass, big cube, lemon peel",
 		"ingredients": [
-			"2 oz Old Overholdt Rye",
-			".25 oz Demerara syrup",
-			"3 dash Peychauds bitters",
-			"Herbsaint (rinse)"
-		],
-		"procedure": "Stir, rinsed old fashioned glass, big cube, lemon peel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Old Overholdt Rye"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Peychauds bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Herbsaint (rinse)"
+			}
+		]
 	},
 	{
 		"name": "CHI-TOWN FLIP",
+		"procedure": "Shake, Collins glass, grated nutmeg, 3 drops Fees Old Fashioned bitters",
 		"ingredients": [
-			"2.0 oz Buffalo Trace bourbon",
-			".75 oz Tawny Port",
-			"1.0 oz Heavy cream",
-			".75 oz Licor 43",
-			".25 oz Simple syrup",
-			"1 Whole Egg"
-		],
-		"procedure": "Shake, Collins glass, grated nutmeg, 3 drops Fees Old Fashioned bitters"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Buffalo Trace bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Tawny Port"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Heavy cream"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Licor 43"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Whole Egg"
+				}
+		]
 	},
 	{
 		"name": "HUSH & WONDER",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"2 oz Matusalem rum",
-			".75 oz Lime juice",
-			".75 oz Simple syrup",
-			"3 dash Grapefruit bitters",
-			"Creme de Violette (rinse)"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Matusalem rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Grapefruit bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Creme de Violette (rinse)"
+			}
+		]
 	},
 	{
 		"name": "LADY CLOVER",
+		"procedure": "Double shake, Collins glass, cracked ice. Top with soda, 5 drops Angostura bitters",
 		"ingredients": [
-			"2 oz Plymouth Gin",
-			".75 oz Blackberry syrup",
-			".75 oz Lemon juice",
-			"1 Egg white",
-			"7 drops Peychaud's bitters"
-		],
-		"procedure": "Double shake, Collins glass, cracked ice. Top with soda, 5 drops Angostura bitters"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Blackberry syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				},
+			{
+				"measure": 7,
+				"unit": "drops",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "TAX THE DAISY",
+		"procedure": "Shake liquids and peels, coupe, 3 drops Angostura bitters",
 		"ingredients": [
-			"1.75 oz Bombay Dry Gin",
-			"1 oz Ramazotti Amaro",
-			".25 oz Apricot liqueur",
-			"7 drops Angostura bitters",
-			"7 drops Orange bitters",
-			"1 Orange peel",
-			"1 Lemon peel"
-		],
-		"procedure": "Shake liquids and peels, coupe, 3 drops Angostura bitters"
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "Bombay Dry Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Ramazotti Amaro"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 7,
+				"unit": "drops",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 7,
+				"unit": "drops",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Orange peel"
+				},
+			{
+				"measure": 1,
+				"ingredient": "Lemon peel"
+				}
+		]
 	},
 	{
 		"name": "ANGOSTURA FIZZ",
+		"procedure": "Double shake first 5 ingredients, Collins glass, cracked ice. Top with ginger ale, lemon Wheel",
 		"ingredients": [
-			"1 oz Angostura bitters",
-			"1 oz Plymouth Gin",
-			".75 oz Lemon juice",
-			".75 oz Simple syrup",
-			"1 Egg white",
-			"Ginger Ale"
-		],
-		"procedure": "Double shake first 5 ingredients, Collins glass, cracked ice. Top with ginger ale, lemon Wheel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Ginger Ale"
+			}
+		]
 	},
 	{
 		"name": "EYES WIDE",
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with soda, float Hibiscus syrup, grapefruit peel",
 		"ingredients": [
-			"2 oz Bulleit Bourbon",
-			".25 oz Raspberry syrup",
-			".25 oz Ginger syrup",
-			".25 oz Lemon juice",
-			".5 oz Grapefruit juice",
-			".25 Hibiscus syrup"
-		],
-		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with soda, float Hibiscus syrup, grapefruit peel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bulleit Bourbon"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Raspberry syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Ginger syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.25,
+				"ingredient": "Hibiscus syrup"
+				}
+		]
 	},
 	{
 		"name": "IRON CROSS",
+		"procedure": "Dry shake, shake with ice for two minutes, coupe, 4 drops Angostura bitters",
 		"ingredients": [
-			"1.5 oz Pisco",
-			".75 oz Lemon juice",
-			".75 oz Simple syrup",
-			"1 Egg white",
-			"3 drops Orange Flower water",
-			"2 dash Lavender Grapefruit bitters"
-		],
-		"procedure": "Dry shake, shake with ice for two minutes, coupe, 4 drops Angostura bitters"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pisco"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				},
+			{
+				"measure": 3,
+				"unit": "drops",
+				"ingredient": "Orange Flower water"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Lavender Grapefruit bitters"
+			}
+		]
 	},
 	{
 		"name": "SEEING TRACES",
+		"procedure": "Double shake, coupe, 4 drops orange flower water",
 		"ingredients": [
-			"2 oz Bourbon",
-			".75 oz Lemon juice",
-			"1 oz Lillet Blanc",
-			".5 oz Demerara syrup",
-			".25 oz Ginger syrup",
-			"1 Egg white"
-		],
-		"procedure": "Double shake, coupe, 4 drops orange flower water"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Ginger syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "DAISY 17",
+		"procedure": "Shake, coupe, flamed orange twist (discarded)",
 		"ingredients": [
-			"2 oz Wild Turkey 101 whiskey",
-			".75 oz Lemon juice",
-			".50 oz Grenadine",
-			".25 oz Simple syrup",
-			"3 dash Orange bitters"
-		],
-		"procedure": "Shake, coupe, flamed orange twist (discarded)"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Wild Turkey 101 whiskey"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "JAMAICAN JULEP",
+		"procedure": "Stir first 3 ingredients, julep cup, top with pineapple juice",
 		"ingredients": [
-			"4 Mint leaves (lightly muddled)",
-			"2 oz Smith and Cross Jamaican rum",
-			".25 oz Demarara syrup",
-			".5 oz Pineapple juice"
-		],
-		"procedure": "Stir first 3 ingredients, julep cup, top with pineapple juice"
+			{
+				"measure": 4,
+				"ingredient": "Mint leaves (lightly muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Smith and Cross Jamaican rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demarara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "SPEAKING IN TONGUES",
+		"procedure": "Shake, double strain, coupe",
 		"ingredients": [
-			"2 Strawberries (muddled)",
-			"1 oz Chichicapa Mezcal",
-			"1 oz Luxardo Amaro",
-			".75 oz Lemon juice",
-			".75 oz Simple syrup"
-		],
-		"procedure": "Shake, double strain, coupe"
+			{
+				"measure": 2,
+				"ingredient": "Strawberries (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Chichicapa Mezcal"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Luxardo Amaro"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "THE VIOLET HOUR",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"2 oz Buffalo Trace Bourbon",
-			".75 oz Carpano Antica",
-			".25 oz Noilly Prat or Vya dry vermouth",
-			".5 tsp Cruzan Black Strap rum",
-			"3 dash Angostura bitters"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Buffalo Trace Bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Noilly Prat or Vya dry vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "tsp",
+				"ingredient": "Cruzan Black Strap rum"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "EEYORE'S REQUIEM",
+		"procedure": "Stir, rocks glass, large cube, express orange oil, orange twist",
 		"ingredients": [
-			"1.5 oz Campari",
-			".5 oz Tanqueray Gin",
-			"1 oz Dolin Blanc vermouth",
-			".5 oz Cynar",
-			".25 oz Fernet Branca",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, rocks glass, large cube, express orange oil, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Tanqueray Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "THE WARNING LABEL",
+		"procedure": "Stir, rinsed cocktail glass, lemon twist",
 		"ingredients": [
-			"1 oz Lemon Hart 151 Demerara rum ",
-			"1 oz Cynar",
-			"1 oz Punt e Mes",
-			"1 dash Orange bitters",
-			"1 dash Grapefruit bitters",
-			"Campari (rinse)"
-		],
-		"procedure": "Stir, rinsed cocktail glass, lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon Hart 151 Demerara rum "
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grapefruit bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Campari (rinse)"
+			}
+		]
 	},
 	{
 		"name": "A MOMENT OF SILENCE",
+		"procedure": "Stir, rinsed rocks glass, orange twist",
 		"ingredients": [
-			"1.5 oz Rye",
-			"1 oz Apricot liqueur",
-			".5 oz Averna",
-			".5 oz Angostura bitters",
-			".25 oz Lairds Apple brandy",
-			"Campari (rinse)"
-		],
-		"procedure": "Stir, rinsed rocks glass, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Averna"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lairds Apple brandy"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Campari (rinse)"
+			}
+		]
 	},
 	{
 		"name": "VARIATION ON A THEME",
+		"procedure": "Stir, rocks glass, orange twist",
 		"ingredients": [
-			"2 oz Hayman's Old Tom Gin",
-			".5 oz Cherry Heering",
-			".25 oz Campari",
-			".5 bspn Maraschino liqueur",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, rocks glass, orange twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Hayman's Old Tom Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.5,
+				"unit": "bspn",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "IMPROVED SCOTCH SLING",
+		"procedure": "Stir, rocks glass, lemon twist",
 		"ingredients": [
-			"2 oz McClelland's Islay Single Malt scotch",
-			".75 oz Sweet vermouth",
-			".5 oz Lemon juice",
-			".5 oz Honey syrup",
-			"1 bspn Maraschino liqueur",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Stir, rocks glass, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "McClelland's Islay Single Malt scotch"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "PIMM'S UP",
+		"procedure": "Shake, coupe, two drops celery bitters",
 		"ingredients": [
-			"1 oz Bols Genever",
-			"1 oz Pimm's",
-			".75 oz Lemon juice",
-			".75 oz Simple syrup",
-			"7 drops Celery bitters"
-		],
-		"procedure": "Shake, coupe, two drops celery bitters"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pimm's"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 7,
+				"unit": "drops",
+				"ingredient": "Celery bitters"
+			}
+		]
 	},
 	{
 		"name": "GUNSHOP FIZZ",
+		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with Sanbitter, cucumber slice",
 		"ingredients": [
-			"2 Strawberries (muddled)",
-			"3 Cucumber slices (muddled)",
-			"3 Grapefruit peels (muddled)",
-			"3 Orange peels (muddled)",
-			"2 oz Peychaud's bitters",
-			"1 oz Lemon juice",
-			"1 oz Simple syrup",
-			"Sanbitter"
-		],
-		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with Sanbitter, cucumber slice"
+			{
+				"measure": 2,
+				"ingredient": "Strawberries (muddled)"
+				},
+			{
+				"measure": 3,
+				"ingredient": "Cucumber slices (muddled)"
+				},
+			{
+				"measure": 3,
+				"ingredient": "Grapefruit peels (muddled)"
+				},
+			{
+				"measure": 3,
+				"ingredient": "Orange peels (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Sanbitter"
+			}
+		]
 	},
 	{
 		"name": "WESTERN PASSAGE",
+		"procedure": "Stir, coupe, cherry, express orange peel",
 		"ingredients": [
-			"1.5 oz Batavia Arrack",
-			".5 oz Dolin Sweet vermouth",
-			".5 oz Dolin Dry vermouth",
-			".5 oz Yellow Chartreuse",
-			"1 dash Angostura bitters",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, cherry, express orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Sweet vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Dry vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "PATENT PENDING",
+		"procedure": "Stir, double old fashioned glass, large cube, express grapefruit peel",
 		"ingredients": [
-			"1.5 oz Smith & Cross Rum",
-			".75 oz Batavia Arrack",
-			".5 oz Aperol",
-			"1 tsp Don's Mix",
-			"1 tsp Vanilla syrup",
-			"2 dash Amargo Peruvian bitters"
-		],
-		"procedure": "Stir, double old fashioned glass, large cube, express grapefruit peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Smith & Cross Rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Don's Mix"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Vanilla syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Amargo Peruvian bitters"
+			}
+		]
 	},
 	{
 		"name": "BAMBOO",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"1.5 oz Dolin Blanc vermouth",
-			"1.5 oz Lustau palo cortado sherry",
-			"2 dash Angostura bitters",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lustau palo cortado sherry"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "OLD FRIEND",
+		"procedure": "Shake, coupe, lemon twist.",
 		"ingredients": [
-			"1.5 oz Beefeater gin",
-			"0.75 oz Grapefruit juice",
-			"0.5 oz Campari",
-			"0.25 oz St. Germain"
-		],
-		"procedure": "Shake, coupe, lemon twist."
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Beefeater gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			}
+		]
 	},
 	{
 		"name": "GREEN TEA PUNCH",
+		"procedure": "Stir, punch glass, cracked ice, grated nutmeg",
 		"ingredients": [
-			"3 oz Banks 5-Island rum",
-			"1.5 oz Brewed sencha tea",
-			"1.5 oz Brewed mint tisane",
-			"1 oz Lime juice",
-			"1 oz Simple syrup"
-		],
-		"procedure": "Stir, punch glass, cracked ice, grated nutmeg"
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Banks 5-Island rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Brewed sencha tea"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Brewed mint tisane"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "MONTE CARLO",
+		"procedure": "Stir, old-Fashioned glass, large cube. Express lemon peel, drop in",
 		"ingredients": [
-			"2 oz Rittenhouse Rye",
-			".5 oz Benedictine",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Stir, old-Fashioned glass, large cube. Express lemon peel, drop in"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "AUTUMN OLD-FASHIONED",
+		"procedure": "Stir, old-Fashioned glass, large cube, express lemon and orange peel, drop in",
 		"ingredients": [
-			".5 oz George Dickel Rye",
-			".5 oz Laird's Apple brandy",
-			".5 oz Tariquet VSOP Bas-Armagnac",
-			".5 oz Bank Note scotch",
-			"1 tsp Grade B maple syrup",
-			"2 dash Bittermens Xocolatl mole bitters",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Stir, old-Fashioned glass, large cube, express lemon and orange peel, drop in"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "George Dickel Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laird's Apple brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Tariquet VSOP Bas-Armagnac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Bank Note scotch"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Grade B maple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Bittermens Xocolatl mole bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "THE FIELD MARSHALL",
+		"procedure": "Stir first 4 ingredients, Champagne flute. Top with Champagne, lemon twist",
 		"ingredients": [
-			"1 oz Tariquet Classique VS Bas-Armagnac",
-			".5 oz Royal Combier",
-			"2 dash Angostura bitters",
-			"2 dash Peychaud's bitters",
-			"Champagne"
-		],
-		"procedure": "Stir first 4 ingredients, Champagne flute. Top with Champagne, lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Tariquet Classique VS Bas-Armagnac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Royal Combier"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "SHERRY COBBLER",
+		"procedure": "Stir, Collins glass, crushed ice, orange wheel, mint sprig",
 		"ingredients": [
-			"3 orange slices (muddled)",
-			"1 tsp Simple syrup",
-			"3.5 oz Amontillado Sherry"
-		],
-		"procedure": "Stir, Collins glass, crushed ice, orange wheel, mint sprig"
+			{
+				"measure": 3,
+				"ingredient": "orange slices (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 3.5,
+				"unit": "oz",
+				"ingredient": "Amontillado Sherry"
+			}
+		]
 	},
 	{
 		"name": "TRACTION",
+		"procedure": "Shake, double strain, old-Fashioned glass, crushed ice, strawberry, lemon wedge, mint sprig",
 		"ingredients": [
-			"2 Lemon wedges (muddled)",
-			"1 Strawberry (muddled)",
-			"1.5 oz Lustau Amontillado sherry",
-			".5 oz Santa Teresa 1796 rum",
-			".75 oz Dry Curacao"
-		],
-		"procedure": "Shake, double strain, old-Fashioned glass, crushed ice, strawberry, lemon wedge, mint sprig"
+			{
+				"measure": 2,
+				"ingredient": "Lemon wedges (muddled)"
+				},
+			{
+				"measure": 1,
+				"ingredient": "Strawberry (muddled)"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lustau Amontillado sherry"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Santa Teresa 1796 rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			}
+		]
 	},
 	{
 		"name": "SMOKE AND MIRRORS",
+		"procedure": "Shake, double old-Fashioned glass, large cube, mint sprig",
 		"ingredients": [
-			"4 Mint leaves (muddled)",
-			".75 oz Simple syrup",
-			"1 oz Blended scotch",
-			".5 oz Laphroaig 10-year scotch",
-			".75 oz Lime juice",
-			"2 dash Absinthe"
-		],
-		"procedure": "Shake, double old-Fashioned glass, large cube, mint sprig"
+			{
+				"measure": 4,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended scotch"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laphroaig 10-year scotch"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Absinthe"
+			}
+		]
 	},
 	{
 		"name": "SMOKESCREEN",
+		"procedure": "Shake, double old-Fashioned glass over, large cube, mint sprig",
 		"ingredients": [
-			"4 Mint leaves (muddled)",
-			".75 oz Simple syrup",
-			"1 oz Blended scotch",
-			".5 oz Laphroaig 10-year scotch",
-			".25 oz Green Chartreuse",
-			".75 oz Lime juice"
-		],
-		"procedure": "Shake, double old-Fashioned glass over, large cube, mint sprig"
+			{
+				"measure": 4,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended scotch"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laphroaig 10-year scotch"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "JACK FROST",
+		"procedure": "Swizzle, Collins glass, crushed ice, with the mint sprig, sage bouquet, dusting of powdered sugar",
 		"ingredients": [
-			".75 oz Cabeza blanco tequila",
-			".75 oz Pear brandy",
-			".75 oz La Quintinye Vermouth Royal extra dry",
-			"1 tsp Creme de Menthe",
-			".75 oz Lime juice",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Swizzle, Collins glass, crushed ice, with the mint sprig, sage bouquet, dusting of powdered sugar"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cabeza blanco tequila"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pear brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "La Quintinye Vermouth Royal extra dry"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Creme de Menthe"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "RATIONAL THOUGHT",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1 oz Paul Beau VSOP Cognac",
-			".5 oz Pear brandy",
-			"1 oz Dry Curacao",
-			".75 oz Lemon juice",
-			"1 tsp Cinnamon syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Paul Beau VSOP Cognac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear brandy"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Cinnamon syrup"
+			}
+		]
 	},
 	{
 		"name": "MAIDEN'S BLUSH",
+		"procedure": "Shake, punch glass",
 		"ingredients": [
-			"1 oz Raspberry Cordial",
-			".75 oz Lemon juice",
-			"1 oz Pernod Absinthe",
-			"1.5 oz Hayman's Old Tom Gin"
-		],
-		"procedure": "Shake, punch glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Raspberry Cordial"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pernod Absinthe"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Hayman's Old Tom Gin"
+			}
+		]
 	},
 	{
 		"name": "RASPBERRY CORDIAL",
+		"procedure": "Puree raspberries, mix in sugar syrup. Strain through a chinois or cheesecloth into a bottle. Add rose water and Everclear and shake",
 		"ingredients": [
-			"3 oz Raspberries",
-			"2 cups Simple syrup",
-			".5 oz Rosewater",
-			".5 oz Everclear"
-		],
-		"procedure": "Puree raspberries, mix in sugar syrup. Strain through a chinois or cheesecloth into a bottle. Add rose water and Everclear and shake"
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Raspberries"
+			},
+			{
+				"measure": 2,
+				"unit": "cups",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Rosewater"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Everclear"
+			}
+		]
 	},
 	{
 		"name": "DELICIOUS SOUR",
+		"procedure": "Shake, punch glass, cracked ice, grated nutmeg.",
 		"ingredients": [
-			"3 dash Eucalyptus Tincture",
-			".5 oz Pistachio Orgeat",
-			"2 oz Laird's Apple brandy",
-			".25 oz Peach liqueur",
-			".75 oz Lime juice",
-			"3 dash Pernod Absinthe",
-			"1 Egg white"
-		],
-		"procedure": "Shake, punch glass, cracked ice,	grated nutmeg."
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Eucalyptus Tincture"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pistachio Orgeat"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Laird's Apple brandy"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Peach liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Pernod Absinthe"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "WHISKEY COCKTAIL #2",
+		"procedure": "Stir, cocktail glass, express orange peel",
 		"ingredients": [
-			"2 oz Old Overholt Rye",
-			".75 oz Benedictine",
-			".25 oz Royal Combier",
-			"3 dash Angostura bitters",
-			"3 dash Orange bitters",
-			"3 dash Pernod Absinthe"
-		],
-		"procedure": "Stir, cocktail glass, express orange peel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Old Overholt Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Royal Combier"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Pernod Absinthe"
+			}
+		]
 	},
 	{
 		"name": "BIJOU",
+		"procedure": "Stir, cocktail glass, express orange peel",
 		"ingredients": [
-			"1.5 oz Tanqueray Gin",
-			"1.5 oz Sweet vermouth",
-			".5 oz Green Chartreuse",
-			"2 dash Orange bitters",
-			"2 dash Angostura bitters",
-			"2 dash Pernod Absinthe"
-		],
-		"procedure": "Stir, cocktail glass, express orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Tanqueray Gin"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Pernod Absinthe"
+			}
+		]
 	},
 	{
 		"name": "SUISSESSE #2",
+		"procedure": "Shake, cocktail glass, express lemon peel, grated nutmeg",
 		"ingredients": [
-			".5 oz Aquavit",
-			".5 oz Creme de Cacao",
-			"1.5 oz La Clandestine Absinthe",
-			"2 dash Peychaud's bitters",
-			".5 Egg white",
-			"2 oz Chilled water"
-		],
-		"procedure": "Shake, cocktail glass, express lemon peel, grated nutmeg"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Creme de Cacao"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "La Clandestine Absinthe"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 0.5,
+				"ingredient": "Egg white"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Chilled water"
+			}
+		]
 	},
 	{
 		"name": "FLOR DE JEREZ",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			".5 oz Appleton Estate Reserve rum",
-			"1.5 oz Lustau amontillado sherry",
-			".25 oz Apricot liqueur",
-			".75 oz Lemon juice",
-			".5 oz Simple syrup",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Appleton Estate Reserve rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lustau amontillado sherry"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "CITY OF GOLD SLING",
+		"procedure": "Shake, highball glass, cracked ice, pineapple wedge",
 		"ingredients": [
-			"1.5 oz Hayman's Old Tom Gin",
-			".5 oz El Dorado 12-year rum",
-			".75 oz Donn's Spices #2",
-			"1 dash Vieux Pontarlier absinthe",
-			"1 oz Pineapple juice",
-			".5 oz Lime juice",
-			".25 oz Orgeat",
-			"1 dash Peychaud's bitters"
-		],
-		"procedure": "Shake, highball glass, cracked ice, pineapple wedge"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Hayman's Old Tom Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "El Dorado 12-year rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Donn's Spices #2"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Vieux Pontarlier absinthe"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "PRETTY BIRD",
+		"procedure": "Shake, double rocks glass, large cube, lime wheel, cherry flag",
 		"ingredients": [
-			"1.5 oz Bombay London Dry Gin",
-			".5 oz Rhum Clement Creole Shrub",
-			".75 oz Grapefruit juice",
-			".5 oz Lime juice",
-			".25 oz Grenadine",
-			"1 tsp Cinnamon Bark syrup"
-		],
-		"procedure": "Shake, double rocks glass, large cube, lime wheel, cherry flag"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bombay London Dry Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Rhum Clement Creole Shrub"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Cinnamon Bark syrup"
+			}
+		]
 	},
 	{
 		"name": "BERMUDA DUNES",
+		"procedure": "Shake, footed pilsner, crushed ice, mint sprig, lime wedge, cherry",
 		"ingredients": [
-			"1 oz White rum",
-			"1.5 oz Gold rum",
-			".5 oz Dry Curacao",
-			"1 oz Lemon juice",
-			"1 oz Orange juice",
-			".75 oz Orgeat",
-			".25 oz Allspice dram"
-		],
-		"procedure": "Shake, footed pilsner, crushed ice, mint sprig, lime wedge, cherry"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "White rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gold rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			}
+		]
 	},
 	{
 		"name": "HONI HONI",
+		"procedure": "Shaken, old fashioned glass, crushed ice, mint sprig, lime wedge, cherry",
 		"ingredients": [
-			"2 oz Bourbon",
-			".5 oz Dry Curacao",
-			".5 oz Orgeat",
-			"1 oz Lime juice",
-			".25 oz Simple syrup"
-		],
-		"procedure": "Shaken, old fashioned glass, crushed ice, mint sprig, lime wedge, cherry"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "MOJAVE PUNCH",
+		"procedure": "Shake, footed pilsner, crushed ice",
 		"ingredients": [
-			"1 oz Cruzan Silver Rum",
-			"1 oz Black Blended rum",
-			".75 oz Hibiscus syrup",
-			".25 oz Passionfruit syrup",
-			".5 oz Lime juice",
-			"1 oz Pineapple juice",
-			"1 oz Orange juice"
-		],
-		"procedure": "Shake, footed pilsner, crushed ice"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cruzan Silver Rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Black Blended rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Hibiscus syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			}
+		]
 	},
 	{
 		"name": "DESERT ROSE",
+		"procedure": "Shake, old fashioned glass, crushed ice, orange twist",
 		"ingredients": [
-			"2 oz Tanqueray Gin",
-			".5 oz Galliano",
-			"1 oz Lemon juice",
-			"1 oz Grapefruit juice",
-			"1 oz Rose syrup",
-			"2 Dash Orange bitters"
-		],
-		"procedure": "Shake, old fashioned glass, crushed ice, orange twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Tanqueray Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Galliano"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Rose syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "Dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "THE HARD SELL",
+		"procedure": "Shake, cocktail glass, express grapefruit peel",
 		"ingredients": [
-			"0.75 oz Jeppson's Malort",
-			"0.75 oz Beefeater Gin",
-			"0.75 oz St. Germain",
-			"0.75 oz Lemon juice",
-			"0.25 oz Simple syrup"
-		],
-		"procedure": "Shake, cocktail glass, express grapefruit peel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Jeppson's Malort"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Beefeater Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "THE WARDLOW",
+		"procedure": "Shake, coupe, 2 spritzes Absinthe",
 		"ingredients": [
-			"2 oz Bulliet Rye",
-			".5 oz Benedictine",
-			".75 oz Lemon juice",
-			".5 oz Honey syrup",
-			"2 dash Peychaud's bitters"
-		],
-		"procedure": "Shake, coupe, 2 spritzes Absinthe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bulliet Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "FEAR AND LOATHING",
+		"procedure": "Shake, highball glass, cracked ice, top with blood orange juice, blood orange wheel, mint sprig",
 		"ingredients": [
-			"1.5 oz Mezcal",
-			".5 oz Marischino liqueur",
-			".75 oz Pineapple juice",
-			"1 oz Lemon juice",
-			".25 oz Simple syrup",
-			"Blood Orange juice"
-		],
-		"procedure": "Shake, highball glass, cracked ice, top with blood orange juice, blood orange wheel, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Marischino liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Blood Orange juice"
+			}
+		]
 	},
 	{
 		"name": "SCOTTISH KISS",
+		"procedure": "Shake, coupe, raspberry",
 		"ingredients": [
-			"1.5 oz Auchentoshan 12 yr scotch",
-			".75 oz Pimm's",
-			".5 oz Domaine de Canton",
-			".5 oz Lemon juice",
-			".5 oz Brown Sugar syrup"
-		],
-		"procedure": "Shake, coupe, raspberry"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Auchentoshan 12 yr scotch"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pimm's"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Brown Sugar syrup"
+			}
+		]
 	},
 	{
 		"name": "MIDNIGHT BOTANIST",
+		"procedure": "Shake, double strain, Collins glass, cracked ice. Top with seltzer, two blackberries, rosemary sprig",
 		"ingredients": [
-			"3 Blackberries (muddled)",
-			"2 Rosemary needles (muddled)",
-			"2 oz. Botanist Gin",
-			".5 oz. Lemon juice",
-			"1 oz. Simple syrup",
-			"Seltzer"
-		],
-		"procedure": "Shake, double strain, Collins glass, cracked ice. Top with seltzer, two blackberries, rosemary sprig"
+			{
+				"measure": 3,
+				"ingredient": "Blackberries (muddled)"
+				},
+			{
+				"measure": 2,
+				"ingredient": "Rosemary needles (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz.",
+				"ingredient": "Botanist Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz.",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz.",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "OAXACAN SMOKE",
+		"procedure": "Stir, rocks glass, large cube, orange peel",
 		"ingredients": [
-			"1 oz. El Silencio Espladin Mezcal",
-			"1 oz. Aperol",
-			"1 oz. Vya Sweet vermouth"
-		],
-		"procedure": "Stir, rocks glass, large cube, orange peel"
+			{
+				"measure": 1,
+				"unit": "oz.",
+				"ingredient": "El Silencio Espladin Mezcal"
+			},
+			{
+				"measure": 1,
+				"unit": "oz.",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 1,
+				"unit": "oz.",
+				"ingredient": "Vya Sweet vermouth"
+			}
+		]
 	},
 	{
 		"name": "LINCOLN COUNTY REVIVAL",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"2 oz Dickel No. 12 whiskey",
-			".5 oz Peach liqueur",
-			".75 oz Lemon juice",
-			".5 oz Maple syrup",
-			"1 dash Absinthe"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Dickel No. 12 whiskey"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Peach liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Absinthe"
+			}
+		]
 	},
 	{
 		"name": "STARBOARD LIGHT",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, pineapple wedge, mint sprig",
 		"ingredients": [
-			"2 oz Pigs Nose blended scotch",
-			".5 oz Passionfruit syrup",
-			"1 oz Lemon juice",
-			"2 bspn Honey syrup",
-			"1 Egg white"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, pineapple wedge, mint sprig"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pigs Nose blended scotch"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "bspn",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "RAIL CAR",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Four Roses bourbon",
-			".5 oz Green Chartreuse",
-			".5 oz Verjus Rouge",
-			".5 oz Maple syrup",
-			".5 oz Lime juice"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Four Roses bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Verjus Rouge"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "FATHER'S ADVICE",
+		"procedure": "Shake, coupe, orange peel, cherry",
 		"ingredients": [
-			"1.5 oz Bacardi 8 rum",
-			".5 oz Cardamaro amaro",
-			".5 oz Punt e Mes",
-			".5 oz Lustau Amontillado",
-			".25 oz Banana liqueur"
-		],
-		"procedure": "Shake, coupe, orange peel, cherry"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bacardi 8 rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cardamaro amaro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lustau Amontillado"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			}
+		]
 	},
 	{
 		"name": "PARLIAMENT PUNCH",
+		"procedure": "Shake, Collins glass, crushed ice, frozen raspberries, edible orchid",
 		"ingredients": [
-			"1.5 Flor de Cana rum",
-			".25 Benedictine",
-			".5 Creme de Mure",
-			".5 Coconut cream",
-			".5 Lime juice",
-			".5 Orange juice"
-		],
-		"procedure": "Shake, Collins glass, crushed ice, frozen raspberries, edible orchid"
+			{
+				"measure": 1.5,
+				"ingredient": "Flor de Cana rum"
+				},
+			{
+				"measure": 0.25,
+				"ingredient": "Benedictine"
+				},
+			{
+				"measure": 0.5,
+				"ingredient": "Creme de Mure"
+				},
+			{
+				"measure": 0.5,
+				"ingredient": "Coconut cream"
+				},
+			{
+				"measure": 0.5,
+				"ingredient": "Lime juice"
+				},
+			{
+				"measure": 0.5,
+				"ingredient": "Orange juice"
+				}
+		]
 	},
 	{
 		"name": "BRIDGETOWN",
+		"procedure": "Shake, Collins glass, crushed ice",
 		"ingredients": [
-			"2 oz Mt. Gay Black Barrel rum",
-			".75 oz Dolin Rouge vermouth",
-			".5 oz Banana liqueur",
-			".25 oz Creme de Cacao",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, Collins glass, crushed ice"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Mt. Gay Black Barrel rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dolin Rouge vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Creme de Cacao"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "KINGSTON CLUB",
+		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, orange twist",
 		"ingredients": [
-			"1.5 oz Drambuie",
-			"1.5 oz Pineapple juice",
-			".75 oz Lime juice",
-			"1 tsp Fernet Branca",
-			"3 dash Angostura bitters",
-			"Seltzer"
-		],
-		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Drambuie"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "NORWEGIAN WOOD",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"1 oz Aquavit",
-			"1 oz Laird's Apple brandy",
-			".75 oz Sweet vermouth",
-			".25 oz Yellow Chartreuse",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Laird's Apple brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "AUTUMN LEAVES",
+		"procedure": "Stir, old fashioned glass, cracked ice, orange peel",
 		"ingredients": [
-			".75 oz Wild Turkey Rye",
-			".75 oz Laird's Apple brandy",
-			".75 oz Carpano Antica",
-			".25 oz Strega",
-			"2 dash Cinnamon tincture"
-		],
-		"procedure": "Stir, old fashioned glass, cracked ice, orange peel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Wild Turkey Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Laird's Apple brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Strega"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Cinnamon tincture"
+			}
+		]
 	},
 	{
 		"name": "PEGU CLUB",
+		"procedure": "Shake, cocktail glass, lime wheel",
 		"ingredients": [
-			"1.5 oz Gin",
-			"1 oz Cointreau",
-			".75 oz Lime juice",
-			"1 tsp Simple syrup",
-			"1 dash Angostura bitters",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Shake, cocktail glass, lime wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "ANDALUSIAN BUCK",
+		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with ginger beer, lime wheel",
 		"ingredients": [
-			"1 oz Gin",
-			"1 oz Amontillado sherry",
-			".5 oz Lime juice",
-			"1 tsp Demerara syrup",
-			"2 oz Ginger beer"
-		],
-		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with ginger beer, lime wheel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Amontillado sherry"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Ginger beer"
+			}
+		]
 	},
 	{
 		"name": "PRESTON-BAKER",
+		"procedure": "Stir, cocktail glass, lemon twist",
 		"ingredients": [
-			"1.5 oz Beefeater Gin",
-			".5 oz Clement Premiere Canne Rhum Agricole",
-			".75 oz Dolin Blanc vermouth",
-			"0.25 oz Banana liqueur",
-			"2 dash Orange bitters"
-		],
-		"procedure": "Stir, cocktail glass, lemon twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Beefeater Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Clement Premiere Canne Rhum Agricole"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "WORTHY ADVERSARY",
+		"procedure": "Shake, tiki mug, crushed ice, orange slice, mint sprig, pinch of curry powder",
 		"ingredients": [
-			".75 oz Clement Premiere Canne Rhum Agricole",
-			".5 oz Elijah Craig Bourbon",
-			".75 oz Cocchi Americano",
-			".25 oz Grenadine",
-			".25 oz Lemon juice",
-			".75 oz Orange juice",
-			"3 dash Orange bitters"
-		],
-		"procedure": "Shake, tiki mug, crushed ice, orange slice, mint sprig, pinch of curry powder"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Clement Premiere Canne Rhum Agricole"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Elijah Craig Bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cocchi Americano"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "ITALIAN JOB",
+		"procedure": "Stir, cocktail glass, express orange peel, dehydrated orange wheel",
 		"ingredients": [
-			".75 oz Smith & Cross Rum",
-			".75 oz Cocchi Americano",
-			".75 oz Byrrh Grand Quinquina",
-			".75 oz Aperol",
-			"2 dash Orange bitters"
-		],
-		"procedure": "Stir, cocktail glass, express orange peel, dehydrated orange wheel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Smith & Cross Rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cocchi Americano"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Byrrh Grand Quinquina"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "THE COUNT RIDES AGAIN",
+		"procedure": "Stir, rocks glass, cracked ice, grapefruit twist",
 		"ingredients": [
-			".5 oz White Overproof Rum",
-			".5 oz Batavia Arrack",
-			".25 oz 151 Overproof Demerara rum",
-			"1 oz Campari",
-			".5 oz Don's Mix",
-			".5 oz Velvet Falernum",
-			"1 bspn Grenadine",
-			"1 dash Angostura bitters",
-			"6 drops Absinthe"
-		],
-		"procedure": "Stir, rocks glass, cracked ice, grapefruit twist"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "White Overproof Rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "151 Overproof Demerara rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Don's Mix"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Absinthe"
+			}
+		]
 	},
 	{
 		"name": "X MARKS THE SPOT",
+		"procedure": "Double shake, cocktail glass, float star anise pod",
 		"ingredients": [
-			"1.5 oz Appleton Estate White Rum",
-			".5 oz Banana liqueur",
-			".5 oz Domaine de Canton",
-			".5 oz Lime juice",
-			".5 oz Orange juice",
-			"1 bspn Allspice dram",
-			"1 Egg White"
-		],
-		"procedure": "Double shake, cocktail glass, float star anise pod"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Appleton Estate White Rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "bspn",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg White"
+				}
+		]
 	},
 	{
 		"name": "MANHATTAN PROJECT",
+		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
-			"1 oz Gold of Mauritius Dark rum",
-			".75 oz PX Sherry",
-			".125 oz Cherry Heering",
-			".125 oz Montenegro Amaro",
-			"2 dash Lemon bitters",
-			"1 dash Amargo Peruvian bitters"
-		],
-		"procedure": "Stir, coupe, lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gold of Mauritius Dark rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "PX Sherry"
+			},
+			{
+				"measure": 0.125,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.125,
+				"unit": "oz",
+				"ingredient": "Montenegro Amaro"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Lemon bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Amargo Peruvian bitters"
+			}
+		]
 	},
 	{
 		"name": "CALM",
+		"procedure": "Stir, rocks glass, large cube, lemon peel, chamomile flowers",
 		"ingredients": [
-			"1.5 oz Anejo Tequila",
-			".5 oz Amontillado Sherry",
-			".25 oz Chamomile syrup",
-			"2 dash Angostura bitters",
-			"1 dash Amargo Peruvian bitters"
-		],
-		"procedure": "Stir, rocks glass, large cube, lemon peel, chamomile flowers"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Anejo Tequila"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amontillado Sherry"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Chamomile syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Amargo Peruvian bitters"
+			}
+		]
 	},
 	{
 		"name": "TALL TALE",
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, cucumber wheel",
 		"ingredients": [
-			"3 Cucumber wheels (muddled)",
-			"2 Blackberries (muddled)",
-			"2 oz Blanco Tequila",
-			"1 oz Lemon juice",
-			".5 oz Agave syrup",
-			"2 oz Ginger beer"
-		],
-		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, cucumber wheel"
+			{
+				"measure": 3,
+				"ingredient": "Cucumber wheels (muddled)"
+				},
+			{
+				"measure": 2,
+				"ingredient": "Blackberries (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Blanco Tequila"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Agave syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Ginger beer"
+			}
+		]
 	},
 	{
 		"name": "NICHOL PUNCH",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"1.5 oz Inca Gold Pisco",
-			".5 oz Dry Curacao",
-			".75 oz Lime juice",
-			".25 oz Pineapple juice",
-			".25 oz Simple syrup",
-			"1 dash Amargo Peruvian bitters",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Inca Gold Pisco"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Amargo Peruvian bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "SWEET HEREAFTER",
+		"procedure": "Stir, coupe, express grapefruit peel",
 		"ingredients": [
-			"2 oz Encanto Pisco",
-			".5 oz Cocchi Americano",
-			".5 oz Dolin Blanc vermouth",
-			"1 tsp St. Germain",
-			"1 dash Grapefruit bitters",
-			".75 oz Orgeat",
-			".25 oz Allspice dram"
-		],
-		"procedure": "Stir, coupe, express grapefruit peel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Encanto Pisco"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cocchi Americano"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grapefruit bitters"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			}
+		]
 	},
 	{
 		"name": "MOONSHAKE",
+		"procedure": "Double shake first 7 ingredients, highball glass. Top with seltzer, mint sprig, express grapefruit peel",
 		"ingredients": [
-			"1 oz Mezcal",
-			".75 oz Aperol",
-			".5 oz Lime juice",
-			".5 oz Grapefruit juice",
-			"2 dash Grapefruit bitters",
-			"1 dash Vanilla extract",
-			"1 Egg White",
-			"2 oz Seltzer"
-		],
-		"procedure": "Double shake first 7 ingredients, highball glass. Top with seltzer, mint sprig, express grapefruit peel"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Grapefruit bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Vanilla extract"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg White"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "GOLDEN EYE",
+		"procedure": "Shake first 4 ingredients, cocktail glass. Top with Lambrusco, rosemary sprig",
 		"ingredients": [
-			"5 Rosemary leaves (muddled)",
-			"1 oz Aperol",
-			"1 oz Grand Marnier",
-			".5 oz Lime juice",
-			"3 oz Lambrusco wine"
-		],
-		"procedure": "Shake first 4 ingredients, cocktail glass. Top with Lambrusco, rosemary sprig"
+			{
+				"measure": 5,
+				"ingredient": "Rosemary leaves (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Grand Marnier"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Lambrusco wine"
+			}
+		]
 	},
 	{
 		"name": "SANTIAGO PUNCH",
+		"procedure": "Shake, double strain, rocks glass, big cube, Thai basil sprig",
 		"ingredients": [
-			"3-4 Thai basil leaves (muddled)",
-			"1 oz Barsol Pisco",
-			"1 oz Velvet Falernum",
-			".5 oz Green Chartreuse",
-			".5 oz Pineapple shrub",
-			".5 oz Lime juice",
-			"2 dash Orange bitters",
-			"2 dash Tiki bitters"
-		],
-		"procedure": "Shake, double strain, rocks glass, big cube, Thai basil sprig"
+			{
+				"measure": 3,
+				"ingredient": "Thai basil leaves (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Barsol Pisco"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple shrub"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Tiki bitters"
+			}
+		]
 	},
 	{
 		"name": "MONKEY FLIP",
+		"procedure": "Double shake, double strain, cocktail glass, grated cinnamon, dehydrated banana chip",
 		"ingredients": [
-			"2 oz Monkey Shoulder Blended scotch",
-			".25 oz Maple syrup",
-			".25 oz Cinnamon syrup",
-			".25 oz Allspice dram",
-			"1 dash Bittermens Xocolatl mole bitters",
-			"1 Whole egg"
-		],
-		"procedure": "Double shake, double strain, cocktail glass, grated cinnamon, dehydrated banana chip"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Monkey Shoulder Blended scotch"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Maple syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Bittermens Xocolatl mole bitters"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Whole egg"
+				}
+		]
 	},
 	{
 		"name": "VAGABOND",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"1.5 oz Montelebos Mezcal",
-			".5 oz Angostura bitters",
-			".5 oz Demerara syrup",
-			".5 oz Lemon juice",
-			".25 oz Pineapple juice"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Montelebos Mezcal"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "THROUGH THE LOOKING GLASS",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice. Float Port, dehydrated lemon wheel",
 		"ingredients": [
-			"1.5 oz Novo Fogo Calibri Cachaca",
-			".5 oz Banana liqueur",
-			".25 oz Domaine de Canton",
-			".75 oz Lemon juice",
-			".25 oz Cinnamon syrup",
-			"1 dash Orange bitters",
-			".5 oz Port (float)"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice. Float Port, dehydrated lemon wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Novo Fogo Calibri Cachaca"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Port (float)"
+			}
+		]
 	},
 	{
 		"name": "CARTHUSIAN STAR",
+		"procedure": "Shake, coupe glass",
 		"ingredients": [
-			"1 oz White rum",
-			"1 oz Gin",
-			".5 oz Apricot liqueur",
-			".5 oz Lemon juice",
-			".25 oz Green Chartreuse"
-		],
-		"procedure": "Shake, coupe glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "White rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			}
+		]
 	},
 	{
 		"name": "WITCH DOCTOR",
+		"procedure": "Stir, sage leaf-smoked rocks glass, large cube, express grapefruit peel",
 		"ingredients": [
-			".75 oz Cognac",
-			".75 oz Mezcal",
-			".5 oz Sweet vermouth",
-			".25 oz Cynar",
-			".25 oz Maraschino liqueur",
-			"2 dash Grapefruit bitters"
-		],
-		"procedure": "Stir, sage leaf-smoked rocks glass, large cube, express grapefruit peel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Grapefruit bitters"
+			}
+		]
 	},
 	{
 		"name": "LEVIATHAN",
+		"procedure": "Swizzle, tiki mug, crushed ice. Float bitters, edible orchid",
 		"ingredients": [
-			"2 oz Aged Puerto Rican rum",
-			".5 oz Gin",
-			".5 oz Passionfruit syrup",
-			".5 oz Velvet Falernum",
-			".5 oz Lime juice",
-			".5 oz Orange juice",
-			"3 dash Tiki bitters (float)",
-			"1 dash Grapefruit bitters (float)"
-		],
-		"procedure": "Swizzle, tiki mug, crushed ice. Float bitters, edible orchid"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Aged Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Tiki bitters (float)"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grapefruit bitters (float)"
+			}
+		]
 	},
 	{
 		"name": "SILK ROAD SOUR",
+		"procedure": "Shake, coupe glass, grapefruit twist",
 		"ingredients": [
-			"1.5 oz London Dry Gin",
-			"2 tsp Benedictine",
-			"2 tsp Apricot Liqueur",
-			".75 oz Lime juice",
-			".25 oz Simple syrup",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Shake, coupe glass, grapefruit twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "London Dry Gin"
+			},
+			{
+				"measure": 2,
+				"unit": "tsp",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 2,
+				"unit": "tsp",
+				"ingredient": "Apricot Liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "CHICAGO TYPEWRITER",
+		"procedure": "Stir, coupe glass, express lemon peel",
 		"ingredients": [
-			".75 oz Bols Genever",
-			".75 oz Rye",
-			".75 oz Punt e Mes",
-			".75 oz Aperol",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Stir, coupe glass, express lemon peel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "STRAW DOG",
+		"procedure": "Shake, double strain, coupe glass, strawberry",
 		"ingredients": [
-			"1 Strawberry (muddled)",
-			"1.25 oz Blended scotch",
-			".25 oz Laphroaig 10 Year scotch",
-			"1 oz Dolin Blanc vermouth",
-			".75 oz Lemon juice",
-			".50 oz Simple syrup",
-			"1 dash Grapefruit bitters"
-		],
-		"procedure": "Shake, double strain, coupe glass, strawberry"
+			{
+				"measure": 1,
+				"ingredient": "Strawberry (muddled)"
+				},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Blended scotch"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Laphroaig 10 Year scotch"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grapefruit bitters"
+			}
+		]
 	},
 	{
 		"name": "ABSENT STARS",
+		"procedure": "Shake, cocktail glass, orange twist",
 		"ingredients": [
-			"1 oz Rhum Agricole Blanc",
-			"1 oz Campari",
-			".75 oz Lemon juice",
-			".5 oz Passionfruit syrup",
-			".5 oz Apricot liqueur",
-			"5 drops Saline solution",
-			"1 dash Grapefruit bitters"
-		],
-		"procedure": "Shake, cocktail glass, orange twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Rhum Agricole Blanc"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 5,
+				"unit": "drops",
+				"ingredient": "Saline solution"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grapefruit bitters"
+			}
+		]
 	},
 	{
 		"name": "TRANSATLANTIC ORBIT",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, lime shell, mint sprig",
 		"ingredients": [
-			"1 oz Batavia Arrack",
-			"1 oz Navy Strength Gin",
-			".75 oz Apricot liqueur",
-			".75 oz Cinnamon syrup",
-			"1 oz Lime juice",
-			"1 oz Grapefruit juice",
-			"1 dash Angostura bitters",
-			"1 dash Tiki bitters"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, lime shell, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Navy Strength Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Tiki bitters"
+			}
+		]
 	},
 	{
 		"name": "DOPPELGANGER",
+		"procedure": "Shake, cocktail glass, mint sprig",
 		"ingredients": [
-			".75 oz Bols Genever",
-			".75 oz Rhum Agricole",
-			".5 oz Pineapple juice",
-			".5 oz Lime juice",
-			".25 oz Green Chartreuse",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Shake, cocktail glass, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Rhum Agricole"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "WINCHESTER",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, mint sprig",
 		"ingredients": [
-			"1 oz Tanqueray London Dry Gin",
-			"1 oz Hayman's Old Tom Gin",
-			"1 oz Martin Miller's Westbourne Strength Gin",
-			".75 oz Lime juice",
-			".75 oz Grapefruit juice",
-			".75 oz St. Germain",
-			".5 oz Grenadine",
-			".25 oz Ginger syrup",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Tanqueray London Dry Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Hayman's Old Tom Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Martin Miller's Westbourne Strength Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Ginger syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "LIGHTNING SWORDS OF DEATH",
+		"procedure": "Swizzle, tiki mug, crushed ice, mint sprig",
 		"ingredients": [
-			".75 oz Jeppson's Malort",
-			".75 oz Smith & Cross rum",
-			".5 oz Apricot liqueur",
-			".75 oz Orgeat",
-			".25 oz Demerara syrup",
-			".75 oz Lime juice"
-		],
-		"procedure": "Swizzle, tiki mug, crushed ice, mint sprig"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Jeppson's Malort"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Smith & Cross rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "ELIXIR ALPESTRE",
+		"procedure": "Stir, coupe glass, lemon twist",
 		"ingredients": [
-			"2 oz Bols Genever",
-			".75 oz St. Germain",
-			".25 oz Becherovka",
-			"1 dash Orange bitters",
-			"6 drops Absinthe"
-		],
-		"procedure": "Stir, coupe glass, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Becherovka"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Absinthe"
+			}
+		]
 	},
 	{
 		"name": "BEACHCOMBER'S PUNCH",
+		"procedure": "Mix/whip shake, champagne flute, crushed ice, mint sprig",
 		"ingredients": [
-			"1.5 oz Demerara rum",
-			".5 oz Apricot liqueur",
-			".5 oz Lime juice",
-			".5 oz Grapefruit juice",
-			".5 oz Simple syrup",
-			"1 dash Angostura bitters",
-			"6 drops Absinthe"
-		],
-		"procedure": "Mix/whip shake, champagne flute, crushed ice, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Demerara rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Absinthe"
+			}
+		]
 	},
 	{
 		"name": "GOLD CUP",
+		"procedure": "Shake, coupe glass",
 		"ingredients": [
-			"1.5 oz Gold Jamaican rum",
-			".5 oz Maraschino liqueur",
-			".75 oz Lime juice",
-			".75 oz Simple syrup",
-			"1 tsp Absinthe",
-			"3 drops Almond extract"
-		],
-		"procedure": "Shake, coupe glass"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gold Jamaican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Absinthe"
+			},
+			{
+				"measure": 3,
+				"unit": "drops",
+				"ingredient": "Almond extract"
+			}
+		]
 	},
 	{
 		"name": "HAWAIIAN ROOM",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"1 oz Light Puerto Rican rum",
-			".5 oz Laird's Apple Brandy",
-			".5 oz Dry Curacao",
-			".5 oz Lemon juice",
-			".5 oz Pineapple juice"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laird's Apple Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "PLANET OF THE APES",
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, banana slice, cocktail cherry, edible orchid",
 		"ingredients": [
-			"1 oz Dark Jamaican rum",
-			".5 oz Amber 151-proof rum",
-			".75 oz Banana liqueur",
-			".5 oz Lime juice",
-			"1 oz Pineapple juice",
-			"1 oz Orange juice"
-		],
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, banana slice, cocktail cherry, edible orchid"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amber 151-proof rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			}
+		]
 	},
 	{
 		"name": "RUM RUNNER",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice",
 		"ingredients": [
-			".75 oz 151-proof Caribbean rum",
-			"1 oz Blackberry liqueur",
-			"1 oz Banana liqueur",
-			"1.5 oz Lime juice",
-			".5 oz Grenadine"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "151-proof Caribbean rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blackberry liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			}
+		]
 	},
 	{
 		"name": "KRAKATOA",
+		"procedure": "Mix/whip shake large brandy snifter, crushed ice. Float coffee",
 		"ingredients": [
-			"1.5 oz Gold Puerto Rican rum",
-			"1.5 oz Demerara rum",
-			".5 oz Velvet Falernum",
-			"1 tsp Coffee liqueur",
-			"1.5 oz Lime juice",
-			"1 oz Orange juice",
-			"1 oz Grapefruit juice",
-			"1 oz Apricot nectar",
-			"1 dash Angostura bitters",
-			"2 oz Kona coffee (float)"
-		],
-		"procedure": "Mix/whip shake large brandy snifter, crushed ice. Float coffee"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gold Puerto Rican rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Demerara rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Coffee liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Apricot nectar"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Kona coffee (float)"
+			}
+		]
 	},
 	{
 		"name": "TORTUGA",
+		"procedure": "Shake, footed pilsner, crushed ice, lime wedge",
 		"ingredients": [
-			"1 oz Lemon Hart 151-proof Demerara rum",
-			".75 oz 151-proof Bacardi rum",
-			"1 oz Italian vermouth",
-			".5 oz White Creme de cacao",
-			".5 oz Orange juice",
-			".5 oz Lime juice",
-			".5 oz Lemon juice",
-			".5 oz Dry Curacao",
-			".25 oz Grenadine"
-		],
-		"procedure": "Shake, footed pilsner, crushed ice, lime wedge"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon Hart 151-proof Demerara rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "151-proof Bacardi rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Italian vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "White Creme de cacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			}
+		]
 	},
 	{
 		"name": "NEVER SAY DIE",
+		"procedure": "Mix/whip shake, wine glass, crushed ice",
 		"ingredients": [
-			"1 oz Gold Barbados rum",
-			".5 oz Light Puerto Rican rum",
-			".5 oz Dark Jamaican rum",
-			".25 oz Pineapple juice",
-			".5 oz Lime juice",
-			".5 oz Orange juice",
-			".5 oz Grapefruit juice",
-			".5 oz Honey syrup",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, wine glass, crushed ice"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gold Barbados rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "PAINKILLER",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice. Dust with cinnamon and nutmeg, pineapple stick, cinnamon stick, orange wheel",
 		"ingredients": [
-			"2.5 oz Pusser’s Navy Rum",
-			"1 oz Coconut cream",
-			"4 oz Pineapple juice",
-			"1 oz Orange juice",
-			"Ground cinnamon (dusting)",
-			"Ground nutmeg (dusting)"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice. Dust with cinnamon and nutmeg, pineapple stick, cinnamon stick, orange wheel"
+			{
+				"measure": 2.5,
+				"unit": "oz",
+				"ingredient": "Pusser’s Navy Rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Coconut cream"
+			},
+			{
+				"measure": 4,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Ground cinnamon (dusting)"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Ground nutmeg (dusting)"
+			}
+		]
 	},
 	{
 		"name": "Q.B. COOLER",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, multiple mint sprigs",
 		"ingredients": [
-			"1 oz Gold Jamaican rum",
-			"1 oz Light Puerto Rican rum",
-			".5 oz Demerara rum",
-			".25 oz Velvet Falernum",
-			"1 oz Orange juice",
-			".5 oz Lime juice",
-			".5 oz Honey syrup",
-			".5 tsp Ginger syrup",
-			"1 oz Seltzer",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, multiple mint sprigs"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gold Jamaican rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "tsp",
+				"ingredient": "Ginger syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "BLACKBEARD'S GHOST",
+		"procedure": "Mix/whip shake, double old-fashioned glass, orange slice, cocktail cherry",
 		"ingredients": [
-			"1.5 oz Light Virgin Islands rum",
-			".5 oz Demerara rum",
-			"1 oz Velvet Falernum",
-			".5 oz Apricot liqueur",
-			"1.5 oz Orange juice",
-			"1 oz Lemon juice",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, orange slice, cocktail cherry"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Light Virgin Islands rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "ANCIENT MARINER",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge",
 		"ingredients": [
-			"1 oz Demerara rum",
-			"1 oz Dark Jamaican rum",
-			".25 oz Allspice dram",
-			".75 oz Lime juice",
-			".5 oz Grapefruit juice",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Demerara rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "BEACHBUM'S OWN",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge",
 		"ingredients": [
-			"1 oz Demerara rum",
-			"1 oz Dark Jamaican rum",
-			".25 oz Allspice dram",
-			".75 oz Lime juice",
-			".5 oz Grapefruit juice",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Demerara rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "COCOANUT GROVE COOLER",
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, orange slice, cocktail cherry, mint sprig",
 		"ingredients": [
-			"1.5 oz Blended scotch",
-			".75 oz Dry Curacao",
-			".75 oz Lemon juice",
-			".75 oz Pineapple juice",
-			".75 oz Orange juice",
-			"3 tsp Passionfruit puree",
-			"3 tsp Grenadine",
-			".5 tsp Orgeat"
-		],
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, orange slice, cocktail cherry, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blended scotch"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 3,
+				"unit": "tsp",
+				"ingredient": "Passionfruit puree"
+			},
+			{
+				"measure": 3,
+				"unit": "tsp",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "tsp",
+				"ingredient": "Orgeat"
+			}
+		]
 	},
 	{
 		"name": "FU MANCHU",
+		"procedure": "Shake, old-fashioned glass, lime wedge, cocktail cherry",
 		"ingredients": [
-			"1 oz Light rum",
-			"1.5 tsp Dry Curacao",
-			".5 oz Lime juice",
-			"1 tsp Green Creme de menthe",
-			"1 tsp Simple syrup"
-		],
-		"procedure": "Shake, old-fashioned glass, lime wedge, cocktail cherry"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Light rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "tsp",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Green Creme de menthe"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "GOLDEN DREAM",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"1 oz Galliano",
-			".75 oz Cointreau",
-			"1.5 oz Orange juice",
-			".75 oz Heavy Cream"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Galliano"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Heavy Cream"
+			}
+		]
 	},
 	{
 		"name": "GOLDEN WAVE",
+		"procedure": "Mix/whip shake, old-fashioned glass, crushed ice, pineapple stick, edible orchid",
 		"ingredients": [
-			"1 oz Light Puerto Rican rum",
-			".5 oz Dry Curacao",
-			".5 oz Velvet Falernum",
-			"1 oz Pineapple juice",
-			".75 oz Lemon juice"
-		],
-		"procedure": "Mix/whip shake, old-fashioned glass, crushed ice, pineapple stick, edible orchid"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "JAGUAR",
+		"procedure": "Stir first 10 ingredients, Collins glass, crushed ice. Top with champagne, pineapple stick, cocktail cherry",
 		"ingredients": [
-			"2 oz Dark Jamaican rum",
-			".25 oz Cognac",
-			"1 tsp Sloe gin",
-			"1 tsp Cointreau",
-			"1 tsp Creme de cacao",
-			"1 tsp Port wine",
-			"1 tsp Italian vermouth",
-			"1 oz Lime juice",
-			".25 oz Orgeat",
-			".25 oz Simple syrup",
-			"2 oz Champagne"
-		],
-		"procedure": "Stir first 10 ingredients, Collins glass, crushed ice. Top with champagne, pineapple stick, cocktail cherry"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Sloe gin"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Creme de cacao"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Port wine"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Italian vermouth"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "SCHOONER",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice",
 		"ingredients": [
-			".5 oz Light Puerto Rican rum",
-			".5 oz 151-proof Caribbean rum",
-			"2 oz Port wine",
-			"1 oz Lime juice",
-			"1 oz Lemon juice",
-			"1 oz Simple syrup",
-			"1.5 oz Papaya nectar"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice"
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "151-proof Caribbean rum"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Port wine"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Papaya nectar"
+			}
+		]
 	},
 	{
 		"name": "PARADISE COOLER",
+		"procedure": "Shake, Collins glass, crushed ice, cocktail cherry, apple wedge, mint sprig",
 		"ingredients": [
-			"1 oz White rum",
-			".5 oz Velvet Falernum",
-			".25 oz Cherry Heering",
-			"1 oz Orange juice",
-			".5 oz Lime juice"
-		],
-		"procedure": "Shake, Collins glass, crushed ice, cocktail cherry, apple wedge, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "White rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "KAVA BOWL FOR TWO",
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice, gardenia",
 		"ingredients": [
-			"3 oz Light Puerto Rican rum",
-			".5 oz Rhum Barbancourt",
-			".5 oz Orgeat",
-			".5 oz Grenadine",
-			"2 oz Lemon juice",
-			"1 oz Pineapple juice"
-		],
-		"procedure": "Mix/whip shake, tiki bowl, cracked ice, gardenia"
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Rhum Barbancourt"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			}
+		]
 	},
 	{
 		"name": "RUM KEG FOR TWO",
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice",
 		"ingredients": [
-			"2.5 oz Light Puerto Rican rum",
-			".5 oz Dark Jamaican rum",
-			".5 oz Apricot liqueur",
-			"2 oz Lemon juice",
-			"1 oz Pineapple juice",
-			".5 oz Passionfruit syrup",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Mix/whip shake, tiki bowl, cracked ice"
+			{
+				"measure": 2.5,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "OAHU GIN SLING",
+		"procedure": "Shake first 5 ingredients, footed pilsner, crushed ice. Top with seltzer, stir, lime spiral",
 		"ingredients": [
-			"2 oz Gin",
-			".5 oz Creme de cassis",
-			".5 oz Benedictine",
-			"1 oz Lime juice",
-			"1 tsp Simple syrup",
-			"3 oz Seltzer"
-		],
-		"procedure": "Shake first 5 ingredients, footed pilsner, crushed ice. Top with seltzer, stir, lime spiral"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Creme de cassis"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "PAGO PAGO",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"3 Pineapple chunks (muddled)",
-			"1.5 oz Gold Puerto Rican rum",
-			".5 oz Green Chartreuse",
-			".25 oz White Creme de cacao",
-			".5 oz Lime juice"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 3,
+				"ingredient": "Pineapple chunks (muddled)"
+				},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gold Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "White Creme de cacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "RUM BARREL",
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, orange peel",
 		"ingredients": [
-			"2 oz Dark Jamaican rum",
-			"2 oz White Puerto Rican rum",
-			".75 oz Lime juice",
-			".75 oz Orange juice",
-			".75 oz Grapefruit juice",
-			".75 oz Pineapple juice",
-			".5 oz Passionfruit syrup",
-			".5 oz Honey syrup",
-			"1 dash Angostura bitters",
-			"6 drops Absinthe",
-			"3 drops almond extract"
-		],
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, orange peel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "White Puerto Rican rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Passionfruit syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 6,
+				"unit": "drops",
+				"ingredient": "Absinthe"
+			},
+			{
+				"measure": 3,
+				"unit": "drops",
+				"ingredient": "almond extract"
+			}
+		]
 	},
 	{
 		"name": "SUNDOWNER",
+		"procedure": "Shake, old-fashioned glass, crushed ice, lime wheel",
 		"ingredients": [
-			"1.25 oz Cognac",
-			".75 oz Galliano",
-			".75 oz Cointreau",
-			"1 oz Lemon juice"
-		],
-		"procedure": "Shake, old-fashioned glass, crushed ice, lime wheel"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Galliano"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "MOLOKAI MULE",
+		"procedure": "Shake, double old-fashioned glass, crushed ice, pineapple stick, mint sprig, edible orchid",
 		"ingredients": [
-			"1 oz Demerara rum",
-			"1 oz Light Puerto Rican rum",
-			"1 oz Cognac",
-			"1 oz Orgeat",
-			"2 oz Orange juice",
-			"1 oz Lime juice"
-		],
-		"procedure": "Shake, double old-fashioned glass, crushed ice, pineapple stick, mint sprig, edible orchid"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Demerara rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "TAHITIAN RUM PUNCH",
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, mint sprig",
 		"ingredients": [
-			"1 oz Gold Jamaican rum",
-			"1.5 oz Light Puerto Rican rum",
-			"1 oz Dry white wine",
-			"1 tsp Banana liqueur",
-			"1 oz Grapefruit juice",
-			"1 oz Orange juice",
-			"1 oz Pineapple juice",
-			".5 oz Lime juice",
-			"1 tsp Demerara syrup",
-			"2 drops Vanilla extract"
-		],
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gold Jamaican rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dry white wine"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "drops",
+				"ingredient": "Vanilla extract"
+			}
+		]
 	},
 	{
 		"name": "YELLOW SUBMARINE",
+		"procedure": "Shake, Collins glass, cracked ice, pineapple chunk, cocktail cherry",
 		"ingredients": [
-			"1.5 oz Gold Virgin Islands rum",
-			".25 oz Banana liqueur",
-			".25 oz White Creme de cacao",
-			"1.5 oz Pineapple juice",
-			".75 oz Lemon juice",
-			".25 oz Simple syrup"
-		],
-		"procedure": "Shake, Collins glass, cracked ice, pineapple chunk, cocktail cherry"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gold Virgin Islands rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "White Creme de cacao"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "ARIKI MAU",
+		"procedure": "Shake, large tiki mug, crushed ice, express orange peel, orange wheel",
 		"ingredients": [
-			"2 oz Bacardi 8 rum",
-			"1 oz Cruzan Single Barrel Estate rum",
-			".5 oz Benedictine",
-			".5 oz Barenjager",
-			"3 oz Black tea",
-			".5 oz Yerba mate",
-			"1 oz Orange juice"
-		],
-		"procedure": "Shake, large tiki mug, crushed ice, express orange peel, orange wheel"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bacardi 8 rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cruzan Single Barrel Estate rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Barenjager"
+			},
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Black tea"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Yerba mate"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			}
+		]
 	},
 	{
 		"name": "BEACHBUM",
+		"procedure": "Shake, rocks glass, cracked ice, cocktail cherry, orange slice",
 		"ingredients": [
-			"1 oz Flor de Cana white rum",
-			"1 oz Gold Barbados rum",
-			".5 oz Apricot liqueur",
-			".5 oz Orgeat",
-			"1 oz Pineapple juice",
-			".75 oz Lime juice"
-		],
-		"procedure": "Shake, rocks glass, cracked ice, cocktail cherry, orange slice"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Flor de Cana white rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gold Barbados rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "CUSCO FIZZ",
+		"procedure": "Shake first 4 ingredients, old-fashioned glass, cracked ice. Top with seltzer",
 		"ingredients": [
-			"5 Green grapes (muddled)",
-			"2 oz Pisco",
-			"1 oz. St-Germain",
-			".75 oz Lime juice",
-			".5 oz Seltzer"
-		],
-		"procedure": "Shake first 4 ingredients, old-fashioned glass, cracked ice. Top with seltzer"
+			{
+				"measure": 5,
+				"ingredient": "Green grapes (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pisco"
+			},
+			{
+				"measure": 1,
+				"unit": "oz.",
+				"ingredient": "St-Germain"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "FAREWELL FLIP",
+		"procedure": "Shake, old-fashioned glass, grated nutmeg, chocolate flakes",
 		"ingredients": [
-			"1 oz El Dorado 12-year Demerara rum",
-			".5 oz Carpano Antica",
-			".25 oz Cherry Heering",
-			".5 oz Heavy cream",
-			".75 tsp Simple syrup",
-			".75 tsp Vanilla extract",
-			"1 Whole Egg"
-		],
-		"procedure": "Shake, old-fashioned glass, grated nutmeg, chocolate flakes"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "El Dorado 12-year Demerara rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Heavy cream"
+			},
+			{
+				"measure": 0.75,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "tsp",
+				"ingredient": "Vanilla extract"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Whole Egg"
+				}
+		]
 	},
 	{
 		"name": "GANTT'S TOMB",
+		"procedure": "Shake, footed pilsner, crushed ice, mint sprig",
 		"ingredients": [
-			"1 oz Gosling’s Black Seal rum",
-			"1 oz Rittenhouse 100-proof rye",
-			".5 oz El Dorado 151-proof rum",
-			".25 oz Allspice dram",
-			".75 oz Pineapple juice",
-			".5 oz Lemon juice",
-			".5 oz Orange juice",
-			".5 oz Simple syrup"
-		],
-		"procedure": "Shake, footed pilsner, crushed ice, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gosling’s Black Seal rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Rittenhouse 100-proof rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "El Dorado 151-proof rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "KIWI'S NEST GROG",
+		"procedure": "Shake, double strain, Collins glass, crushed ice, kiwi fruit wheel",
 		"ingredients": [
-			"1 Whole Lemon (muddled)",
-			"1 Half Kiwi fruit (muddled)",
-			"1 oz Amber Martinique rum",
-			"1 oz Light Virgin Islands rum",
-			".5 oz Dark Jamaican rum",
-			".25 oz Allspice dram",
-			"1 oz Orgeat",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Shake, double strain, Collins glass, crushed ice, kiwi fruit wheel"
+			{
+				"measure": 1,
+				"ingredient": "Whole Lemon (muddled)"
+				},
+			{
+				"measure": 1,
+				"ingredient": "Half Kiwi fruit (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Amber Martinique rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Light Virgin Islands rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice dram"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "KERALA",
+		"procedure": "Shake, double strain, coupe glass",
 		"ingredients": [
-			"2-3 Green Cardamom pods (muddled)",
-			"1 oz Scarlet Ibis rum",
-			"1 oz Buffalo Trace bourbon",
-			".5 oz Lemon juice",
-			".5 oz Pineapple juice",
-			".5 oz Simple syrup",
-			"1 dash Angostura bitters",
-			"1 dash Peychaud’s bitters"
-		],
-		"procedure": "Shake, double strain, coupe glass"
+			{
+				"measure": 2,
+				"ingredient": "Green Cardamom pods (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Scarlet Ibis rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Buffalo Trace bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Peychaud’s bitters"
+			}
+		]
 	},
 	{
 		"name": "RUMSCULLION",
+		"procedure": "Stir, cocktail glass, express orange peel, orange twist",
 		"ingredients": [
-			"2 oz El Dorado 12-year rum",
-			"1 oz Punt e Mes",
-			"1 tsp Velvet Falernum",
-			"8 drops Absinthe",
-			"1 dash Angostura bitters"
-		],
-		"procedure": "Stir, cocktail glass, express orange peel, orange twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "El Dorado 12-year rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 8,
+				"unit": "drops",
+				"ingredient": "Absinthe"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "VAVA VOOM",
+		"procedure": "Shake, coupe glass, lime wedge",
 		"ingredients": [
-			"1.75 oz Brugal Añejo rum",
-			".25 oz White Crème de cacao",
-			".25 oz Apricot liqueur",
-			".75 oz Lime juice",
-			".25 oz Simple syrup",
-			"1 dash Angostura bitters",
-			"1 dash Fee’s Old Fashion bitters"
-		],
-		"procedure": "Shake, coupe glass, lime wedge"
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "Brugal Añejo rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "White Crème de cacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Fee’s Old Fashion bitters"
+			}
+		]
 	},
 	{
 		"name": "VOYAGER",
+		"procedure": "Shake, old-fashioned glass, cracked ice, lime wedge",
 		"ingredients": [
-			"2 oz Light Puerto Rican rum",
-			".5 oz Benedictine",
-			".5 oz Velvet Falernum",
-			".5 oz Lime juice",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, old-fashioned glass, cracked ice, lime wedge"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Light Puerto Rican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "ROAD TO MANHATTAN",
+		"procedure": "Stir, rocks glass, large cube",
 		"ingredients": [
-			"1 oz Angostura 1824 rum",
-			"1 oz Amaro di Angostura",
-			".5 oz Domaine de Canton",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Stir, rocks glass, large cube"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Angostura 1824 rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Amaro di Angostura"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "T & T SOUR",
+		"procedure": "Double shake, coupe",
 		"ingredients": [
-			"1 oz Bourbon",
-			"1 oz Amaro di Angostura",
-			".75 oz Lemon juice",
-			".5 oz Orange juice",
-			".5 oz Maple syrup",
-			"2 dash Angostura bitters",
-			"1 Egg white"
-		],
-		"procedure": "Double shake, coupe"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Amaro di Angostura"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "FLYING ELVIS",
+		"procedure": "Double shake, old-fashioned glass, 3 drops Angostura bitters ",
 		"ingredients": [
-			"1.5 oz Privateer Navy Yard rum",
-			".5 oz Amaro di Angostura",
-			".5 oz Banana liqueur",
-			".5 oz Lime juice",
-			"1 Egg white"
-		],
-		"procedure": "Double shake, old-fashioned glass, 3 drops Angostura bitters "
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Privateer Navy Yard rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro di Angostura"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "BOMBAY GOVERNMENT PUNCH",
+		"procedure": "Stir, double old-fashioned glass, cracked ice, grated nutmeg",
 		"ingredients": [
-			"1 oz Batavia Arrack",
-			"1 oz Cognac",
-			".5 oz Demerara syrup",
-			".5 oz Lime juice",
-			"2.5 oz Green tea"
-		],
-		"procedure": "Stir, double old-fashioned glass, cracked ice, grated nutmeg"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2.5,
+				"unit": "oz",
+				"ingredient": "Green tea"
+			}
+		]
 	},
 	{
 		"name": "OLD TIMER",
+		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, orange twist",
 		"ingredients": [
-			"1.5 oz Bourbon",
-			".5 oz Cynar",
-			".5 oz Punt e Mes",
-			".5 oz Lemon juice",
-			".25 oz Simple syrup",
-			"3 dash Angostura bitters",
-			"2 oz Seltzer"
-		],
-		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Punt e Mes"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "NORTH SEA OIL",
+		"procedure": "Stir, double old-fashioned glass, large cube, grapefruit twist",
 		"ingredients": [
-			"1.5 oz Aquavit",
-			".75 oz Cocchi Americano",
-			".5 oz Laphroaig 10 Year scotch",
-			".25 oz Cointreau"
-		],
-		"procedure": "Stir, double old-fashioned glass, large cube, grapefruit twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cocchi Americano"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laphroaig 10 Year scotch"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			}
+		]
 	},
 	{
 		"name": "NATIONAL TREASURE",
+		"procedure": "Stir, rocks glass, large cube, lemon twist",
 		"ingredients": [
-			".75 oz Wild Turkey Rye",
-			".5 oz Laird's Bonded Apple Brandy",
-			".5 oz Carpano Antica",
-			".5 oz Campari",
-			".25 oz Cynar"
-		],
-		"procedure": "Stir, rocks glass, large cube, lemon twist"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Wild Turkey Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			}
+		]
 	},
 	{
 		"name": "LAHAINA NOON",
+		"procedure": "Mix/whip shake, tiki mug , crushed ice, mint sprig",
 		"ingredients": [
-			"1.5 oz Mezcal",
-			".75 oz Plantation OFTD Rum",
-			".5 oz Apricot liqueur",
-			".5 oz Cynar",
-			"2 oz Pineapple juice",
-			".5 oz Lime juice",
-			"2 dash Peychaud's bitters"
-		],
-		"procedure": "Mix/whip shake, tiki mug , crushed ice, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Plantation OFTD Rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "CHAOS CALMER",
+		"procedure": "Shake, double old-fashioned glass, orange wheel",
 		"ingredients": [
-			"1.5 oz Gin",
-			".75 oz Lime juice",
-			".25 oz Cointreau",
-			"1.5 oz Orange juice",
-			"1 tsp Grenadine"
-		],
-		"procedure": "Shake, double old-fashioned glass, orange wheel"
-	 },
-	 {
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Grenadine"
+			}
+		]
+	},
+	{
 		"name": "HERMOSA BEACH",
+		"procedure": "Shake, rocks glass, large cube, basil leaf",
 		"ingredients": [
-			"1 basil leaf (lightly muddled)",
-			"4-6 strawberry chunks (muddled)",
-			"2 oz Reposado tequila",
-			".5 oz Lime juice",
-			".5 oz Demerara syrup"
-		],
-		"procedure": "Shake, rocks glass, large cube, basil leaf"
+			{
+				"measure": 1,
+				"ingredient": "basil leaf (lightly muddled)"
+				},
+			{
+				"measure": 4,
+				"ingredient": "strawberry chunks (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Reposado tequila"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			}
+		]
 	},
 	{
 		"name": "LIFE IS BEAUTIFUL",
+		"procedure": "Shake, cocktail glass, two cherries",
 		"ingredients": [
-			"1.5 oz Templeton Rye",
-			"1 oz Carpano Antica",
-			".5 oz Amaro Montenegro",
-			".5 oz Cherry Heering"
-		],
-		"procedure": "Shake, cocktail glass, two cherries"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Templeton Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			}
+		]
 	},
 	{
 		"name": "PERFECT AMARETTO SOUR",
+		"procedure": "Double shake, old fashioned glass, cracked ice, lemon peel, brandied cherry",
 		"ingredients": [
-			"1.5 oz Amaretto",
-			".75 oz Cask-proof bourbon",
-			"1 oz Lemon juice",
-			".5 oz Egg white",
-			"1 tsp Simple syrup"
-		],
-		"procedure": "Double shake, old fashioned glass, cracked ice, lemon peel, brandied cherry"
-	    },
-	    {
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Amaretto"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Cask-proof bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Egg white"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			}
+		]
+	},
+	{
 		"name": "TARUS THE BULL",
+		"procedure": "Stir first four ingredients, cocktail glass. Top with bitters, lemon twist",
 		"ingredients": [
-			"1.5 oz Bulleit Rye",
-			".5 oz Blood orange juice",
-			".5 oz Fernet Branca",
-			".5 oz Cinnamon syrup",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Stir first four ingredients, cocktail glass. Top with bitters, lemon twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bulleit Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Blood orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "ALAMAGOOZLUM",
+		"procedure": "Shake vigorously, large cocktail glass",
 		"ingredients": [
-			".5 Egg white",
-			"1 oz Genever",
-			"1 oz Water",
-			".75 oz Jamaican rum",
-			".75 oz Yellow or Green Chartreuse",
-			".75 oz Gomme syrup",
-			".25 oz Dry Curacao",
-			".25 oz Angostura bitters"
-		],
-		"procedure": "Shake vigorously, large cocktail glass"
+			{
+				"measure": 0.5,
+				"ingredient": "Egg white"
+				},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Genever"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Water"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Jamaican rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Yellow or Green Chartreuse"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Gomme syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "DROVE MY CHEVY TO THE LEVEE",
+		"procedure": "Stir, old-fashioned glass, cracked ice, sliced peaches",
 		"ingredients": [
-			"1.5 oz Redemption Rye",
-			".5 oz Peach juice",
-			".5 oz Brown simple syrup",
-			".25 oz Lemon juice",
-			"2 dash Peychaud's bitters"
-		],
-		"procedure": "Stir, old-fashioned glass, cracked ice, sliced peaches"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Redemption Rye"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Peach juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Brown simple syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			}
+		]
 	},
 	{
 		"name": "THE AVENUE",
+		"procedure": "Shake, cocktail glass, edible carnation",
 		"ingredients": [
-			"1 oz Bourbon",
-			"1 oz Calvados",
-			"1 oz Passion fruit puree",
-			"1 dash Grenadine",
-			"1 dash Orange flower water"
-		],
-		"procedure": "Shake, cocktail glass, edible carnation"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Calvados"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Passion fruit puree"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange flower water"
+			}
+		]
 	},
 	{
 		"name": "BARNUM WAS RIGHT",
+		"procedure": "Shake, cocktail glass, lemon twist",
 		"ingredients": [
-			"2 oz Gin",
-			"1 oz Apricot liqueur",
-			".5 oz Lemon juice",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, cocktail glass, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "CHATHAM HOTEL SPECIAL",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"1.5 oz Brandy",
-			".5 oz Ruby port",
-			".5 Heavy cream",
-			"1 dash Dark Creme de cacao"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Ruby port"
+			},
+			{
+				"measure": 0.5,
+				"ingredient": "Heavy cream"
+				},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Dark Creme de cacao"
+			}
+		]
 	},
 	{
 		"name": "THE COMMUNIST",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"1 oz Gin",
-			"1 oz Orange juice",
-			".5 oz Cherry Heering",
-			".75 oz Lemon juice"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "THE CORPSE REVIVER #2",
+		"procedure": "Shake, coupe, cherry",
 		"ingredients": [
-			"1 oz Gin",
-			"1 oz Cointreau",
-			"1 oz Lillet Blanc",
-			"1 oz Lemon juice",
-			"1-3 drops Absinthe"
-		],
-		"procedure": "Shake, coupe, cherry"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lillet Blanc"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "drops",
+				"ingredient": "Absinthe"
+			}
+		]
 	},
 	{
 		"name": "CRIMEAN CUP A LA MARMORA",
+		"procedure": "Stir first 9 ingredients, large cocktail glass, large cubes. Top with champagne",
 		"ingredients": [
-			"1 Lemon peel slice (muddled)",
-			".5 tsp Simple syrup",
-			".25 oz Dark Jamaican rum",
-			".5 oz Brandy",
-			".25 Maraschino liqueur",
-			".25 oz Jamaican rum",
-			"1 oz Orgeat",
-			".25 Lemon juice",
-			"2 oz Seltzer",
-			"1.5 oz Champagne"
-		],
-		"procedure": "Stir first 9 ingredients, large cocktail glass, large cubes. Top with champagne"
+			{
+				"measure": 1,
+				"ingredient": "Lemon peel slice (muddled)"
+				},
+			{
+				"measure": 0.5,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Dark Jamaican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Brandy"
+			},
+			{
+				"measure": 0.25,
+				"ingredient": "Maraschino liqueur"
+				},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Jamaican rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.25,
+				"ingredient": "Lemon juice"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "THE DERBY",
+		"procedure": "Shake, cocktail glass, mint leaf",
 		"ingredients": [
-			"1 oz Bourbon",
-			".5 oz Sweet vermouth",
-			".5 oz Dry Curacao",
-			".75 oz Lime juice"
-		],
-		"procedure": "Shake, cocktail glass, mint leaf"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "EAST INDIA COCKTAIL",
+		"procedure": "Shake, cocktail glass, cherry",
 		"ingredients": [
-			"3 oz Brandy",
-			".5 oz Raspberry syrup",
-			"1 dash Angostura bitters",
-			"1 tsp Dry Curacao",
-			"1 tsp Maraschino liqueur"
-		],
-		"procedure": "Shake, cocktail glass, cherry"
+			{
+				"measure": 3,
+				"unit": "oz",
+				"ingredient": "Brandy"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Raspberry syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Maraschino liqueur"
+			}
+		]
 	},
 	{
 		"name": "THE FORD COCKTAIL",
+		"procedure": "Stir, martini glass, orange twist",
 		"ingredients": [
-			"1 oz Hayman's Old Tom Gin",
-			"1 oz Dry vermouth",
-			"3 dash Benedictine",
-			"3 dash Orange bitters"
-		],
-		"procedure": "Stir, martini glass, orange twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Hayman's Old Tom Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dry vermouth"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "GEORGIA MINT JULEP",
+		"procedure": "Stir, julep cup, crushed ice, several mint sprigs",
 		"ingredients": [
-			"4-6 Mint leaves (muddled)",
-			"1 tsp Sugar",
-			"1 dash Water",
-			"2 oz Cognac",
-			"1 oz Peach brandy"
-		],
-		"procedure": "Stir, julep cup, crushed ice, several mint sprigs"
+			{
+				"measure": 4,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Sugar"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Water"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Peach brandy"
+			}
+		]
 	},
 	{
 		"name": "GOLDEN DAWN",
+		"procedure": "Shake, cocktail glass, cherry",
 		"ingredients": [
-			".75 oz Calvados",
-			".75 oz Gin",
-			".75 oz Apricot liqueur",
-			".75 oz Orange juice",
-			"1 dash Grenadine (float)"
-		],
-		"procedure": "Shake, cocktail glass, cherry"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Calvados"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Grenadine (float)"
+			}
+		]
 	},
 	{
 		"name": "INCOME TAX",
+		"procedure": "Shake, cocktail glass, orange wheel",
 		"ingredients": [
-			"1.5 oz Gin",
-			".75 oz Dry vermouth",
-			".75 oz Sweet vermouth",
-			".75 oz Orange juice",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, cocktail glass, orange wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dry vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "THE JAPALAC COCKTAIL",
+		"procedure": "Shake, cocktail glass, orange twist",
 		"ingredients": [
-			".75 oz Rye",
-			".75 oz Dry vermouth",
-			".5 oz Orange juice",
-			"1 tsp Raspberry syrup"
-		],
-		"procedure": "Shake, cocktail glass, orange twist"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Dry vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Raspberry syrup"
+			}
+		]
 	},
 	{
 		"name": "JASPER'S RUM PUNCH",
+		"procedure": "Stir, Collins glass, cracked ice, cherry",
 		"ingredients": [
-			"1.5 oz Wray & Nephew White Overproof rum",
-			"1 oz Lime juice",
-			".75 oz Simple syrup",
-			"1 dash Angostura bitters",
-			".125 tsp Grated nutmeg"
-		],
-		"procedure": "Stir, Collins glass, cracked ice, cherry"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Wray & Nephew White Overproof rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 0.125,
+				"unit": "tsp",
+				"ingredient": "Grated nutmeg"
+			}
+		]
 	},
 	{
 		"name": "LUCIEN GAUDIN",
+		"procedure": "Stir, cocktail glass, orange twist",
 		"ingredients": [
-			"1 oz Gin",
-			".5 oz Cointreau",
-			".5 oz Campari",
-			".5 oz Dry vermouth"
-		],
-		"procedure": "Stir, cocktail glass, orange twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry vermouth"
+			}
+		]
 	},
 	{
 		"name": "PARK AVENUE",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"2 oz Gin",
-			".75 oz Pineapple juice",
-			".75 oz Sweet vermouth",
-			"2  tbsp Dry Curacao"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 2,
+				"unit": "tbsp",
+				"ingredient": "Dry Curacao"
+			}
+		]
 	},
 	{
 		"name": "PEGU CLUB",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Gin",
-			".5 oz Cointreau",
-			".75 oz Lime juice",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "THE PENDENNIS",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			"2 oz Gin",
-			"1 oz Apricot liqueur",
-			"2-3 dash Peychaud's bitters",
-			"3/4 oz Lime juice"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "3/4 oz Lime juice"
+			}
+		]
 	},
 	{
 		"name": "THE SECRET COCKTAIL",
+		"procedure": "Double shake, Double strain, rocks glass, large cube, three brandied cherries",
 		"ingredients": [
-			"1.5 oz Plymouth Gin",
-			".5 oz Laird's Bonded Apple Brandy",
-			".75 oz Lemon juice",
-			".75 oz Simple syrup",
-			"1 Egg white",
-			".25 oz Grenadine"
-		],
-		"procedure": "Double shake, Double strain, rocks glass, large cube, three brandied cherries"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Plymouth Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Apple Brandy"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			}
+		]
 	},
 	{
 		"name": "SAINT CROIX RUM FIX",
+		"procedure": "Stir, wine glass, crushed ice, seasonal fruit",
 		"ingredients": [
-			"2 oz Cruzan Estate Dark rum",
-			".5 oz Pineapple syrup",
-			".75 oz Lemon juice",
-			"2 tsp Simple syrup"
-		],
-		"procedure": "Stir, wine glass, crushed ice, seasonal fruit"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Cruzan Estate Dark rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "SEELBACH",
+		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, orange twist",
 		"ingredients": [
-			"1 oz Old Forester bourbon",
-			".5 oz Cointreau",
-			"7 dash Angostura bitters",
-			"7 dash Peychaud's bitters",
-			"5 oz Champagne"
-		],
-		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, orange twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Old Forester bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cointreau"
+			},
+			{
+				"measure": 7,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 7,
+				"unit": "dash",
+				"ingredient": "Peychaud's bitters"
+			},
+			{
+				"measure": 5,
+				"unit": "oz",
+				"ingredient": "Champagne"
+			}
+		]
 	},
 	{
 		"name": "THE SOOTHER",
+		"procedure": "Shake, goblet, lemon twist",
 		"ingredients": [
-			"1 oz Cognac",
-			"1 oz Coruba Jamaican rum",
-			".5 oz Dry Curacao",
-			".75 oz Lemon juice",
-			"1 tsp Apple juice",
-			".5 tsp Simple syrup"
-		],
-		"procedure": "Shake, goblet, lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Coruba Jamaican rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Apple juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "tsp",
+				"ingredient": "Simple syrup"
+			}
+		]
 	},
 	{
 		"name": "THE STRAITS SLING",
+		"procedure": "Shake first 6 ingredients, champagne flute. Top with seltzer, cherry, orange wheel, lemon twist",
 		"ingredients": [
-			"2 oz Gin",
-			".5 oz Kirschwasser",
-			".5 oz Benedictine",
-			".75 oz Lemon juice",
-			"2 dash Orange bitters",
-			"2 dash Angostura bitters",
-			"Seltzer"
-		],
-		"procedure": "Shake first 6 ingredients, champagne flute. Top with seltzer, cherry, orange wheel, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Kirschwasser"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Benedictine"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "WILD IRISH ROSE",
+		"procedure": "Shake, punch glass",
 		"ingredients": [
-			".75 oz Grenadine",
-			"1 oz Connemara Peated Single Malt Irish whiskey",
-			"1 oz Laird's Bonded Applejack",
-			"1 oz Pama Pomegranate Liqueur",
-			".75 oz Lemon juice",
-			"3 dash Bittermens Burlesque bitters",
-			"3 dash Absinthe",
-			"1 Egg white"
-		],
-		"procedure": "Shake, punch glass"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Connemara Peated Single Malt Irish whiskey"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Laird's Bonded Applejack"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pama Pomegranate Liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Bittermens Burlesque bitters"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Absinthe"
+			},
+			{
+				"measure": 1,
+				"ingredient": "Egg white"
+				}
+		]
 	},
 	{
 		"name": "FLAMENCO",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Lustau Amontillado sherry",
-			"1 oz Bols Genever",
-			".5 oz Orange juice",
-			".5 oz Lemon juice",
-			".75 oz Orgeat",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Lustau Amontillado sherry"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "PHILADELPHIA FISH HOUSE PUNCH FOR TWO",
+		"procedure": "Stir, punch glass",
 		"ingredients": [
-			".75 oz Lemon juice",
-			"2.5 oz Sugar",
-			"5 oz Water",
-			".5 oz Peach brandy",
-			"1 oz Cognac",
-			".5 oz Jamaican rum"
-		],
-		"procedure": "Stir, punch glass"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2.5,
+				"unit": "oz",
+				"ingredient": "Sugar"
+			},
+			{
+				"measure": 5,
+				"unit": "oz",
+				"ingredient": "Water"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Peach brandy"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Jamaican rum"
+			}
+		]
 	},
 	{
 		"name": "DON'T TREAD ON ME",
+		"procedure": "Shake, coupe, thyme sprig",
 		"ingredients": [
-			"2 oz London Dry Gin",
-			".5 oz Thyme-infused Honey syrup",            
-			".5 oz Pear liqueur",
-			".5 oz Lemon juice"
-		],
-		"procedure": "Shake, coupe, thyme sprig"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "London Dry Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Thyme-infused Honey syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "ARCHIPELAGO",
+		"procedure": "Mix/whip shake, tiki mug, cracked ice, lemon peel, mint sprig",
 		"ingredients": [
-			"2.5 oz Batavia Arrack",
-			"1 oz Calvados",            
-			".5 oz Pear liqueur",
-			"1.25 oz Ginger syrup",
-			"1 oz Lemon juice"
-		],
-		"procedure": "Mix/whip shake, tiki mug, cracked ice, lemon peel, mint sprig"
+			{
+				"measure": 2.5,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Calvados"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Ginger syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "LINGUA FRANCA",
+		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, mint sprig, lemon twist",
 		"ingredients": [
-			"1.5 oz Pisco",
-			".5 oz Wray & Nephew rum",
-			".5 oz Velvet Falernum",
-			".75 oz Lemon juice",
-			".5 oz Pear liqueur",
-			".5 oz Apricot liqueur",
-			"1 dash Orange bitters",
-			"2 oz Seltzer"
-		],
-		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, mint sprig, lemon twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pisco"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Wray & Nephew rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "BIRD ON A WIRE",
+		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
-			"2 oz Buffalo Trace Bourbon",
-			".75 oz Pear liqueur",            
-			".75 oz Lemon juice",
-			".5 oz Cinnamon syrup",
-			"9 drops Fee Brothers Old Fashion Bitters"
-		],
-		"procedure": "Shake, coupe, lemon twist"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Buffalo Trace Bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 9,
+				"unit": "drops",
+				"ingredient": "Fee Brothers Old Fashion Bitters"
+			}
+		]
 	},
 	{
 		"name": "STEEPLECHASE",
+		"procedure": "Shake, rocks glass, mint sprig",
 		"ingredients": [
-			"3-4 Mint leaves (muddled)",
-			"2 oz Bourbon",            
-			".25 oz Blackberry liqueur",
-			".25 oz Dry Curacao",
-			"2 oz Orange juice",
-			"2 dash Angostura bitters"
-		],
-		"procedure": "Shake, rocks glass, mint sprig"
+			{
+				"measure": 3,
+				"ingredient": "Mint leaves (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Blackberry liqueur"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "GOLDEN SWIZZLE",
+		"procedure": "Swizzle, Collins glass, crushed ice, pineapple slice, mint sprig",
 		"ingredients": [
-			"1 oz El Dorado 8 Year rum",
-			"1 oz Yellow Chartreuse",            
-			"1 oz Lemon juice",
-			".75 oz Pineapple syrup",
-			"2 dash Fee Brothers Barrel-Aged bitters"
-		],
-		"procedure": "Swizzle, Collins glass, crushed ice, pineapple slice, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "El Dorado 8 Year rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Pineapple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Fee Brothers Barrel-Aged bitters"
+			}
+		]
 	},
 	{
 		"name": "ISLAND BATIDA",
+		"procedure": "Shake, Collins glass, crushed ice, pineapple wedge, grated nutmeg",
 		"ingredients": [
-			"1.5 oz Rhum Barbancourt 3 Star rum",
-			"1 oz Banana liqueur",            
-			"1.5 oz Pineapple juice",
-			"1.5 oz Condensed milk",
-			".5 oz Cinnamon syrup"
-		],
-		"procedure": "Shake, Collins glass, crushed ice, pineapple wedge, grated nutmeg"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Rhum Barbancourt 3 Star rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Condensed milk"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			}
+		]
 	},
 	{
 		"name": "PARTRIDGE IN A PEAR TREE",
+		"procedure": "Shake, coupe, rosemary sprig",
 		"ingredients": [
-			"2 Green apple slices (muddled)",
-			"2 Bosc pear slices (muddled)",        
-			"2 oz Gin",
-			"1 oz Pear liqueur",
-			"1 oz lemon juice"
-		],
-		"procedure": "Shake, coupe, rosemary sprig"
+			{
+				"measure": 2,
+				"ingredient": "Green apple slices (muddled)"
+				},
+			{
+				"measure": 2,
+				"ingredient": "Bosc pear slices (muddled)"
+				},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pear liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "lemon juice"
+			}
+		]
 	},
 	{
 		"name": "MOUNT MAKANA",
+		"procedure": "Shake, tiki mug, crushed ice, mint sprig",
 		"ingredients": [
-			"2 oz Pot Still Black rum",
-			"1 oz Pot Still Gold rum",        
-			"1.5 oz Pineapple juice",
-			"1 oz Lemon juice",
-			".75 oz Fernet Branca",
-			".5 oz Coffee liqueur",
-			".75 oz Demerara syrup"
-		],
-		"procedure": "Shake, tiki mug, crushed ice, mint sprig"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Pot Still Black rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pot Still Gold rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Coffee liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			}
+		]
 	},
 	{
 		"name": "GHOST IN THE GRAVEYARD",
+		"procedure": "Shake, old-fashioned glass, cracked ice, mint sprig",
 		"ingredients": [
-			"1 oz Cocchi Americano",
-			"1 oz Yellow Chartreuse",
-			"1 oz Amaro Montenegro",
-			"1 oz Lime juice"
-		],
-		"procedure": "Shake, old-fashioned glass, cracked ice, mint sprig"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cocchi Americano"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "SCARECROW",
+		"procedure": "Stir, coupe, express orange peel",
 		"ingredients": [
-			"1.5 oz Amaro Montenegro",
-			"1.25 oz Four Roses Bourbon",        
-			".25 oz Fernet Branca",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe, express orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Four Roses Bourbon"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "BATTLE OF TRAFALGAR",
+		"procedure": "Shake, rocks glass, express orange peel",
 		"ingredients": [
-			"1.5 oz Pimm's No. 1",
-			".75 oz St. Germain",        
-			".75 oz Lime juice",
-			".5 oz Batavia Arrack",
-			".5 oz Honey syrup"
-		],
-		"procedure": "Shake, rocks glass, express orange peel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pimm's No. 1"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Batavia Arrack"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			}
+		]
 	},
 	{
 		"name": "POLYNESIAN REMEDY",
+		"procedure": "Shake, Tiki mug, crushed ice, candied ginger, lemon wheel, pineapple frond",
 		"ingredients": [
-			"1.75 oz Plantation Dark Rum",
-			".5 oz Orgeat",        
-			".5 oz Ginger syrup",
-			".5 oz Honey syrup",
-			"1 oz Lemon juice",
-			".25 oz Laphroaig scotch"
-		],
-		"procedure": "Shake, Tiki mug, crushed ice, candied ginger, lemon wheel, pineapple frond"
+			{
+				"measure": 1.75,
+				"unit": "oz",
+				"ingredient": "Plantation Dark Rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Ginger syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Laphroaig scotch"
+			}
+		]
 	},
 	{
 		"name": "JUNGLE BOOBY",
+		"procedure": "Mix/whip shake, rocks glass, crushed ice, pineapple wedge, mint sprig",
 		"ingredients": [
-			"1.5 oz Blanco Tequila",
-			".5 oz Mezcal",        
-			".5 oz Campari",
-			".5 oz Orgeat",
-			".5 oz Lime juice",
-			".5 oz Grapefruit juice",
-			"1 oz Pineapple juice",
-			"4 dash Absinthe"
-		],
-		"procedure": "Mix/whip shake, rocks glass, crushed ice, pineapple wedge, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blanco Tequila"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Grapefruit juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 4,
+				"unit": "dash",
+				"ingredient": "Absinthe"
+			}
+		]
 	},
 	{
 		"name": "SEAHORSE",
+		"procedure": "Shake, rocks glass, crushed ice, mint sprig, grated cinnamon",
 		"ingredients": [
-			"1.5 oz Bonded Bourbon",
-			".25 oz Allspice Dram",        
-			".5 oz Orange juice",
-			".5 oz Lemon juice",
-			".75 oz Simple syrup",
-			"2 dash Orange bitters"
-		],
-		"procedure": "Shake, rocks glass, crushed ice, mint sprig, grated cinnamon"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bonded Bourbon"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice Dram"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Simple syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "BANANA CUP #1",
+		"procedure": "Shake first 4 ingredients, rocks glass, cracked ice. Top with ginger beer, mint sprig",
 		"ingredients": [
-			"1.5 oz Pimm's No. 1",
-			".5 oz Giffard Banane du Bresil",        
-			".5 oz Cynar",
-			"1 oz Lemon Juice",
-			"2 oz Ginger beer"
-		],
-		"procedure": "Shake first 4 ingredients, rocks glass, cracked ice. Top with ginger beer, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Pimm's No. 1"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Giffard Banane du Bresil"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon Juice"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Ginger beer"
+			}
+		]
 	},
-		{
+	{
 		"name": "THE FINAL WARD",
+		"procedure": "Shake, cocktail glass",
 		"ingredients": [
-			".75 oz Rye",
-			".75 oz Green Chartreuse",
-			".75 oz Maraschino liqueur",
-			".75 oz Lemon juice"
-		],
-		"procedure": "Shake, cocktail glass"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Green Chartreuse"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Maraschino liqueur"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "OLD NUMBER ONE",
+		"procedure": "Stir, coupe, cherry",
 		"ingredients": [
-			"1 oz Laird's Apple Brandy",
-			"1 oz Blended Scotch",
-			"1 oz Sweet vermouth",
-			"2 dashes Angostura bitters"
-		],
-		"procedure": "Stir, coupe, cherry"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Laird's Apple Brandy"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended Scotch"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Sweet vermouth"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "es Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "EARTHBOUND",
+		"procedure": "Shake, coupe, grapefruit twist",
 		"ingredients": [
-			"1.5 oz Blanco Tequila",
-			"1 oz Aperol",
-			".75 oz Honey syrup",
-			".75 oz Lime juice"
-		],
-		"procedure": "Shake, coupe, grapefruit twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Blanco Tequila"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			}
+		]
 	},
 	{
 		"name": "BURROUGH'S REVIVER",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1.5 oz Beefeater 24 Gin",
-			".75 oz Aquavit",
-			".5 oz Orgeat",
-			".5 oz Lemon juice",
-			"2 dashes Absinthe"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Beefeater 24 Gin"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "es Absinthe"
+			}
+		]
 	},
 	{
 		"name": "RIKI TIKI TAVI",
+		"procedure": "Swizzle, Julep cup, crushed ice, mint sprig, grated cinnamon",
 		"ingredients": [
-			"1 oz Plantation Pineapple rum",
-			"1 oz Blended scotch",
-			".5 oz Velvet Falernum",
-			".25 oz Pear Liqueur",
-			"1 dashes Angostura bitters",
-			"2 dashes Orange bitters"
-		],
-		"procedure": "Swizzle, Julep cup, crushed ice, mint sprig, grated cinnamon"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Plantation Pineapple rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Blended scotch"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Pear Liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "es Angostura bitters"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "es Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "IMMIGRANT SONG",
+		"procedure": "Stir, rocks glass, cracked ice, lemon twist",
 		"ingredients": [
-			"1.25 oz Old Overholt Rye",
-			".75 oz Aquavit",
-			".5 oz Amontillado sherry",
-			".25 oz Apricot liqueur",
-			"2 dashes Celery bitters"
-		],
-		"procedure": "Stir, rocks glass, cracked ice, lemon twist"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Old Overholt Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amontillado sherry"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Apricot liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "es Celery bitters"
+			}
+		]
 	},
 	{
 		"name": "THE FRONTIER",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			".75 oz Templeton Rye",
-			".75 oz Amaro Nonino",
-			".75 oz Lemon juice",
-			".5 oz Aquavit",
-			".5 oz Demerara syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Templeton Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Amaro Nonino"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			}
+		]
 	},
 	{
 		"name": "ELEVENTH HOUR",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"1 oz Aquavit",
-			"1 oz Reposado Tequila",
-			".25 oz Mezcal",
-			".5 oz Yellow Chartreuse",
-			".75 oz Lime juice",
-			"1 barspn Cane Syrup"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Reposado Tequila"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Yellow Chartreuse"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": 1,
+				"ingredient": "barspn Cane Syrup"
+				}
+		]
 	},
 	{
 		"name": "MASTER'S CHAIR",
+		"procedure": "Stir, coupe",
 		"ingredients": [
-			"2 oz Larceny Bourbon",
-			".75 oz Aquavit",
-			".5 oz Cherry Heering",
-			"1 dash Angostura bitters",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Stir, coupe"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Larceny Bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cherry Heering"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "BROKEN COMPASS",
+		"procedure": "Stir, rocks glass, large cube, orange peel",
 		"ingredients": [
-			".75 oz Smith & Cross rum",
-			".75 oz Aquavit",
-			".75 oz Manzanilla Sherry",
-			".5 oz Dry Curaçao",
-			".25 oz Grenadine",
-			"5 drops Almond Extract"
-		],
-		"procedure": "Stir, rocks glass, large cube, orange peel"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Smith & Cross rum"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Manzanilla Sherry"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curaçao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Grenadine"
+			},
+			{
+				"measure": 5,
+				"unit": "drops",
+				"ingredient": "Almond Extract"
+			}
+		]
 	},
 	{
 		"name": "MR. WEDNESDAY",
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid",
 		"ingredients": [
-			"1.25 oz Aquavit",
-			".5 oz Smith & Cross rum",
-			".25 oz Cruzan Black Strap rum",
-			"1 oz Lemon juice",
-			".75 oz Orgeat",
-			".5 oz Banana liqueur"
-		],
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid"
+			{
+				"measure": 1.25,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Smith & Cross rum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cruzan Black Strap rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Banana liqueur"
+			}
+		]
 	},
 	{
 		"name": "MILES AHEAD",
+		"procedure": "Shake, coupe",
 		"ingredients": [
-			"2 Cardamon pods (muddled)",
-			".75 oz Rittenhouse Rye",
-			".75 oz Aquavit",
-			".5 oz Lemon juice",
-			".5 oz Dolin Blanc vermouth",
-			".5 oz Amontillado Sherry",
-			".5 oz Velvet Falernum",
-			".25 oz Honey syrup",
-			"2 dashes Orange bitters"
-		],
-		"procedure": "Shake, coupe"
+			{
+				"measure": 2,
+				"ingredient": "Cardamon pods (muddled)"
+				},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Rye"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aquavit"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Blanc vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amontillado Sherry"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "es Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "SAILOR'S DELIGHT",
+		"procedure": "Shake, Collins glass, crushed ice, cherry",
 		"ingredients": [
-			".75 oz Laird's Applejack",
-			".75 oz Beefeater Gin",
-			".5 oz Orange juice",
-			".5 oz Lemon juice",
-			".25 oz Amontillado Sherry",
-			".25 oz Orgeat",
-			"1 dash Angostura bitters",
-			".25 oz Cherry Heering (float)"
-		],
-		"procedure": "Shake, Collins glass, crushed ice, cherry"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Laird's Applejack"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Beefeater Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Orange juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Amontillado Sherry"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Orgeat"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cherry Heering (float)"
+			}
+		]
 	},
 	{
 		"name": "LOST HORIZON",
+		"procedure": "Stir, rinsed old fashioned glass, orange twist",
 		"ingredients": [
-			"1 oz Appleton Signature rum",
-			"1 oz Cognac",
-			"2 tsp Banana liqueur",
-			"1 tsp Fernet Branca",
-			"Laphroaig Scotch (rinse)"
-		],
-		"procedure": "Stir, rinsed old fashioned glass, orange twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Appleton Signature rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cognac"
+			},
+			{
+				"measure": 2,
+				"unit": "tsp",
+				"ingredient": "Banana liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "tsp",
+				"ingredient": "Fernet Branca"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Laphroaig Scotch (rinse)"
+			}
+		]
 	},
 	{
 		"name": "GOLDEN TICKET",
+		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
-			"1.5 oz Bourbon",
-			".5 oz Amaro Montenegro",
-			".5 oz Honey syrup",
-			".5 oz Lemon juice"
-		],
-		"procedure": "Shake, coupe, lemon twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Honey syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "THE MINTON",
+		"procedure": "Stir, coupe",
 		"ingredients": [
-			"1.5 oz Hayman's Old Tom Gin",
-			"1 oz Dolin Sweet sermouth",
-			".5 oz Cynar",
-			".5 oz Aperol",
-			"3 dashes Orange bitters"
-		],
-		"procedure": "Stir, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Hayman's Old Tom Gin"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Dolin Sweet sermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "es Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "SHADDOCK",
+		"procedure": "Shake, cocktail glass, lemon twist",
 		"ingredients": [
-			".75 oz Bols Genever",
-			".75 oz St. Germain",
-			".75 oz Aperol",
-			".75 oz Lemon juice"
-		],
-		"procedure": "Shake, cocktail glass, lemon twist"
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Bols Genever"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			}
+		]
 	},
 	{
 		"name": "NORMANDIE CLUB COLLINS",
+		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, lemon wheel",
 		"ingredients": [
-			"1.5 oz Beefeater Gin",
-			".5 oz Amaro Montenegro",
-			".75 oz Strawberry syrup",
-			".75 oz Lemon juice",
-			"Seltzer"
-		],
-		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, lemon wheel"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Beefeater Gin"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Strawberry syrup"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "A MAN ABOUT TOWN",
+		"procedure": "Stir, rocks glass, cracked ice, orange twist",
 		"ingredients": [
-			"1.5 oz Rittenhouse Rye",
-			"1 oz Aperol",
-			".75 oz Amaro Montenegro",
-			".5 oz Dolin Dry Vermouth",
-			"2 dashes Orange bitters"
-		],
-		"procedure": "Stir, rocks glass, cracked ice, orange twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Rittenhouse Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dolin Dry Vermouth"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "es Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "SEAWARD",
+		"procedure": "Express oil from peels into mixing glass. Add all ingredients, stir, coupe",
 		"ingredients": [
-			"1.5 oz Appleton V/X Rum",
-			".5 oz Privateer Silver Rum",
-			".5 oz Amaro Montenegro",
-			".5 oz Maraschino Liqueur",
-			"2 dash Orange bitters",
-			"2 Lemon peels"
-		],
-		"procedure": "Express oil from peels into mixing glass. Add all ingredients, stir, coupe"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Appleton V/X Rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Privateer Silver Rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Maraschino Liqueur"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			},
+			{
+				"measure": 2,
+				"ingredient": "Lemon peels"
+				}
+		]
 	},
 	{
 		"name": "FALLBACK",
+		"procedure": "Stir, cocktail glass, orange twist",
 		"ingredients": [
-			"1 oz Old Overholt Rye",
-			"1 oz Laird's Applejack",
-			".5 oz Amaro Montenegro",
-			".5 oz Sweet Vermouth",
-			"2 dash Peychaud's Bitters"
-		],
-		"procedure": "Stir, cocktail glass, orange twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Old Overholt Rye"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Laird's Applejack"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Sweet Vermouth"
+			},
+			{
+				"measure": 2,
+				"unit": "dash",
+				"ingredient": "Peychaud's Bitters"
+			}
+		]
 	},
 	{
 		"name": "TOUCH OF LOVE",
+		"procedure": "Shake, Tiki mug, crushed ice. Top with seltzer, mint sprig",
 		"ingredients": [
-			"1.5 oz Black Rum",
-			"1.5 oz Bourbon",
-			"1.5 oz Amaro Montenegro",
-			".5 oz Dry Curacao",
-			"2.5 oz Pineapple juice",
-			"1 oz Lime juice",
-			"Seltzer"
-		],
-		"procedure": "Shake, Tiki mug, crushed ice. Top with seltzer, mint sprig"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Black Rum"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 2.5,
+				"unit": "oz",
+				"ingredient": "Pineapple juice"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lime juice"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Seltzer"
+			}
+		]
 	},
 	{
 		"name": "HARRISON BERGERON",
+		"procedure": "Stir, double old-fashioned glass, cracked ice, orange twist",
 		"ingredients": [
-			"1 oz Four Roses Bourbon",
-			"1 oz Carpano Antica",
-			"1 oz Amaro Montengro"
-		],
-		"procedure": "Stir, double old-fashioned glass, cracked ice, orange twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Four Roses Bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Carpano Antica"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Amaro Montengro"
+			}
+		]
 	},
 	{
 		"name": "FLOWER & VINE",
+		"procedure": "Shake, double old-fashioned glass",
 		"ingredients": [
-			"1 oz Manzanilla Sherry",
-			"1 oz Mezcal",
-			".5 oz Lemon juice",
-			".5 oz Pineapple syrup",
-			".5 oz Amaro Montenegro",
-			".5 oz Banana Liqueur",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Shake, double old-fashioned glass"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Manzanilla Sherry"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Pineapple syrup"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Banana Liqueur"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "LETTERS OF MARQUE",
+		"procedure": "Stir, coupe, flamed orange oil",
 		"ingredients": [
-			"1 oz Scarlet Ibis Rum",
-			"1 oz Cynar",
-			".5 oz Dry Curacao",
-			".5 oz Galliano"
-		],
-		"procedure": "Stir, coupe, flamed orange oil"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Scarlet Ibis Rum"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cynar"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Galliano"
+			}
+		]
 	},
 	{
 		"name": "PRETEDANT NOBEL",
+		"procedure": "Shake, cocktail glass, lemon twist",
 		"ingredients": [
-			"1.5 oz Grand Marnier",
-			".75 oz Amaro Montenegro",
-			".75 oz Lemon juice",
-			"1 dash Orange bitters"
-		],
-		"procedure": "Shake, cocktail glass, lemon twist"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Grand Marnier"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Amaro Montenegro"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 1,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		]
 	},
 	{
 		"name": "HUNGRY LIKE THE WOLF",
+		"procedure": "Shake, rocks glass, crushed ice. Top with ginger beer, lemon twist",
 		"ingredients": [
-			"1 oz Four Roses Bourbon",
-			"1 oz Pimm's",
-			".5 oz St. Germain",
-			".5 oz Lemon juice",
-			"2 oz Ginger beer (float)"
-		],
-		"procedure": "Shake, rocks glass, crushed ice. Top with ginger beer, lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Four Roses Bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Pimm's"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Ginger beer (float)"
+			}
+		]
 	},
 	{
 		"name": "BOURBON SWIZZLE",
+		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, grated nutmeg",
 		"ingredients": [
-			"2 oz Bonded Bourbon",
-			"1 oz Lemon juice",
-			".5 oz Dry Curacao",
-			".25 oz Cinnamon syrup",
-			".25 oz Don's Spices #2"
-		],
-		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, grated nutmeg"
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Bonded Bourbon"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Lemon juice"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Dry Curacao"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Don's Spices #2"
+			}
+		]
 	},
 	{
 		"name": "ANALOGUE",
+		"procedure": "Stir, rocks glass, large cube, lemon twist",
 		"ingredients": [
-			"1 oz Four Roses Bourbon",
-			"1.5 oz Dark Rum",
-			".5 oz Velvet Falernum",
-			".25 oz Domaine de Canton",
-			".25 oz Allspice Dram",
-			"3 dash Angostura bitters"
-		],
-		"procedure": "Stir, rocks glass, large cube, lemon twist"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Four Roses Bourbon"
+			},
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Dark Rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Velvet Falernum"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Domaine de Canton"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Allspice Dram"
+			},
+			{
+				"measure": 3,
+				"unit": "dash",
+				"ingredient": "Angostura bitters"
+			}
+		]
 	},
 	{
 		"name": "IN BLOOM",
+		"procedure": "Stir, rinsed coupe, flamed orange oil",
 		"ingredients": [
-			"1.5 oz Mezcal",
-			".75 oz Sweet Vermouth",
-			".5 oz St. Germain",
-			".5 oz Campari",
-			"Rosewater (rinse)"
-		],
-		"procedure": "Stir, rinsed coupe, flamed orange oil"
+			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "Mezcal"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Sweet Vermouth"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "St. Germain"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Campari"
+			},
+			{
+				"measure": null,
+				"unit": null,
+				"ingredient": "Rosewater (rinse)"
+			}
+		]
 	},
 	{
 		"name": "DON'S MIX",
+		"procedure": "Mix",
 		"ingredients": [
-			"1 oz Cinnamon syrup",
-			"2 oz White grapefruit juice"
-		],
-		"procedure": "Mix"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Cinnamon syrup"
+			},
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "White grapefruit juice"
+			}
+		]
 	},
 	{
 		"name": "DON'S SPICES #2",
+		"procedure": "Mix",
 		"ingredients": [
-			"1 oz Vanilla syrup",
-			"1 oz Allspice Dram"
-		],
-		"procedure": "Mix"
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Vanilla syrup"
+			},
+			{
+				"measure": 1,
+				"unit": "oz",
+				"ingredient": "Allspice Dram"
+			}
+		]
 	}
 ];
+
 
 const FUSE_NAME_SEARCH = new Fuse(recipes, {
 	includeScore: true,
@@ -5810,9 +16726,9 @@ const FUSE_NAME_SEARCH = new Fuse(recipes, {
 });
 
 const ingredientsWithDupes = recipes
-	.map(getIngredientsFromRecipe)
+	.map(({ ingredients }) => ingredients)
 	.flat(1)
-	.map((ing) => ing.toLowerCase());
+	.map(({ ingredient }) => ingredient);
 
 const ingredients = Array.from(new Set(ingredientsWithDupes));
 
