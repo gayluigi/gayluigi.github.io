@@ -1,7 +1,6 @@
 const recipes = [
 	{
 		"name": "Osedax",
-		"procedure": "Rocks glass over big rock, dehydrated orange wheel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -23,11 +22,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Dry Curacao"
 			}
-		]
+		],
+		"procedure": "Rocks glass over big rock, dehydrated orange wheel",
+		"glass": "rocks"
 	},
 	{
 		"name": "It Slaps",
-		"procedure": "Double shake, crushed ice, rocks glass, grapefruit peel.",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -59,11 +59,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Double shake, crushed ice, rocks glass, grapefruit peel.",
+		"glass": "rocks"
 	},
 	{
 		"name": "Rye Not",
-		"procedure": "Shake, rocks glass, dehydrated lemon wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -90,11 +91,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, dehydrated lemon wheel",
+		"glass": "rocks"
 	},
 	{
 		"name": "The Allfathers Eye",
-		"procedure": "Stirred, coupe. Dehydrated lemon wheel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -116,11 +118,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Cherry Vanilla Bark bitters"
 			}
-		]
+		],
+		"procedure": "Stirred, coupe. Dehydrated lemon wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "There's Always Money in the Banana Stand",
-		"procedure": "Shake, coupe. Dehydrated banana chip",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -147,11 +150,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe. Dehydrated banana chip",
+		"glass": "coupe"
 	},
 	{
 		"name": "Borderline",
-		"procedure": "Double shake, coupe.",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -183,11 +187,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Egg white/aquafaba"
 			}
-		]
+		],
+		"procedure": "Double shake, coupe.",
+		"glass": "coupe"
 	},
 	{
 		"name": "Sweet Talker",
-		"procedure": "Shake. Collins. Cube ice, top with kombucha, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -214,11 +219,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Kombucha"
 			}
-		]
+		],
+		"procedure": "Shake. Collins. Cube ice, top with kombucha, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "Nice Guy",
-		"procedure": "Shake, double strain into Collins. Cube ice, top with soda, dehydrated lemon wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -245,11 +251,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orgeat"
 			}
-		]
+		],
+		"procedure": "Shake, double strain into Collins. Cube ice, top with soda, dehydrated lemon wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "The New Hotness",
-		"procedure": "Stir, coupe, grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -266,11 +273,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Dolin Dry vermouth"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, grapefruit peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "Honma Highball",
-		"procedure": "Shake, Collins, cube ice. Carbonate before pouring or add a splash of soda. Orange peel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -302,11 +310,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Suntory Toki scotch or Suntori Roku Gin"
 			}
-		]
+		],
+		"procedure": "Shake, Collins, cube ice. Carbonate before pouring or add a splash of soda. Orange peel",
+		"glass": "collins"
 	},
 	{
 		"name": "Norden Sour",
-		"procedure": "Shake, chilled rocks glass, no ice, lemon zest (discard). Three marigold flowers",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -338,11 +347,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 or .75 oz 1:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, chilled rocks glass, no ice, lemon zest (discard). Three marigold flowers",
+		"glass": "rocks"
 	},
 	{
 		"name": "Hunter's Rally",
-		"procedure": "Double shake, double strain into Collins, dehydrated lime, Angostura bitters drops",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -374,16 +384,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Egg white"
 			}
-		]
+		],
+		"procedure": "Double shake, double strain into Collins, dehydrated lime, Angostura bitters drops",
+		"glass": "collins"
 	},
 	{
 		"name": "You're My Boy Blue",
-		"procedure": "Muddle blueberries, add the rest. Shake, double strain into rocks glass with ice.",
 		"ingredients": [
 			{
 				"measure": 7,
 				"ingredient": "Blueberries"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -404,11 +415,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Muddle blueberries, add the rest. Shake, double strain into rocks glass with ice.",
+		"glass": "rocks"
 	},
 	{
 		"name": "Caraway My Wayward Son",
-		"procedure": "Shake, coupe, orange peel.",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -435,11 +447,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Honey syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, orange peel.",
+		"glass": "coupe"
 	},
 	{
 		"name": "Hot Chocavit",
-		"procedure": "Coffee mug or toddy glass, stir, top with Caraway whipped cream, cocoa dust",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -471,11 +484,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Hot water"
 			}
-		]
+		],
+		"procedure": "Coffee mug or toddy glass, stir, top with Caraway whipped cream, cocoa dust",
+		"glass": "toddy"
 	},
 	{
 		"name": "Kentucky Square",
-		"procedure": "Stir, rocks glass, big cube, dehydrated orange wheel",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -502,11 +516,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Dash Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, big cube, dehydrated orange wheel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Rosie",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -528,20 +543,21 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Osborn",
-		"procedure": "Muddle jalepeno and pineapple. Shake, double strain, old fashioned glass",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Jalepeno slice"
-				},
+			},
 			{
 				"measure": 2,
 				"ingredient": "Pineapple cubes"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -557,11 +573,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Muddle jalepeno and pineapple. Shake, double strain, old fashioned glass",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "Sunset Curse",
-		"procedure": "Stirred, cocktail glass, flamed orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -588,11 +605,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Allspice dram"
 			}
-		]
+		],
+		"procedure": "Stirred, cocktail glass, flamed orange peel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Christmas in Cozmel",
-		"procedure": "Stirred, coupe glass, lime flag",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -614,11 +632,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Agave"
 			}
-		]
+		],
+		"procedure": "Stirred, coupe glass, lime flag",
+		"glass": "coupe"
 	},
 	{
 		"name": "Hold Up",
-		"procedure": "Shake, absinthe-rinsed glass, one mint leaf",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -645,11 +664,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Saline solution"
 			}
-		]
+		],
+		"procedure": "Shake, absinthe-rinsed glass, one mint leaf",
+		"glass": null
 	},
 	{
 		"name": "Manhattan #1",
-		"procedure": "Stir, rocks glass, lemon flag",
 		"ingredients": [
 			{
 				"measure": 2.25,
@@ -661,11 +681,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Carpano Antica"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, lemon flag",
+		"glass": "rocks"
 	},
 	{
 		"name": "Manhattan #2",
-		"procedure": "Stir, rocks glass, orange flag",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -682,11 +703,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, orange flag",
+		"glass": "rocks"
 	},
 	{
 		"name": "The Last Word",
-		"procedure": "Shake, martini glass, lime Wheel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -708,11 +730,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, martini glass, lime Wheel",
+		"glass": "martini"
 	},
 	{
 		"name": "Los Lobos",
-		"procedure": "Shake, rocks glass, crushed pink peppercorn",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -734,11 +757,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, crushed pink peppercorn",
+		"glass": "rocks"
 	},
 	{
 		"name": "Cabaret",
-		"procedure": "Shake, martini glass, lime wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -765,16 +789,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Bitter Truth Jerry Thomas bitters"
 			}
-		]
+		],
+		"procedure": "Shake, martini glass, lime wheel",
+		"glass": "martini"
 	},
 	{
 		"name": "Kentucky Sunshine",
-		"procedure": "Shake first 5 ingredients, double strain, rocks glass. Top with ginger beer, basil leaf",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "Basil leaves (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -800,11 +825,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Ginger beer"
 			}
-		]
+		],
+		"procedure": "Shake first 5 ingredients, double strain, rocks glass. Top with ginger beer, basil leaf",
+		"glass": "rocks"
 	},
 	{
 		"name": "Old West Side",
-		"procedure": "stir, rocks glass, grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -826,11 +852,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "stir, rocks glass, grapefruit peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Baker Street",
-		"procedure": "Stir, coupe, rosemary sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -852,11 +879,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Green Chartreuse"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, rosemary sprig",
+		"glass": "coupe"
 	},
 	{
 		"name": "Mother's Ruin",
-		"procedure": "Shake, cocktail glass, rosemary sprig.",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -888,11 +916,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orgeat"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, rosemary sprig.",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Party Police",
-		"procedure": "Shake, collins glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -919,11 +948,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, collins glass",
+		"glass": "collins"
 	},
 	{
 		"name": "Smash Brothers",
-		"procedure": "Shake, highball glass. Top with soda, sage leaf.",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -950,11 +980,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, highball glass. Top with soda, sage leaf.",
+		"glass": "highball"
 	},
 	{
 		"name": "A Morning Rum",
-		"procedure": "Stir, rocks glass, dehydrated lime or orange wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -976,11 +1007,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Banana extract"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, dehydrated lime or orange wheel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Snake Oil Salesman",
-		"procedure": "Shake, crushed ice, dragon glass, lime wheel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -1017,11 +1049,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, crushed ice, dragon glass, lime wheel",
+		"glass": null
 	},
 	{
 		"name": "The Heist",
-		"procedure": "Shake, Absinthe glass, lemon peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1043,11 +1076,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 Honey syrup"
 			}
-		]
+		],
+		"procedure": "Shake, Absinthe glass, lemon peel",
+		"glass": "absinthe"
 	},
 	{
 		"name": "Rhum Old Fashioned",
-		"procedure": "Stir, rocks glass, orange peel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -1069,11 +1103,12 @@ const recipes = [
 				"unit": "Dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, orange peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Kissed by a Rose",
-		"procedure": "Double shake, coupe, rose bud",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1095,11 +1130,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Egg white"
 			}
-		]
+		],
+		"procedure": "Double shake, coupe, rose bud",
+		"glass": "coupe"
 	},
 	{
 		"name": "(C)ole' fashioned",
-		"procedure": "Stir, big cube, rocks glass, lemon peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1126,11 +1162,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, big cube, rocks glass, lemon peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Senor Burns",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 7,
@@ -1157,11 +1194,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Pining Princess",
-		"procedure": "Shake, crushed ice, Collins glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -1188,11 +1226,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Dry Curacao"
 			}
-		]
+		],
+		"procedure": "Shake, crushed ice, Collins glass",
+		"glass": "collins"
 	},
 	{
 		"name": "Sacred Heart",
-		"procedure": "Shake, coupe, grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -1219,11 +1258,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Streyga"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, grapefruit peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "Queen of Cups",
-		"procedure": "Shake, cocktail glass, rosemary sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1250,11 +1290,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orgeat"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, rosemary sprig",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Ice Planet",
-		"procedure": "Stir, rocks glass, orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1286,11 +1327,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, orange peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Sea Castle",
-		"procedure": "Double shake, martini glass, Peychaud's bitters",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1317,11 +1359,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Egg white or Aquafaba"
 			}
-		]
+		],
+		"procedure": "Double shake, martini glass, Peychaud's bitters",
+		"glass": "martini"
 	},
 	{
 		"name": "Last Minute",
-		"procedure": "Shake, double strain, martini glass, grapefruit peel",
 		"ingredients": [
 			{
 				"measure": null,
@@ -1353,11 +1396,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, martini glass, grapefruit peel",
+		"glass": "martini"
 	},
 	{
 		"name": "Estrella Negra",
-		"procedure": "Shake, rocks glass, big cube",
 		"ingredients": [
 			{
 				"measure": 1.75,
@@ -1379,11 +1423,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Hyperion Cold Brew"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, big cube",
+		"glass": "rocks"
 	},
 	{
 		"name": "Tell Me No Fibs, I'll Tell You No Lies",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -1410,11 +1455,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "1:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "The Stampede",
-		"procedure": "Shake, rocks glass, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1436,11 +1482,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "TRUE GRIT",
-		"procedure": "Stir, rocks glass, big cube, lemon wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1467,16 +1514,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, big cube, lemon wheel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Roaring 40's",
-		"procedure": "Muddle with sea salt. Shake, double strain, coupe, cucumber slice",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Thick cucumber slice (muddled)"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -1492,11 +1540,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Muddle with sea salt. Shake, double strain, coupe, cucumber slice",
+		"glass": "coupe"
 	},
 	{
 		"name": "Rye Daiquiri",
-		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
 			{
 				"measure": 1.75,
@@ -1518,16 +1567,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Maraschino liqueur"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lime wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "Basil & Bubbles",
-		"procedure": "Shake first 4 ingredients, double strain, champagne flute. Top with champagne, basil leaf",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Basil leaves (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -1548,11 +1598,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, double strain, champagne flute. Top with champagne, basil leaf",
+		"glass": "champagne"
 	},
 	{
 		"name": "The Purple Gang",
-		"procedure": "Shake, champagne flute. Top with champagne, lemon twist.",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -1574,11 +1625,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Shake, champagne flute. Top with champagne, lemon twist.",
+		"glass": "champagne"
 	},
 	{
 		"name": "Wise Guy",
-		"procedure": "Stir, coupe, orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1600,11 +1652,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, orange peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "Paradiso Sour",
-		"procedure": "Double shake, rocks glass, orange peel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -1636,11 +1689,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Egg White"
 			}
-		]
+		],
+		"procedure": "Double shake, rocks glass, orange peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Nevermore",
-		"procedure": "Shake, rocks glass, orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1662,11 +1716,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Cold brew"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, orange peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Blood & Smoke",
-		"procedure": "Shake, martini glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -1688,11 +1743,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orange juice"
 			}
-		]
+		],
+		"procedure": "Shake, martini glass",
+		"glass": "martini"
 	},
 	{
 		"name": "Dr. Ordinaire",
-		"procedure": "Shake, coupe with one drop of Peychaud's in glass, orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1714,11 +1770,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "1:1 Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe with one drop of Peychaud's in glass, orange peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "Red Rum",
-		"procedure": "Shake, rocks glass, orange cherry flag",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -1745,11 +1802,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, orange cherry flag",
+		"glass": "rocks"
 	},
 	{
 		"name": "Spice and Everything Nice",
-		"procedure": "Stir, rocks glass, big rock, express orange peel, torched cinnamon stick",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1776,11 +1834,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Carpano Antica"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, big rock, express orange peel, torched cinnamon stick",
+		"glass": "rocks"
 	},
 	{
 		"name": "Yellow Bird",
-		"procedure": "Shake, collins, crushed ice",
 		"ingredients": [
 			{
 				"measure": 2.25,
@@ -1817,11 +1876,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Jamaican bitters"
 			}
-		]
+		],
+		"procedure": "Shake, collins, crushed ice",
+		"glass": "collins"
 	},
 	{
 		"name": "Apricot Julep",
-		"procedure": "Stir with crushed ice. Mint sprig",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -1841,16 +1901,17 @@ const recipes = [
 			{
 				"measure": 10,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 3,
 				"ingredient": "Apricot slices (muddled)"
-				}
-		]
+			}
+		],
+		"procedure": "Stir with crushed ice. Mint sprig",
+		"glass": null
 	},
 	{
 		"name": "Age of Aquarius",
-		"procedure": "Shake first 4 ingredients, rocks glass, crushed ice. Float Campari, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1877,11 +1938,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Campari"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, rocks glass, crushed ice. Float Campari, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "Scofflaw",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -1908,11 +1970,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Lost Lake",
-		"procedure": "Mix/whip shake, crushed ice, footed pilsner",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -1944,11 +2007,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, crushed ice, footed pilsner",
+		"glass": "pilsner"
 	},
 	{
 		"name": "Bitter Mai Tai",
-		"procedure": "Mix/whip shake, crushed ice, rocks glass. Mint, lime wheel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -1975,11 +2039,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orgeat"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, crushed ice, rocks glass. Mint, lime wheel",
+		"glass": "rocks"
 	},
 	{
 		"name": "Mr. Bodi Hai",
-		"procedure": "Mix/whip shake with crushed ice, pour into footed pilsner. Top up, pineapple fronds",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2016,11 +2081,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake with crushed ice, pour into footed pilsner. Top up, pineapple fronds",
+		"glass": "pilsner"
 	},
 	{
 		"name": "Banana Farmer",
-		"procedure": "Mix/whip shake, crushed ice, Collins glass, pineapple fronds",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -2052,11 +2118,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, crushed ice, Collins glass, pineapple fronds",
+		"glass": "collins"
 	},
 	{
 		"name": "Fay Wray",
-		"procedure": "Lightly muddle lime wedge, mix/whip shake, crushed ice, rocks glass. Dried banana or mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -2088,11 +2155,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "2:1 Demerara syrup"
 			}
-		]
+		],
+		"procedure": "Lightly muddle lime wedge, mix/whip shake, crushed ice, rocks glass. Dried banana or mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "Keicho Embassy",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2119,11 +2187,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Father Knows Best",
-		"procedure": "Stir with ice, pour into bottle and smoke. Pour into rocks glass with large cube",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2145,11 +2214,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Root beer syrup"
 			}
-		]
+		],
+		"procedure": "Stir with ice, pour into bottle and smoke. Pour into rocks glass with large cube",
+		"glass": "rocks"
 	},
 	{
 		"name": "Arrack Punch",
-		"procedure": "Mix/whip shake, crushed ice, goblet. Fresh fruit, pineapple fronds",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2176,11 +2246,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, crushed ice, goblet. Fresh fruit, pineapple fronds",
+		"glass": "goblet"
 	},
 	{
 		"name": "Seven Seas Swizzle",
-		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, lime wheel, grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -2202,11 +2273,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, lime wheel, grated nutmeg",
+		"glass": "collins"
 	},
 	{
 		"name": "Boilermaker House Sour",
-		"procedure": "Double shake all but beer, cocktail glass. Top with IPA",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -2236,17 +2308,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				},
+			},
 			{
 				"measure": null,
 				"unit": null,
 				"ingredient": "IPA beer"
 			}
-		]
+		],
+		"procedure": "Double shake all but beer, cocktail glass. Top with IPA",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Chamomile Sour",
-		"procedure": "Double shake, chilled coupe, chamomile flowers",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2271,12 +2344,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, chilled coupe, chamomile flowers",
+		"glass": "coupe"
 	},
 	{
 		"name": "Chamomile Gin",
-		"procedure": "Shake or stir gently to combine, let infuse for 5 days or to taste",
 		"ingredients": [
 			{
 				"measure": 8,
@@ -2288,16 +2362,17 @@ const recipes = [
 				"unit": "grams",
 				"ingredient": "Chamomile flowers or tea bags"
 			}
-		]
+		],
+		"procedure": "Shake or stir gently to combine, let infuse for 5 days or to taste",
+		"glass": null
 	},
 	{
 		"name": "Guardian Angel",
-		"procedure": "Shake, double strain, coupe, cucumber slice",
 		"ingredients": [
 			{
 				"measure": 2,
 				"ingredient": "Cucumber slices (lightly muddled)"
-				},
+			},
 			{
 				"measure": 1.25,
 				"unit": "oz",
@@ -2323,11 +2398,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Rosewater"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe, cucumber slice",
+		"glass": "coupe"
 	},
 	{
 		"name": "Billionaire",
-		"procedure": "Shake, cocktail glass, dehydrated lemon wheel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -2354,11 +2430,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, dehydrated lemon wheel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Blood and Sand",
-		"procedure": "Shake first 3 ingredients, rocks glass. Top with orange juice",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -2380,11 +2457,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orange juice"
 			}
-		]
+		],
+		"procedure": "Shake first 3 ingredients, rocks glass. Top with orange juice",
+		"glass": "rocks"
 	},
 	{
 		"name": "Fernando",
-		"procedure": "Stir, large ice, cocktail glass, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -2401,11 +2479,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Galliano"
 			}
-		]
+		],
+		"procedure": "Stir, large ice, cocktail glass, mint sprig",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Nerina",
-		"procedure": "Stir, large ice, cocktail glass orange twist",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -2422,11 +2501,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Punt e Mes"
 			}
-		]
+		],
+		"procedure": "Stir, large ice, cocktail glass orange twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Peche Bourbon",
-		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de peche, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -2436,7 +2516,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Brown sugar cube"
-				},
+			},
 			{
 				"measure": 0.5,
 				"unit": "tsp",
@@ -2457,11 +2537,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Peach-Infused Bourbon"
 			}
-		]
+		],
+		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de peche, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "Jersey Devil",
-		"procedure": "Stir, large ice, cocktail glass, orange wheel",
 		"ingredients": [
 			{
 				"measure": 1.75,
@@ -2483,11 +2564,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Stir, large ice, cocktail glass, orange wheel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Mata Hari",
-		"procedure": "Shake, cocktail glass, 3 dried rose buds",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -2514,16 +2596,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, 3 dried rose buds",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Pisco Punch",
-		"procedure": "Muddle pineapple and pineapple syrup, add the rest, shake, double strain, goblet filled with ice. Lemon wheel, pineapple wedge",
 		"ingredients": [
 			{
 				"measure": 2,
 				"ingredient": "1-inch cubes Pineapple"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -2549,11 +2632,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Bitter Truth Celery bitters"
 			}
-		]
+		],
+		"procedure": "Muddle pineapple and pineapple syrup, add the rest, shake, double strain, goblet filled with ice. Lemon wheel, pineapple wedge",
+		"glass": "goblet"
 	},
 	{
 		"name": "Ruby Tuesday",
-		"procedure": "Shake, strain into chilled cocktail glass. Lemon twist",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -2580,16 +2664,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, strain into chilled cocktail glass. Lemon twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Waterloo",
-		"procedure": "Muddle watermelon and syrup until liquid. Add the rest, shake, unstrained into collins glass. Watermelon wedge.",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "(1-2 inch) cubes Watermelon"
-				},
+			},
 			{
 				"measure": 0.75,
 				"unit": "oz",
@@ -2610,11 +2695,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Campari"
 			}
-		]
+		],
+		"procedure": "Muddle watermelon and syrup until liquid. Add the rest, shake, unstrained into collins glass. Watermelon wedge.",
+		"glass": "collins"
 	},
 	{
 		"name": "Yellow Jacket",
-		"procedure": "Stir, large ice, cocktail glass, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -2636,11 +2722,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, large ice, cocktail glass, lemon twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "Mid-Morning Fizz",
-		"procedure": "Pour chartreuse into collins glass with ice and club soda, chill. Shake the other ingredients for 2 minutes. Strain into glass. Orange wheel",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -2675,36 +2762,38 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Pour chartreuse into collins glass with ice and club soda, chill. Shake the other ingredients for 2 minutes. Strain into glass. Orange wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "English Bishop",
 		"isIngredient": true,
-		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle.",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Orange"
-				},
+			},
 			{
 				"measure": 30,
 				"ingredient": "Cloves"
-				},
+			},
 			{
 				"measure": 1,
 				"ingredient": "(750 ml) bottle Ruby port"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "cup",
 				"ingredient": "Superfine sugar"
 			}
-		]
+		],
+		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle.",
+		"glass": null
 	},
 	{
 		"name": "Robb's Grandma",
-		"procedure": "Rocks glass, large cube, barspoon of cherry syrup, stir",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -2719,13 +2808,14 @@ const recipes = [
 			{
 				"measure": 2,
 				"ingredient": "Maraschino cherries"
-				}
-		]
+			}
+		],
+		"procedure": "Rocks glass, large cube, barspoon of cherry syrup, stir",
+		"glass": "rocks"
 	},
 	{
 		"name": "Citric Acid Solution",
 		"isIngredient": true,
-		"procedure": "Mix until dissolved",
 		"ingredients": [
 			{
 				"measure": 100,
@@ -2737,24 +2827,25 @@ const recipes = [
 				"unit": "grams",
 				"ingredient": "citric acid powder"
 			}
-		]
+		],
+		"procedure": "Mix until dissolved",
+		"glass": null
 	},
 	{
 		"name": "#3 Cup",
-		"procedure": "Shake, double strain, Collins glass, mint sprig, orange slice",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"ingredient": "Cucumber slices (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"ingredient": "Orange slice (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -2785,11 +2876,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, Collins glass, mint sprig, orange slice",
+		"glass": "collins"
 	},
 	{
 		"name": "20th Century",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2811,11 +2903,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Against All Odds",
-		"procedure": "Shake first 4 ingredients, coupe rinsed with Mezcal",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2842,11 +2935,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Mezcal"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, coupe rinsed with Mezcal",
+		"glass": "coupe"
 	},
 	{
 		"name": "Aguil a Azteca",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2868,11 +2962,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Creme de Violette"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Airmail",
-		"procedure": "Shake, coupe, top with 1 oz champagne, lime wheel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -2894,11 +2989,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, top with 1 oz champagne, lime wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "Albert Mathieu",
-		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -2925,11 +3021,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "Applejack Rabbit",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -2951,16 +3048,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Grade B Maple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Blackbeard",
-		"procedure": "Dry shake, unstrained pour, rocks glass, pebble ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "Blackberries (muddled)"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -2986,11 +3084,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Agave syrup"
 			}
-		]
+		],
+		"procedure": "Dry shake, unstrained pour, rocks glass, pebble ice, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "Black Thorn",
-		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3012,11 +3111,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "Champs-elysees",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3043,11 +3143,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Chrysanthemum",
-		"procedure": "Stir, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3069,11 +3170,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Cloister",
-		"procedure": "Shake, coupe, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3100,11 +3202,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, grapefruit twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "Conquistador",
-		"procedure": "Double shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -3139,12 +3242,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "Corpse Reviver #2",
-		"procedure": "Shake, rinsed coupe",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -3171,11 +3275,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Absinthe (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, rinsed coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "De La Louisiane",
-		"procedure": "Stir, coupe, three brandied cherries",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3202,11 +3307,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, three brandied cherries",
+		"glass": "coupe"
 	},
 	{
 		"name": "East India Cocktail",
-		"procedure": "Shake, coupe, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.75,
@@ -3233,11 +3339,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "El Puente",
-		"procedure": "Shake, coupe, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3264,11 +3371,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Mezcal (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, grapefruit twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "Ephemeral",
-		"procedure": "Stir, coupe, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3290,11 +3398,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Celery bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, grapefruit twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "Espresso Bongo",
-		"procedure": "Shake, unstrained pour, tiki mug",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3326,11 +3435,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Passionfruit syrup"
 			}
-		]
+		],
+		"procedure": "Shake, unstrained pour, tiki mug",
+		"glass": "tiki"
 	},
 	{
 		"name": "Fish House Punch",
-		"procedure": "Shake, rocks glass",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3362,11 +3472,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass",
+		"glass": "rocks"
 	},
 	{
 		"name": "Flying Dutchman",
-		"procedure": "Shake, coupe, brandied cherry",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -3398,11 +3509,12 @@ const recipes = [
 				"unit": "bspn",
 				"ingredient": "Maraschino liqueur"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, brandied cherry",
+		"glass": "coupe"
 	},
 	{
 		"name": "Foreign Legion",
-		"procedure": "Stir, rocks glass, ice sphere, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3434,20 +3546,21 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Rhubarb bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, ice sphere, orange twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "French Maid",
-		"procedure": "Shake, double strain, Collins glass, mint sprig in cucumber wheel",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Cucumber wheels (muddled)"
-				},
+			},
 			{
 				"measure": 6,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -3473,11 +3586,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Velvet Falernum"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, Collins glass, mint sprig in cucumber wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "Gilchrist",
-		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -3504,20 +3618,21 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Fee Brothers Grapefruit bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "GOLDEN STAR FIZZ",
-		"procedure": "Shake first 5 ingredients, double strain, rinsed fizz glass. Top with jasmine tea, cucumber slice",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Cucumber slices (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"ingredient": "Dill sprig (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -3543,11 +3658,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Absinthe (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake first 5 ingredients, double strain, rinsed fizz glass. Top with jasmine tea, cucumber slice",
+		"glass": "collins"
 	},
 	{
 		"name": "GREAT PUMPKIN",
-		"procedure": "Stir, double shake, strain into fizz glass, grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3572,12 +3688,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Whole Egg"
-				}
-		]
+			}
+		],
+		"procedure": "Stir, double shake, strain into fizz glass, grated nutmeg",
+		"glass": "collins"
 	},
 	{
 		"name": "GREEN DEACON",
-		"procedure": "Shake, rinsed coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3599,16 +3716,17 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Absinthe (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, rinsed coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "GREEN HARVEST",
-		"procedure": "Stir, double strain, fizz glass, three concord grapes",
 		"ingredients": [
 			{
 				"measure": 7,
 				"ingredient": "Concord Grapes (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -3624,11 +3742,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Green Chartreuse"
 			}
-		]
+		],
+		"procedure": "Stir, double strain, fizz glass, three concord grapes",
+		"glass": "collins"
 	},
 	{
 		"name": "GREENPOINT",
-		"procedure": "Stir, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3650,11 +3769,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "HARVEST MOON",
-		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3681,11 +3801,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Abbott's bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "HARVEST SLING",
-		"procedure": "Shake, Collins glass, cherry and orange flag",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3717,16 +3838,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger beer"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, cherry and orange flag",
+		"glass": "collins"
 	},
 	{
 		"name": "HEIRLOOM",
-		"procedure": "Shake, double strain, coupe, two spritzes anise hyssop essence",
 		"ingredients": [
 			{
 				"measure": 7,
 				"ingredient": "Concord Grapes (muddled)"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -3747,11 +3869,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Strega"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe, two spritzes anise hyssop essence",
+		"glass": "coupe"
 	},
 	{
 		"name": "HEMINGWAY DAIQUIRI",
-		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3773,11 +3896,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Grapefruit juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lime wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "HENRY HUDSON",
-		"procedure": "Stir, rocks glass, large cube, grated nutmeg ",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3804,11 +3928,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Batavia Arrack"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube, grated nutmeg ",
+		"glass": "rocks"
 	},
 	{
 		"name": "HONEYMOON COCKTAIL",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3830,16 +3955,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "HOTEL D'ALSACE",
-		"procedure": "Stir, double strain, rocks glass, large cube, rosemary sprig",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Small sprig Rosemary (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -3855,11 +3981,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Benedictine"
 			}
-		]
+		],
+		"procedure": "Stir, double strain, rocks glass, large cube, rosemary sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "JAPANESE COURAGE",
-		"procedure": "Stir, pre-heated mug, lemon wheel studded with 6 cloves",
 		"ingredients": [
 			{
 				"measure": 6,
@@ -3886,11 +4013,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Honey syrup"
 			}
-		]
+		],
+		"procedure": "Stir, pre-heated mug, lemon wheel studded with 6 cloves",
+		"glass": null
 	},
 	{
 		"name": "JAPANESE COCKTAIL",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3907,11 +4035,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "JUDGMENT DAY",
-		"procedure": "Double shake, rinsed coupe, 2 spritzes allspice dram",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -3941,7 +4070,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg White"
-				},
+			},
 			{
 				"measure": null,
 				"unit": null,
@@ -3952,11 +4081,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Allspice dram (spritz)"
 			}
-		]
+		],
+		"procedure": "Double shake, rinsed coupe, 2 spritzes allspice dram",
+		"glass": "coupe"
 	},
 	{
 		"name": "JUNIOR",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -3978,11 +4108,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "KANSAI KICK",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4004,11 +4135,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orgeat"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "KINA MIELE",
-		"procedure": "Stir, rocks glass, large cube, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -4035,11 +4167,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Lemon bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube, grapefruit twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "KING BEE",
-		"procedure": "Shake first 4 ingredients, coupe, float sherry",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4066,11 +4199,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lustau Palo Cortado Sherry"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, coupe, float sherry",
+		"glass": "coupe"
 	},
 	{
 		"name": "LA FLORIDA COCKTAIL",
-		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4097,11 +4231,12 @@ const recipes = [
 				"unit": "bspn",
 				"ingredient": "Grenadine"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lime wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "LA LOUCHE",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4128,16 +4263,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "LEAPFROG",
-		"procedure": "Shake, double strain, coupe",
 		"ingredients": [
 			{
 				"measure": 6,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -4163,11 +4299,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "LE PeRE BIS",
-		"procedure": "Stir, pre-heated mug, lemon wedge studded with three cloves",
 		"ingredients": [
 			{
 				"measure": 4,
@@ -4189,11 +4326,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Honey syrup"
 			}
-		]
+		],
+		"procedure": "Stir, pre-heated mug, lemon wedge studded with three cloves",
+		"glass": null
 	},
 	{
 		"name": "LUAU",
-		"procedure": "Shake, rocks glass, crushed ice, lime wheel, orange slice",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -4230,11 +4368,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, crushed ice, lime wheel, orange slice",
+		"glass": "rocks"
 	},
 	{
 		"name": "MASATAKA SWIZZLE",
-		"procedure": "Swizzle, rocks glass, crushed ice, 3 dash bitters, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4261,16 +4400,17 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Swizzle, rocks glass, crushed ice, 3 dash bitters, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "MEZCAL MULE",
-		"procedure": "Shake, rocks glass, candied ginger, cucumber slice, pinch of ground chili",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Cucumber slices (muddled)"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -4291,11 +4431,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Passionfruit syrup"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, candied ginger, cucumber slice, pinch of ground chili",
+		"glass": "rocks"
 	},
 	{
 		"name": "NEW ORLEANS MILK PUNCH",
-		"procedure": "Shake, rocks glass, large cube",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4317,11 +4458,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, large cube",
+		"glass": "rocks"
 	},
 	{
 		"name": "MONTGOMERY SMITH",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4338,11 +4480,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Fernet Branca"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "MONKEY GLAND",
-		"procedure": "Shake, rinsed coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4364,11 +4507,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Absinthe (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, rinsed coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "MOUNT VERNON",
-		"procedure": "Shake, coupe, three brandied cherries",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -4395,11 +4539,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Cherry Heering"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, three brandied cherries",
+		"glass": "coupe"
 	},
 	{
 		"name": "NEW AMSTERDAM",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4421,11 +4566,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "NEWARK",
-		"procedure": "Stir, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4447,11 +4593,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Maraschino Liqueur"
 			}
-		]
+		],
+		"procedure": "Stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "NOUVEAU CARRe",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4473,11 +4620,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "NTH DEGREE",
-		"procedure": "Muddle bitters with sugar cube, add the rest, stir, rocks glass, large cube, orange and lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -4497,17 +4645,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Demerara Sugar cube"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "dash",
 				"ingredient": "Fee Brothers Whiskey Barrel Aged bitters"
 			}
-		]
+		],
+		"procedure": "Muddle bitters with sugar cube, add the rest, stir, rocks glass, large cube, orange and lemon twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "OCCIDENTAL",
-		"procedure": "Stir, rinsed coupe, orange twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4529,11 +4678,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Fernet Branca (rinse)"
 			}
-		]
+		],
+		"procedure": "Stir, rinsed coupe, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "OLD PAL",
-		"procedure": "Stir, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4550,11 +4700,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Campari"
 			}
-		]
+		],
+		"procedure": "Stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "PADDINGTON",
-		"procedure": "Shake, rinsed coupe, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4586,11 +4737,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Absinthe (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, rinsed coupe, grapefruit twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "PHARAOH COOLER",
-		"procedure": "Shake, Collins glass, top with 1 oz soda",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4617,11 +4769,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Rosewater"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, top with 1 oz soda",
+		"glass": "collins"
 	},
 	{
 		"name": "PROFESSOR",
-		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4648,11 +4801,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "REMEMBER THE MAINE",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4674,16 +4828,17 @@ const recipes = [
 				"unit": "bspn",
 				"ingredient": "Pernod"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "RESTING POINT",
-		"procedure": "Shake, double strain, coupe, strawberry fan",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Strawberry (muddled)"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -4709,11 +4864,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Agave syrup"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe, strawberry fan",
+		"glass": "coupe"
 	},
 	{
 		"name": "RHUM CLUB",
-		"procedure": "Shake, coupe, orange wedge",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4745,16 +4901,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, orange wedge",
+		"glass": "coupe"
 	},
 	{
 		"name": "RIO BRAVO",
-		"procedure": "Shake, double strain, coupe, orange twist",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Ginger slices (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -4770,11 +4927,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orgeat"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "ROSITA",
-		"procedure": "Stir, coupe, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4801,11 +4959,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "RUST BELT",
-		"procedure": "Double shake, coupe, 2 spritzes Angostura bitters",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4835,17 +4994,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg White"
-				},
+			},
 			{
 				"measure": null,
 				"unit": null,
 				"ingredient": "Angostura bitters (spritz)"
 			}
-		]
+		],
+		"procedure": "Double shake, coupe, 2 spritzes Angostura bitters",
+		"glass": "coupe"
 	},
 	{
 		"name": "ROYAL BERMUDA YACHTCLUB COCKTAIL",
-		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4867,11 +5027,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Velvet Falernum"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lime wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "RYE WITCH",
-		"procedure": "Muddle bitters and sugar cube, add the rest, stir, rocks glass, express orange peel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -4891,17 +5052,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Sugar Cube"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Muddle bitters and sugar cube, add the rest, stir, rocks glass, express orange peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "SEELBACH COCKTAIL",
-		"procedure": "Stir, coupe. Top with 2 oz champagne, orange twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -4928,11 +5090,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Stir, coupe. Top with 2 oz champagne, orange twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "SILVER LINING",
-		"procedure": "Double shake, fizz glass. Top with 1 oz soda",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -4957,12 +5120,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, fizz glass. Top with 1 oz soda",
+		"glass": "collins"
 	},
 	{
 		"name": "SLOE GIN FIZZ",
-		"procedure": "Shake, fizz glass. Top with 3 oz soda",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -4984,11 +5148,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, fizz glass. Top with 3 oz soda",
+		"glass": "collins"
 	},
 	{
 		"name": "SOLSTICE",
-		"procedure": "Stir, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -5015,11 +5180,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Grenadine"
 			}
-		]
+		],
+		"procedure": "Stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "STATESMAN",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -5041,16 +5207,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "TALBOTT LEAF",
-		"procedure": "Shake, double strain, coupe, mint leaf",
 		"ingredients": [
 			{
 				"measure": 6,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -5076,11 +5243,12 @@ const recipes = [
 				"unit": "bspn",
 				"ingredient": "Strawberry preserves"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe, mint leaf",
+		"glass": "coupe"
 	},
 	{
 		"name": "TUXEDO",
-		"procedure": "Stir, rinsed coupe, lemon twist, cherry",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -5107,16 +5275,17 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Absinthe (rinse)"
 			}
-		]
+		],
+		"procedure": "Stir, rinsed coupe, lemon twist, cherry",
+		"glass": "coupe"
 	},
 	{
 		"name": "VAUVERT SLIM",
-		"procedure": "Double shake, double strain, rinsed coupe, mint leaf",
 		"ingredients": [
 			{
 				"measure": 6,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -5135,17 +5304,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				},
+			},
 			{
 				"measure": null,
 				"unit": null,
 				"ingredient": "Laphroaig 10 scotch (rinse)"
 			}
-		]
+		],
+		"procedure": "Double shake, double strain, rinsed coupe, mint leaf",
+		"glass": "coupe"
 	},
 	{
 		"name": "VELVET CLUB",
-		"procedure": "Stir, coupe. Top with 1 oz champagne",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -5167,11 +5337,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Stir, coupe. Top with 1 oz champagne",
+		"glass": "coupe"
 	},
 	{
 		"name": "VIEUX MOT",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -5193,11 +5364,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "VIEUX CARRe",
-		"procedure": "Stir, rocks glass, large cube ",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -5229,20 +5401,21 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube ",
+		"glass": "rocks"
 	},
 	{
 		"name": "WHISKEY SMASH",
-		"procedure": "Shake, double strain, rocks, mint sprig",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Lemon Wedges (muddled)"
-				},
+			},
 			{
 				"measure": 6,
 				"ingredient": "Mint Leaves (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -5253,11 +5426,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, rocks, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "WHITE BIRCH FIZZ",
-		"procedure": "Double shake, Collins glass. Top with 2 oz soda, spritz of Suze",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -5282,17 +5456,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg White"
-				},
+			},
 			{
 				"measure": null,
 				"unit": null,
 				"ingredient": "Suze (spritz)"
 			}
-		]
+		],
+		"procedure": "Double shake, Collins glass. Top with 2 oz soda, spritz of Suze",
+		"glass": "collins"
 	},
 	{
 		"name": "WITCH'S KISS",
-		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -5314,16 +5489,17 @@ const recipes = [
 				"unit": "bspn",
 				"ingredient": "Apple Butter"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "AKU AKU",
-		"procedure": "Mix/whip shake, double-strain, coupe, mint sprig",
 		"ingredients": [
 			{
 				"measure": 5,
 				"ingredient": "(1-inch-square) chunks pineapple (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -5344,11 +5520,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended lightly aged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double-strain, coupe, mint sprig",
+		"glass": "coupe"
 	},
 	{
 		"name": "PUPULE",
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, spiral-cut orange peel, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -5385,11 +5562,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, spiral-cut orange peel, mint sprig",
+		"glass": "pilsner"
 	},
 	{
 		"name": "DON'S OWN GROG",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, freshly grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -5431,11 +5609,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angosutra bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, freshly grated nutmeg",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "PORT AU PRINCE",
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lime wedge",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -5472,11 +5651,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lime wedge",
+		"glass": "pilsner"
 	},
 	{
 		"name": "THREE DOTS AND A DASH",
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, three maraschino cherries and pineapple chunk",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -5518,16 +5698,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, three maraschino cherries and pineapple chunk",
+		"glass": "pilsner"
 	},
 	{
 		"name": "MEXICAN EL DIABLO",
-		"procedure": "Swizzle, collins glass, cracked ice",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Lime wedge (lightly muddled)"
-				},
+			},
 			{
 				"measure": 0.5,
 				"unit": "oz",
@@ -5548,11 +5729,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger ale"
 			}
-		]
+		],
+		"procedure": "Swizzle, collins glass, cracked ice",
+		"glass": "collins"
 	},
 	{
 		"name": "PORT LIGHT",
-		"procedure": "Dry shake egg white and bourbon, add the rest, Mix/whip shake, footed pilsner, crushed ice",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -5579,11 +5761,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Passionfruit syrup"
 			}
-		]
+		],
+		"procedure": "Dry shake egg white and bourbon, add the rest, Mix/whip shake, footed pilsner, crushed ice",
+		"glass": "pilsner"
 	},
 	{
 		"name": "DEMERARA DRY FLOAT",
-		"procedure": "Mix/whip shake first 6 ingredients, double old-fashioned glass, crushed ice, serve with overproof rum on the side",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -5620,11 +5803,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Black blended overproof rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake first 6 ingredients, double old-fashioned glass, crushed ice, serve with overproof rum on the side",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "JET PILOT",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -5666,11 +5850,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Herbstura"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "HALEKULANI COCKTAIL",
-		"procedure": "Shake, double strain, coupe, edible orchid",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -5707,11 +5892,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe, edible orchid",
+		"glass": "coupe"
 	},
 	{
 		"name": "SIDEWINDER'S FANG",
-		"procedure": "Mix/whip shake, strain, large brandy snifter, cracked ice, sidewinder's fang orange peel, mint sprig.",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -5743,11 +5929,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Black blended rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, strain, large brandy snifter, cracked ice, sidewinder's fang orange peel, mint sprig.",
+		"glass": "snifter"
 	},
 	{
 		"name": "HAWAIIAN SUNSET",
-		"procedure": "Shake, double strain, coupe, lime peel.",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -5774,11 +5961,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Vodka"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe, lime peel.",
+		"glass": "coupe"
 	},
 	{
 		"name": "CAPTAIN'S GROG",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -5835,11 +6023,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended Aged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "SUFFERING BASTARD",
-		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -5871,11 +6060,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger beer"
 			}
-		]
+		],
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "MERCILESS VIRGIN",
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, Maraschino cherry",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -5907,11 +6097,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended lightly aged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, Maraschino cherry",
+		"glass": "pilsner"
 	},
 	{
 		"name": "SATURN",
-		"procedure": "Shake, coupe, lemon peel rings",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -5938,11 +6129,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "London Dry Gin"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon peel rings",
+		"glass": "coupe"
 	},
 	{
 		"name": "TIKI BOWL FOR TWO",
-		"procedure": "Mix/blend, tiki bowl, crushed ice, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -5979,11 +6171,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Herbstura"
 			}
-		]
+		],
+		"procedure": "Mix/blend, tiki bowl, crushed ice, edible orchid",
+		"glass": "tikibowl"
 	},
 	{
 		"name": "HURRICANE",
-		"procedure": "Mix/whip shake, hurricane glass, crushed ice, lemon wedge",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -6000,11 +6193,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Black blended rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, hurricane glass, crushed ice, lemon wedge",
+		"glass": "hurricane"
 	},
 	{
 		"name": "MUNDO PERDIDO",
-		"procedure": "Shake, coupe.",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -6031,11 +6225,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Black blended rum"
 			}
-		]
+		],
+		"procedure": "Shake, coupe.",
+		"glass": "coupe"
 	},
 	{
 		"name": "FORMIDABLE DRAGON",
-		"procedure": "Mix/Blend, large brandy snifter, crushed ice, edible orchid, multiple mint sprigs",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -6082,11 +6277,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Mix/Blend, large brandy snifter, crushed ice, edible orchid, multiple mint sprigs",
+		"glass": "snifter"
 	},
 	{
 		"name": "LEI LANI NOUVEAU",
-		"procedure": "Shake first 4 ingredients, double strain, Collins glass, cracked ice. Top with guava soda, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -6113,11 +6309,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Bundaberg Guava soda"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, double strain, Collins glass, cracked ice. Top with guava soda, edible orchid",
+		"glass": "collins"
 	},
 	{
 		"name": "TRADEWINDS",
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lemon wedge",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -6144,16 +6341,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended lightly aged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lemon wedge",
+		"glass": "pilsner"
 	},
 	{
 		"name": "PEACHTREE PUNCH 2.0",
-		"procedure": "Mix/whip shake, double strain, double old-fashioned glass, cracked ice, grated nutmeg, peach wedge",
 		"ingredients": [
 			{
 				"measure": 0.5,
 				"ingredient": "Yellow/White peach (muddled)"
-				},
+			},
 			{
 				"measure": 3,
 				"unit": "oz",
@@ -6184,11 +6382,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double strain, double old-fashioned glass, cracked ice, grated nutmeg, peach wedge",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "JUNGLE BIRD",
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, pineapple fronds",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -6215,11 +6414,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Black blended rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, pineapple fronds",
+		"glass": "collins"
 	},
 	{
 		"name": "GOLDEN GUN",
-		"procedure": "Shake, Collins glass, cracked ice",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -6256,11 +6456,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, cracked ice",
+		"glass": "collins"
 	},
 	{
 		"name": "HINKY DINKS FIZZY",
-		"procedure": "Mix/whip shake first 6 ingredients, large brandy snifter, crushed ice. Top with sparkling wine, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -6297,11 +6498,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Sparkling wine"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake first 6 ingredients, large brandy snifter, crushed ice. Top with sparkling wine, mint sprig",
+		"glass": "snifter"
 	},
 	{
 		"name": "PAMPANITO",
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -6333,11 +6535,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, lemon twist",
+		"glass": "collins"
 	},
 	{
 		"name": "MAX'S MISTAKE",
-		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -6369,11 +6572,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Fentimans Victorian Lemonade"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, mint sprig",
+		"glass": "snifter"
 	},
 	{
 		"name": "LA GUILDIVE",
-		"procedure": "Shake first 4 ingredients, coupe. Top with ginger beer, lime twist, pinch of cinnamon",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -6400,11 +6604,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger beer"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, coupe. Top with ginger beer, lime twist, pinch of cinnamon",
+		"glass": "coupe"
 	},
 	{
 		"name": "THE TWENTY SEVENTY SWIZZLE",
-		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -6441,11 +6646,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Herbstura"
 			}
-		]
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "SHUDDERS IN A WHISPER",
-		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, edible orchid, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -6487,11 +6693,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, edible orchid, mint sprig",
+		"glass": "snifter"
 	},
 	{
 		"name": "CUEVAS",
-		"procedure": "Shake, coupe, maraschino cherry",
 		"ingredients": [
 			{
 				"measure": 0.25,
@@ -6518,11 +6725,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Bittermens ‘Elemakule Tiki bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, maraschino cherry",
+		"glass": "coupe"
 	},
 	{
 		"name": "NORWEGIAN PARALYSIS",
-		"procedure": "Shake, Collins glass, cracked ice, lemon wedge",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -6554,11 +6762,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Aquavit"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, cracked ice, lemon wedge",
+		"glass": "collins"
 	},
 	{
 		"name": "JUAN HO ROYALE",
-		"procedure": "Shake first 5 ingredients, coupe. Top with champagne",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -6590,11 +6799,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Champagne or Sparkling wine"
 			}
-		]
+		],
+		"procedure": "Shake first 5 ingredients, coupe. Top with champagne",
+		"glass": "coupe"
 	},
 	{
 		"name": "CHARTREUSE SWIZZLE",
-		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -6616,11 +6826,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Green Chartreuse"
 			}
-		]
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "ROSELITA",
-		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -6657,11 +6868,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower",
+		"glass": "collins"
 	},
 	{
 		"name": "CENTER OF THE GALAXY",
-		"procedure": "Shake, coupe, raspberry on lime wheel",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -6693,11 +6905,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Ground cinnamon (pinch)"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, raspberry on lime wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "CALLALOO COOLER",
-		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer, grated cinnamon, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -6729,11 +6942,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer, grated cinnamon, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "TOP NOTCH VOLCANO FOR TWO",
-		"procedure": "Mix/whip shake, scorpion bowl, lime and orange slices, fire",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -6770,11 +6984,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended aged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, scorpion bowl, lime and orange slices, fire",
+		"glass": "tikibowl"
 	},
 	{
 		"name": "THE NAKED APE",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -6806,11 +7021,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice",
+		"glass": "tiki"
 	},
 	{
 		"name": "SWIZZLE FRANcAIS",
-		"procedure": "Swizzle, Collins glass, crushed ice, ground nutmeg",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -6832,11 +7048,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Rhum agricole vieux"
 			}
-		]
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, ground nutmeg",
+		"glass": "collins"
 	},
 	{
 		"name": "SPARKLING MAI TAI",
-		"procedure": "Stir first 5 ingredients, champagne flute. Top with sparkling wine, lime twist, mint leaf",
 		"ingredients": [
 			{
 				"measure": 0.25,
@@ -6868,11 +7085,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "chilled sparkling wine"
 			}
-		]
+		],
+		"procedure": "Stir first 5 ingredients, champagne flute. Top with sparkling wine, lime twist, mint leaf",
+		"glass": "champagne"
 	},
 	{
 		"name": "THE ERNESTO",
-		"procedure": "Shake first 5 ingredients, double old-fashioned glass, cracked ice. Top with soda, lime wheel, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -6904,11 +7122,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ting Grapefruit soda"
 			}
-		]
+		],
+		"procedure": "Shake first 5 ingredients, double old-fashioned glass, cracked ice. Top with soda, lime wheel, edible orchid",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "HANA REVIVER",
-		"procedure": "Mix/whip shake, footed pilsner glass, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -6940,11 +7159,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pot Still Unaged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, footed pilsner glass, crushed ice, mint sprig",
+		"glass": "pilsner"
 	},
 	{
 		"name": "KAITEUR SWIZZLE",
-		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -6971,11 +7191,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "THE EXPEDITION",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7017,11 +7238,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Bourbon"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid",
+		"glass": "tiki"
 	},
 	{
 		"name": "THE UNDEAD GENTLEMAN",
-		"procedure": "Shake, rinsed coupe, intertwined lime and grapefruit twists",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7063,11 +7285,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Absinthe Blanc (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, rinsed coupe, intertwined lime and grapefruit twists",
+		"glass": "coupe"
 	},
 	{
 		"name": "THE DEAD RECKONING",
-		"procedure": "Mix/whip shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, pineapple fronds, mint spring, lemon spiral",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7109,11 +7332,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, pineapple fronds, mint spring, lemon spiral",
+		"glass": "collins"
 	},
 	{
 		"name": "FALINUM",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7145,11 +7369,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice",
+		"glass": "tiki"
 	},
 	{
 		"name": "HUMUHUMUNUKUNUKUAPUA'A",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -7176,11 +7401,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "LAUWILIWILINUKUNUKU'OI'OI",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -7207,11 +7433,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "FOR PETE'S SAKE",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible hibiscus flower, maraschino cherry",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -7243,11 +7470,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible hibiscus flower, maraschino cherry",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "ARRACK PUNCH FOR TWO",
-		"procedure": "Mix/whip shake, tiki bowl, lemon and lime slices",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7279,16 +7507,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Carbonated Chai Tea"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki bowl, lemon and lime slices",
+		"glass": "tikibowl"
 	},
 	{
 		"name": "EL DRAQUE",
-		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
 			{
 				"measure": 5,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 0.75,
 				"unit": "oz",
@@ -7304,11 +7533,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pot Still Aged cachaca"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lime wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "CALIBOGUS",
-		"procedure": "Mix/whip shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer",
 		"ingredients": [
 			{
 				"measure": 0.25,
@@ -7340,11 +7570,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer",
+		"glass": "collins"
 	},
 	{
 		"name": "MARY PICKFORD",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -7366,11 +7597,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended lightly aged rum"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "DAIQUIRI NO. 1",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -7387,16 +7619,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended Lightly Aged rum"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "HOTEL NACIONAL SPECIAL",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "(1-inch-square) pineapple chunks (muddled)"
-				},
+			},
 			{
 				"measure": 0.75,
 				"unit": "oz",
@@ -7417,11 +7650,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended lightly aged rum"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "DAISY DE SANTIAGO",
-		"procedure": "Shake, double old-fashioned glass, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7448,11 +7682,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended lightly aged rum"
 			}
-		]
+		],
+		"procedure": "Shake, double old-fashioned glass, crushed ice, mint sprig",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "EL PRESIDENTE",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7474,11 +7709,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended Lightly Aged rum"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "TWELVE MILE LIMIT",
-		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7505,11 +7741,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Brandy"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "PARISIAN BLONDE",
-		"procedure": "Stir first two ingredients, coupe. Float the cream, grated cinnamon",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7526,11 +7763,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Sweeted Heavy cream"
 			}
-		]
+		],
+		"procedure": "Stir first two ingredients, coupe. Float the cream, grated cinnamon",
+		"glass": "coupe"
 	},
 	{
 		"name": "CORA MIDDLETON",
-		"procedure": "Double shake, coupe, Angostura bitters drops",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7557,11 +7795,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Raspberry Gum syrup"
 			}
-		]
+		],
+		"procedure": "Double shake, coupe, Angostura bitters drops",
+		"glass": "coupe"
 	},
 	{
 		"name": "MILLIONAIRE COCKTAIL #1",
-		"procedure": "Shake, coupe, lime wheel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -7588,11 +7827,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Sloe Gin"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lime wheel",
+		"glass": "coupe"
 	},
 	{
 		"name": "BATIDA DE MARACUJA E COCO",
-		"procedure": "Mix/whip shake, old fashioned glass, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -7614,11 +7854,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Sweetened Condensed milk"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, old fashioned glass, crushed ice, mint sprig",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "HIBISCUS RUM PUNCH",
-		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower, lime wheel",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7645,11 +7886,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower, lime wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "BARBADOS RUM PUNCH",
-		"procedure": "Shake, footed pilsner, cracked ice, grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7671,11 +7913,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, footed pilsner, cracked ice, grated nutmeg",
+		"glass": "pilsner"
 	},
 	{
 		"name": "JAMAICAN MILK PUNCH",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, grated nutmeg.",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7707,11 +7950,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, grated nutmeg.",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "CORN AND OIL",
-		"procedure": "Stir, old-fashioned glass, crushed ice",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7728,16 +7972,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, old-fashioned glass, crushed ice",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "QUEEN'S PARK SWIZZLE",
-		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 0.5,
 				"unit": "oz",
@@ -7758,11 +8003,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "THE CHADBURN",
-		"procedure": "Stir, coupe",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7784,11 +8030,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Bittermens Xocolatl (Chocolate) Mole bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "A WISH FOR GRACE",
-		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -7820,11 +8067,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "ABRICOT VIEUX",
-		"procedure": "Stir, coupe, express orange peel",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7846,11 +8094,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, express orange peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "PANIOLO OLD-FASHIONED",
-		"procedure": "Stir, old-fashioned glass, large cube, express orange peel, drop peel in",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -7867,11 +8116,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, old-fashioned glass, large cube, express orange peel, drop peel in",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "PORT ROYAL",
-		"procedure": "Shake, coupe, five spread-out drops Hellfire tincture",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -7898,11 +8148,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Hellfire tincture"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, five spread-out drops Hellfire tincture",
+		"glass": "coupe"
 	},
 	{
 		"name": "KINGSTON PALAKA",
-		"procedure": "Shake, coupe, lemon peel",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7924,11 +8175,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended aged rum (Jamaica)"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "DONN DAY AFTERNOON",
-		"procedure": "Stir, double old-fashioned glass, express grapefruit peel, drop peel in",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7950,11 +8202,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Rhum Agricole blanc"
 			}
-		]
+		],
+		"procedure": "Stir, double old-fashioned glass, express grapefruit peel, drop peel in",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "BAIE DU GALION",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -7971,11 +8224,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Rhum agricole blanc"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "AGRICOLE GUAVA COOLER",
-		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with soda, mint sprig, cinnamon stick, lime wheel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -8002,11 +8256,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Bundaberg guava soda"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with soda, mint sprig, cinnamon stick, lime wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "RICHARD SEALEBACH",
-		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, lemon twist",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -8033,11 +8288,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, lemon twist",
+		"glass": "champagne"
 	},
 	{
 		"name": "COSA NOSTRA #2",
-		"procedure": "Stir first 4 ingredients, footed pilsner glass, cracked ice. Top with ginger ale, lemon twist",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -8064,16 +8320,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger ale"
 			}
-		]
+		],
+		"procedure": "Stir first 4 ingredients, footed pilsner glass, cracked ice. Top with ginger ale, lemon twist",
+		"glass": "pilsner"
 	},
 	{
 		"name": "BOO LOO FOR TWO",
-		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice",
 		"ingredients": [
 			{
 				"measure": 6,
 				"ingredient": "(1-inch-square) chunks pineapple (muddled)"
-				},
+			},
 			{
 				"measure": 2.5,
 				"unit": "oz",
@@ -8114,11 +8371,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice",
+		"glass": "pineapple"
 	},
 	{
 		"name": "CARIBENO",
-		"procedure": "Mix/whip shake, coconut shell, cracked ice",
 		"ingredients": [
 			{
 				"measure": 4,
@@ -8135,11 +8393,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Column Still Lightly Aged rum or London Dry Gin"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, coconut shell, cracked ice",
+		"glass": "coconut"
 	},
 	{
 		"name": "MONK'S RESPITE",
-		"procedure": "Mix/whip shake, coconut shell, crushed ice",
 		"ingredients": [
 			{
 				"measure": 3,
@@ -8176,11 +8435,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, coconut shell, crushed ice",
+		"glass": "coconut"
 	},
 	{
 		"name": "THE MASTADON",
-		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice",
 		"ingredients": [
 			{
 				"measure": 3,
@@ -8222,11 +8482,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice",
+		"glass": "pineapple"
 	},
 	{
 		"name": "PINATA",
-		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice, freshly grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 3,
@@ -8263,11 +8524,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended lightly aged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice, freshly grated nutmeg",
+		"glass": "pineapple"
 	},
 	{
 		"name": "BUMBOAT",
-		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice. Float the overproof rum",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -8309,11 +8571,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Black Blended Overproof rum (float)"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice. Float the overproof rum",
+		"glass": "pineapple"
 	},
 	{
 		"name": "PLANTER'S PUNCH",
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint Sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -8340,11 +8603,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint Sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "MAI TAI",
-		"procedure": "Shake, double old-fashioned glass, crushed ice, lime shell, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -8371,11 +8635,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended aged rum"
 			}
-		]
+		],
+		"procedure": "Shake, double old-fashioned glass, crushed ice, lime shell, mint sprig",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "DOCTOR FUNK",
-		"procedure": "Mix/whip shake, double old-fashioned, crushed ice, ti leaf or pineapple fronds",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -8412,11 +8677,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned, crushed ice, ti leaf or pineapple fronds",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "ZOMBIE",
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -8463,11 +8729,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Herbstura"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "NAVY GROG",
-		"procedure": "Mix/whip shake, double old-fashioned glass, ice cone, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -8504,11 +8771,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Column still aged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, ice cone, mint sprig",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "SCORPION BOWL FOR TWO",
-		"procedure": "Mix/whip shake, tiki bowl, cracked ice",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -8545,11 +8813,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blended Lightly Aged rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice",
+		"glass": "tikibowl"
 	},
 	{
 		"name": "FOG CUTTER",
-		"procedure": "Mix/whip shake, Fog Cutter mug, crushed ice. Float sherry, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -8586,11 +8855,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Oloroso sherry (float)"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, Fog Cutter mug, crushed ice. Float sherry, mint sprig",
+		"glass": null
 	},
 	{
 		"name": "SINGAPORE SLING",
-		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, lemon wedge",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -8632,11 +8902,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, lemon wedge",
+		"glass": "collins"
 	},
 	{
 		"name": "HONDO HATTIE'S JUNGLE PUNCH!",
-		"procedure": "Stir, punch glass, cracked ice",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -8678,11 +8949,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, punch glass, cracked ice",
+		"glass": "punch"
 	},
 	{
 		"name": "KAHIKO PUNCH",
-		"procedure": "Stir, punch glass, cracked ice, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -8714,11 +8986,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Bittermans ‘Elemakule Tiki bitters"
 			}
-		]
+		],
+		"procedure": "Stir, punch glass, cracked ice, edible orchid",
+		"glass": "punch"
 	},
 	{
 		"name": "TRIUMVIRATE PUNCH",
-		"procedure": "Stir, punch glass, cracked ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -8750,11 +9023,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Grated nutmeg (pinch)"
 			}
-		]
+		],
+		"procedure": "Stir, punch glass, cracked ice, mint sprig",
+		"glass": "punch"
 	},
 	{
 		"name": "EUREKA PUNCH",
-		"procedure": "Stir, punch glass, cracked ice, lemon twist, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -8786,11 +9060,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger ale"
 			}
-		]
+		],
+		"procedure": "Stir, punch glass, cracked ice, lemon twist, mint sprig",
+		"glass": "punch"
 	},
 	{
 		"name": "YULETIDAL WAVE",
-		"procedure": "Stir, punch glass, cracked ice",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -8832,11 +9107,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Column Still Aged rum"
 			}
-		]
+		],
+		"procedure": "Stir, punch glass, cracked ice",
+		"glass": "punch"
 	},
 	{
 		"name": "RUMBUSTION PUNCH",
-		"procedure": "Stir, punch glass, cracked ice",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -8868,11 +9144,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Herbstura"
 			}
-		]
+		],
+		"procedure": "Stir, punch glass, cracked ice",
+		"glass": "punch"
 	},
 	{
 		"name": "PUKA PUNCH",
-		"procedure": "Mix/whip shake first 10 ingredients, large brandy snifter, crushed ice. Float the overproof rum, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -8929,11 +9206,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Black blended overproof rum"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake first 10 ingredients, large brandy snifter, crushed ice. Float the overproof rum, mint sprig",
+		"glass": "snifter"
 	},
 	{
 		"name": "THE FOX HUNT",
-		"procedure": "Shake, coupe, 7 drops Peychaud's bitters",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -8943,15 +9221,15 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"ingredient": "Tanqueray Gin"
-				},
+			},
 			{
 				"measure": 0.75,
 				"ingredient": "Lemon juice"
-				},
+			},
 			{
 				"measure": 0.5,
 				"ingredient": "Simple syrup"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "dash",
@@ -8962,11 +9240,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Cynar (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, 7 drops Peychaud's bitters",
+		"glass": "coupe"
 	},
 	{
 		"name": "BRIAR PATCH",
-		"procedure": "Shake first 3 ingredients, Collins glass, crushed ice. Top with blackberry cordial, blackberry, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -8988,11 +9267,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Blackberry cordial"
 			}
-		]
+		],
+		"procedure": "Shake first 3 ingredients, Collins glass, crushed ice. Top with blackberry cordial, blackberry, lemon twist",
+		"glass": "collins"
 	},
 	{
 		"name": "BLACKBERRY CORDIAL",
-		"procedure": "Infuse for 1 hour, strain through a fine chinois or cheesecloth",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -9009,11 +9289,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Infuse for 1 hour, strain through a fine chinois or cheesecloth",
+		"glass": null
 	},
 	{
 		"name": "THE RIVIERA",
-		"procedure": "Double shake, coupe, mint leaf, orange bitters drops",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9033,12 +9314,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg White"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, coupe, mint leaf, orange bitters drops",
+		"glass": "coupe"
 	},
 	{
 		"name": "PINEAPPLE INFUSED GIN",
-		"procedure": "Combine and let sit for 24 hours, strain through a fine chinois or cheesecloth",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -9060,11 +9342,12 @@ const recipes = [
 				"unit": "cup",
 				"ingredient": "Pineapple cubes"
 			}
-		]
+		],
+		"procedure": "Combine and let sit for 24 hours, strain through a fine chinois or cheesecloth",
+		"glass": null
 	},
 	{
 		"name": "BLUE RIDGE MANHATTAN",
-		"procedure": "Shake, rinsed coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9096,11 +9379,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Laphroig 10 Scotch(rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, rinsed coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "PART & PARCEL",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9132,11 +9416,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Grapefruit bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "RANGOON FIZZ",
-		"procedure": "Shake, Collins glass, cracked ice. Top with tonic water, mint Sprig",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9161,17 +9446,18 @@ const recipes = [
 			{
 				"measure": 5,
 				"ingredient": "Mint sprigs"
-				},
+			},
 			{
 				"measure": null,
 				"unit": null,
 				"ingredient": "Tonic water"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, cracked ice. Top with tonic water, mint Sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "SAZERAC #1",
-		"procedure": "Stir, rinsed old fashioned glass, big cube, lemon peel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9193,11 +9479,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Herbsaint (rinse)"
 			}
-		]
+		],
+		"procedure": "Stir, rinsed old fashioned glass, big cube, lemon peel",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "CHI-TOWN FLIP",
-		"procedure": "Shake, Collins glass, grated nutmeg, 3 drops Fees Old Fashioned bitters",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9227,12 +9514,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Whole Egg"
-				}
-		]
+			}
+		],
+		"procedure": "Shake, Collins glass, grated nutmeg, 3 drops Fees Old Fashioned bitters",
+		"glass": "collins"
 	},
 	{
 		"name": "HUSH & WONDER",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9259,11 +9547,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Creme de Violette (rinse)"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "LADY CLOVER",
-		"procedure": "Double shake, Collins glass, cracked ice. Top with soda, 5 drops Angostura bitters",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9283,17 +9572,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				},
+			},
 			{
 				"measure": 7,
 				"unit": "drops",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Double shake, Collins glass, cracked ice. Top with soda, 5 drops Angostura bitters",
+		"glass": "collins"
 	},
 	{
 		"name": "TAX THE DAISY",
-		"procedure": "Shake liquids and peels, coupe, 3 drops Angostura bitters",
 		"ingredients": [
 			{
 				"measure": 1.75,
@@ -9323,16 +9613,17 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Orange peel"
-				},
+			},
 			{
 				"measure": 1,
 				"ingredient": "Lemon peel"
-				}
-		]
+			}
+		],
+		"procedure": "Shake liquids and peels, coupe, 3 drops Angostura bitters",
+		"glass": "coupe"
 	},
 	{
 		"name": "ANGOSTURA FIZZ",
-		"procedure": "Double shake first 5 ingredients, Collins glass, cracked ice. Top with ginger ale, lemon Wheel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -9357,17 +9648,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				},
+			},
 			{
 				"measure": null,
 				"unit": null,
 				"ingredient": "Ginger Ale"
 			}
-		]
+		],
+		"procedure": "Double shake first 5 ingredients, Collins glass, cracked ice. Top with ginger ale, lemon Wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "EYES WIDE",
-		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with soda, float Hibiscus syrup, grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9397,12 +9689,13 @@ const recipes = [
 			{
 				"measure": 0.25,
 				"ingredient": "Hibiscus syrup"
-				}
-		]
+			}
+		],
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with soda, float Hibiscus syrup, grapefruit peel",
+		"glass": "collins"
 	},
 	{
 		"name": "IRON CROSS",
-		"procedure": "Dry shake, shake with ice for two minutes, coupe, 4 drops Angostura bitters",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -9422,7 +9715,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				},
+			},
 			{
 				"measure": 3,
 				"unit": "drops",
@@ -9433,11 +9726,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Lavender Grapefruit bitters"
 			}
-		]
+		],
+		"procedure": "Dry shake, shake with ice for two minutes, coupe, 4 drops Angostura bitters",
+		"glass": "coupe"
 	},
 	{
 		"name": "SEEING TRACES",
-		"procedure": "Double shake, coupe, 4 drops orange flower water",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9467,12 +9761,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, coupe, 4 drops orange flower water",
+		"glass": "coupe"
 	},
 	{
 		"name": "DAISY 17",
-		"procedure": "Shake, coupe, flamed orange twist (discarded)",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9499,16 +9794,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, flamed orange twist (discarded)",
+		"glass": "coupe"
 	},
 	{
 		"name": "JAMAICAN JULEP",
-		"procedure": "Stir first 3 ingredients, julep cup, top with pineapple juice",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "Mint leaves (lightly muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -9524,16 +9820,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Stir first 3 ingredients, julep cup, top with pineapple juice",
+		"glass": "julep"
 	},
 	{
 		"name": "SPEAKING IN TONGUES",
-		"procedure": "Shake, double strain, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
 				"ingredient": "Strawberries (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -9554,11 +9851,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "THE VIOLET HOUR",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9585,11 +9883,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "EEYORE'S REQUIEM",
-		"procedure": "Stir, rocks glass, large cube, express orange oil, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -9621,11 +9920,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube, express orange oil, orange twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "THE WARNING LABEL",
-		"procedure": "Stir, rinsed cocktail glass, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -9657,11 +9957,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Campari (rinse)"
 			}
-		]
+		],
+		"procedure": "Stir, rinsed cocktail glass, lemon twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "A MOMENT OF SILENCE",
-		"procedure": "Stir, rinsed rocks glass, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -9693,11 +9994,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Campari (rinse)"
 			}
-		]
+		],
+		"procedure": "Stir, rinsed rocks glass, orange twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "VARIATION ON A THEME",
-		"procedure": "Stir, rocks glass, orange twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9724,11 +10026,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, orange twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "IMPROVED SCOTCH SLING",
-		"procedure": "Stir, rocks glass, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -9760,11 +10063,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, lemon twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "PIMM'S UP",
-		"procedure": "Shake, coupe, two drops celery bitters",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -9791,28 +10095,29 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Celery bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, two drops celery bitters",
+		"glass": "coupe"
 	},
 	{
 		"name": "GUNSHOP FIZZ",
-		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with Sanbitter, cucumber slice",
 		"ingredients": [
 			{
 				"measure": 2,
 				"ingredient": "Strawberries (muddled)"
-				},
+			},
 			{
 				"measure": 3,
 				"ingredient": "Cucumber slices (muddled)"
-				},
+			},
 			{
 				"measure": 3,
 				"ingredient": "Grapefruit peels (muddled)"
-				},
+			},
 			{
 				"measure": 3,
 				"ingredient": "Orange peels (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -9833,11 +10138,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Sanbitter"
 			}
-		]
+		],
+		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with Sanbitter, cucumber slice",
+		"glass": "collins"
 	},
 	{
 		"name": "WESTERN PASSAGE",
-		"procedure": "Stir, coupe, cherry, express orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -9869,11 +10175,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, cherry, express orange peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "PATENT PENDING",
-		"procedure": "Stir, double old fashioned glass, large cube, express grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -9905,11 +10212,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Amargo Peruvian bitters"
 			}
-		]
+		],
+		"procedure": "Stir, double old fashioned glass, large cube, express grapefruit peel",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "BAMBOO",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -9931,11 +10239,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "OLD FRIEND",
-		"procedure": "Shake, coupe, lemon twist.",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -9957,11 +10266,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "St. Germain"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon twist.",
+		"glass": "coupe"
 	},
 	{
 		"name": "GREEN TEA PUNCH",
-		"procedure": "Stir, punch glass, cracked ice, grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 3,
@@ -9988,11 +10298,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Stir, punch glass, cracked ice, grated nutmeg",
+		"glass": "punch"
 	},
 	{
 		"name": "MONTE CARLO",
-		"procedure": "Stir, old-Fashioned glass, large cube. Express lemon peel, drop in",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -10009,11 +10320,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, old-Fashioned glass, large cube. Express lemon peel, drop in",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "AUTUMN OLD-FASHIONED",
-		"procedure": "Stir, old-Fashioned glass, large cube, express lemon and orange peel, drop in",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -10050,11 +10362,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, old-Fashioned glass, large cube, express lemon and orange peel, drop in",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "THE FIELD MARSHALL",
-		"procedure": "Stir first 4 ingredients, Champagne flute. Top with Champagne, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -10081,16 +10394,17 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Stir first 4 ingredients, Champagne flute. Top with Champagne, lemon twist",
+		"glass": "champagne"
 	},
 	{
 		"name": "SHERRY COBBLER",
-		"procedure": "Stir, Collins glass, crushed ice, orange wheel, mint sprig",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "orange slices (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "tsp",
@@ -10101,20 +10415,21 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Amontillado Sherry"
 			}
-		]
+		],
+		"procedure": "Stir, Collins glass, crushed ice, orange wheel, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "TRACTION",
-		"procedure": "Shake, double strain, old-Fashioned glass, crushed ice, strawberry, lemon wedge, mint sprig",
 		"ingredients": [
 			{
 				"measure": 2,
 				"ingredient": "Lemon wedges (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"ingredient": "Strawberry (muddled)"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -10130,16 +10445,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Dry Curacao"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, old-Fashioned glass, crushed ice, strawberry, lemon wedge, mint sprig",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "SMOKE AND MIRRORS",
-		"procedure": "Shake, double old-Fashioned glass, large cube, mint sprig",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 0.75,
 				"unit": "oz",
@@ -10165,16 +10481,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Absinthe"
 			}
-		]
+		],
+		"procedure": "Shake, double old-Fashioned glass, large cube, mint sprig",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "SMOKESCREEN",
-		"procedure": "Shake, double old-Fashioned glass over, large cube, mint sprig",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 0.75,
 				"unit": "oz",
@@ -10200,11 +10517,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, double old-Fashioned glass over, large cube, mint sprig",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "JACK FROST",
-		"procedure": "Swizzle, Collins glass, crushed ice, with the mint sprig, sage bouquet, dusting of powdered sugar",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -10236,11 +10554,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, with the mint sprig, sage bouquet, dusting of powdered sugar",
+		"glass": "collins"
 	},
 	{
 		"name": "RATIONAL THOUGHT",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -10267,11 +10586,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Cinnamon syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "MAIDEN'S BLUSH",
-		"procedure": "Shake, punch glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -10293,11 +10613,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Hayman's Old Tom Gin"
 			}
-		]
+		],
+		"procedure": "Shake, punch glass",
+		"glass": "punch"
 	},
 	{
 		"name": "RASPBERRY CORDIAL",
-		"procedure": "Puree raspberries, mix in sugar syrup. Strain through a chinois or cheesecloth into a bottle. Add rose water and Everclear and shake",
 		"ingredients": [
 			{
 				"measure": 3,
@@ -10319,11 +10640,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Everclear"
 			}
-		]
+		],
+		"procedure": "Puree raspberries, mix in sugar syrup. Strain through a chinois or cheesecloth into a bottle. Add rose water and Everclear and shake",
+		"glass": null
 	},
 	{
 		"name": "DELICIOUS SOUR",
-		"procedure": "Shake, punch glass, cracked ice, grated nutmeg.",
 		"ingredients": [
 			{
 				"measure": 3,
@@ -10358,12 +10680,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Shake, punch glass, cracked ice, grated nutmeg.",
+		"glass": "punch"
 	},
 	{
 		"name": "WHISKEY COCKTAIL #2",
-		"procedure": "Stir, cocktail glass, express orange peel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -10395,11 +10718,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Pernod Absinthe"
 			}
-		]
+		],
+		"procedure": "Stir, cocktail glass, express orange peel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "BIJOU",
-		"procedure": "Stir, cocktail glass, express orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -10431,11 +10755,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Pernod Absinthe"
 			}
-		]
+		],
+		"procedure": "Stir, cocktail glass, express orange peel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "SUISSESSE #2",
-		"procedure": "Shake, cocktail glass, express lemon peel, grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -10460,17 +10785,18 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"ingredient": "Egg white"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
 				"ingredient": "Chilled water"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, express lemon peel, grated nutmeg",
+		"glass": "cocktail"
 	},
 	{
 		"name": "FLOR DE JEREZ",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -10502,11 +10828,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "CITY OF GOLD SLING",
-		"procedure": "Shake, highball glass, cracked ice, pineapple wedge",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -10548,11 +10875,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Shake, highball glass, cracked ice, pineapple wedge",
+		"glass": "highball"
 	},
 	{
 		"name": "PRETTY BIRD",
-		"procedure": "Shake, double rocks glass, large cube, lime wheel, cherry flag",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -10584,11 +10912,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Cinnamon Bark syrup"
 			}
-		]
+		],
+		"procedure": "Shake, double rocks glass, large cube, lime wheel, cherry flag",
+		"glass": "rocks"
 	},
 	{
 		"name": "BERMUDA DUNES",
-		"procedure": "Shake, footed pilsner, crushed ice, mint sprig, lime wedge, cherry",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -10625,11 +10954,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Allspice dram"
 			}
-		]
+		],
+		"procedure": "Shake, footed pilsner, crushed ice, mint sprig, lime wedge, cherry",
+		"glass": "pilsner"
 	},
 	{
 		"name": "HONI HONI",
-		"procedure": "Shaken, old fashioned glass, crushed ice, mint sprig, lime wedge, cherry",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -10656,11 +10986,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shaken, old fashioned glass, crushed ice, mint sprig, lime wedge, cherry",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "MOJAVE PUNCH",
-		"procedure": "Shake, footed pilsner, crushed ice",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -10697,11 +11028,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orange juice"
 			}
-		]
+		],
+		"procedure": "Shake, footed pilsner, crushed ice",
+		"glass": "pilsner"
 	},
 	{
 		"name": "DESERT ROSE",
-		"procedure": "Shake, old fashioned glass, crushed ice, orange twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -10733,11 +11065,12 @@ const recipes = [
 				"unit": "Dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, old fashioned glass, crushed ice, orange twist",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "THE HARD SELL",
-		"procedure": "Shake, cocktail glass, express grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -10764,11 +11097,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, express grapefruit peel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THE WARDLOW",
-		"procedure": "Shake, coupe, 2 spritzes Absinthe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -10795,11 +11129,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, 2 spritzes Absinthe",
+		"glass": "coupe"
 	},
 	{
 		"name": "FEAR AND LOATHING",
-		"procedure": "Shake, highball glass, cracked ice, top with blood orange juice, blood orange wheel, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -10831,11 +11166,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Blood Orange juice"
 			}
-		]
+		],
+		"procedure": "Shake, highball glass, cracked ice, top with blood orange juice, blood orange wheel, mint sprig",
+		"glass": "highball"
 	},
 	{
 		"name": "SCOTTISH KISS",
-		"procedure": "Shake, coupe, raspberry",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -10862,20 +11198,21 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Brown Sugar syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, raspberry",
+		"glass": "coupe"
 	},
 	{
 		"name": "MIDNIGHT BOTANIST",
-		"procedure": "Shake, double strain, Collins glass, cracked ice. Top with seltzer, two blackberries, rosemary sprig",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Blackberries (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"ingredient": "Rosemary needles (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz.",
@@ -10896,11 +11233,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, Collins glass, cracked ice. Top with seltzer, two blackberries, rosemary sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "OAXACAN SMOKE",
-		"procedure": "Stir, rocks glass, large cube, orange peel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -10917,11 +11255,12 @@ const recipes = [
 				"unit": "oz.",
 				"ingredient": "Vya Sweet vermouth"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube, orange peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "LINCOLN COUNTY REVIVAL",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -10948,11 +11287,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Absinthe"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "STARBOARD LIGHT",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, pineapple wedge, mint sprig",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -10977,12 +11317,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, pineapple wedge, mint sprig",
+		"glass": "tiki"
 	},
 	{
 		"name": "RAIL CAR",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11009,11 +11350,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "FATHER'S ADVICE",
-		"procedure": "Shake, coupe, orange peel, cherry",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11040,41 +11382,43 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Banana liqueur"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, orange peel, cherry",
+		"glass": "coupe"
 	},
 	{
 		"name": "PARLIAMENT PUNCH",
-		"procedure": "Shake, Collins glass, crushed ice, frozen raspberries, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1.5,
 				"ingredient": "Flor de Cana rum"
-				},
+			},
 			{
 				"measure": 0.25,
 				"ingredient": "Benedictine"
-				},
+			},
 			{
 				"measure": 0.5,
 				"ingredient": "Creme de Mure"
-				},
+			},
 			{
 				"measure": 0.5,
 				"ingredient": "Coconut cream"
-				},
+			},
 			{
 				"measure": 0.5,
 				"ingredient": "Lime juice"
-				},
+			},
 			{
 				"measure": 0.5,
 				"ingredient": "Orange juice"
-				}
-		]
+			}
+		],
+		"procedure": "Shake, Collins glass, crushed ice, frozen raspberries, edible orchid",
+		"glass": "collins"
 	},
 	{
 		"name": "BRIDGETOWN",
-		"procedure": "Shake, Collins glass, crushed ice",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -11101,11 +11445,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, crushed ice",
+		"glass": "collins"
 	},
 	{
 		"name": "KINGSTON CLUB",
-		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11137,11 +11482,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, orange twist",
+		"glass": "collins"
 	},
 	{
 		"name": "NORWEGIAN WOOD",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -11168,11 +11514,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "AUTUMN LEAVES",
-		"procedure": "Stir, old fashioned glass, cracked ice, orange peel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -11199,11 +11546,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Cinnamon tincture"
 			}
-		]
+		],
+		"procedure": "Stir, old fashioned glass, cracked ice, orange peel",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "PEGU CLUB",
-		"procedure": "Shake, cocktail glass, lime wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11235,11 +11583,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, lime wheel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "ANDALUSIAN BUCK",
-		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with ginger beer, lime wheel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -11266,11 +11615,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger beer"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with ginger beer, lime wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "PRESTON-BAKER",
-		"procedure": "Stir, cocktail glass, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11297,11 +11647,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, cocktail glass, lemon twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "WORTHY ADVERSARY",
-		"procedure": "Shake, tiki mug, crushed ice, orange slice, mint sprig, pinch of curry powder",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -11338,11 +11689,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, tiki mug, crushed ice, orange slice, mint sprig, pinch of curry powder",
+		"glass": "tiki"
 	},
 	{
 		"name": "ITALIAN JOB",
-		"procedure": "Stir, cocktail glass, express orange peel, dehydrated orange wheel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -11369,11 +11721,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, cocktail glass, express orange peel, dehydrated orange wheel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THE COUNT RIDES AGAIN",
-		"procedure": "Stir, rocks glass, cracked ice, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -11420,11 +11773,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Absinthe"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, cracked ice, grapefruit twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "X MARKS THE SPOT",
-		"procedure": "Double shake, cocktail glass, float star anise pod",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11459,12 +11813,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg White"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, cocktail glass, float star anise pod",
+		"glass": "cocktail"
 	},
 	{
 		"name": "MANHATTAN PROJECT",
-		"procedure": "Stir, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -11496,11 +11851,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Amargo Peruvian bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "CALM",
-		"procedure": "Stir, rocks glass, large cube, lemon peel, chamomile flowers",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11527,20 +11883,21 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Amargo Peruvian bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube, lemon peel, chamomile flowers",
+		"glass": "rocks"
 	},
 	{
 		"name": "TALL TALE",
-		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, cucumber wheel",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Cucumber wheels (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"ingredient": "Blackberries (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -11561,11 +11918,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger beer"
 			}
-		]
+		],
+		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, cucumber wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "NICHOL PUNCH",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11602,11 +11960,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "SWEET HEREAFTER",
-		"procedure": "Stir, coupe, express grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -11643,11 +12002,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Allspice dram"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, express grapefruit peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "MOONSHAKE",
-		"procedure": "Double shake first 7 ingredients, highball glass. Top with seltzer, mint sprig, express grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -11682,22 +12042,23 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg White"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Double shake first 7 ingredients, highball glass. Top with seltzer, mint sprig, express grapefruit peel",
+		"glass": "highball"
 	},
 	{
 		"name": "GOLDEN EYE",
-		"procedure": "Shake first 4 ingredients, cocktail glass. Top with Lambrusco, rosemary sprig",
 		"ingredients": [
 			{
 				"measure": 5,
 				"ingredient": "Rosemary leaves (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -11718,16 +12079,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lambrusco wine"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, cocktail glass. Top with Lambrusco, rosemary sprig",
+		"glass": "cocktail"
 	},
 	{
 		"name": "SANTIAGO PUNCH",
-		"procedure": "Shake, double strain, rocks glass, big cube, Thai basil sprig",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Thai basil leaves (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -11763,11 +12125,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Tiki bitters"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, rocks glass, big cube, Thai basil sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "MONKEY FLIP",
-		"procedure": "Double shake, double strain, cocktail glass, grated cinnamon, dehydrated banana chip",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -11797,12 +12160,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Whole egg"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, double strain, cocktail glass, grated cinnamon, dehydrated banana chip",
+		"glass": "cocktail"
 	},
 	{
 		"name": "VAGABOND",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11829,11 +12193,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THROUGH THE LOOKING GLASS",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice. Float Port, dehydrated lemon wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -11870,11 +12235,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Port (float)"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice. Float Port, dehydrated lemon wheel",
+		"glass": "tiki"
 	},
 	{
 		"name": "CARTHUSIAN STAR",
-		"procedure": "Shake, coupe glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -11901,11 +12267,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Green Chartreuse"
 			}
-		]
+		],
+		"procedure": "Shake, coupe glass",
+		"glass": "coupe"
 	},
 	{
 		"name": "WITCH DOCTOR",
-		"procedure": "Stir, sage leaf-smoked rocks glass, large cube, express grapefruit peel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -11937,11 +12304,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Grapefruit bitters"
 			}
-		]
+		],
+		"procedure": "Stir, sage leaf-smoked rocks glass, large cube, express grapefruit peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "LEVIATHAN",
-		"procedure": "Swizzle, tiki mug, crushed ice. Float bitters, edible orchid",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -11983,11 +12351,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Grapefruit bitters (float)"
 			}
-		]
+		],
+		"procedure": "Swizzle, tiki mug, crushed ice. Float bitters, edible orchid",
+		"glass": "tiki"
 	},
 	{
 		"name": "SILK ROAD SOUR",
-		"procedure": "Shake, coupe glass, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -12019,11 +12388,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe glass, grapefruit twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "CHICAGO TYPEWRITER",
-		"procedure": "Stir, coupe glass, express lemon peel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -12050,16 +12420,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe glass, express lemon peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "STRAW DOG",
-		"procedure": "Shake, double strain, coupe glass, strawberry",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Strawberry (muddled)"
-				},
+			},
 			{
 				"measure": 1.25,
 				"unit": "oz",
@@ -12090,11 +12461,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Grapefruit bitters"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe glass, strawberry",
+		"glass": "coupe"
 	},
 	{
 		"name": "ABSENT STARS",
-		"procedure": "Shake, cocktail glass, orange twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12131,11 +12503,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Grapefruit bitters"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, orange twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "TRANSATLANTIC ORBIT",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, lime shell, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12177,11 +12550,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Tiki bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, lime shell, mint sprig",
+		"glass": "tiki"
 	},
 	{
 		"name": "DOPPELGANGER",
-		"procedure": "Shake, cocktail glass, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -12213,11 +12587,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, mint sprig",
+		"glass": "cocktail"
 	},
 	{
 		"name": "WINCHESTER",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12264,11 +12639,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, mint sprig",
+		"glass": "tiki"
 	},
 	{
 		"name": "LIGHTNING SWORDS OF DEATH",
-		"procedure": "Swizzle, tiki mug, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -12300,11 +12676,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Swizzle, tiki mug, crushed ice, mint sprig",
+		"glass": "tiki"
 	},
 	{
 		"name": "ELIXIR ALPESTRE",
-		"procedure": "Stir, coupe glass, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -12331,11 +12708,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Absinthe"
 			}
-		]
+		],
+		"procedure": "Stir, coupe glass, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "BEACHCOMBER'S PUNCH",
-		"procedure": "Mix/whip shake, champagne flute, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -12372,11 +12750,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Absinthe"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, champagne flute, crushed ice, mint sprig",
+		"glass": "champagne"
 	},
 	{
 		"name": "GOLD CUP",
-		"procedure": "Shake, coupe glass",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -12408,11 +12787,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Almond extract"
 			}
-		]
+		],
+		"procedure": "Shake, coupe glass",
+		"glass": "coupe"
 	},
 	{
 		"name": "HAWAIIAN ROOM",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12439,11 +12819,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "PLANET OF THE APES",
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, banana slice, cocktail cherry, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12475,11 +12856,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orange juice"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, banana slice, cocktail cherry, edible orchid",
+		"glass": "collins"
 	},
 	{
 		"name": "RUM RUNNER",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -12506,11 +12888,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Grenadine"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice",
+		"glass": "tiki"
 	},
 	{
 		"name": "KRAKATOA",
-		"procedure": "Mix/whip shake large brandy snifter, crushed ice. Float coffee",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -12562,11 +12945,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Kona coffee (float)"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake large brandy snifter, crushed ice. Float coffee",
+		"glass": "snifter"
 	},
 	{
 		"name": "TORTUGA",
-		"procedure": "Shake, footed pilsner, crushed ice, lime wedge",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12613,11 +12997,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Grenadine"
 			}
-		]
+		],
+		"procedure": "Shake, footed pilsner, crushed ice, lime wedge",
+		"glass": "pilsner"
 	},
 	{
 		"name": "NEVER SAY DIE",
-		"procedure": "Mix/whip shake, wine glass, crushed ice",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12664,11 +13049,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, wine glass, crushed ice",
+		"glass": "wine"
 	},
 	{
 		"name": "PAINKILLER",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice. Dust with cinnamon and nutmeg, pineapple stick, cinnamon stick, orange wheel",
 		"ingredients": [
 			{
 				"measure": 2.5,
@@ -12700,11 +13086,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Ground nutmeg (dusting)"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice. Dust with cinnamon and nutmeg, pineapple stick, cinnamon stick, orange wheel",
+		"glass": "tiki"
 	},
 	{
 		"name": "Q.B. COOLER",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, multiple mint sprigs",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12756,11 +13143,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, multiple mint sprigs",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "BLACKBEARD'S GHOST",
-		"procedure": "Mix/whip shake, double old-fashioned glass, orange slice, cocktail cherry",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -12797,11 +13185,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, orange slice, cocktail cherry",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "ANCIENT MARINER",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12833,11 +13222,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "BEACHBUM'S OWN",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12869,11 +13259,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "COCOANUT GROVE COOLER",
-		"procedure": "Mix/whip shake, Collins glass, crushed ice, orange slice, cocktail cherry, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -12915,11 +13306,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Orgeat"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, Collins glass, crushed ice, orange slice, cocktail cherry, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "FU MANCHU",
-		"procedure": "Shake, old-fashioned glass, lime wedge, cocktail cherry",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12946,11 +13338,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, old-fashioned glass, lime wedge, cocktail cherry",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "GOLDEN DREAM",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -12972,11 +13365,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Heavy Cream"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "GOLDEN WAVE",
-		"procedure": "Mix/whip shake, old-fashioned glass, crushed ice, pineapple stick, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13003,11 +13397,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, old-fashioned glass, crushed ice, pineapple stick, edible orchid",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "JAGUAR",
-		"procedure": "Stir first 10 ingredients, Collins glass, crushed ice. Top with champagne, pineapple stick, cocktail cherry",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -13064,11 +13459,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Stir first 10 ingredients, Collins glass, crushed ice. Top with champagne, pineapple stick, cocktail cherry",
+		"glass": "collins"
 	},
 	{
 		"name": "SCHOONER",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice",
 		"ingredients": [
 			{
 				"measure": 0.5,
@@ -13105,11 +13501,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Papaya nectar"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "PARADISE COOLER",
-		"procedure": "Shake, Collins glass, crushed ice, cocktail cherry, apple wedge, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13136,11 +13533,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, crushed ice, cocktail cherry, apple wedge, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "KAVA BOWL FOR TWO",
-		"procedure": "Mix/whip shake, tiki bowl, cracked ice, gardenia",
 		"ingredients": [
 			{
 				"measure": 3,
@@ -13172,11 +13570,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Pineapple juice"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice, gardenia",
+		"glass": "tikibowl"
 	},
 	{
 		"name": "RUM KEG FOR TWO",
-		"procedure": "Mix/whip shake, tiki bowl, cracked ice",
 		"ingredients": [
 			{
 				"measure": 2.5,
@@ -13213,11 +13612,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki bowl, cracked ice",
+		"glass": "tikibowl"
 	},
 	{
 		"name": "OAHU GIN SLING",
-		"procedure": "Shake first 5 ingredients, footed pilsner, crushed ice. Top with seltzer, stir, lime spiral",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -13249,16 +13649,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 5 ingredients, footed pilsner, crushed ice. Top with seltzer, stir, lime spiral",
+		"glass": "pilsner"
 	},
 	{
 		"name": "PAGO PAGO",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Pineapple chunks (muddled)"
-				},
+			},
 			{
 				"measure": 1.5,
 				"unit": "oz",
@@ -13279,11 +13680,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "RUM BARREL",
-		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, orange peel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -13340,11 +13742,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "almond extract"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, orange peel",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "SUNDOWNER",
-		"procedure": "Shake, old-fashioned glass, crushed ice, lime wheel",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -13366,11 +13769,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, old-fashioned glass, crushed ice, lime wheel",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "MOLOKAI MULE",
-		"procedure": "Shake, double old-fashioned glass, crushed ice, pineapple stick, mint sprig, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13402,11 +13806,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, double old-fashioned glass, crushed ice, pineapple stick, mint sprig, edible orchid",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "TAHITIAN RUM PUNCH",
-		"procedure": "Mix/whip shake, footed pilsner, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13458,11 +13863,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Vanilla extract"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, footed pilsner, crushed ice, mint sprig",
+		"glass": "pilsner"
 	},
 	{
 		"name": "YELLOW SUBMARINE",
-		"procedure": "Shake, Collins glass, cracked ice, pineapple chunk, cocktail cherry",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -13494,11 +13900,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, cracked ice, pineapple chunk, cocktail cherry",
+		"glass": "collins"
 	},
 	{
 		"name": "ARIKI MAU",
-		"procedure": "Shake, large tiki mug, crushed ice, express orange peel, orange wheel",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -13535,11 +13942,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Orange juice"
 			}
-		]
+		],
+		"procedure": "Shake, large tiki mug, crushed ice, express orange peel, orange wheel",
+		"glass": "tiki"
 	},
 	{
 		"name": "BEACHBUM",
-		"procedure": "Shake, rocks glass, cracked ice, cocktail cherry, orange slice",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13571,16 +13979,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, cracked ice, cocktail cherry, orange slice",
+		"glass": "rocks"
 	},
 	{
 		"name": "CUSCO FIZZ",
-		"procedure": "Shake first 4 ingredients, old-fashioned glass, cracked ice. Top with seltzer",
 		"ingredients": [
 			{
 				"measure": 5,
 				"ingredient": "Green grapes (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -13601,11 +14010,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, old-fashioned glass, cracked ice. Top with seltzer",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "FAREWELL FLIP",
-		"procedure": "Shake, old-fashioned glass, grated nutmeg, chocolate flakes",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13640,12 +14050,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Whole Egg"
-				}
-		]
+			}
+		],
+		"procedure": "Shake, old-fashioned glass, grated nutmeg, chocolate flakes",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "GANTT'S TOMB",
-		"procedure": "Shake, footed pilsner, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13687,20 +14098,21 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, footed pilsner, crushed ice, mint sprig",
+		"glass": "pilsner"
 	},
 	{
 		"name": "KIWI'S NEST GROG",
-		"procedure": "Shake, double strain, Collins glass, crushed ice, kiwi fruit wheel",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Whole Lemon (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"ingredient": "Half Kiwi fruit (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -13731,16 +14143,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, Collins glass, crushed ice, kiwi fruit wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "KERALA",
-		"procedure": "Shake, double strain, coupe glass",
 		"ingredients": [
 			{
 				"measure": 2,
 				"ingredient": "Green Cardamom pods (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -13776,11 +14189,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud’s bitters"
 			}
-		]
+		],
+		"procedure": "Shake, double strain, coupe glass",
+		"glass": "coupe"
 	},
 	{
 		"name": "RUMSCULLION",
-		"procedure": "Stir, cocktail glass, express orange peel, orange twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -13807,11 +14221,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, cocktail glass, express orange peel, orange twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "VAVA VOOM",
-		"procedure": "Shake, coupe glass, lime wedge",
 		"ingredients": [
 			{
 				"measure": 1.75,
@@ -13848,11 +14263,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Fee’s Old Fashion bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe glass, lime wedge",
+		"glass": "coupe"
 	},
 	{
 		"name": "VOYAGER",
-		"procedure": "Shake, old-fashioned glass, cracked ice, lime wedge",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -13879,11 +14295,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, old-fashioned glass, cracked ice, lime wedge",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "ROAD TO MANHATTAN",
-		"procedure": "Stir, rocks glass, large cube",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13905,11 +14322,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube",
+		"glass": "rocks"
 	},
 	{
 		"name": "T & T SOUR",
-		"procedure": "Double shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -13944,12 +14362,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "FLYING ELVIS",
-		"procedure": "Double shake, old-fashioned glass, 3 drops Angostura bitters ",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -13974,12 +14393,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Double shake, old-fashioned glass, 3 drops Angostura bitters ",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "BOMBAY GOVERNMENT PUNCH",
-		"procedure": "Stir, double old-fashioned glass, cracked ice, grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -14006,11 +14426,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Green tea"
 			}
-		]
+		],
+		"procedure": "Stir, double old-fashioned glass, cracked ice, grated nutmeg",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "OLD TIMER",
-		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14047,11 +14468,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, orange twist",
+		"glass": "collins"
 	},
 	{
 		"name": "NORTH SEA OIL",
-		"procedure": "Stir, double old-fashioned glass, large cube, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14073,11 +14495,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Cointreau"
 			}
-		]
+		],
+		"procedure": "Stir, double old-fashioned glass, large cube, grapefruit twist",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "NATIONAL TREASURE",
-		"procedure": "Stir, rocks glass, large cube, lemon twist",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -14104,11 +14527,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Cynar"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube, lemon twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "LAHAINA NOON",
-		"procedure": "Mix/whip shake, tiki mug , crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14145,11 +14569,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug , crushed ice, mint sprig",
+		"glass": "tiki"
 	},
 	{
 		"name": "CHAOS CALMER",
-		"procedure": "Shake, double old-fashioned glass, orange wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14176,20 +14601,21 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Grenadine"
 			}
-		]
+		],
+		"procedure": "Shake, double old-fashioned glass, orange wheel",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "HERMOSA BEACH",
-		"procedure": "Shake, rocks glass, large cube, basil leaf",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "basil leaf (lightly muddled)"
-				},
+			},
 			{
 				"measure": 4,
 				"ingredient": "strawberry chunks (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -14205,11 +14631,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Demerara syrup"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, large cube, basil leaf",
+		"glass": "rocks"
 	},
 	{
 		"name": "LIFE IS BEAUTIFUL",
-		"procedure": "Shake, cocktail glass, two cherries",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14231,11 +14658,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Cherry Heering"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, two cherries",
+		"glass": "cocktail"
 	},
 	{
 		"name": "PERFECT AMARETTO SOUR",
-		"procedure": "Double shake, old fashioned glass, cracked ice, lemon peel, brandied cherry",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14262,11 +14690,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Double shake, old fashioned glass, cracked ice, lemon peel, brandied cherry",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "TARUS THE BULL",
-		"procedure": "Stir first four ingredients, cocktail glass. Top with bitters, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14293,16 +14722,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir first four ingredients, cocktail glass. Top with bitters, lemon twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "ALAMAGOOZLUM",
-		"procedure": "Shake vigorously, large cocktail glass",
 		"ingredients": [
 			{
 				"measure": 0.5,
 				"ingredient": "Egg white"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "oz",
@@ -14338,11 +14768,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake vigorously, large cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "DROVE MY CHEVY TO THE LEVEE",
-		"procedure": "Stir, old-fashioned glass, cracked ice, sliced peaches",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14369,11 +14800,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's bitters"
 			}
-		]
+		],
+		"procedure": "Stir, old-fashioned glass, cracked ice, sliced peaches",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "THE AVENUE",
-		"procedure": "Shake, cocktail glass, edible carnation",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -14400,11 +14832,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange flower water"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, edible carnation",
+		"glass": "cocktail"
 	},
 	{
 		"name": "BARNUM WAS RIGHT",
-		"procedure": "Shake, cocktail glass, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -14426,11 +14859,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, lemon twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "CHATHAM HOTEL SPECIAL",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14445,17 +14879,18 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"ingredient": "Heavy cream"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "dash",
 				"ingredient": "Dark Creme de cacao"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THE COMMUNIST",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -14477,11 +14912,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THE CORPSE REVIVER #2",
-		"procedure": "Shake, coupe, cherry",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -14508,16 +14944,17 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Absinthe"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, cherry",
+		"glass": "coupe"
 	},
 	{
 		"name": "CRIMEAN CUP A LA MARMORA",
-		"procedure": "Stir first 9 ingredients, large cocktail glass, large cubes. Top with champagne",
 		"ingredients": [
 			{
 				"measure": 1,
 				"ingredient": "Lemon peel slice (muddled)"
-				},
+			},
 			{
 				"measure": 0.5,
 				"unit": "tsp",
@@ -14536,7 +14973,7 @@ const recipes = [
 			{
 				"measure": 0.25,
 				"ingredient": "Maraschino liqueur"
-				},
+			},
 			{
 				"measure": 0.25,
 				"unit": "oz",
@@ -14550,7 +14987,7 @@ const recipes = [
 			{
 				"measure": 0.25,
 				"ingredient": "Lemon juice"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -14561,11 +14998,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Stir first 9 ingredients, large cocktail glass, large cubes. Top with champagne",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THE DERBY",
-		"procedure": "Shake, cocktail glass, mint leaf",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -14587,11 +15025,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, mint leaf",
+		"glass": "cocktail"
 	},
 	{
 		"name": "EAST INDIA COCKTAIL",
-		"procedure": "Shake, cocktail glass, cherry",
 		"ingredients": [
 			{
 				"measure": 3,
@@ -14618,11 +15057,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Maraschino liqueur"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, cherry",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THE FORD COCKTAIL",
-		"procedure": "Stir, martini glass, orange twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -14644,16 +15084,17 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, martini glass, orange twist",
+		"glass": "martini"
 	},
 	{
 		"name": "GEORGIA MINT JULEP",
-		"procedure": "Stir, julep cup, crushed ice, several mint sprigs",
 		"ingredients": [
 			{
 				"measure": 4,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 1,
 				"unit": "tsp",
@@ -14674,11 +15115,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Peach brandy"
 			}
-		]
+		],
+		"procedure": "Stir, julep cup, crushed ice, several mint sprigs",
+		"glass": "julep"
 	},
 	{
 		"name": "GOLDEN DAWN",
-		"procedure": "Shake, cocktail glass, cherry",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -14705,11 +15147,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Grenadine (float)"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, cherry",
+		"glass": "cocktail"
 	},
 	{
 		"name": "INCOME TAX",
-		"procedure": "Shake, cocktail glass, orange wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14736,11 +15179,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, orange wheel",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THE JAPALAC COCKTAIL",
-		"procedure": "Shake, cocktail glass, orange twist",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -14762,11 +15206,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Raspberry syrup"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, orange twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "JASPER'S RUM PUNCH",
-		"procedure": "Stir, Collins glass, cracked ice, cherry",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14793,11 +15238,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Grated nutmeg"
 			}
-		]
+		],
+		"procedure": "Stir, Collins glass, cracked ice, cherry",
+		"glass": "collins"
 	},
 	{
 		"name": "LUCIEN GAUDIN",
-		"procedure": "Stir, cocktail glass, orange twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -14819,11 +15265,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Dry vermouth"
 			}
-		]
+		],
+		"procedure": "Stir, cocktail glass, orange twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "PARK AVENUE",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -14845,11 +15292,12 @@ const recipes = [
 				"unit": "tbsp",
 				"ingredient": "Dry Curacao"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "PEGU CLUB",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14871,11 +15319,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "THE PENDENNIS",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -14897,11 +15346,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "3/4 oz Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "THE SECRET COCKTAIL",
-		"procedure": "Double shake, Double strain, rocks glass, large cube, three brandied cherries",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -14926,17 +15376,18 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				},
+			},
 			{
 				"measure": 0.25,
 				"unit": "oz",
 				"ingredient": "Grenadine"
 			}
-		]
+		],
+		"procedure": "Double shake, Double strain, rocks glass, large cube, three brandied cherries",
+		"glass": "rocks"
 	},
 	{
 		"name": "SAINT CROIX RUM FIX",
-		"procedure": "Stir, wine glass, crushed ice, seasonal fruit",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -14958,11 +15409,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Stir, wine glass, crushed ice, seasonal fruit",
+		"glass": "wine"
 	},
 	{
 		"name": "SEELBACH",
-		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, orange twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -14989,11 +15441,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Champagne"
 			}
-		]
+		],
+		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, orange twist",
+		"glass": "champagne"
 	},
 	{
 		"name": "THE SOOTHER",
-		"procedure": "Shake, goblet, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -15025,11 +15478,12 @@ const recipes = [
 				"unit": "tsp",
 				"ingredient": "Simple syrup"
 			}
-		]
+		],
+		"procedure": "Shake, goblet, lemon twist",
+		"glass": "goblet"
 	},
 	{
 		"name": "THE STRAITS SLING",
-		"procedure": "Shake first 6 ingredients, champagne flute. Top with seltzer, cherry, orange wheel, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -15066,11 +15520,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 6 ingredients, champagne flute. Top with seltzer, cherry, orange wheel, lemon twist",
+		"glass": "champagne"
 	},
 	{
 		"name": "WILD IRISH ROSE",
-		"procedure": "Shake, punch glass",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -15110,12 +15565,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "Egg white"
-				}
-		]
+			}
+		],
+		"procedure": "Shake, punch glass",
+		"glass": "punch"
 	},
 	{
 		"name": "FLAMENCO",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15147,11 +15603,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "PHILADELPHIA FISH HOUSE PUNCH FOR TWO",
-		"procedure": "Stir, punch glass",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -15183,11 +15640,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Jamaican rum"
 			}
-		]
+		],
+		"procedure": "Stir, punch glass",
+		"glass": "punch"
 	},
 	{
 		"name": "DON'T TREAD ON ME",
-		"procedure": "Shake, coupe, thyme sprig",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -15209,11 +15667,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, thyme sprig",
+		"glass": "coupe"
 	},
 	{
 		"name": "ARCHIPELAGO",
-		"procedure": "Mix/whip shake, tiki mug, cracked ice, lemon peel, mint sprig",
 		"ingredients": [
 			{
 				"measure": 2.5,
@@ -15240,11 +15699,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, cracked ice, lemon peel, mint sprig",
+		"glass": "tiki"
 	},
 	{
 		"name": "LINGUA FRANCA",
-		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, mint sprig, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15286,11 +15746,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, mint sprig, lemon twist",
+		"glass": "collins"
 	},
 	{
 		"name": "BIRD ON A WIRE",
-		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -15317,16 +15778,17 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Fee Brothers Old Fashion Bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "STEEPLECHASE",
-		"procedure": "Shake, rocks glass, mint sprig",
 		"ingredients": [
 			{
 				"measure": 3,
 				"ingredient": "Mint leaves (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -15352,11 +15814,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "GOLDEN SWIZZLE",
-		"procedure": "Swizzle, Collins glass, crushed ice, pineapple slice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -15383,11 +15846,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Fee Brothers Barrel-Aged bitters"
 			}
-		]
+		],
+		"procedure": "Swizzle, Collins glass, crushed ice, pineapple slice, mint sprig",
+		"glass": "collins"
 	},
 	{
 		"name": "ISLAND BATIDA",
-		"procedure": "Shake, Collins glass, crushed ice, pineapple wedge, grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15414,20 +15878,21 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Cinnamon syrup"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, crushed ice, pineapple wedge, grated nutmeg",
+		"glass": "collins"
 	},
 	{
 		"name": "PARTRIDGE IN A PEAR TREE",
-		"procedure": "Shake, coupe, rosemary sprig",
 		"ingredients": [
 			{
 				"measure": 2,
 				"ingredient": "Green apple slices (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"ingredient": "Bosc pear slices (muddled)"
-				},
+			},
 			{
 				"measure": 2,
 				"unit": "oz",
@@ -15443,11 +15908,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, rosemary sprig",
+		"glass": "coupe"
 	},
 	{
 		"name": "MOUNT MAKANA",
-		"procedure": "Shake, tiki mug, crushed ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -15484,11 +15950,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Demerara syrup"
 			}
-		]
+		],
+		"procedure": "Shake, tiki mug, crushed ice, mint sprig",
+		"glass": "tiki"
 	},
 	{
 		"name": "GHOST IN THE GRAVEYARD",
-		"procedure": "Shake, old-fashioned glass, cracked ice, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -15510,11 +15977,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, old-fashioned glass, cracked ice, mint sprig",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "SCARECROW",
-		"procedure": "Stir, coupe, express orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15536,11 +16004,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, express orange peel",
+		"glass": "coupe"
 	},
 	{
 		"name": "BATTLE OF TRAFALGAR",
-		"procedure": "Shake, rocks glass, express orange peel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15567,11 +16036,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Honey syrup"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, express orange peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "POLYNESIAN REMEDY",
-		"procedure": "Shake, Tiki mug, crushed ice, candied ginger, lemon wheel, pineapple frond",
 		"ingredients": [
 			{
 				"measure": 1.75,
@@ -15603,11 +16073,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Laphroaig scotch"
 			}
-		]
+		],
+		"procedure": "Shake, Tiki mug, crushed ice, candied ginger, lemon wheel, pineapple frond",
+		"glass": "tiki"
 	},
 	{
 		"name": "JUNGLE BOOBY",
-		"procedure": "Mix/whip shake, rocks glass, crushed ice, pineapple wedge, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15649,11 +16120,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Absinthe"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, rocks glass, crushed ice, pineapple wedge, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "SEAHORSE",
-		"procedure": "Shake, rocks glass, crushed ice, mint sprig, grated cinnamon",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15685,11 +16157,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, crushed ice, mint sprig, grated cinnamon",
+		"glass": "rocks"
 	},
 	{
 		"name": "BANANA CUP #1",
-		"procedure": "Shake first 4 ingredients, rocks glass, cracked ice. Top with ginger beer, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15716,11 +16189,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger beer"
 			}
-		]
+		],
+		"procedure": "Shake first 4 ingredients, rocks glass, cracked ice. Top with ginger beer, mint sprig",
+		"glass": "rocks"
 	},
 	{
 		"name": "THE FINAL WARD",
-		"procedure": "Shake, cocktail glass",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -15742,11 +16216,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass",
+		"glass": "cocktail"
 	},
 	{
 		"name": "OLD NUMBER ONE",
-		"procedure": "Stir, coupe, cherry",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -15768,11 +16243,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "es Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, cherry",
+		"glass": "coupe"
 	},
 	{
 		"name": "EARTHBOUND",
-		"procedure": "Shake, coupe, grapefruit twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15794,11 +16270,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, grapefruit twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "BURROUGH'S REVIVER",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -15825,11 +16302,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "es Absinthe"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "RIKI TIKI TAVI",
-		"procedure": "Swizzle, Julep cup, crushed ice, mint sprig, grated cinnamon",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -15861,11 +16339,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "es Orange bitters"
 			}
-		]
+		],
+		"procedure": "Swizzle, Julep cup, crushed ice, mint sprig, grated cinnamon",
+		"glass": "julep"
 	},
 	{
 		"name": "IMMIGRANT SONG",
-		"procedure": "Stir, rocks glass, cracked ice, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -15892,11 +16371,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "es Celery bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, cracked ice, lemon twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "THE FRONTIER",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -15923,11 +16403,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Demerara syrup"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "ELEVENTH HOUR",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -15957,12 +16438,13 @@ const recipes = [
 			{
 				"measure": 1,
 				"ingredient": "barspn Cane Syrup"
-				}
-		]
+			}
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "MASTER'S CHAIR",
-		"procedure": "Stir, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -15989,11 +16471,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "BROKEN COMPASS",
-		"procedure": "Stir, rocks glass, large cube, orange peel",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -16025,11 +16508,12 @@ const recipes = [
 				"unit": "drops",
 				"ingredient": "Almond Extract"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube, orange peel",
+		"glass": "rocks"
 	},
 	{
 		"name": "MR. WEDNESDAY",
-		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid",
 		"ingredients": [
 			{
 				"measure": 1.25,
@@ -16061,16 +16545,17 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Banana liqueur"
 			}
-		]
+		],
+		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid",
+		"glass": "tiki"
 	},
 	{
 		"name": "MILES AHEAD",
-		"procedure": "Shake, coupe",
 		"ingredients": [
 			{
 				"measure": 2,
 				"ingredient": "Cardamon pods (muddled)"
-				},
+			},
 			{
 				"measure": 0.75,
 				"unit": "oz",
@@ -16111,11 +16596,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "es Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "SAILOR'S DELIGHT",
-		"procedure": "Shake, Collins glass, crushed ice, cherry",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -16157,11 +16643,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Cherry Heering (float)"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, crushed ice, cherry",
+		"glass": "collins"
 	},
 	{
 		"name": "LOST HORIZON",
-		"procedure": "Stir, rinsed old fashioned glass, orange twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16188,11 +16675,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Laphroaig Scotch (rinse)"
 			}
-		]
+		],
+		"procedure": "Stir, rinsed old fashioned glass, orange twist",
+		"glass": "oldfashioned"
 	},
 	{
 		"name": "GOLDEN TICKET",
-		"procedure": "Shake, coupe, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -16214,11 +16702,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, coupe, lemon twist",
+		"glass": "coupe"
 	},
 	{
 		"name": "THE MINTON",
-		"procedure": "Stir, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -16245,11 +16734,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "es Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "SHADDOCK",
-		"procedure": "Shake, cocktail glass, lemon twist",
 		"ingredients": [
 			{
 				"measure": 0.75,
@@ -16271,11 +16761,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Lemon juice"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, lemon twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "NORMANDIE CLUB COLLINS",
-		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, lemon wheel",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -16302,11 +16793,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, lemon wheel",
+		"glass": "collins"
 	},
 	{
 		"name": "A MAN ABOUT TOWN",
-		"procedure": "Stir, rocks glass, cracked ice, orange twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -16333,11 +16825,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "es Orange bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, cracked ice, orange twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "SEAWARD",
-		"procedure": "Express oil from peels into mixing glass. Add all ingredients, stir, coupe",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -16367,12 +16860,13 @@ const recipes = [
 			{
 				"measure": 2,
 				"ingredient": "Lemon peels"
-				}
-		]
+			}
+		],
+		"procedure": "Express oil from peels into mixing glass. Add all ingredients, stir, coupe",
+		"glass": "coupe"
 	},
 	{
 		"name": "FALLBACK",
-		"procedure": "Stir, cocktail glass, orange twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16399,11 +16893,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Peychaud's Bitters"
 			}
-		]
+		],
+		"procedure": "Stir, cocktail glass, orange twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "TOUCH OF LOVE",
-		"procedure": "Shake, Tiki mug, crushed ice. Top with seltzer, mint sprig",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -16440,11 +16935,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Seltzer"
 			}
-		]
+		],
+		"procedure": "Shake, Tiki mug, crushed ice. Top with seltzer, mint sprig",
+		"glass": "tiki"
 	},
 	{
 		"name": "HARRISON BERGERON",
-		"procedure": "Stir, double old-fashioned glass, cracked ice, orange twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16461,11 +16957,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Amaro Montengro"
 			}
-		]
+		],
+		"procedure": "Stir, double old-fashioned glass, cracked ice, orange twist",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "FLOWER & VINE",
-		"procedure": "Shake, double old-fashioned glass",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16502,11 +16999,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, double old-fashioned glass",
+		"glass": "doubleoldfashioned"
 	},
 	{
 		"name": "LETTERS OF MARQUE",
-		"procedure": "Stir, coupe, flamed orange oil",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16528,11 +17026,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Galliano"
 			}
-		]
+		],
+		"procedure": "Stir, coupe, flamed orange oil",
+		"glass": "coupe"
 	},
 	{
 		"name": "PRETEDANT NOBEL",
-		"procedure": "Shake, cocktail glass, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -16554,11 +17053,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Orange bitters"
 			}
-		]
+		],
+		"procedure": "Shake, cocktail glass, lemon twist",
+		"glass": "cocktail"
 	},
 	{
 		"name": "HUNGRY LIKE THE WOLF",
-		"procedure": "Shake, rocks glass, crushed ice. Top with ginger beer, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16585,11 +17085,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Ginger beer (float)"
 			}
-		]
+		],
+		"procedure": "Shake, rocks glass, crushed ice. Top with ginger beer, lemon twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "BOURBON SWIZZLE",
-		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, grated nutmeg",
 		"ingredients": [
 			{
 				"measure": 2,
@@ -16616,11 +17117,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Don's Spices #2"
 			}
-		]
+		],
+		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, grated nutmeg",
+		"glass": "collins"
 	},
 	{
 		"name": "ANALOGUE",
-		"procedure": "Stir, rocks glass, large cube, lemon twist",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16652,11 +17154,12 @@ const recipes = [
 				"unit": "dash",
 				"ingredient": "Angostura bitters"
 			}
-		]
+		],
+		"procedure": "Stir, rocks glass, large cube, lemon twist",
+		"glass": "rocks"
 	},
 	{
 		"name": "IN BLOOM",
-		"procedure": "Stir, rinsed coupe, flamed orange oil",
 		"ingredients": [
 			{
 				"measure": 1.5,
@@ -16683,11 +17186,12 @@ const recipes = [
 				"unit": null,
 				"ingredient": "Rosewater (rinse)"
 			}
-		]
+		],
+		"procedure": "Stir, rinsed coupe, flamed orange oil",
+		"glass": "coupe"
 	},
 	{
 		"name": "DON'S MIX",
-		"procedure": "Mix",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16699,11 +17203,12 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "White grapefruit juice"
 			}
-		]
+		],
+		"procedure": "Mix",
+		"glass": null
 	},
 	{
 		"name": "DON'S SPICES #2",
-		"procedure": "Mix",
 		"ingredients": [
 			{
 				"measure": 1,
@@ -16715,7 +17220,9 @@ const recipes = [
 				"unit": "oz",
 				"ingredient": "Allspice Dram"
 			}
-		]
+		],
+		"procedure": "Mix",
+		"glass": null
 	}
 ];
 

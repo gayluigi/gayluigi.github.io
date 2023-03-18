@@ -47,13 +47,10 @@ function getFormattedIngredient({ measure, unit, ingredient }, factor=1) {
 	return ingredientContainer;
 }
 
-function getGlassIconUrl({ procedure }) {
+function getGlassIconUrl({ glass }) {
 	const GLASSWARE_PREFIX = "./img/glassware/";
-	const glass = GLASSWARE.find(({ regex }) =>
-		regex.test(procedure)
-	);
 	if (glass) {
-		return GLASSWARE_PREFIX + glass.name + ".png";
+		return GLASSWARE_PREFIX + glass + ".png";
 	}
 	return null;
 }
