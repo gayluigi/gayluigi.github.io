@@ -53,7 +53,7 @@ function getExcludeIngredientsMatches(list, regexes, idx) {
 	const filteredList = list
 		.filter(
 			({ ingredients }) => ingredients.every(
-				(ingredient) => !ingredientLookupRegex.test(ingredient)
+				({ ingredient }) => !ingredientLookupRegex.test(ingredient)
 			)
 		);
 
