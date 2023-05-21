@@ -3,7 +3,9 @@ const FIVE_MIN_MS = 5 * 60 * 1000;
 const NOTIF_LAST_SHOWN_DATE_KEY = "notifLastShownDate";
 
 function getNotifBody(recipe) {
-	const ingredientsStr = getIngredientsFromRecipe(recipe).join(", ");
+	const ingredientsStr = recipe.ingredients
+		.map(({ ingredient }) => ingredient)
+		.join(", ");
 	return `Ingredients: ${ingredientsStr}`;
 }
 
