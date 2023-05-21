@@ -1,5 +1,32 @@
 const recipes = [
 	{
+		"name": "Paper Plane",
+		"ingredients": [
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Bourbon"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Aperol"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Amaro Nonino"
+			},
+			{
+				"measure": 0.75,
+				"unit": "oz",
+				"ingredient": "Lemon Juice"
+			}
+		],
+		"procedure": "Shake with ice, strain into coupe, lemon twist, tiny origami paper plane",
+		"glass": "coupe"
+	},
+	{
 		"name": "Osedax",
 		"ingredients": [
 			{
