@@ -71,6 +71,24 @@ function generateNameSuggestions(input, inputValue) {
 	}
 }
 
+function generateThemeSuggestions(input, inputValue) {
+	clearSuggestions(input);
+
+	const ingredientMatches = FUSE_THEMES_SEARCH
+		.search(inputValue)
+		.slice(0, SUGGESTION_COUNT_LIMIT)
+		.map(({ item }) => item)
+		.map(toTitleCase);
+
+	function onSuggestionClick(suggestion) {
+		input.value = suggestion;
+	}
+
+	if (ingredientMatches.length > 0) {
+		ingredientMatches.forEach(addSuggestionToContainer(input, onSuggestionClick));
+	}
+}
+
 function createSuggestionsContainer(input) {
 	const suggestionsContainer = document.createElement("div");
 	suggestionsContainer.classList.add("suggestionsContainer");

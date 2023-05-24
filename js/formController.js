@@ -56,6 +56,13 @@ function onRecipeNameInputChange(event) {
 	}
 }
 
+function onThemeInputChange(event) {
+	submitOnEnterPressed(event);
+	const input = event.target;
+	const inputValue = input.value;
+	generateThemeSuggestions(input, inputValue);
+}
+
 function clearInput(id) {
 	document.getElementById(id).value = "";
 }

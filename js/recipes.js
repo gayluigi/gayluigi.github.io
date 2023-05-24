@@ -24,7 +24,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake with ice, strain into coupe, lemon twist, tiny origami paper plane",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Bold", "Citrusy", "Bittersweet", "Complex", "Summer"]
 	},
 	{
 		"name": "Osedax",
@@ -51,7 +52,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Rocks glass over big rock, dehydrated orange wheel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Rich", "Complex", "Balanced", "Summer"]
 	},
 	{
 		"name": "It Slaps",
@@ -88,7 +90,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, crushed ice, rocks glass, grapefruit peel.",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Citrusy", "Fruity", "Refreshing", "Tang", "Summer"]
 	},
 	{
 		"name": "Rye Not",
@@ -120,7 +123,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, dehydrated lemon wheel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Smooth", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "The Allfathers Eye",
@@ -147,7 +151,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stirred, coupe. Dehydrated lemon wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Aromatic", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "There's Always Money in the Banana Stand",
@@ -179,7 +184,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe. Dehydrated banana chip",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Fall"]
 	},
 	{
 		"name": "Borderline",
@@ -216,7 +222,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, coupe.",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Smoky", "Tart", "Fruity", "Sweet", "Complex", "Summer"]
 	},
 	{
 		"name": "Sweet Talker",
@@ -248,7 +255,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake. Collins. Cube ice, top with kombucha, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Refreshing", "Fruity", "Tangy", "Tart", "Summer"]
 	},
 	{
 		"name": "Nice Guy",
@@ -280,7 +288,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain into Collins. Cube ice, top with soda, dehydrated lemon wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Tart", "Herbal", "Summer"]
 	},
 	{
 		"name": "The New Hotness",
@@ -302,7 +311,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, grapefruit peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Aromatic", "Summer"]
 	},
 	{
 		"name": "Honma Highball",
@@ -339,7 +349,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins, cube ice. Carbonate before pouring or add a splash of soda. Orange peel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Tart", "Invigorating", "Summer"]
 	},
 	{
 		"name": "Norden Sour",
@@ -376,7 +387,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, chilled rocks glass, no ice, lemon zest (discard). Three marigold flowers",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Sweet", "Tangy", "Balanced", "Smooth", "Summer"]
 	},
 	{
 		"name": "Hunter's Rally",
@@ -413,7 +425,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, double strain into Collins, dehydrated lime, Angostura bitters drops",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Sweet", "Summer"]
 	},
 	{
 		"name": "You're My Boy Blue",
@@ -444,7 +457,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Muddle blueberries, add the rest. Shake, double strain into rocks glass with ice.",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Citrusy", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "Caraway My Wayward Son",
@@ -476,7 +490,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, orange peel.",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Savory", "Rich", "Creamy", "Chocolaty", "Balanced", "Summer"]
 	},
 	{
 		"name": "Hot Chocavit",
@@ -513,7 +528,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Coffee mug or toddy glass, stir, top with Caraway whipped cream, cocoa dust",
-		"glass": "toddy"
+		"glass": "toddy",
+		"themes": ["Fruity", "Spicy", "Complex", "Balanced", "Summer"]
 	},
 	{
 		"name": "Kentucky Square",
@@ -545,7 +561,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, big cube, dehydrated orange wheel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Smooth", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "Rosie",
@@ -572,7 +589,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Spicy", "Fruity", "Refreshing", "Tangy", "Fall"]
 	},
 	{
 		"name": "Osborn",
@@ -602,7 +620,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Muddle jalepeno and pineapple. Shake, double strain, old fashioned glass",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Robust", "Rich", "Balanced", "Complex", "Fall"]
 	},
 	{
 		"name": "Sunset Curse",
@@ -634,7 +653,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stirred, cocktail glass, flamed orange peel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Robust", "Rich", "Fruity", "Smooth", "Summer"]
 	},
 	{
 		"name": "Christmas in Cozmel",
@@ -661,7 +681,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stirred, coupe glass, lime flag",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Refreshing", "Floral", "Balanced", "Fall"]
 	},
 	{
 		"name": "Hold Up",
@@ -693,7 +714,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, absinthe-rinsed glass, one mint leaf",
-		"glass": null
+		"glass": null,
+		"themes": ["Floral", "Tart", "Refreshing", "Sweet", "Fall"]
 	},
 	{
 		"name": "Manhattan #1",
@@ -710,7 +732,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, lemon flag",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Smoky", "Spicy", "Fruity", "Rich", "Complex", "Summer"]
 	},
 	{
 		"name": "Manhattan #2",
@@ -732,7 +755,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, orange flag",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Robust", "Spicy", "Rich", "Aromatic", "Summer"]
 	},
 	{
 		"name": "The Last Word",
@@ -759,7 +783,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, martini glass, lime Wheel",
-		"glass": "martini"
+		"glass": "martini",
+		"themes": ["Herbal", "Refreshing", "Citrusy", "Complex", "Winter"]
 	},
 	{
 		"name": "Los Lobos",
@@ -786,7 +811,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, crushed pink peppercorn",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Tropical", "Refreshing", "Sweet", "Tangy", "Summer"]
 	},
 	{
 		"name": "Cabaret",
@@ -818,7 +844,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, martini glass, lime wheel",
-		"glass": "martini"
+		"glass": "martini",
+		"themes": ["Fruity", "Citrusy", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "Kentucky Sunshine",
@@ -854,7 +881,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, double strain, rocks glass. Top with ginger beer, basil leaf",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Refreshing", "Herbal", "Tangy", "Spicy", "Fall"]
 	},
 	{
 		"name": "Old West Side",
@@ -881,7 +909,8 @@ const recipes = [
 			}
 		],
 		"procedure": "stir, rocks glass, grapefruit peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Smoky", "Sweet", "Citrusy", "Robust", "Summer"]
 	},
 	{
 		"name": "Baker Street",
@@ -908,7 +937,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, rosemary sprig",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Botanical", "Refreshing", "Fruity", "Summer"]
 	},
 	{
 		"name": "Mother's Ruin",
@@ -945,7 +975,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, rosemary sprig.",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Smoky", "Fruity", "Tart", "Balanced", "Summer"]
 	},
 	{
 		"name": "Party Police",
@@ -977,7 +1008,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, collins glass",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Sweet-Sour", "Summer"]
 	},
 	{
 		"name": "Smash Brothers",
@@ -1009,7 +1041,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, highball glass. Top with soda, sage leaf.",
-		"glass": "highball"
+		"glass": "highball",
+		"themes": ["Robust", "Aromatic", "Rich", "Sweet", "Spring"]
 	},
 	{
 		"name": "A Morning Rum",
@@ -1036,7 +1069,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, dehydrated lime or orange wheel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Balanced", "Refreshing", "Zesty", "Summer"]
 	},
 	{
 		"name": "Snake Oil Salesman",
@@ -1078,7 +1112,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, crushed ice, dragon glass, lime wheel",
-		"glass": null
+		"glass": null,
+		"themes": ["Smooth", "Sweet", "Tangy", "Balanced", "Summer"]
 	},
 	{
 		"name": "The Heist",
@@ -1105,7 +1140,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Absinthe glass, lemon peel",
-		"glass": "absinthe"
+		"glass": "absinthe",
+		"themes": ["Creamy", "Fruity", "Spicy", "Sweet", "Complex", "Summer"]
 	},
 	{
 		"name": "Rhum Old Fashioned",
@@ -1132,7 +1168,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, orange peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Tangy", "Rich", "Smokey", "Fruity", "Spicy", "Summer"]
 	},
 	{
 		"name": "Kissed by a Rose",
@@ -1159,7 +1196,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, coupe, rose bud",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Smooth", "Summer"]
 	},
 	{
 		"name": "(C)ole' fashioned",
@@ -1191,7 +1229,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, big cube, rocks glass, lemon peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Spicy", "Smoky", "Tangy", "Balanced", "Fall"]
 	},
 	{
 		"name": "Senor Burns",
@@ -1223,7 +1262,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Balanced", "Spicy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Pining Princess",
@@ -1255,7 +1295,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, crushed ice, Collins glass",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Tart", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Sacred Heart",
@@ -1287,7 +1328,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, grapefruit peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Smoky", "Tart", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Queen of Cups",
@@ -1319,7 +1361,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, rosemary sprig",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Herbal", "Refreshing", "Complex", "Summer"]
 	},
 	{
 		"name": "Ice Planet",
@@ -1356,7 +1399,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, orange peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Floral", "Refreshing", "Citrusy", "Summer"]
 	},
 	{
 		"name": "Sea Castle",
@@ -1388,7 +1432,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, martini glass, Peychaud's bitters",
-		"glass": "martini"
+		"glass": "martini",
+		"themes": ["Tangy", "Refreshing", "Zesty", "Fruity", "Spring"]
 	},
 	{
 		"name": "Last Minute",
@@ -1425,7 +1470,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, martini glass, grapefruit peel",
-		"glass": "martini"
+		"glass": "martini",
+		"themes": ["Smoky", "Fruity", "Floral", "Creamy", "Sweet", "Fall"]
 	},
 	{
 		"name": "Estrella Negra",
@@ -1452,7 +1498,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, big cube",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Sweet", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Tell Me No Fibs, I'll Tell You No Lies",
@@ -1484,7 +1531,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "The Stampede",
@@ -1511,7 +1559,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Rich", "Spicy", "Complex", "Aromatic", "Fall"]
 	},
 	{
 		"name": "TRUE GRIT",
@@ -1543,7 +1592,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, big cube, lemon wheel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Robust", "Herbal", "Spicy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Roaring 40's",
@@ -1569,7 +1619,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Muddle with sea salt. Shake, double strain, coupe, cucumber slice",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Refreshing", "Tangy", "Fruity", "Zesty", "Summer"]
 	},
 	{
 		"name": "Rye Daiquiri",
@@ -1596,7 +1647,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lime wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Tart", "Balanced", "Summer"]
 	},
 	{
 		"name": "Basil & Bubbles",
@@ -1627,7 +1679,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, double strain, champagne flute. Top with champagne, basil leaf",
-		"glass": "champagne"
+		"glass": "champagne",
+		"themes": ["Herbal", "Refreshing", "Crisp", "Fruity", "Spring"]
 	},
 	{
 		"name": "The Purple Gang",
@@ -1654,7 +1707,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, champagne flute. Top with champagne, lemon twist.",
-		"glass": "champagne"
+		"glass": "champagne",
+		"themes": ["Fruity", "Refreshing", "Floral", "Bubbly", "Fall"]
 	},
 	{
 		"name": "Wise Guy",
@@ -1681,7 +1735,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, orange peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Sweet", "Complex", "Fruity", "Summer"]
 	},
 	{
 		"name": "Paradiso Sour",
@@ -1718,7 +1773,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, rocks glass, orange peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Smoky", "Fruity", "Tangy", "Rich", "Summer"]
 	},
 	{
 		"name": "Nevermore",
@@ -1745,7 +1801,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, orange peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Robust", "Herbal", "Refreshing", "Complex", "Fall"]
 	},
 	{
 		"name": "Blood & Smoke",
@@ -1772,7 +1829,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, martini glass",
-		"glass": "martini"
+		"glass": "martini",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Tart", "Zesty", "Summer"]
 	},
 	{
 		"name": "Dr. Ordinaire",
@@ -1799,7 +1857,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe with one drop of Peychaud's in glass, orange peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Refreshing", "Balanced", "Crisp", "Fall"]
 	},
 	{
 		"name": "Red Rum",
@@ -1831,7 +1890,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, orange cherry flag",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Rich", "Complex", "Refined", "Balanced", "Summer"]
 	},
 	{
 		"name": "Spice and Everything Nice",
@@ -1863,7 +1923,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, big rock, express orange peel, torched cinnamon stick",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Spicy", "Tart", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Yellow Bird",
@@ -1905,7 +1966,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, collins, crushed ice",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Rich", "Spiced", "Sweet", "Complex", "Spring"]
 	},
 	{
 		"name": "Apricot Julep",
@@ -1935,7 +1997,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir with crushed ice. Mint sprig",
-		"glass": null
+		"glass": null,
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Spring"]
 	},
 	{
 		"name": "Age of Aquarius",
@@ -1967,7 +2030,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, rocks glass, crushed ice. Float Campari, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Tangy", "Spicy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Scofflaw",
@@ -1999,7 +2063,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Tropical", "Sweet", "Fruity", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Lost Lake",
@@ -2036,7 +2101,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, crushed ice, footed pilsner",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Smoky", "Tart", "Sweet", "Bitter", "Summer"]
 	},
 	{
 		"name": "Bitter Mai Tai",
@@ -2068,7 +2134,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, crushed ice, rocks glass. Mint, lime wheel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Tangy", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Mr. Bodi Hai",
@@ -2110,7 +2177,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake with crushed ice, pour into footed pilsner. Top up, pineapple fronds",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Sweet", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Banana Farmer",
@@ -2147,7 +2215,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, crushed ice, Collins glass, pineapple fronds",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Sweet", "Tropical", "Summer"]
 	},
 	{
 		"name": "Fay Wray",
@@ -2184,7 +2253,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Lightly muddle lime wedge, mix/whip shake, crushed ice, rocks glass. Dried banana or mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Complex", "Refreshing", "Fruity", "Tart", "Balanced", "Summer"]
 	},
 	{
 		"name": "Keicho Embassy",
@@ -2216,7 +2286,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Spicy", "Rich", "Robust", "Fall"]
 	},
 	{
 		"name": "Father Knows Best",
@@ -2243,7 +2314,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir with ice, pour into bottle and smoke. Pour into rocks glass with large cube",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Exotic", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Arrack Punch",
@@ -2275,7 +2347,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, crushed ice, goblet. Fresh fruit, pineapple fronds",
-		"glass": "goblet"
+		"glass": "goblet",
+		"themes": ["Fruity", "Tangy", "Sweet", "Exotic", "Summer"]
 	},
 	{
 		"name": "Seven Seas Swizzle",
@@ -2302,7 +2375,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, lime wheel, grated nutmeg",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Tangy", "Balanced", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Boilermaker House Sour",
@@ -2343,7 +2417,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake all but beer, cocktail glass. Top with IPA",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Tangy", "Refreshing", "Exotic", "Fruity", "Summer"]
 	},
 	{
 		"name": "Chamomile Sour",
@@ -2374,7 +2449,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, chilled coupe, chamomile flowers",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Crisp", "Refreshing", "Zesty", "Balanced", "Summer"]
 	},
 	{
 		"name": "Chamomile Gin",
@@ -2391,7 +2467,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake or stir gently to combine, let infuse for 5 days or to taste",
-		"glass": null
+		"glass": null,
+		"themes": ["Refreshing", "Herbal", "Floral", "Aromatic", "Spring"]
 	},
 	{
 		"name": "Guardian Angel",
@@ -2427,7 +2504,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe, cucumber slice",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Citrusy", "Refreshing", "Floral", "Summer"]
 	},
 	{
 		"name": "Billionaire",
@@ -2459,7 +2537,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, dehydrated lemon wheel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Smoky", "Fruity", "Sweet", "Tangy", "Summer"]
 	},
 	{
 		"name": "Blood and Sand",
@@ -2486,7 +2565,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 3 ingredients, rocks glass. Top with orange juice",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Bitter", "Sweet", "Complex", "Summer"]
 	},
 	{
 		"name": "Fernando",
@@ -2508,7 +2588,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, large ice, cocktail glass, mint sprig",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Herbal", "Woody", "Spicy", "Tart", "Fall"]
 	},
 	{
 		"name": "Nerina",
@@ -2530,7 +2611,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, large ice, cocktail glass orange twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fiery", "Bold", "Herbal", "Tangy", "Spring"]
 	},
 	{
 		"name": "Peche Bourbon",
@@ -2566,7 +2648,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Muddle sugar and bitters in mixing glass, add bourbon, stir with ice. Rocks glass rinsed with creme de peche, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Rich", "Refreshing", "Aromatic", "Summer"]
 	},
 	{
 		"name": "Jersey Devil",
@@ -2593,7 +2676,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, large ice, cocktail glass, orange wheel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Mata Hari",
@@ -2625,7 +2709,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, 3 dried rose buds",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Tart", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Pisco Punch",
@@ -2661,7 +2746,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Muddle pineapple and pineapple syrup, add the rest, shake, double strain, goblet filled with ice. Lemon wheel, pineapple wedge",
-		"glass": "goblet"
+		"glass": "goblet",
+		"themes": ["Fruity", "Tangy", "Zesty", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Ruby Tuesday",
@@ -2693,7 +2779,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, strain into chilled cocktail glass. Lemon twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Tart", "Sweet", "Fall"]
 	},
 	{
 		"name": "Waterloo",
@@ -2724,7 +2811,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Muddle watermelon and syrup until liquid. Add the rest, shake, unstrained into collins glass. Watermelon wedge.",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Tangy", "Balanced", "Smooth", "Summer"]
 	},
 	{
 		"name": "Yellow Jacket",
@@ -2751,7 +2839,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, large ice, cocktail glass, lemon twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Herbal", "Refreshing", "Citrusy", "Smooth", "Balanced", "Spring"]
 	},
 	{
 		"name": "Mid-Morning Fizz",
@@ -2792,7 +2881,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Pour chartreuse into collins glass with ice and club soda, chill. Shake the other ingredients for 2 minutes. Strain into glass. Orange wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Rich", "Fruity", "Smooth", "Spring"]
 	},
 	{
 		"name": "English Bishop",
@@ -2817,7 +2907,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stud orange with cloves, place in baking dish, bake at 400°F until entire orange is browned, about 30 minutes. Carefully cut into quarters, place into saucepan with the port simmer on medium heat for 30 minutes. Strain, add the sugar to the liquid. Cool, strain again, and bottle.",
-		"glass": null
+		"glass": null,
+		"themes": ["Fruity", "Spiced", "Sweet", "Aromatic", "Fall"]
 	},
 	{
 		"name": "Robb's Grandma",
@@ -2838,7 +2929,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Rocks glass, large cube, barspoon of cherry syrup, stir",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Tart", "Refreshing", "Tangy", "Spring"]
 	},
 	{
 		"name": "Citric Acid Solution",
@@ -2856,7 +2948,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix until dissolved",
-		"glass": null
+		"glass": null,
+		"themes": ["Fruity", "Complex", "Herbal", "Refreshing", "Summer"]
 	},
 	{
 		"name": "#3 Cup",
@@ -2905,7 +2998,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, Collins glass, mint sprig, orange slice",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Herbal", "Complex", "Spring"]
 	},
 	{
 		"name": "20th Century",
@@ -2932,7 +3026,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Citrusy", "Smooth", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "Against All Odds",
@@ -2964,7 +3059,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, coupe rinsed with Mezcal",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Smokey", "Rich", "Complex", "Sweet", "Summer"]
 	},
 	{
 		"name": "Aguil a Azteca",
@@ -2991,7 +3087,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Bubbly", "Sweet", "Summer"]
 	},
 	{
 		"name": "Airmail",
@@ -3018,7 +3115,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, top with 1 oz champagne, lime wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Spring"]
 	},
 	{
 		"name": "Albert Mathieu",
@@ -3050,7 +3148,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Complex", "Summer"]
 	},
 	{
 		"name": "Applejack Rabbit",
@@ -3077,7 +3176,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tangy", "Herbal", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "Blackbeard",
@@ -3113,7 +3213,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Dry shake, unstrained pour, rocks glass, pebble ice, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Balanced", "Complex", "Refreshing", "Fall"]
 	},
 	{
 		"name": "Black Thorn",
@@ -3140,7 +3241,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Citrusy", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Champs-elysees",
@@ -3172,7 +3274,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Sweet", "Refreshing", "Spring"]
 	},
 	{
 		"name": "Chrysanthemum",
@@ -3199,7 +3302,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Citrusy", "Fruity", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Cloister",
@@ -3231,7 +3335,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, grapefruit twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Complex", "Robust", "Spicy", "Summer"]
 	},
 	{
 		"name": "Conquistador",
@@ -3272,7 +3377,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Citrusy", "Refreshing", "Tangy", "Fruity", "Summer"]
 	},
 	{
 		"name": "Corpse Reviver #2",
@@ -3304,7 +3410,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rinsed coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Balanced", "Smooth", "Refreshing", "Fall"]
 	},
 	{
 		"name": "De La Louisiane",
@@ -3336,7 +3443,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, three brandied cherries",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Citrusy", "Refreshing", "Complex", "Smooth", "Summer"]
 	},
 	{
 		"name": "East India Cocktail",
@@ -3368,7 +3476,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Complex", "Herbal", "Fall"]
 	},
 	{
 		"name": "El Puente",
@@ -3400,7 +3509,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, grapefruit twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Refreshing", "Floral", "Balanced", "Spring"]
 	},
 	{
 		"name": "Ephemeral",
@@ -3427,7 +3537,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, grapefruit twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Tropical", "Sweet", "Zesty", "Spring"]
 	},
 	{
 		"name": "Espresso Bongo",
@@ -3464,7 +3575,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, unstrained pour, tiki mug",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Rich", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Fish House Punch",
@@ -3501,7 +3613,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Tangy", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "Flying Dutchman",
@@ -3538,7 +3651,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, brandied cherry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Balanced", "Complex", "Sweet", "Aromatic", "Summer"]
 	},
 	{
 		"name": "Foreign Legion",
@@ -3575,7 +3689,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, ice sphere, orange twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Aromatic", "Complex", "Refreshing", "Spring"]
 	},
 	{
 		"name": "French Maid",
@@ -3615,7 +3730,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, Collins glass, mint sprig in cucumber wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Refreshing", "Fruity", "Herbal", "Spicy", "Tang", "Summer"]
 	},
 	{
 		"name": "Gilchrist",
@@ -3647,7 +3763,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Complex", "Balanced", "Summer"]
 	},
 	{
 		"name": "GOLDEN STAR FIZZ",
@@ -3687,7 +3804,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, double strain, rinsed fizz glass. Top with jasmine tea, cucumber slice",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Herbal", "Crisp", "Refreshing", "Zesty", "Fall"]
 	},
 	{
 		"name": "GREAT PUMPKIN",
@@ -3718,7 +3836,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, double shake, strain into fizz glass, grated nutmeg",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Malty", "Rich", "Spiced", "Fruity", "Sweet", "Summer"]
 	},
 	{
 		"name": "GREEN DEACON",
@@ -3745,7 +3864,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rinsed coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tart", "Herbal", "Refreshing", "Summer"]
 	},
 	{
 		"name": "GREEN HARVEST",
@@ -3771,7 +3891,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, double strain, fizz glass, three concord grapes",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Herbal", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "GREENPOINT",
@@ -3798,7 +3919,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Herbal", "Complex", "Spicy", "Fall"]
 	},
 	{
 		"name": "HARVEST MOON",
@@ -3830,7 +3952,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Spicy", "Sweet", "Refreshing", "Fall"]
 	},
 	{
 		"name": "HARVEST SLING",
@@ -3867,7 +3990,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, cherry and orange flag",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Robust", "Herbal", "Fruity", "Complex", "Summer"]
 	},
 	{
 		"name": "HEIRLOOM",
@@ -3898,7 +4022,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe, two spritzes anise hyssop essence",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Herbal", "Bitter", "Tart", "Summer"]
 	},
 	{
 		"name": "HEMINGWAY DAIQUIRI",
@@ -3925,7 +4050,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lime wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tart", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "HENRY HUDSON",
@@ -3957,7 +4083,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube, grated nutmeg ",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Fruity", "Citrusy", "Complex", "Balanced", "Summer"]
 	},
 	{
 		"name": "HONEYMOON COCKTAIL",
@@ -3984,7 +4111,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Smooth", "Refreshing", "Balanced", "Fall"]
 	},
 	{
 		"name": "HOTEL D'ALSACE",
@@ -4010,7 +4138,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, double strain, rocks glass, large cube, rosemary sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Citrusy", "Balanced", "Rich", "Fall"]
 	},
 	{
 		"name": "JAPANESE COURAGE",
@@ -4042,7 +4171,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, pre-heated mug, lemon wheel studded with 6 cloves",
-		"glass": null
+		"glass": null,
+		"themes": ["Rich", "Sweet", "Balanced", "Winter"]
 	},
 	{
 		"name": "JAPANESE COCKTAIL",
@@ -4064,7 +4194,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Sweet", "Complex", "Refined", "Spring"]
 	},
 	{
 		"name": "JUDGMENT DAY",
@@ -4110,7 +4241,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, rinsed coupe, 2 spritzes allspice dram",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Herbal", "Balanced", "Aromatic", "Summer"]
 	},
 	{
 		"name": "JUNIOR",
@@ -4137,7 +4269,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Citrusy", "Aromatic", "Complex", "Refreshing", "Fall"]
 	},
 	{
 		"name": "KANSAI KICK",
@@ -4164,7 +4297,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Aromatic", "Complex", "Refreshing", "Spring"]
 	},
 	{
 		"name": "KINA MIELE",
@@ -4196,7 +4330,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube, grapefruit twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Herbal", "Complex", "Balanced", "Spring"]
 	},
 	{
 		"name": "KING BEE",
@@ -4228,7 +4363,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, coupe, float sherry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Spring"]
 	},
 	{
 		"name": "LA FLORIDA COCKTAIL",
@@ -4260,7 +4396,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lime wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Refreshing", "Fruity", "Tart", "Complex", "Summer"]
 	},
 	{
 		"name": "LA LOUCHE",
@@ -4292,7 +4429,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Smoky", "Herbal", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "LEAPFROG",
@@ -4328,7 +4466,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Balanced", "Complex", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "LE PeRE BIS",
@@ -4355,7 +4494,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, pre-heated mug, lemon wedge studded with three cloves",
-		"glass": null
+		"glass": null,
+		"themes": ["Citrusy", "Refreshing", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "LUAU",
@@ -4397,7 +4537,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, crushed ice, lime wheel, orange slice",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Tangy", "Refreshing", "Fruity", "Zesty", "Summer"]
 	},
 	{
 		"name": "MASATAKA SWIZZLE",
@@ -4429,7 +4570,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, rocks glass, crushed ice, 3 dash bitters, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Rich", "Fruity", "Balanced", "Refreshing", "Smooth", "Fall"]
 	},
 	{
 		"name": "MEZCAL MULE",
@@ -4460,7 +4602,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, candied ginger, cucumber slice, pinch of ground chili",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Creamy", "Rich", "Sweet", "Smooth", "Summer"]
 	},
 	{
 		"name": "NEW ORLEANS MILK PUNCH",
@@ -4487,7 +4630,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, large cube",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Rich", "Fruity", "Balanced", "Refreshing", "Fall"]
 	},
 	{
 		"name": "MONTGOMERY SMITH",
@@ -4509,7 +4653,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Aromatic", "Herbal", "Robust", "Complex", "Fall"]
 	},
 	{
 		"name": "MONKEY GLAND",
@@ -4536,7 +4681,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rinsed coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Refreshing", "Herbal", "Sweet", "Summer"]
 	},
 	{
 		"name": "MOUNT VERNON",
@@ -4568,7 +4714,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, three brandied cherries",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Herbal", "Balanced", "Fruity", "Summer"]
 	},
 	{
 		"name": "NEW AMSTERDAM",
@@ -4595,7 +4742,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Rich", "Aromatic", "Spring"]
 	},
 	{
 		"name": "NEWARK",
@@ -4622,7 +4770,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Complex", "Sweet", "Aromatic", "Fall"]
 	},
 	{
 		"name": "NOUVEAU CARRe",
@@ -4649,7 +4798,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Robust", "Spicy", "Sweet", "Fall"]
 	},
 	{
 		"name": "NTH DEGREE",
@@ -4680,7 +4830,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Muddle bitters with sugar cube, add the rest, stir, rocks glass, large cube, orange and lemon twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Spicy", "Citrusy", "Complex", "Fall"]
 	},
 	{
 		"name": "OCCIDENTAL",
@@ -4707,7 +4858,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rinsed coupe, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Bold", "Herbal", "Dry", "Balanced", "Fall"]
 	},
 	{
 		"name": "OLD PAL",
@@ -4729,7 +4881,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Floral", "Fall"]
 	},
 	{
 		"name": "PADDINGTON",
@@ -4766,7 +4919,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rinsed coupe, grapefruit twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Refreshing", "Fruity", "Aromatic", "Summer"]
 	},
 	{
 		"name": "PHARAOH COOLER",
@@ -4798,7 +4952,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, top with 1 oz soda",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Robust", "Herbal", "Aromatic", "Rich", "Summer"]
 	},
 	{
 		"name": "PROFESSOR",
@@ -4830,7 +4985,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Spicy", "Rich", "Fruity", "Herbal", "Balanced", "Fall"]
 	},
 	{
 		"name": "REMEMBER THE MAINE",
@@ -4857,7 +5013,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Sweet", "Balanced", "Complex", "Fall"]
 	},
 	{
 		"name": "RESTING POINT",
@@ -4893,7 +5050,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe, strawberry fan",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "RHUM CLUB",
@@ -4930,7 +5088,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, orange wedge",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Refreshing", "Zesty", "Exotic", "Summer"]
 	},
 	{
 		"name": "RIO BRAVO",
@@ -4956,7 +5115,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Spicy", "Tangy", "Sweet", "Refres", "Summer"]
 	},
 	{
 		"name": "ROSITA",
@@ -4988,7 +5148,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Herbal", "Balanced", "Complex", "Fall"]
 	},
 	{
 		"name": "RUST BELT",
@@ -5029,7 +5190,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, coupe, 2 spritzes Angostura bitters",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Smooth", "Refreshing", "Balanced", "Fruity", "Summer"]
 	},
 	{
 		"name": "ROYAL BERMUDA YACHTCLUB COCKTAIL",
@@ -5056,7 +5218,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lime wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Creamy", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "RYE WITCH",
@@ -5087,7 +5250,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Muddle bitters and sugar cube, add the rest, stir, rocks glass, express orange peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Citrusy", "Refreshing", "Balanced", "Spring"]
 	},
 	{
 		"name": "SEELBACH COCKTAIL",
@@ -5119,7 +5283,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe. Top with 2 oz champagne, orange twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Spicy", "Sweet", "Fruity", "Fall"]
 	},
 	{
 		"name": "SILVER LINING",
@@ -5150,7 +5315,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, fizz glass. Top with 1 oz soda",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Complex", "Tangy", "Spring"]
 	},
 	{
 		"name": "SLOE GIN FIZZ",
@@ -5177,7 +5343,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, fizz glass. Top with 3 oz soda",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Tangy", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "SOLSTICE",
@@ -5209,7 +5376,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Spicy", "Fruity", "Sweet", "Complex", "Fall"]
 	},
 	{
 		"name": "STATESMAN",
@@ -5236,7 +5404,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Fruity", "Refreshing", "Complex", "Spring"]
 	},
 	{
 		"name": "TALBOTT LEAF",
@@ -5272,7 +5441,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe, mint leaf",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Fruity", "Robust", "Complex", "Summer"]
 	},
 	{
 		"name": "TUXEDO",
@@ -5304,7 +5474,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rinsed coupe, lemon twist, cherry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Refreshing", "Citrusy", "Aromatic", "Spring"]
 	},
 	{
 		"name": "VAUVERT SLIM",
@@ -5339,7 +5510,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, double strain, rinsed coupe, mint leaf",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Smoky", "Tart", "Refreshing", "Spring"]
 	},
 	{
 		"name": "VELVET CLUB",
@@ -5366,7 +5538,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe. Top with 1 oz champagne",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Smooth", "Luxurious", "Spring"]
 	},
 	{
 		"name": "VIEUX MOT",
@@ -5393,7 +5566,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Floral", "Summer"]
 	},
 	{
 		"name": "VIEUX CARRe",
@@ -5430,7 +5604,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube ",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Rich", "Complex", "Balanced", "Aromatic", "Fall"]
 	},
 	{
 		"name": "WHISKEY SMASH",
@@ -5455,7 +5630,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, rocks, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Sweet", "Herbal", "Refreshing", "Summer"]
 	},
 	{
 		"name": "WHITE BIRCH FIZZ",
@@ -5491,7 +5667,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, Collins glass. Top with 2 oz soda, spritz of Suze",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Citrusy", "Sweet", "Aromatic", "Fruity", "Fall"]
 	},
 	{
 		"name": "WITCH'S KISS",
@@ -5518,7 +5695,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Citrusy", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "AKU AKU",
@@ -5549,7 +5727,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double-strain, coupe, mint sprig",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Spicy", "Citrusy", "Sweet", "Aromatic", "Summer"]
 	},
 	{
 		"name": "PUPULE",
@@ -5591,7 +5770,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, footed pilsner, crushed ice, spiral-cut orange peel, mint sprig",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Sweet", "Tart", "Spicy", "Complex", "Summer"]
 	},
 	{
 		"name": "DON'S OWN GROG",
@@ -5638,7 +5818,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, freshly grated nutmeg",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Sweet", "Tart", "Balanced", "Summer"]
 	},
 	{
 		"name": "PORT AU PRINCE",
@@ -5680,7 +5861,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lime wedge",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Spring"]
 	},
 	{
 		"name": "THREE DOTS AND A DASH",
@@ -5727,7 +5909,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, footed pilsner, crushed ice, three maraschino cherries and pineapple chunk",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Tart", "Fruity", "Spicy", "Sweet", "Complex", "Summer"]
 	},
 	{
 		"name": "MEXICAN EL DIABLO",
@@ -5758,7 +5941,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, collins glass, cracked ice",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Tangy", "Spicy", "Fruity", "Exotic", "Complex", "Summer"]
 	},
 	{
 		"name": "PORT LIGHT",
@@ -5790,7 +5974,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Dry shake egg white and bourbon, add the rest, Mix/whip shake, footed pilsner, crushed ice",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Tart", "Refreshing", "Fruity", "Zesty", "Summer"]
 	},
 	{
 		"name": "DEMERARA DRY FLOAT",
@@ -5832,7 +6017,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake first 6 ingredients, double old-fashioned glass, crushed ice, serve with overproof rum on the side",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Creamy", "Sweet", "Tart", "Refreshing", "Summer"]
 	},
 	{
 		"name": "JET PILOT",
@@ -5879,7 +6065,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Bright", "Summer"]
 	},
 	{
 		"name": "HALEKULANI COCKTAIL",
@@ -5921,7 +6108,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe, edible orchid",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tropical", "Fruity", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "SIDEWINDER'S FANG",
@@ -5958,7 +6146,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, strain, large brandy snifter, cracked ice, sidewinder's fang orange peel, mint sprig.",
-		"glass": "snifter"
+		"glass": "snifter",
+		"themes": ["Tart", "Refreshing", "Sweet", "Fruity", "Summer"]
 	},
 	{
 		"name": "HAWAIIAN SUNSET",
@@ -5990,7 +6179,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe, lime peel.",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Tangy", "Exotic", "Refreshing", "Summer"]
 	},
 	{
 		"name": "CAPTAIN'S GROG",
@@ -6052,7 +6242,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Sweet", "Balanced", "Refreshing", "Complex", "Summer"]
 	},
 	{
 		"name": "SUFFERING BASTARD",
@@ -6089,7 +6280,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Complex", "Summer"]
 	},
 	{
 		"name": "MERCILESS VIRGIN",
@@ -6126,7 +6318,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, footed pilsner, crushed ice, Maraschino cherry",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Sweet", "Summer"]
 	},
 	{
 		"name": "SATURN",
@@ -6158,7 +6351,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon peel rings",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Fruity", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "TIKI BOWL FOR TWO",
@@ -6200,7 +6394,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/blend, tiki bowl, crushed ice, edible orchid",
-		"glass": "tikibowl"
+		"glass": "tikibowl",
+		"themes": ["Fruity", "Tangy", "Sweet", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "HURRICANE",
@@ -6222,7 +6417,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, hurricane glass, crushed ice, lemon wedge",
-		"glass": "hurricane"
+		"glass": "hurricane",
+		"themes": ["Tangy", "Spicy", "Rich", "Complex", "Summer"]
 	},
 	{
 		"name": "MUNDO PERDIDO",
@@ -6254,7 +6450,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe.",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Fruity", "Refreshing", "Fall"]
 	},
 	{
 		"name": "FORMIDABLE DRAGON",
@@ -6306,7 +6503,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/Blend, large brandy snifter, crushed ice, edible orchid, multiple mint sprigs",
-		"glass": "snifter"
+		"glass": "snifter",
+		"themes": ["Tart", "Fruity", "Sweet", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "LEI LANI NOUVEAU",
@@ -6338,7 +6536,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, double strain, Collins glass, cracked ice. Top with guava soda, edible orchid",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Creamy", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "TRADEWINDS",
@@ -6370,7 +6569,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, footed pilsner, crushed ice, lemon wedge",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Tropical", "Refreshing", "Fruity", "Sweet", "Summer"]
 	},
 	{
 		"name": "PEACHTREE PUNCH 2.0",
@@ -6411,7 +6611,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double strain, double old-fashioned glass, cracked ice, grated nutmeg, peach wedge",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Refreshing", "Sweet", "Tropical", "Summer"]
 	},
 	{
 		"name": "JUNGLE BIRD",
@@ -6443,7 +6644,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, pineapple fronds",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Complex", "Sweet", "Summer"]
 	},
 	{
 		"name": "GOLDEN GUN",
@@ -6485,7 +6687,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, cracked ice",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Tart", "Fruity", "Balanced", "Exotic", "Summer"]
 	},
 	{
 		"name": "HINKY DINKS FIZZY",
@@ -6527,7 +6730,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake first 6 ingredients, large brandy snifter, crushed ice. Top with sparkling wine, mint sprig",
-		"glass": "snifter"
+		"glass": "snifter",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "PAMPANITO",
@@ -6564,7 +6768,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, lemon twist",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Spicy", "Tart", "Fizzy", "Sweet", "Fall"]
 	},
 	{
 		"name": "MAX'S MISTAKE",
@@ -6601,7 +6806,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, mint sprig",
-		"glass": "snifter"
+		"glass": "snifter",
+		"themes": ["Tart", "Fruity", "Refreshing", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "LA GUILDIVE",
@@ -6633,7 +6839,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, coupe. Top with ginger beer, lime twist, pinch of cinnamon",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Balanced", "Spicy", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "THE TWENTY SEVENTY SWIZZLE",
@@ -6675,7 +6882,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Sweet", "Tart", "Spicy", "Fall"]
 	},
 	{
 		"name": "SHUDDERS IN A WHISPER",
@@ -6722,7 +6930,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, large brandy snifter, crushed ice, edible orchid, mint sprig",
-		"glass": "snifter"
+		"glass": "snifter",
+		"themes": ["Fruity", "Tangy", "Aromatic", "Complex", "Refreshing", "Fall"]
 	},
 	{
 		"name": "CUEVAS",
@@ -6754,7 +6963,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, maraschino cherry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "NORWEGIAN PARALYSIS",
@@ -6791,7 +7001,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, cracked ice, lemon wedge",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Rich", "Spicy", "Sweet", "Robust", "Complex", "Summer"]
 	},
 	{
 		"name": "JUAN HO ROYALE",
@@ -6828,7 +7039,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, coupe. Top with champagne",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Crisp", "Summer"]
 	},
 	{
 		"name": "CHARTREUSE SWIZZLE",
@@ -6855,7 +7067,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, grated nutmeg, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Tangy", "Herbal", "Refreshing", "Summer"]
 	},
 	{
 		"name": "ROSELITA",
@@ -6897,7 +7110,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Refreshing", "Fruity", "Exotic", "Floral", "Summer"]
 	},
 	{
 		"name": "CENTER OF THE GALAXY",
@@ -6934,7 +7148,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, raspberry on lime wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Sweet", "Fruity", "Spicy", "Tangy", "Summer"]
 	},
 	{
 		"name": "CALLALOO COOLER",
@@ -6971,7 +7186,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer, grated cinnamon, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Tropical", "Sweet", "Refreshing", "Fruity", "Summer"]
 	},
 	{
 		"name": "TOP NOTCH VOLCANO FOR TWO",
@@ -7013,7 +7229,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, scorpion bowl, lime and orange slices, fire",
-		"glass": "tikibowl"
+		"glass": "tikibowl",
+		"themes": ["Fruity", "Spicy", "Sweet", "Aromatic", "Balanced", "Summer"]
 	},
 	{
 		"name": "THE NAKED APE",
@@ -7050,7 +7267,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Sweet", "Summer"]
 	},
 	{
 		"name": "SWIZZLE FRANcAIS",
@@ -7077,7 +7295,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, ground nutmeg",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Spicy", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "SPARKLING MAI TAI",
@@ -7114,7 +7333,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first 5 ingredients, champagne flute. Top with sparkling wine, lime twist, mint leaf",
-		"glass": "champagne"
+		"glass": "champagne",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Sweet", "Summer"]
 	},
 	{
 		"name": "THE ERNESTO",
@@ -7151,7 +7371,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, double old-fashioned glass, cracked ice. Top with soda, lime wheel, edible orchid",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Zesty", "Fruity", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "HANA REVIVER",
@@ -7188,7 +7409,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, footed pilsner glass, crushed ice, mint sprig",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Tart", "Sweet", "Spicy", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "KAITEUR SWIZZLE",
@@ -7220,7 +7442,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Spicy", "Sweet", "Smooth", "Balanced", "Summer"]
 	},
 	{
 		"name": "THE EXPEDITION",
@@ -7267,7 +7490,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Tropical", "Refreshing", "Spicy", "Tart", "Summer"]
 	},
 	{
 		"name": "THE UNDEAD GENTLEMAN",
@@ -7314,7 +7538,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rinsed coupe, intertwined lime and grapefruit twists",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Aromatic", "Balanced", "Complex", "Summer"]
 	},
 	{
 		"name": "THE DEAD RECKONING",
@@ -7361,7 +7586,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, pineapple fronds, mint spring, lemon spiral",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Citrusy", "Refreshing", "Creamy", "Complex", "Summer"]
 	},
 	{
 		"name": "FALINUM",
@@ -7398,7 +7624,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Aromatic", "Summer"]
 	},
 	{
 		"name": "HUMUHUMUNUKUNUKUAPUA'A",
@@ -7430,7 +7657,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Sweet", "Spicy", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "LAUWILIWILINUKUNUKU'OI'OI",
@@ -7462,7 +7690,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible orchid, maraschino cherry",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Floral", "Summer"]
 	},
 	{
 		"name": "FOR PETE'S SAKE",
@@ -7499,7 +7728,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, edible hibiscus flower, maraschino cherry",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Spicy", "Exotic", "Refreshing", "Summer"]
 	},
 	{
 		"name": "ARRACK PUNCH FOR TWO",
@@ -7536,7 +7766,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki bowl, lemon and lime slices",
-		"glass": "tikibowl"
+		"glass": "tikibowl",
+		"themes": ["Fruity", "Sweet", "Tangy", "Balanced", "Summer"]
 	},
 	{
 		"name": "EL DRAQUE",
@@ -7562,7 +7793,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lime wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tangy", "Fruity", "Refreshing", "Herbal", "Summer"]
 	},
 	{
 		"name": "CALIBOGUS",
@@ -7599,7 +7831,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "MARY PICKFORD",
@@ -7626,7 +7859,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Refreshing", "Tangy", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "DAIQUIRI NO. 1",
@@ -7648,7 +7882,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Herbal", "Refreshing", "Zesty", "Summer"]
 	},
 	{
 		"name": "HOTEL NACIONAL SPECIAL",
@@ -7679,7 +7914,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Smooth", "Rich", "Summer"]
 	},
 	{
 		"name": "DAISY DE SANTIAGO",
@@ -7711,7 +7947,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double old-fashioned glass, crushed ice, mint sprig",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Tropical", "Sweet", "Refreshing", "Fruity", "Summer"]
 	},
 	{
 		"name": "EL PRESIDENTE",
@@ -7738,7 +7975,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Rich", "Creamy", "Sweet", "Smooth", "Spring"]
 	},
 	{
 		"name": "TWELVE MILE LIMIT",
@@ -7770,7 +8008,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Refreshing", "Complex", "Sweet", "Fruity", "Summer"]
 	},
 	{
 		"name": "PARISIAN BLONDE",
@@ -7792,7 +8031,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first two ingredients, coupe. Float the cream, grated cinnamon",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Citrusy", "Tangy", "Smooth", "Summer"]
 	},
 	{
 		"name": "CORA MIDDLETON",
@@ -7824,7 +8064,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, coupe, Angostura bitters drops",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Creamy", "Fruity", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "MILLIONAIRE COCKTAIL #1",
@@ -7856,7 +8097,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lime wheel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Creamy", "Rich", "Exotic", "Summer"]
 	},
 	{
 		"name": "BATIDA DE MARACUJA E COCO",
@@ -7883,7 +8125,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, old fashioned glass, crushed ice, mint sprig",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "HIBISCUS RUM PUNCH",
@@ -7915,7 +8158,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with seltzer, edible hibiscus flower, lime wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Tart", "Refreshing", "Fruity", "Sweet", "Summer"]
 	},
 	{
 		"name": "BARBADOS RUM PUNCH",
@@ -7942,7 +8186,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, footed pilsner, cracked ice, grated nutmeg",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Tart", "Refreshing", "Sweet", "Aromatic", "Winter"]
 	},
 	{
 		"name": "JAMAICAN MILK PUNCH",
@@ -7979,7 +8224,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, grated nutmeg.",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Rich", "Sweet", "Creamy", "Aromatic", "Summer"]
 	},
 	{
 		"name": "CORN AND OIL",
@@ -8001,7 +8247,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, old-fashioned glass, crushed ice",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Sweet", "Spicy", "Tangy", "Rich", "Spring"]
 	},
 	{
 		"name": "QUEEN'S PARK SWIZZLE",
@@ -8032,7 +8279,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Rich", "Sweet", "Fruity", "Chocolatey", "Complex", "Summer"]
 	},
 	{
 		"name": "THE CHADBURN",
@@ -8059,7 +8307,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Complex", "Robust", "Smooth", "Fall"]
 	},
 	{
 		"name": "A WISH FOR GRACE",
@@ -8096,7 +8345,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Fruity", "Spicy", "Summer"]
 	},
 	{
 		"name": "ABRICOT VIEUX",
@@ -8123,7 +8373,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, express orange peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Refreshing", "Tangy", "Balanced", "Fruity", "Summer"]
 	},
 	{
 		"name": "PANIOLO OLD-FASHIONED",
@@ -8145,7 +8396,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, old-fashioned glass, large cube, express orange peel, drop peel in",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Spicy", "Tangy", "Zesty", "Fiery", "Fall"]
 	},
 	{
 		"name": "PORT ROYAL",
@@ -8177,7 +8429,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, five spread-out drops Hellfire tincture",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Sweet", "Exotic", "Summer"]
 	},
 	{
 		"name": "KINGSTON PALAKA",
@@ -8204,7 +8457,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Sweet", "Fruity", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "DONN DAY AFTERNOON",
@@ -8231,7 +8485,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, double old-fashioned glass, express grapefruit peel, drop peel in",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Citrusy", "Sweet", "Refreshing", "Exotic", "Summer"]
 	},
 	{
 		"name": "BAIE DU GALION",
@@ -8253,7 +8508,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Sweet", "Fruity", "Complex", "Spicy", "Summer"]
 	},
 	{
 		"name": "AGRICOLE GUAVA COOLER",
@@ -8285,7 +8541,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with soda, mint sprig, cinnamon stick, lime wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Sweet", "Summer"]
 	},
 	{
 		"name": "RICHARD SEALEBACH",
@@ -8317,7 +8574,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, lemon twist",
-		"glass": "champagne"
+		"glass": "champagne",
+		"themes": ["Fruity", "Aromatic", "Refreshing", "Sparkling", "Summer"]
 	},
 	{
 		"name": "COSA NOSTRA #2",
@@ -8349,7 +8607,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first 4 ingredients, footed pilsner glass, cracked ice. Top with ginger ale, lemon twist",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Bold", "Spicy", "Tart", "Refreshing", "Spring"]
 	},
 	{
 		"name": "BOO LOO FOR TWO",
@@ -8400,7 +8659,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice",
-		"glass": "pineapple"
+		"glass": "pineapple",
+		"themes": ["Refreshing", "Tropical", "Balanced", "Sweet", "Fruity", "Summer"]
 	},
 	{
 		"name": "CARIBENO",
@@ -8422,7 +8682,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, coconut shell, cracked ice",
-		"glass": "coconut"
+		"glass": "coconut",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Exotic", "Complex", "Summer"]
 	},
 	{
 		"name": "MONK'S RESPITE",
@@ -8464,7 +8725,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, coconut shell, crushed ice",
-		"glass": "coconut"
+		"glass": "coconut",
+		"themes": ["Fruity", "Sweet", "Spicy", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "THE MASTADON",
@@ -8511,7 +8773,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice",
-		"glass": "pineapple"
+		"glass": "pineapple",
+		"themes": ["Fruity", "Tangy", "Sweet", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "PINATA",
@@ -8553,7 +8816,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice, freshly grated nutmeg",
-		"glass": "pineapple"
+		"glass": "pineapple",
+		"themes": ["Refreshing", "Citrusy", "Sweet", "Complex", "Fru", "Summer"]
 	},
 	{
 		"name": "BUMBOAT",
@@ -8600,7 +8864,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, hollowed-out pineapple, crushed ice. Float the overproof rum",
-		"glass": "pineapple"
+		"glass": "pineapple",
+		"themes": ["Spicy", "Tart", "Rich", "Balanced", "Summer"]
 	},
 	{
 		"name": "PLANTER'S PUNCH",
@@ -8632,7 +8897,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint Sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Complex", "Tangy", "Summer"]
 	},
 	{
 		"name": "MAI TAI",
@@ -8664,7 +8930,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double old-fashioned glass, crushed ice, lime shell, mint sprig",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Spicy", "Rich", "Balanced", "Complex", "Summer"]
 	},
 	{
 		"name": "DOCTOR FUNK",
@@ -8706,7 +8973,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned, crushed ice, ti leaf or pineapple fronds",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Tangy", "Sweet", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "ZOMBIE",
@@ -8758,7 +9026,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Exotic", "Balanced", "Summer"]
 	},
 	{
 		"name": "NAVY GROG",
@@ -8800,7 +9069,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, ice cone, mint sprig",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Tropical", "Summer"]
 	},
 	{
 		"name": "SCORPION BOWL FOR TWO",
@@ -8842,7 +9112,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki bowl, cracked ice",
-		"glass": "tikibowl"
+		"glass": "tikibowl",
+		"themes": ["Fruity", "Spicy", "Sweet", "Complex", "Balanced", "Summer"]
 	},
 	{
 		"name": "FOG CUTTER",
@@ -8884,7 +9155,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, Fog Cutter mug, crushed ice. Float sherry, mint sprig",
-		"glass": null
+		"glass": null,
+		"themes": ["Tropical", "Spicy", "Sweet", "Fruity", "Strong", "Summer"]
 	},
 	{
 		"name": "SINGAPORE SLING",
@@ -8931,7 +9203,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, lemon wedge",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Complex", "Summer"]
 	},
 	{
 		"name": "HONDO HATTIE'S JUNGLE PUNCH!",
@@ -8978,7 +9251,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, punch glass, cracked ice",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Fruity", "Sweet", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "KAHIKO PUNCH",
@@ -9015,7 +9289,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, punch glass, cracked ice, edible orchid",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Tart", "Sweet", "Spicy", "Exotic", "Fruity", "Summer"]
 	},
 	{
 		"name": "TRIUMVIRATE PUNCH",
@@ -9052,7 +9327,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, punch glass, cracked ice, mint sprig",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Fruity", "Spicy", "Tart", "Refreshing", "Summer"]
 	},
 	{
 		"name": "EUREKA PUNCH",
@@ -9089,7 +9365,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, punch glass, cracked ice, lemon twist, mint sprig",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Fruity", "Spicy", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "YULETIDAL WAVE",
@@ -9136,7 +9413,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, punch glass, cracked ice",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Fruity", "Spicy", "Robust", "Complex", "Balanced", "Summer"]
 	},
 	{
 		"name": "RUMBUSTION PUNCH",
@@ -9173,7 +9451,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, punch glass, cracked ice",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Zesty", "Spicy", "Balanced", "Refreshing", "Fru", "Summer"]
 	},
 	{
 		"name": "PUKA PUNCH",
@@ -9235,7 +9514,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake first 10 ingredients, large brandy snifter, crushed ice. Float the overproof rum, mint sprig",
-		"glass": "snifter"
+		"glass": "snifter",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tart", "Summer"]
 	},
 	{
 		"name": "THE FOX HUNT",
@@ -9269,7 +9549,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, 7 drops Peychaud's bitters",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tart", "Fruity", "Creamy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "BRIAR PATCH",
@@ -9296,7 +9577,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 3 ingredients, Collins glass, crushed ice. Top with blackberry cordial, blackberry, lemon twist",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Zesty", "Summer"]
 	},
 	{
 		"name": "BLACKBERRY CORDIAL",
@@ -9318,7 +9600,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Infuse for 1 hour, strain through a fine chinois or cheesecloth",
-		"glass": null
+		"glass": null,
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "THE RIVIERA",
@@ -9344,7 +9627,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, coupe, mint leaf, orange bitters drops",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Herbal", "Tart", "Summer"]
 	},
 	{
 		"name": "PINEAPPLE INFUSED GIN",
@@ -9371,7 +9655,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Combine and let sit for 24 hours, strain through a fine chinois or cheesecloth",
-		"glass": null
+		"glass": null,
+		"themes": ["Fruity", "Sweet", "Balanced", "Refreshing", "Complex", "Fall"]
 	},
 	{
 		"name": "BLUE RIDGE MANHATTAN",
@@ -9408,7 +9693,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rinsed coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Complex", "Smokey", "Fruity", "Balanced", "Summer"]
 	},
 	{
 		"name": "PART & PARCEL",
@@ -9445,7 +9731,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Balanced", "Summer"]
 	},
 	{
 		"name": "RANGOON FIZZ",
@@ -9481,7 +9768,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, cracked ice. Top with tonic water, mint Sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Rich", "Sweet", "Creamy", "Complex", "Summer"]
 	},
 	{
 		"name": "SAZERAC #1",
@@ -9508,7 +9796,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rinsed old fashioned glass, big cube, lemon peel",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Mellow", "Spicy", "Herbal", "Smooth", "Fall"]
 	},
 	{
 		"name": "CHI-TOWN FLIP",
@@ -9544,7 +9833,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, grated nutmeg, 3 drops Fees Old Fashioned bitters",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Refreshing", "Herbal", "Zesty", "Tangy", "Fall"]
 	},
 	{
 		"name": "HUSH & WONDER",
@@ -9576,7 +9866,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Herbal", "Bitter", "Refreshing", "Summer"]
 	},
 	{
 		"name": "LADY CLOVER",
@@ -9607,7 +9898,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, Collins glass, cracked ice. Top with soda, 5 drops Angostura bitters",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Floral", "Summer"]
 	},
 	{
 		"name": "TAX THE DAISY",
@@ -9647,7 +9939,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake liquids and peels, coupe, 3 drops Angostura bitters",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tangy", "Fruity", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "ANGOSTURA FIZZ",
@@ -9683,7 +9976,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake first 5 ingredients, Collins glass, cracked ice. Top with ginger ale, lemon Wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fizzy", "Citrusy", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "EYES WIDE",
@@ -9719,7 +10013,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with soda, float Hibiscus syrup, grapefruit peel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Citrusy", "Floral", "Aromatic", "Refres", "Summer"]
 	},
 	{
 		"name": "IRON CROSS",
@@ -9755,7 +10050,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Dry shake, shake with ice for two minutes, coupe, 4 drops Angostura bitters",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Citrusy", "Smooth", "Tangy", "Balanced", "Rich", "Summer"]
 	},
 	{
 		"name": "SEEING TRACES",
@@ -9791,7 +10087,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, coupe, 4 drops orange flower water",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "DAISY 17",
@@ -9823,7 +10120,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, flamed orange twist (discarded)",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Sweet", "Minty", "Spring"]
 	},
 	{
 		"name": "JAMAICAN JULEP",
@@ -9849,7 +10147,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first 3 ingredients, julep cup, top with pineapple juice",
-		"glass": "julep"
+		"glass": "julep",
+		"themes": ["Herbal", "Bitter", "Aromatic", "Complex", "Refres", "Summer"]
 	},
 	{
 		"name": "SPEAKING IN TONGUES",
@@ -9880,7 +10179,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Zesty", "Summer"]
 	},
 	{
 		"name": "THE VIOLET HOUR",
@@ -9912,7 +10212,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Herbal", "Bitter", "Complex", "Robust", "Fall"]
 	},
 	{
 		"name": "EEYORE'S REQUIEM",
@@ -9949,7 +10250,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube, express orange oil, orange twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Aromatic", "Complex", "Robust", "Balanced", "Summer"]
 	},
 	{
 		"name": "THE WARNING LABEL",
@@ -9986,7 +10288,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rinsed cocktail glass, lemon twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Smoky", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "A MOMENT OF SILENCE",
@@ -10023,7 +10326,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rinsed rocks glass, orange twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Sweet", "Bitter", "Robust", "Complex", "Fall"]
 	},
 	{
 		"name": "VARIATION ON A THEME",
@@ -10055,7 +10359,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, orange twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Rich", "Balanced", "Complex", "Summer"]
 	},
 	{
 		"name": "IMPROVED SCOTCH SLING",
@@ -10092,7 +10397,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, lemon twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Complex", "Balanced", "Smoky", "Sweet", "Sour", "Fall"]
 	},
 	{
 		"name": "PIMM'S UP",
@@ -10124,7 +10430,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, two drops celery bitters",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Herbal", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "GUNSHOP FIZZ",
@@ -10167,7 +10474,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with Sanbitter, cucumber slice",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Tart", "Zesty", "Summer"]
 	},
 	{
 		"name": "WESTERN PASSAGE",
@@ -10204,7 +10512,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, cherry, express orange peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Rich", "Sweet", "Spicy", "Complex", "Summer"]
 	},
 	{
 		"name": "PATENT PENDING",
@@ -10241,7 +10550,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, double old fashioned glass, large cube, express grapefruit peel",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Bitter", "Refreshing", "Floral", "Summer"]
 	},
 	{
 		"name": "BAMBOO",
@@ -10268,7 +10578,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Refreshing", "Fruity", "Balanced", "Sweet", "Fall"]
 	},
 	{
 		"name": "OLD FRIEND",
@@ -10295,7 +10606,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon twist.",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Spicy", "Sweet", "Complex", "Summer"]
 	},
 	{
 		"name": "GREEN TEA PUNCH",
@@ -10327,7 +10639,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, punch glass, cracked ice, grated nutmeg",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Rich", "Complex", "Balanced", "Smooth", "Summer"]
 	},
 	{
 		"name": "MONTE CARLO",
@@ -10349,7 +10662,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, old-Fashioned glass, large cube. Express lemon peel, drop in",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Herbal", "Balanced", "Rich", "Complex", "Fall"]
 	},
 	{
 		"name": "AUTUMN OLD-FASHIONED",
@@ -10391,7 +10705,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, old-Fashioned glass, large cube, express lemon and orange peel, drop in",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Rich", "Refined", "Aromatic", "Balanced", "Spring"]
 	},
 	{
 		"name": "THE FIELD MARSHALL",
@@ -10423,7 +10738,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first 4 ingredients, Champagne flute. Top with Champagne, lemon twist",
-		"glass": "champagne"
+		"glass": "champagne",
+		"themes": ["Spicy", "Herbal", "Rich", "Fall"]
 	},
 	{
 		"name": "SHERRY COBBLER",
@@ -10444,7 +10760,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, Collins glass, crushed ice, orange wheel, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Balanced", "Spring"]
 	},
 	{
 		"name": "TRACTION",
@@ -10474,7 +10791,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, old-Fashioned glass, crushed ice, strawberry, lemon wedge, mint sprig",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Tangy", "Sweet", "Complex", "Fall"]
 	},
 	{
 		"name": "SMOKE AND MIRRORS",
@@ -10510,7 +10828,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double old-Fashioned glass, large cube, mint sprig",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Smoky", "Herbal", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "SMOKESCREEN",
@@ -10546,7 +10865,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double old-Fashioned glass over, large cube, mint sprig",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Herbal", "Spicy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "JACK FROST",
@@ -10583,7 +10903,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, with the mint sprig, sage bouquet, dusting of powdered sugar",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Refreshing", "Sweet", "Tangy", "Spring"]
 	},
 	{
 		"name": "RATIONAL THOUGHT",
@@ -10615,7 +10936,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Smoky", "Tart", "Complex", "Fall"]
 	},
 	{
 		"name": "MAIDEN'S BLUSH",
@@ -10642,7 +10964,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, punch glass",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Herbal", "Aromatic", "Robust", "Complex", "Summer"]
 	},
 	{
 		"name": "RASPBERRY CORDIAL",
@@ -10669,7 +10992,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Puree raspberries, mix in sugar syrup. Strain through a chinois or cheesecloth into a bottle. Add rose water and Everclear and shake",
-		"glass": null
+		"glass": null,
+		"themes": ["Creamy", "Herbal", "Sweet", "Fruity", "Summer"]
 	},
 	{
 		"name": "DELICIOUS SOUR",
@@ -10710,7 +11034,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, punch glass, cracked ice, grated nutmeg.",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Herbal", "Rich", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "WHISKEY COCKTAIL #2",
@@ -10747,7 +11072,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, cocktail glass, express orange peel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Refreshing", "Spicy", "Tart", "Fall"]
 	},
 	{
 		"name": "BIJOU",
@@ -10784,7 +11110,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, cocktail glass, express orange peel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Citrusy", "Sweet", "Complex", "Refreshing", "Spring"]
 	},
 	{
 		"name": "SUISSESSE #2",
@@ -10820,7 +11147,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, express lemon peel, grated nutmeg",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Floral", "Potent", "Fall"]
 	},
 	{
 		"name": "FLOR DE JEREZ",
@@ -10857,7 +11185,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Spicy", "Citrusy", "Robust", "Spring"]
 	},
 	{
 		"name": "CITY OF GOLD SLING",
@@ -10904,7 +11233,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, highball glass, cracked ice, pineapple wedge",
-		"glass": "highball"
+		"glass": "highball",
+		"themes": ["Smooth", "Rich", "Fruity", "Balanced", "Spicy", "Summer"]
 	},
 	{
 		"name": "PRETTY BIRD",
@@ -10941,7 +11271,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double rocks glass, large cube, lime wheel, cherry flag",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Tart", "Refreshing", "Fruity", "Spicy", "Summer"]
 	},
 	{
 		"name": "BERMUDA DUNES",
@@ -10983,7 +11314,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, footed pilsner, crushed ice, mint sprig, lime wedge, cherry",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Sweet", "Spicy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "HONI HONI",
@@ -11015,7 +11347,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shaken, old fashioned glass, crushed ice, mint sprig, lime wedge, cherry",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Refreshing", "Tart", "Sweet", "Tropical", "Summer"]
 	},
 	{
 		"name": "MOJAVE PUNCH",
@@ -11057,7 +11390,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, footed pilsner, crushed ice",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Sweet", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "DESERT ROSE",
@@ -11094,7 +11428,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, old fashioned glass, crushed ice, orange twist",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Robust", "Fruity", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "THE HARD SELL",
@@ -11126,7 +11461,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, express grapefruit peel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "THE WARDLOW",
@@ -11158,7 +11494,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, 2 spritzes Absinthe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Spicy", "Balanced", "Refreshing", "Spring"]
 	},
 	{
 		"name": "FEAR AND LOATHING",
@@ -11195,7 +11532,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, highball glass, cracked ice, top with blood orange juice, blood orange wheel, mint sprig",
-		"glass": "highball"
+		"glass": "highball",
+		"themes": ["Smoky", "Fruity", "Sweet", "Tangy", "Refres", "Summer"]
 	},
 	{
 		"name": "SCOTTISH KISS",
@@ -11227,7 +11565,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, raspberry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Herbal", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "MIDNIGHT BOTANIST",
@@ -11262,7 +11601,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, Collins glass, cracked ice. Top with seltzer, two blackberries, rosemary sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Smoky", "Herbal", "Aromatic", "Smooth", "Summer"]
 	},
 	{
 		"name": "OAXACAN SMOKE",
@@ -11284,7 +11624,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube, orange peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Tart", "Citrusy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "LINCOLN COUNTY REVIVAL",
@@ -11316,7 +11657,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Herbal", "Balanced", "Summer"]
 	},
 	{
 		"name": "STARBOARD LIGHT",
@@ -11347,7 +11689,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice, pineapple wedge, mint sprig",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Smooth", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "RAIL CAR",
@@ -11379,7 +11722,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Herbal", "Sweet", "Tangy", "Fall"]
 	},
 	{
 		"name": "FATHER'S ADVICE",
@@ -11411,7 +11755,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, orange peel, cherry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Creamy", "Refreshing", "Fall"]
 	},
 	{
 		"name": "PARLIAMENT PUNCH",
@@ -11442,7 +11787,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, crushed ice, frozen raspberries, edible orchid",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Smooth", "Balanced", "Summer"]
 	},
 	{
 		"name": "BRIDGETOWN",
@@ -11474,7 +11820,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, crushed ice",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Rich", "Smooth", "Balanced", "Winter"]
 	},
 	{
 		"name": "KINGSTON CLUB",
@@ -11511,7 +11858,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, orange twist",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Herbal", "Balanced", "Complex", "Spicy", "Summer"]
 	},
 	{
 		"name": "NORWEGIAN WOOD",
@@ -11543,7 +11891,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Spicy", "Fruity", "Sweet", "Complex", "Fall"]
 	},
 	{
 		"name": "AUTUMN LEAVES",
@@ -11575,7 +11924,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, old fashioned glass, cracked ice, orange peel",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Tangy", "Refreshing", "Spicy", "Fruity", "Fall"]
 	},
 	{
 		"name": "PEGU CLUB",
@@ -11612,7 +11962,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, lime wheel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Balanced", "Tropical", "Refreshing", "Summer"]
 	},
 	{
 		"name": "ANDALUSIAN BUCK",
@@ -11644,7 +11995,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, Collins glass, cracked ice. Top with ginger beer, lime wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Refreshing", "Citrusy", "Balanced", "Tangy", "Summer"]
 	},
 	{
 		"name": "PRESTON-BAKER",
@@ -11676,7 +12028,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, cocktail glass, lemon twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Herbal", "Refreshing", "Complex", "Summer"]
 	},
 	{
 		"name": "WORTHY ADVERSARY",
@@ -11718,7 +12071,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, tiki mug, crushed ice, orange slice, mint sprig, pinch of curry powder",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Spicy", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "ITALIAN JOB",
@@ -11750,7 +12104,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, cocktail glass, express orange peel, dehydrated orange wheel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Aromatic", "Refreshing", "Summer"]
 	},
 	{
 		"name": "THE COUNT RIDES AGAIN",
@@ -11802,7 +12157,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, cracked ice, grapefruit twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Complex", "Balanced", "Refreshing", "Fall"]
 	},
 	{
 		"name": "X MARKS THE SPOT",
@@ -11843,7 +12199,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, cocktail glass, float star anise pod",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Rich", "Fruity", "Sweet", "Balanced", "Complex", "Summer"]
 	},
 	{
 		"name": "MANHATTAN PROJECT",
@@ -11880,7 +12237,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Rich", "Balanced", "Complex", "Fall"]
 	},
 	{
 		"name": "CALM",
@@ -11912,7 +12270,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube, lemon peel, chamomile flowers",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Strong", "Sweet", "Spicy", "Complex", "Herbal", "Summer"]
 	},
 	{
 		"name": "TALL TALE",
@@ -11947,7 +12306,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, Collins glass, cracked ice. Top with ginger beer, cucumber wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Tangy", "Citrusy", "Summer"]
 	},
 	{
 		"name": "NICHOL PUNCH",
@@ -11989,7 +12349,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Refreshing", "Fruity", "Zesty", "Tangy", "Summer"]
 	},
 	{
 		"name": "SWEET HEREAFTER",
@@ -12031,7 +12392,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, express grapefruit peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Smoky", "Fruity", "Tart", "Aromatic", "Ref", "Summer"]
 	},
 	{
 		"name": "MOONSHAKE",
@@ -12077,7 +12439,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake first 7 ingredients, highball glass. Top with seltzer, mint sprig, express grapefruit peel",
-		"glass": "highball"
+		"glass": "highball",
+		"themes": ["Refreshing", "Citrusy", "Herbal", "Fruity", "Summer"]
 	},
 	{
 		"name": "GOLDEN EYE",
@@ -12108,7 +12471,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, cocktail glass. Top with Lambrusco, rosemary sprig",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Refreshing", "Fruity", "Floral", "Herbal", "Summer"]
 	},
 	{
 		"name": "SANTIAGO PUNCH",
@@ -12154,7 +12518,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, rocks glass, big cube, Thai basil sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Tropical", "Exotic", "Zesty", "Refreshing", "Summer"]
 	},
 	{
 		"name": "MONKEY FLIP",
@@ -12190,7 +12555,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, double strain, cocktail glass, grated cinnamon, dehydrated banana chip",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Rich", "Spicy", "Sweet", "Decadent", "Fall"]
 	},
 	{
 		"name": "VAGABOND",
@@ -12222,7 +12588,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Spicy", "Sweet", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "THROUGH THE LOOKING GLASS",
@@ -12264,7 +12631,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice. Float Port, dehydrated lemon wheel",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Smoky", "Fruity", "Sweet", "Tangy", "Summer"]
 	},
 	{
 		"name": "CARTHUSIAN STAR",
@@ -12296,7 +12664,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe glass",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Herbal", "Complex", "Summer"]
 	},
 	{
 		"name": "WITCH DOCTOR",
@@ -12333,7 +12702,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, sage leaf-smoked rocks glass, large cube, express grapefruit peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Smoky", "Herbal", "Fruity", "Complex", "Balanced", "Spring"]
 	},
 	{
 		"name": "LEVIATHAN",
@@ -12380,7 +12750,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, tiki mug, crushed ice. Float bitters, edible orchid",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Balanced", "Tropical", "Refreshing", "Summer"]
 	},
 	{
 		"name": "SILK ROAD SOUR",
@@ -12417,7 +12788,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe glass, grapefruit twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "CHICAGO TYPEWRITER",
@@ -12449,7 +12821,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe glass, express lemon peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Complex", "Herbal", "Spicy", "Fruity", "Fall"]
 	},
 	{
 		"name": "STRAW DOG",
@@ -12490,7 +12863,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe glass, strawberry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Balanced", "Complex", "Tangy", "Summer"]
 	},
 	{
 		"name": "ABSENT STARS",
@@ -12532,7 +12906,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, orange twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Spicy", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "TRANSATLANTIC ORBIT",
@@ -12579,7 +12954,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice, lime shell, mint sprig",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Tropical", "Tangy", "Refreshing", "Fruity", "Summer"]
 	},
 	{
 		"name": "DOPPELGANGER",
@@ -12616,7 +12992,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, mint sprig",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Herbal", "Sweet", "Complex", "Summer"]
 	},
 	{
 		"name": "WINCHESTER",
@@ -12668,7 +13045,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice, mint sprig",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Tart", "Refreshing", "Fruity", "Complex", "Balanced", "Summer"]
 	},
 	{
 		"name": "LIGHTNING SWORDS OF DEATH",
@@ -12705,7 +13083,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, tiki mug, crushed ice, mint sprig",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Sweet", "Tart", "Refreshing", "Herbal", "Summer"]
 	},
 	{
 		"name": "ELIXIR ALPESTRE",
@@ -12737,7 +13116,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe glass, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Balanced", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "BEACHCOMBER'S PUNCH",
@@ -12779,7 +13159,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, champagne flute, crushed ice, mint sprig",
-		"glass": "champagne"
+		"glass": "champagne",
+		"themes": ["Fruity", "Tart", "Sweet", "Strong", "Summer"]
 	},
 	{
 		"name": "GOLD CUP",
@@ -12816,7 +13197,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe glass",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Refreshing", "Complex", "Aromatic", "Summer"]
 	},
 	{
 		"name": "HAWAIIAN ROOM",
@@ -12848,7 +13230,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Refreshing", "Sweet", "Tart", "Summer"]
 	},
 	{
 		"name": "PLANET OF THE APES",
@@ -12885,7 +13268,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, banana slice, cocktail cherry, edible orchid",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Tropical", "Fruity", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "RUM RUNNER",
@@ -12917,7 +13301,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Sweet", "Exotic", "Refreshing", "Rich", "Summer"]
 	},
 	{
 		"name": "KRAKATOA",
@@ -12974,7 +13359,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake large brandy snifter, crushed ice. Float coffee",
-		"glass": "snifter"
+		"glass": "snifter",
+		"themes": ["Strong", "Fruity", "Sweet", "Tart", "Complex", "Summer"]
 	},
 	{
 		"name": "TORTUGA",
@@ -13026,7 +13412,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, footed pilsner, crushed ice, lime wedge",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "NEVER SAY DIE",
@@ -13078,7 +13465,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, wine glass, crushed ice",
-		"glass": "wine"
+		"glass": "wine",
+		"themes": ["Tropical", "Fruity", "Balanced", "Sweet", "Refres", "Summer"]
 	},
 	{
 		"name": "PAINKILLER",
@@ -13115,7 +13503,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice. Dust with cinnamon and nutmeg, pineapple stick, cinnamon stick, orange wheel",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Tropical", "Refreshing", "Balanced", "Fruity", "Summer"]
 	},
 	{
 		"name": "Q.B. COOLER",
@@ -13172,7 +13561,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, multiple mint sprigs",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Refreshing", "Sweet", "Spicy", "Summer"]
 	},
 	{
 		"name": "BLACKBEARD'S GHOST",
@@ -13214,7 +13604,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, orange slice, cocktail cherry",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Tangy", "Sweet", "Spicy", "Summer"]
 	},
 	{
 		"name": "ANCIENT MARINER",
@@ -13251,7 +13642,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Spiced", "Tart", "Robust", "Summer"]
 	},
 	{
 		"name": "BEACHBUM'S OWN",
@@ -13288,7 +13680,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, mint sprig, lime wedge",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Tangy", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "COCOANUT GROVE COOLER",
@@ -13335,7 +13728,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, Collins glass, crushed ice, orange slice, cocktail cherry, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Tropical", "Spicy", "Tart", "Balanced", "Summer"]
 	},
 	{
 		"name": "FU MANCHU",
@@ -13367,7 +13761,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, old-fashioned glass, lime wedge, cocktail cherry",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Refreshing", "Sweet", "Tangy", "Minty", "Summer"]
 	},
 	{
 		"name": "GOLDEN DREAM",
@@ -13394,7 +13789,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Creamy", "Sweet", "Tangy", "Fruity", "Summer"]
 	},
 	{
 		"name": "GOLDEN WAVE",
@@ -13426,7 +13822,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, old-fashioned glass, crushed ice, pineapple stick, edible orchid",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Tangy", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "JAGUAR",
@@ -13488,7 +13885,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first 10 ingredients, Collins glass, crushed ice. Top with champagne, pineapple stick, cocktail cherry",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Rich", "Fruity", "Sweet", "Complex", "Refreshing", "Summer"]
 	},
 	{
 		"name": "SCHOONER",
@@ -13530,7 +13928,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Tangy", "Sweet", "Strong", "Summer"]
 	},
 	{
 		"name": "PARADISE COOLER",
@@ -13562,7 +13961,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, crushed ice, cocktail cherry, apple wedge, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "KAVA BOWL FOR TWO",
@@ -13599,7 +13999,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki bowl, cracked ice, gardenia",
-		"glass": "tikibowl"
+		"glass": "tikibowl",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "RUM KEG FOR TWO",
@@ -13641,7 +14042,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki bowl, cracked ice",
-		"glass": "tikibowl"
+		"glass": "tikibowl",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Complex", "Summer"]
 	},
 	{
 		"name": "OAHU GIN SLING",
@@ -13678,7 +14080,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 5 ingredients, footed pilsner, crushed ice. Top with seltzer, stir, lime spiral",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Exotic", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "PAGO PAGO",
@@ -13709,7 +14112,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Tart", "Exotic", "Summer"]
 	},
 	{
 		"name": "RUM BARREL",
@@ -13771,7 +14175,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, double old-fashioned glass, crushed ice, orange peel",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Tangy", "Sweet", "Complex", "Summer"]
 	},
 	{
 		"name": "SUNDOWNER",
@@ -13798,7 +14203,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, old-fashioned glass, crushed ice, lime wheel",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Strong", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "MOLOKAI MULE",
@@ -13835,7 +14241,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double old-fashioned glass, crushed ice, pineapple stick, mint sprig, edible orchid",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Balanced", "Sweet", "Refreshing", "Summer"]
 	},
 	{
 		"name": "TAHITIAN RUM PUNCH",
@@ -13892,7 +14299,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, footed pilsner, crushed ice, mint sprig",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Sweet", "Tangy", "Exotic", "Summer"]
 	},
 	{
 		"name": "YELLOW SUBMARINE",
@@ -13929,7 +14337,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, cracked ice, pineapple chunk, cocktail cherry",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Exotic", "Summer"]
 	},
 	{
 		"name": "ARIKI MAU",
@@ -13971,7 +14380,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, large tiki mug, crushed ice, express orange peel, orange wheel",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Complex", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "BEACHBUM",
@@ -14008,7 +14418,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, cracked ice, cocktail cherry, orange slice",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Sweet", "Tropical", "Balanced", "Summer"]
 	},
 	{
 		"name": "CUSCO FIZZ",
@@ -14039,7 +14450,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, old-fashioned glass, cracked ice. Top with seltzer",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Refreshing", "Tart", "Balanced", "Fall"]
 	},
 	{
 		"name": "FAREWELL FLIP",
@@ -14080,7 +14492,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, old-fashioned glass, grated nutmeg, chocolate flakes",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Rich", "Sweet", "Creamy", "Smooth", "Complex", "Summer"]
 	},
 	{
 		"name": "GANTT'S TOMB",
@@ -14127,7 +14540,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, footed pilsner, crushed ice, mint sprig",
-		"glass": "pilsner"
+		"glass": "pilsner",
+		"themes": ["Fruity", "Tangy", "Rich", "Complex", "Summer"]
 	},
 	{
 		"name": "KIWI'S NEST GROG",
@@ -14172,7 +14586,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, Collins glass, crushed ice, kiwi fruit wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Strong", "Sweet", "Tangy", "Summer"]
 	},
 	{
 		"name": "KERALA",
@@ -14218,7 +14633,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double strain, coupe glass",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Tangy", "Fruity", "Spicy", "Balanced", "Refres", "Summer"]
 	},
 	{
 		"name": "RUMSCULLION",
@@ -14250,7 +14666,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, cocktail glass, express orange peel, orange twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Balanced", "Complex", "Fall"]
 	},
 	{
 		"name": "VAVA VOOM",
@@ -14292,7 +14709,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe glass, lime wedge",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Herbal", "Complex", "Sweet", "Aromatic", "Summer"]
 	},
 	{
 		"name": "VOYAGER",
@@ -14324,7 +14742,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, old-fashioned glass, cracked ice, lime wedge",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Sweet", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "ROAD TO MANHATTAN",
@@ -14351,7 +14770,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Robust", "Spicy", "Herbal", "Complex", "Fall"]
 	},
 	{
 		"name": "T & T SOUR",
@@ -14392,7 +14812,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Fruity", "Smooth", "Balanced", "Spring"]
 	},
 	{
 		"name": "FLYING ELVIS",
@@ -14423,7 +14844,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, old-fashioned glass, 3 drops Angostura bitters ",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Creamy", "Balanced", "Sweet", "Tart", "Summer"]
 	},
 	{
 		"name": "BOMBAY GOVERNMENT PUNCH",
@@ -14455,7 +14877,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, double old-fashioned glass, cracked ice, grated nutmeg",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Rich", "Refreshing", "Exotic", "Summer"]
 	},
 	{
 		"name": "OLD TIMER",
@@ -14497,7 +14920,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 6 ingredients, Collins glass, cracked ice. Top with seltzer, orange twist",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Robust", "Balanced", "Herbal", "Zesty", "Fall"]
 	},
 	{
 		"name": "NORTH SEA OIL",
@@ -14524,7 +14948,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, double old-fashioned glass, large cube, grapefruit twist",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Smoky", "Herbal", "Rich", "Complex", "Fall"]
 	},
 	{
 		"name": "NATIONAL TREASURE",
@@ -14556,7 +14981,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube, lemon twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Smoky", "Fruity", "Tangy", "Balanced", "Fall"]
 	},
 	{
 		"name": "LAHAINA NOON",
@@ -14598,7 +15024,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug , crushed ice, mint sprig",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Herbal", "Robust", "Bitter", "Balanced", "Summer"]
 	},
 	{
 		"name": "CHAOS CALMER",
@@ -14630,7 +15057,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double old-fashioned glass, orange wheel",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Citrusy", "Summer"]
 	},
 	{
 		"name": "HERMOSA BEACH",
@@ -14660,7 +15088,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, large cube, basil leaf",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Herbal", "Refreshing", "Sweet", "Tang", "Summer"]
 	},
 	{
 		"name": "LIFE IS BEAUTIFUL",
@@ -14687,7 +15116,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, two cherries",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Robust", "Balanced", "Complex", "Fruity", "Fall"]
 	},
 	{
 		"name": "PERFECT AMARETTO SOUR",
@@ -14719,7 +15149,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, old fashioned glass, cracked ice, lemon peel, brandied cherry",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Smooth", "Rich", "Sweet", "Balanced", "Fall"]
 	},
 	{
 		"name": "TARUS THE BULL",
@@ -14751,7 +15182,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first four ingredients, cocktail glass. Top with bitters, lemon twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Complex", "Herbal", "Tangy", "Fruity", "Ref", "Spring"]
 	},
 	{
 		"name": "ALAMAGOOZLUM",
@@ -14797,7 +15229,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake vigorously, large cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Citrusy", "Spicy", "Herbal", "Robust", "Summer"]
 	},
 	{
 		"name": "DROVE MY CHEVY TO THE LEVEE",
@@ -14829,7 +15262,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, old-fashioned glass, cracked ice, sliced peaches",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Fruity", "Sweet", "Complex", "Tart", "Floral", "Summer"]
 	},
 	{
 		"name": "THE AVENUE",
@@ -14861,7 +15295,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, edible carnation",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Balanced", "Refreshing", "Spring"]
 	},
 	{
 		"name": "BARNUM WAS RIGHT",
@@ -14888,7 +15323,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, lemon twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Tart", "Summer"]
 	},
 	{
 		"name": "CHATHAM HOTEL SPECIAL",
@@ -14914,7 +15350,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Rich", "Creamy", "Sweet", "Decadent", "Winter"]
 	},
 	{
 		"name": "THE COMMUNIST",
@@ -14941,7 +15378,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Sweet", "Fruity", "Refreshing", "Exotic", "Summer"]
 	},
 	{
 		"name": "THE CORPSE REVIVER #2",
@@ -14973,7 +15411,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, cherry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Tart", "Balanced", "Summer"]
 	},
 	{
 		"name": "CRIMEAN CUP A LA MARMORA",
@@ -15027,7 +15466,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first 9 ingredients, large cocktail glass, large cubes. Top with champagne",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Spicy", "Tangy", "Balanced", "Summer"]
 	},
 	{
 		"name": "THE DERBY",
@@ -15054,7 +15494,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, mint leaf",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Crisp", "Refreshing", "Citrusy", "Herbal", "Summer"]
 	},
 	{
 		"name": "EAST INDIA COCKTAIL",
@@ -15086,7 +15527,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, cherry",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Spicy", "Complex", "Robust", "Summer"]
 	},
 	{
 		"name": "THE FORD COCKTAIL",
@@ -15113,7 +15555,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, martini glass, orange twist",
-		"glass": "martini"
+		"glass": "martini",
+		"themes": ["Fruity", "Herbal", "Balanced", "Complex", "Fall"]
 	},
 	{
 		"name": "GEORGIA MINT JULEP",
@@ -15144,7 +15587,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, julep cup, crushed ice, several mint sprigs",
-		"glass": "julep"
+		"glass": "julep",
+		"themes": ["Fruity", "Refreshing", "Sweet", "Smooth", "Summer"]
 	},
 	{
 		"name": "GOLDEN DAWN",
@@ -15176,7 +15620,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, cherry",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "INCOME TAX",
@@ -15208,7 +15653,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, orange wheel",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "THE JAPALAC COCKTAIL",
@@ -15235,7 +15681,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, orange twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Tangy", "Summer"]
 	},
 	{
 		"name": "JASPER'S RUM PUNCH",
@@ -15267,7 +15714,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, Collins glass, cracked ice, cherry",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Balanced", "Refreshing", "Aromatic", "Summer"]
 	},
 	{
 		"name": "LUCIEN GAUDIN",
@@ -15294,7 +15742,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, cocktail glass, orange twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Zesty", "Bitter", "Fruity", "Refreshing", "Summer"]
 	},
 	{
 		"name": "PARK AVENUE",
@@ -15321,7 +15770,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Tart", "Refreshing", "Balanced", "Citrusy", "Summer"]
 	},
 	{
 		"name": "PEGU CLUB",
@@ -15348,7 +15798,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Tangy", "Refreshing", "Tart", "Spring"]
 	},
 	{
 		"name": "THE PENDENNIS",
@@ -15369,13 +15820,14 @@ const recipes = [
 				"ingredient": "Peychaud's bitters"
 			},
 			{
-				"measure": null,
-				"unit": null,
-				"ingredient": "3/4 oz Lime juice"
+				"measure": "0.75",
+				"unit": "oz",
+				"ingredient": "Lime juice"
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Summer"]
 	},
 	{
 		"name": "THE SECRET COCKTAIL",
@@ -15411,7 +15863,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Double shake, Double strain, rocks glass, large cube, three brandied cherries",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Smooth", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "SAINT CROIX RUM FIX",
@@ -15438,7 +15891,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, wine glass, crushed ice, seasonal fruit",
-		"glass": "wine"
+		"glass": "wine",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "SEELBACH",
@@ -15470,7 +15924,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir first 4 ingredients, champagne flute. Top with champagne, orange twist",
-		"glass": "champagne"
+		"glass": "champagne",
+		"themes": ["Fruity", "Rich", "Complex", "Aromatic", "Balanced", "Summer"]
 	},
 	{
 		"name": "THE SOOTHER",
@@ -15507,7 +15962,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, goblet, lemon twist",
-		"glass": "goblet"
+		"glass": "goblet",
+		"themes": ["Fruity", "Complex", "Balanced", "Aromatic", "Summer"]
 	},
 	{
 		"name": "THE STRAITS SLING",
@@ -15549,7 +16005,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 6 ingredients, champagne flute. Top with seltzer, cherry, orange wheel, lemon twist",
-		"glass": "champagne"
+		"glass": "champagne",
+		"themes": ["Fruity", "Complex", "Refreshing", "Sweet", "Spring"]
 	},
 	{
 		"name": "WILD IRISH ROSE",
@@ -15595,7 +16052,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, punch glass",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Robust", "Fruity", "Complex", "Refreshing", "Spring"]
 	},
 	{
 		"name": "FLAMENCO",
@@ -15632,7 +16090,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Tangy", "Rich", "Complex", "Summer"]
 	},
 	{
 		"name": "PHILADELPHIA FISH HOUSE PUNCH FOR TWO",
@@ -15669,7 +16128,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, punch glass",
-		"glass": "punch"
+		"glass": "punch",
+		"themes": ["Fruity", "Spicy", "Tangy", "Balanced", "Summer"]
 	},
 	{
 		"name": "DON'T TREAD ON ME",
@@ -15696,7 +16156,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, thyme sprig",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Robust", "Tangy", "Her", "Spring"]
 	},
 	{
 		"name": "ARCHIPELAGO",
@@ -15728,7 +16189,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, cracked ice, lemon peel, mint sprig",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Spicy", "Tangy", "Refreshing", "Fall"]
 	},
 	{
 		"name": "LINGUA FRANCA",
@@ -15775,7 +16237,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 7 ingredients, Collins glass, cracked ice. Top with seltzer, mint sprig, lemon twist",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Tropical", "Creamy", "Spicy", "Sweet", "Summer"]
 	},
 	{
 		"name": "BIRD ON A WIRE",
@@ -15807,7 +16270,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Fruity", "Balanced", "Sweet", "Aromatic", "Fall"]
 	},
 	{
 		"name": "STEEPLECHASE",
@@ -15843,7 +16307,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Tropical", "Sweet", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "GOLDEN SWIZZLE",
@@ -15875,7 +16340,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, Collins glass, crushed ice, pineapple slice, mint sprig",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Herbal", "Refreshing", "Balanced", "Sweet", "Tart", "Summer"]
 	},
 	{
 		"name": "ISLAND BATIDA",
@@ -15907,7 +16373,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, crushed ice, pineapple wedge, grated nutmeg",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Herbal", "Aromatic", "Balanced", "Refreshing", "Fall"]
 	},
 	{
 		"name": "PARTRIDGE IN A PEAR TREE",
@@ -15937,7 +16404,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, rosemary sprig",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Herbal", "Spicy", "Citrusy", "Summer"]
 	},
 	{
 		"name": "MOUNT MAKANA",
@@ -15979,7 +16447,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, tiki mug, crushed ice, mint sprig",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Refreshing", "Exotic", "Zesty", "Summer"]
 	},
 	{
 		"name": "GHOST IN THE GRAVEYARD",
@@ -16006,7 +16475,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, old-fashioned glass, cracked ice, mint sprig",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Rich", "Smoky", "Balanced", "Fruity", "Sweet", "Summer"]
 	},
 	{
 		"name": "SCARECROW",
@@ -16033,7 +16503,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, express orange peel",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Tart", "Balanced", "Summer"]
 	},
 	{
 		"name": "BATTLE OF TRAFALGAR",
@@ -16065,7 +16536,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, express orange peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Sweet", "Complex", "Spring"]
 	},
 	{
 		"name": "POLYNESIAN REMEDY",
@@ -16102,7 +16574,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Tiki mug, crushed ice, candied ginger, lemon wheel, pineapple frond",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Sweet", "Robust", "Tangy", "Herbal", "Summer"]
 	},
 	{
 		"name": "JUNGLE BOOBY",
@@ -16149,7 +16622,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, rocks glass, crushed ice, pineapple wedge, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Spicy", "Balanced", "Refreshing", "Fall"]
 	},
 	{
 		"name": "SEAHORSE",
@@ -16186,7 +16660,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, crushed ice, mint sprig, grated cinnamon",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Smoky", "Fruity", "Tart", "Sweet", "Herbal", "Fall"]
 	},
 	{
 		"name": "BANANA CUP #1",
@@ -16218,7 +16693,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake first 4 ingredients, rocks glass, cracked ice. Top with ginger beer, mint sprig",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Rich", "Spicy", "Robust", "Sophisticated", "Summer"]
 	},
 	{
 		"name": "THE FINAL WARD",
@@ -16245,7 +16721,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Refreshing", "Tangy", "Bright", "Spring"]
 	},
 	{
 		"name": "OLD NUMBER ONE",
@@ -16272,7 +16749,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, cherry",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Aromatic", "Refreshing", "Complex", "Fall"]
 	},
 	{
 		"name": "EARTHBOUND",
@@ -16299,7 +16777,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, grapefruit twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Complex", "Sweet", "Tart", "Summer"]
 	},
 	{
 		"name": "BURROUGH'S REVIVER",
@@ -16331,7 +16810,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Herbal", "Citrusy", "Tangy", "Robust", "Summer"]
 	},
 	{
 		"name": "RIKI TIKI TAVI",
@@ -16368,7 +16848,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, Julep cup, crushed ice, mint sprig, grated cinnamon",
-		"glass": "julep"
+		"glass": "julep",
+		"themes": ["Fruity", "Spicy", "Balanced", "Sweet", "Complex", "Summer"]
 	},
 	{
 		"name": "IMMIGRANT SONG",
@@ -16400,7 +16881,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, cracked ice, lemon twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Herbal", "Rich", "Fruity", "Smooth", "Fall"]
 	},
 	{
 		"name": "THE FRONTIER",
@@ -16432,7 +16914,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Smoky", "Herbal", "Tart", "Complex", "Summer"]
 	},
 	{
 		"name": "ELEVENTH HOUR",
@@ -16468,7 +16951,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Herbal", "Citrusy", "Complex", "Spicy", "Fall"]
 	},
 	{
 		"name": "MASTER'S CHAIR",
@@ -16500,7 +16984,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Spicy", "Fruity", "Complex", "Fall"]
 	},
 	{
 		"name": "BROKEN COMPASS",
@@ -16537,7 +17022,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube, orange peel",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Spicy", "Rich", "Complex", "Summer"]
 	},
 	{
 		"name": "MR. WEDNESDAY",
@@ -16574,7 +17060,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix/whip shake, tiki mug, crushed ice, edible orchid",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Fruity", "Sweet", "Aromatic", "Complex", "Refres", "Summer"]
 	},
 	{
 		"name": "MILES AHEAD",
@@ -16625,7 +17112,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Spicy", "Bold", "Complex", "Herbal", "Sweet", "Fall"]
 	},
 	{
 		"name": "SAILOR'S DELIGHT",
@@ -16672,7 +17160,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, crushed ice, cherry",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Fruity", "Complex", "Balanced", "Refreshing", "Summer"]
 	},
 	{
 		"name": "LOST HORIZON",
@@ -16704,7 +17193,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rinsed old fashioned glass, orange twist",
-		"glass": "oldfashioned"
+		"glass": "oldfashioned",
+		"themes": ["Rich", "Complex", "Bitter", "Refreshing", "Aromatic", "Fall"]
 	},
 	{
 		"name": "GOLDEN TICKET",
@@ -16731,7 +17221,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, coupe, lemon twist",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Rich", "Complex", "Robust", "Smoky", "Fruity", "Summer"]
 	},
 	{
 		"name": "THE MINTON",
@@ -16763,7 +17254,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Floral", "Summer"]
 	},
 	{
 		"name": "SHADDOCK",
@@ -16790,7 +17282,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, lemon twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Refreshing", "Balanced", "Summer"]
 	},
 	{
 		"name": "NORMANDIE CLUB COLLINS",
@@ -16822,7 +17315,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Collins glass, cracked ice. Top with seltzer, lemon wheel",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Herbal", "Rich", "Complex", "Aromatic", "Fall"]
 	},
 	{
 		"name": "A MAN ABOUT TOWN",
@@ -16854,7 +17348,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, cracked ice, orange twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Sweet", "Tangy", "Refreshing", "Summer"]
 	},
 	{
 		"name": "SEAWARD",
@@ -16890,7 +17385,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Express oil from peels into mixing glass. Add all ingredients, stir, coupe",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Robust", "Balanced", "Fruity", "Smooth", "Summer"]
 	},
 	{
 		"name": "FALLBACK",
@@ -16922,7 +17418,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, cocktail glass, orange twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Balanced", "Complex", "Refreshing", "Fall"]
 	},
 	{
 		"name": "TOUCH OF LOVE",
@@ -16964,7 +17461,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, Tiki mug, crushed ice. Top with seltzer, mint sprig",
-		"glass": "tiki"
+		"glass": "tiki",
+		"themes": ["Robust", "Herbal", "Balanced", "Summer"]
 	},
 	{
 		"name": "HARRISON BERGERON",
@@ -16986,7 +17484,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, double old-fashioned glass, cracked ice, orange twist",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Fruity", "Smoky", "Bitter", "Sweet", "Complex", "Fall"]
 	},
 	{
 		"name": "FLOWER & VINE",
@@ -17028,7 +17527,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, double old-fashioned glass",
-		"glass": "doubleoldfashioned"
+		"glass": "doubleoldfashioned",
+		"themes": ["Robust", "Rich", "Balanced", "Herbal", "Aromatic", "Summer"]
 	},
 	{
 		"name": "LETTERS OF MARQUE",
@@ -17055,7 +17555,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, coupe, flamed orange oil",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Sweet", "Herbal", "Refreshing", "Summer"]
 	},
 	{
 		"name": "PRETEDANT NOBEL",
@@ -17082,7 +17583,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, cocktail glass, lemon twist",
-		"glass": "cocktail"
+		"glass": "cocktail",
+		"themes": ["Fruity", "Citrusy", "Herbal", "Aromatic", "Summer"]
 	},
 	{
 		"name": "HUNGRY LIKE THE WOLF",
@@ -17114,7 +17616,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Shake, rocks glass, crushed ice. Top with ginger beer, lemon twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Fruity", "Tangy", "Spicy", "Balanced", "Summer"]
 	},
 	{
 		"name": "BOURBON SWIZZLE",
@@ -17146,7 +17649,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Swizzle, crushed ice, Collins glass. Mint sprig, grated nutmeg",
-		"glass": "collins"
+		"glass": "collins",
+		"themes": ["Robust", "Spicy", "Sweet", "Fruity", "Fall"]
 	},
 	{
 		"name": "ANALOGUE",
@@ -17183,7 +17687,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rocks glass, large cube, lemon twist",
-		"glass": "rocks"
+		"glass": "rocks",
+		"themes": ["Smoky", "Fruity", "Floral", "Aromatic", "Herbal", "Spring"]
 	},
 	{
 		"name": "IN BLOOM",
@@ -17215,7 +17720,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Stir, rinsed coupe, flamed orange oil",
-		"glass": "coupe"
+		"glass": "coupe",
+		"themes": ["Fruity", "Refreshing", "Sweet", "Tangy", "Fall"]
 	},
 	{
 		"name": "DON'S MIX",
@@ -17232,7 +17738,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix",
-		"glass": null
+		"glass": null,
+		"themes": ["Spicy", "Sweet", "Aromatic", "Summer"]
 	},
 	{
 		"name": "DON'S SPICES #2",
@@ -17249,7 +17756,8 @@ const recipes = [
 			}
 		],
 		"procedure": "Mix",
-		"glass": null
+		"glass": null,
+		"themes": ["Fruity", "Spicy", "Refreshing", "Tangy", "Fall"]
 	}
 ];
 
@@ -17262,10 +17770,18 @@ const FUSE_NAME_SEARCH = new Fuse(recipes, {
 const ingredientsWithDupes = recipes
 	.map(({ ingredients }) => ingredients)
 	.flat(1)
-	.map(({ ingredient }) => ingredient);
-
+	.map(({ ingredient }) => ingredient)
+	.map((ingredient) => ingredient.toLowerCase()) // Eliminate case differences
+	.map((ingredient) => ingredient.replace(/\s*\(.*\)\s*/, "")); // Eliminate strs like "(muddled)"
 const ingredients = Array.from(new Set(ingredientsWithDupes));
-
 const FUSE_INGREDIENT_SEARCH = new Fuse(ingredients, {
+	includeScore: true,
+});
+
+const themesWithDupes = recipes
+	.map(({ themes }) => themes)
+	.flat(1);
+const themes = Array.from(new Set(themesWithDupes));
+const FUSE_THEMES_SEARCH = new Fuse(themes, {
 	includeScore: true,
 });

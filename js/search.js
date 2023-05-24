@@ -22,52 +22,71 @@ function getNameMatches() {
 	return recipes;
 }
 
+function getThemeMatches(list) {
+	const searchTheme = document.getElementById("themeInput").value;
+	if (searchTheme) {
+		const themeRegex = new RegExp("\\b" + searchTheme + "\\b", "i");
+		return list.filter(
+			({ themes }) => themes.some(
+				(theme) => themeRegex.test(theme)
+			)
+		);
+	}
+	return list;
+}
+
 function getIngredientRegexes(ingredientType) {
-	const includeIngredientInputs = document.getElementsByClassName(ingredientType);
-	return [...includeIngredientInputs]
+	const ingredientRegexes = document.getElementsByClassName(ingredientType);
+	return [...ingredientRegexes]
 		.filter(({ value }) => value)
 		.map(({ value }) => new RegExp("\\b" + value + "\\b", "i"));
 }
 
-function getIncludeIngredientsMatches(list, regexes, idx) {
-	const ingredientLookupRegex = regexes[idx];
-	if (!ingredientLookupRegex) {
+function getIncludeIngredientsMatches(regexes) {
+	return function getMatches(list) {
+		const nonEmptyRegexes = regexes.filter(Boolean);
+		if (nonEmptyRegexes.length > 0) {
+			return list.filter(
+				({ ingredients }) => ingredients.some(
+					({ ingredient }) => regexes.some(
+						(regex) => regex.test(ingredient)
+					)
+				)
+			);
+		}
 		return list;
 	}
-	const filteredList = list
-		.filter(
-			({ ingredients }) => ingredients.some(
-				({ ingredient }) => ingredientLookupRegex.test(ingredient)
-			)
-		);
-
-	return getIncludeIngredientsMatches(filteredList, regexes, idx + 1);
 }
 
-function getExcludeIngredientsMatches(list, regexes, idx) {
-	const ingredientLookupRegex = regexes[idx];
-	if (!ingredientLookupRegex) {
+function getExcludeIngredientsMatches(regexes) {
+	return function getMatches(list) {
+		const nonEmptyRegexes = regexes.filter(Boolean);
+		if (nonEmptyRegexes.length > 0) {
+			return list.filter(
+				({ ingredients }) => ingredients.every(
+					({ ingredient }) => !regexes.some(
+						(regex) => regex.test(ingredient)
+					)
+				)
+			);
+		}
 		return list;
 	}
-
-	const filteredList = list
-		.filter(
-			({ ingredients }) => ingredients.every(
-				({ ingredient }) => !ingredientLookupRegex.test(ingredient)
-			)
-		);
-
-	return getExcludeIngredientsMatches(filteredList, regexes, idx + 1);
 }
 
 function search() {
-	const nameMatches = getNameMatches();
-
-	const includeIngredientRegexes = getIngredientRegexes(INGREDIENT_TYPE.INCLUDE);
-	const includeIngredientsMatches = getIncludeIngredientsMatches(nameMatches, includeIngredientRegexes, 0);
-
-	const excludeIngredientRegexes = getIngredientRegexes(INGREDIENT_TYPE.EXCLUDE);
-	const matches = getExcludeIngredientsMatches(includeIngredientsMatches, excludeIngredientRegexes, 0);
+	const includeIngredientRegexes =
+		getIngredientRegexes(INGREDIENT_TYPE.INCLUDE);
+	const excludeIngredientRegexes =
+		getIngredientRegexes(INGREDIENT_TYPE.EXCLUDE);
+	
+	const searchFn = pipe(
+		getNameMatches,
+		getIncludeIngredientsMatches(includeIngredientRegexes),
+		getExcludeIngredientsMatches(excludeIngredientRegexes),
+		getThemeMatches
+	);
+	const matches = searchFn();
 
 	const resultsSummary = document.getElementById("resultsSummary");
 	document.getElementById("clearFavoritesActionContainer").classList.add("hidden");

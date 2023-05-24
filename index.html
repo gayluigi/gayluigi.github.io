@@ -19,6 +19,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 	<script type="text/javascript" src="./js/lib/balancetext.min.js"></script>
 	<script type="text/javascript" src="./js/lib/caseUtils.js"></script>
+	<script type="text/javascript" src="./js/lib/pipe.js"></script>
 	<script type="text/javascript" src="./js/constants.js"></script>
 	<script type="text/javascript" src="./js/recipes.js"></script>
 </head>
@@ -92,6 +93,24 @@
 								class="closeIcon"
 								src="./img/close-icon.svg"
 								onclick="clearInput('excludeIngredient-0')"
+							/>
+						</div>
+					</div>
+					<div class="searchCategoryTitle">
+						SEARCH BY THEME
+					</div>
+					<div class="inputGroup">
+						<div class="inputRow">
+							<input
+								id="themeInput"
+								onkeyup="onThemeInputChange(event)"
+								onfocus="createSuggestionsContainer(this)"
+								onblur="removeSuggestions(this)"
+								type="text"
+								placeholder="Theme"
+							/><img
+								class="closeIcon"
+								src="./img/close-icon.svg" onclick="clearInput('themeInput')"
 							/>
 						</div>
 					</div>
