@@ -48,7 +48,7 @@ function getIncludeIngredientsMatches(regexes) {
 		if (nonEmptyRegexes.length > 0) {
 			return list.filter(
 				({ ingredients }) => regexes.every(
-					(regex ) => ingredients.some(
+					(regex) => ingredients.some(
 						({ ingredient }) => regex.test(ingredient)
 					)
 				)
