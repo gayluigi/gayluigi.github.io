@@ -17858,7 +17858,9 @@ const recipes = [
 				"ingredient": "Lime juice"
 			}
 		],
-		"procedure": "Shake, coupe, expressed lime peel"
+		"procedure": "Shake, coupe, expressed lime peel",
+		"glass": "coupe",
+		"themes": [],
 	},
 	{
 		"name": "MONKEY ISLAND",
