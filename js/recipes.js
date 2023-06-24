@@ -8904,30 +8904,30 @@ const recipes = [
 		"name": "MAI TAI",
 		"ingredients": [
 			{
+				"measure": 1.5,
+				"unit": "oz",
+				"ingredient": "White rum"
+			},
+			{
+				"measure": 0.5,
+				"unit": "oz",
+				"ingredient": "Blended aged rum"
+			},
+			{
 				"measure": 0.75,
 				"unit": "oz",
 				"ingredient": "Lime juice"
 			},
 			{
-				"measure": 0.25,
-				"unit": "oz",
-				"ingredient": "Mai Tai syrup"
-			},
-			{
-				"measure": 0.25,
+				"measure": 0.5,
 				"unit": "oz",
 				"ingredient": "Orgeat"
 			},
 			{
-				"measure": 0.5,
+				"measure": 0.75,
 				"unit": "oz",
 				"ingredient": "Dry Curacao"
 			},
-			{
-				"measure": 2,
-				"unit": "oz",
-				"ingredient": "Blended aged rum"
-			}
 		],
 		"procedure": "Shake, double old-fashioned glass, crushed ice, lime shell, mint sprig",
 		"glass": "doubleoldfashioned",
