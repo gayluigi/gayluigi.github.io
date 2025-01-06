@@ -1,5 +1,33 @@
 const recipes = [
 	{
+		"name": "Anejo Old Fashioned",
+		"ingredients": [
+			{
+				"measure": 2,
+				"unit": "oz",
+				"ingredient": "Anejo Tequila"
+			},
+			{
+				"measure": 0.25,
+				"unit": "oz",
+				"ingredient": "Demerara syrup"
+			},
+			{
+				"measure": 4,
+				"unit": "dash",
+				"ingredient": "Mexican Chocolate bitters"
+			},
+			{
+				"measure": 4,
+				"unit": "dash",
+				"ingredient": "Orange bitters"
+			}
+		],
+		"procedure": "Combine all ingredients, large ice cube, stir till appropriate dilution",
+		"glass": "rocks",
+		"themes": ["Sophisticated", "Rich", "Smoky", "Complex", "Earthy"]
+	},
+	{
 		"name": "Paper Plane",
 		"ingredients": [
 			{
