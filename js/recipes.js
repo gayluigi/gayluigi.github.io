@@ -84,44 +84,6 @@ const recipes = [
 		"themes": ["Herbal", "Rich", "Complex", "Balanced", "Summer"]
 	},
 	{
-		"name": "It Slaps",
-		"ingredients": [
-			{
-				"measure": 1,
-				"unit": "oz",
-				"ingredient": "Reyka Vodka"
-			},
-			{
-				"measure": 1,
-				"unit": "oz",
-				"ingredient": "Combier Pamplemousse Rose"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Lemon juice"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Grapefruit juice"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Aquafaba"
-			},
-			{
-				"measure": 0.25,
-				"unit": "oz",
-				"ingredient": "2:1 Simple syrup"
-			}
-		],
-		"procedure": "Double shake, crushed ice, rocks glass, grapefruit peel.",
-		"glass": "rocks",
-		"themes": ["Citrusy", "Fruity", "Refreshing", "Tang", "Summer"]
-	},
-	{
 		"name": "Rye Not",
 		"ingredients": [
 			{
@@ -841,39 +803,6 @@ const recipes = [
 		"procedure": "Shake, rocks glass, crushed pink peppercorn",
 		"glass": "rocks",
 		"themes": ["Tropical", "Refreshing", "Sweet", "Tangy", "Summer"]
-	},
-	{
-		"name": "Cabaret",
-		"ingredients": [
-			{
-				"measure": 1.5,
-				"unit": "oz",
-				"ingredient": "Titos vodka"
-			},
-			{
-				"measure": 0.75,
-				"unit": "oz",
-				"ingredient": "Lime juice"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Amaretto"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Agave syrup"
-			},
-			{
-				"measure": 1,
-				"unit": "dash",
-				"ingredient": "Bitter Truth Jerry Thomas bitters"
-			}
-		],
-		"procedure": "Shake, martini glass, lime wheel",
-		"glass": "martini",
-		"themes": ["Fruity", "Citrusy", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "Kentucky Sunshine",
@@ -1709,34 +1638,6 @@ const recipes = [
 		"procedure": "Shake first 4 ingredients, double strain, champagne flute. Top with champagne, basil leaf",
 		"glass": "champagne",
 		"themes": ["Herbal", "Refreshing", "Crisp", "Fruity", "Spring"]
-	},
-	{
-		"name": "The Purple Gang",
-		"ingredients": [
-			{
-				"measure": 1,
-				"unit": "oz",
-				"ingredient": "Titos vodka"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Creme de Violette"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "St. Germain"
-			},
-			{
-				"measure": null,
-				"unit": null,
-				"ingredient": "Champagne"
-			}
-		],
-		"procedure": "Shake, champagne flute. Top with champagne, lemon twist.",
-		"glass": "champagne",
-		"themes": ["Fruity", "Refreshing", "Floral", "Bubbly", "Fall"]
 	},
 	{
 		"name": "Wise Guy",
@@ -3951,39 +3852,6 @@ const recipes = [
 		"themes": ["Robust", "Herbal", "Complex", "Spicy", "Fall"]
 	},
 	{
-		"name": "HARVEST MOON",
-		"ingredients": [
-			{
-				"measure": 1.5,
-				"unit": "oz",
-				"ingredient": "Wild Turkey Rye"
-			},
-			{
-				"measure": 1,
-				"unit": "oz",
-				"ingredient": "Lillet Blanc"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Laird's Bonded Apple Brandy"
-			},
-			{
-				"measure": 0.25,
-				"unit": "oz",
-				"ingredient": "Green Chartreuse"
-			},
-			{
-				"measure": 3,
-				"unit": "dash",
-				"ingredient": "Abbott's bitters"
-			}
-		],
-		"procedure": "Stir, coupe, orange twist",
-		"glass": "coupe",
-		"themes": ["Fruity", "Spicy", "Sweet", "Refreshing", "Fall"]
-	},
-	{
 		"name": "HARVEST SLING",
 		"ingredients": [
 			{
@@ -5180,48 +5048,6 @@ const recipes = [
 		"themes": ["Robust", "Herbal", "Balanced", "Complex", "Fall"]
 	},
 	{
-		"name": "RUST BELT",
-		"ingredients": [
-			{
-				"measure": 1.5,
-				"unit": "oz",
-				"ingredient": "Barbancourt 8-Year-Old Rhum"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Navan Vanilla liqueur"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Lemon juice"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Lime juice"
-			},
-			{
-				"measure": 0.25,
-				"unit": "oz",
-				"ingredient": "Orgeat"
-			},
-			{
-				"measure": 1,
-				"ingredient": "Egg White"
-			},
-			{
-				"measure": null,
-				"unit": null,
-				"ingredient": "Angostura bitters (spritz)"
-			}
-		],
-		"procedure": "Double shake, coupe, 2 spritzes Angostura bitters",
-		"glass": "coupe",
-		"themes": ["Smooth", "Refreshing", "Balanced", "Fruity", "Summer"]
-	},
-	{
 		"name": "ROYAL BERMUDA YACHTCLUB COCKTAIL",
 		"ingredients": [
 			{
@@ -6176,39 +6002,6 @@ const recipes = [
 		"procedure": "Mix/whip shake, strain, large brandy snifter, cracked ice, sidewinder's fang orange peel, mint sprig.",
 		"glass": "snifter",
 		"themes": ["Tart", "Refreshing", "Sweet", "Fruity", "Summer"]
-	},
-	{
-		"name": "HAWAIIAN SUNSET",
-		"ingredients": [
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Lime juice"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Lemon juice"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Orgeat"
-			},
-			{
-				"measure": 1,
-				"unit": "tsp",
-				"ingredient": "Grenadine"
-			},
-			{
-				"measure": 1.5,
-				"unit": "oz",
-				"ingredient": "Vodka"
-			}
-		],
-		"procedure": "Shake, double strain, coupe, lime peel.",
-		"glass": "coupe",
-		"themes": ["Fruity", "Sweet", "Tangy", "Exotic", "Refreshing", "Summer"]
 	},
 	{
 		"name": "CAPTAIN'S GROG",
@@ -7861,34 +7654,6 @@ const recipes = [
 		"procedure": "Mix/whip shake first 5 ingredients, Collins glass, cracked ice. Top with seltzer",
 		"glass": "collins",
 		"themes": ["Fruity", "Sweet", "Refreshing", "Tangy", "Summer"]
-	},
-	{
-		"name": "MARY PICKFORD",
-		"ingredients": [
-			{
-				"measure": 1.5,
-				"unit": "oz",
-				"ingredient": "Pineapple juice"
-			},
-			{
-				"measure": 1,
-				"unit": "bspn",
-				"ingredient": "Grenadine"
-			},
-			{
-				"measure": 6,
-				"unit": "drops",
-				"ingredient": "Maraschino liqueur"
-			},
-			{
-				"measure": 1.5,
-				"unit": "oz",
-				"ingredient": "Blended lightly aged rum"
-			}
-		],
-		"procedure": "Shake, coupe",
-		"glass": "coupe",
-		"themes": ["Refreshing", "Tangy", "Sweet", "Balanced", "Summer"]
 	},
 	{
 		"name": "DAIQUIRI NO. 1",
@@ -12422,53 +12187,6 @@ const recipes = [
 		"procedure": "Stir, coupe, express grapefruit peel",
 		"glass": "coupe",
 		"themes": ["Smoky", "Fruity", "Tart", "Aromatic", "Ref", "Summer"]
-	},
-	{
-		"name": "MOONSHAKE",
-		"ingredients": [
-			{
-				"measure": 1,
-				"unit": "oz",
-				"ingredient": "Mezcal"
-			},
-			{
-				"measure": 0.75,
-				"unit": "oz",
-				"ingredient": "Aperol"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Lime juice"
-			},
-			{
-				"measure": 0.5,
-				"unit": "oz",
-				"ingredient": "Grapefruit juice"
-			},
-			{
-				"measure": 2,
-				"unit": "dash",
-				"ingredient": "Grapefruit bitters"
-			},
-			{
-				"measure": 1,
-				"unit": "dash",
-				"ingredient": "Vanilla extract"
-			},
-			{
-				"measure": 1,
-				"ingredient": "Egg White"
-			},
-			{
-				"measure": 2,
-				"unit": "oz",
-				"ingredient": "Seltzer"
-			}
-		],
-		"procedure": "Double shake first 7 ingredients, highball glass. Top with seltzer, mint sprig, express grapefruit peel",
-		"glass": "highball",
-		"themes": ["Refreshing", "Citrusy", "Herbal", "Fruity", "Summer"]
 	},
 	{
 		"name": "GOLDEN EYE",
