@@ -48,7 +48,7 @@ const recipes = [
 			{
 				"measure": 0.75,
 				"unit": "oz",
-				"ingredient": "Lemon Juice"
+				"ingredient": "Lemon juice"
 			}
 		],
 		"procedure": "Shake with ice, strain into coupe, lemon twist, tiny origami paper plane",
@@ -155,7 +155,7 @@ const recipes = [
 			{
 				"measure": 0.75,
 				"unit": "oz",
-				"ingredient": "Banana Liqueur"
+				"ingredient": "Banana liqueur"
 			},
 			{
 				"measure": 0.5,
@@ -208,7 +208,7 @@ const recipes = [
 			{
 				"measure": null,
 				"unit": null,
-				"ingredient": "Egg white/aquafaba"
+				"ingredient": "Egg white"
 			}
 		],
 		"procedure": "Double shake, coupe.",
@@ -244,7 +244,7 @@ const recipes = [
 				"ingredient": "Kombucha"
 			}
 		],
-		"procedure": "Shake. Collins. Cube ice, top with kombucha, mint sprig",
+		"procedure": "Shake. Collins, cubed ice, top with kombucha, mint sprig",
 		"glass": "collins",
 		"themes": ["Refreshing", "Fruity", "Tangy", "Tart", "Summer"]
 	},
@@ -277,7 +277,7 @@ const recipes = [
 				"ingredient": "Orgeat"
 			}
 		],
-		"procedure": "Shake, double strain into Collins. Cube ice, top with soda, dehydrated lemon wheel",
+		"procedure": "Shake, double strain into Collins, cubed ice, top with soda, dehydrated lemon wheel",
 		"glass": "collins",
 		"themes": ["Fruity", "Sweet", "Tart", "Herbal", "Summer"]
 	},
@@ -292,7 +292,7 @@ const recipes = [
 			{
 				"measure": 0.75,
 				"unit": "oz",
-				"ingredient": "Grapefruit Liqueur"
+				"ingredient": "Grapefruit liqueur"
 			},
 			{
 				"measure": 0.75,
@@ -667,7 +667,7 @@ const recipes = [
 			{
 				"measure": 0.25,
 				"unit": "oz",
-				"ingredient": "Agave"
+				"ingredient": "Agave syrup"
 			}
 		],
 		"procedure": "Stirred, coupe glass, lime flag",
@@ -1385,7 +1385,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Egg white or Aquafaba"
+				"ingredient": "Egg white"
 			}
 		],
 		"procedure": "Double shake, martini glass, Peychaud's bitters",
@@ -1698,7 +1698,7 @@ const recipes = [
 			{
 				"measure": null,
 				"unit": null,
-				"ingredient": "Egg White"
+				"ingredient": "Egg white"
 			}
 		],
 		"procedure": "Double shake, rocks glass, orange peel",
@@ -2044,7 +2044,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"unit": "oz",
-				"ingredient": "Smith & Cross rum"
+				"ingredient": "Smith & Cross overproof rum"
 			},
 			{
 				"measure": 0.5,
@@ -2115,7 +2115,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"unit": "oz",
-				"ingredient": "Smith & Cross rum"
+				"ingredient": "Smith & Cross overproof rum"
 			},
 			{
 				"measure": 1,
@@ -3480,7 +3480,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Espresso Liqueur"
+				"ingredient": "Espresso liqueur"
 			},
 			{
 				"measure": 0.5,
@@ -4123,7 +4123,7 @@ const recipes = [
 			},
 			{
 				"measure": 1,
-				"ingredient": "Egg White"
+				"ingredient": "Egg white"
 			},
 			{
 				"measure": null,
@@ -4662,7 +4662,7 @@ const recipes = [
 			{
 				"measure": 0.25,
 				"unit": "oz",
-				"ingredient": "Maraschino Liqueur"
+				"ingredient": "Maraschino liqueur"
 			}
 		],
 		"procedure": "Stir, coupe",
@@ -5095,7 +5095,7 @@ const recipes = [
 			},
 			{
 				"measure": 1,
-				"ingredient": "Sugar Cube"
+				"ingredient": "Sugar cube"
 			},
 			{
 				"measure": 2,
@@ -5512,7 +5512,7 @@ const recipes = [
 			},
 			{
 				"measure": 1,
-				"ingredient": "Egg White"
+				"ingredient": "Egg white"
 			},
 			{
 				"measure": null,
@@ -5648,7 +5648,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Blackberry Liqueur"
+				"ingredient": "Blackberry liqueur"
 			},
 			{
 				"measure": 1,
@@ -7069,7 +7069,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Giffard Banane du Bresil banana liqueur"
+				"ingredient": "Banana liqueur"
 			},
 			{
 				"measure": 1.5,
@@ -7297,7 +7297,7 @@ const recipes = [
 			{
 				"measure": 0.25,
 				"unit": "oz",
-				"ingredient": "Bittermens New Orleans Coffee Liqueur"
+				"ingredient": "Bittermens New Orleans Coffee liqueur"
 			},
 			{
 				"measure": 2,
@@ -8939,7 +8939,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "oz",
-				"ingredient": "Blended lightly Aged rum"
+				"ingredient": "Blended Lightly Aged rum"
 			},
 			{
 				"measure": 0.5,
@@ -9416,7 +9416,7 @@ const recipes = [
 			},
 			{
 				"measure": 1,
-				"ingredient": "Egg White"
+				"ingredient": "Egg white"
 			}
 		],
 		"procedure": "Double shake, coupe, mint leaf, orange bitters drops",
@@ -9926,12 +9926,12 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "oz",
-				"ingredient": "Smith and Cross Jamaican rum"
+				"ingredient": "Smith & Cross overproof rum"
 			},
 			{
 				"measure": 0.25,
 				"unit": "oz",
-				"ingredient": "Demarara syrup"
+				"ingredient": "Demerara syrup"
 			},
 			{
 				"measure": 0.5,
@@ -9991,7 +9991,7 @@ const recipes = [
 			{
 				"measure": 0.25,
 				"unit": "oz",
-				"ingredient": "Noilly Prat or Vya dry vermouth"
+				"ingredient": "Noilly Prat dry vermouth"
 			},
 			{
 				"measure": 0.5,
@@ -10314,7 +10314,7 @@ const recipes = [
 			{
 				"measure": 1.5,
 				"unit": "oz",
-				"ingredient": "Smith & Cross Rum"
+				"ingredient": "Smith & Cross overproof rum"
 			},
 			{
 				"measure": 0.75,
@@ -11873,7 +11873,7 @@ const recipes = [
 			{
 				"measure": 0.75,
 				"unit": "oz",
-				"ingredient": "Smith & Cross Rum"
+				"ingredient": "Smith & Cross overproof rum"
 			},
 			{
 				"measure": 0.75,
@@ -11988,7 +11988,7 @@ const recipes = [
 			},
 			{
 				"measure": 1,
-				"ingredient": "Egg White"
+				"ingredient": "Egg white"
 			}
 		],
 		"procedure": "Double shake, cocktail glass, float star anise pod",
@@ -12515,7 +12515,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "tsp",
-				"ingredient": "Apricot Liqueur"
+				"ingredient": "Apricot liqueur"
 			},
 			{
 				"measure": 0.75,
@@ -12805,7 +12805,7 @@ const recipes = [
 			{
 				"measure": 0.75,
 				"unit": "oz",
-				"ingredient": "Smith & Cross rum"
+				"ingredient": "Smith & Cross overproof rum"
 			},
 			{
 				"measure": 0.5,
@@ -14182,7 +14182,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"unit": "oz.",
-				"ingredient": "St-Germain"
+				"ingredient": "St. Germain"
 			},
 			{
 				"measure": 0.75,
@@ -15775,7 +15775,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"unit": "oz",
-				"ingredient": "Pama Pomegranate Liqueur"
+				"ingredient": "Pama Pomegranate liqueur"
 			},
 			{
 				"measure": 0.75,
@@ -16012,7 +16012,7 @@ const recipes = [
 			{
 				"measure": 9,
 				"unit": "drops",
-				"ingredient": "Fee Brothers Old Fashion Bitters"
+				"ingredient": "Fee Brothers Old Fashion bitters"
 			}
 		],
 		"procedure": "Shake, coupe, lemon twist",
@@ -16420,7 +16420,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Giffard Banane du Bresil"
+				"ingredient": "Banana liqueur"
 			},
 			{
 				"measure": 0.5,
@@ -16430,7 +16430,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"unit": "oz",
-				"ingredient": "Lemon Juice"
+				"ingredient": "Lemon juice"
 			},
 			{
 				"measure": 2,
@@ -16491,7 +16491,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "dash",
-				"ingredient": "es Angostura bitters"
+				"ingredient": "Angostura bitters"
 			}
 		],
 		"procedure": "Stir, coupe, cherry",
@@ -16552,7 +16552,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "dash",
-				"ingredient": "es Absinthe"
+				"ingredient": "Absinthe"
 			}
 		],
 		"procedure": "Shake, coupe",
@@ -16580,17 +16580,17 @@ const recipes = [
 			{
 				"measure": 0.25,
 				"unit": "oz",
-				"ingredient": "Pear Liqueur"
+				"ingredient": "Pear liqueur"
 			},
 			{
 				"measure": 1,
 				"unit": "dash",
-				"ingredient": "es Angostura bitters"
+				"ingredient": "Angostura bitters"
 			},
 			{
 				"measure": 2,
 				"unit": "dash",
-				"ingredient": "es Orange bitters"
+				"ingredient": "Orange bitters"
 			}
 		],
 		"procedure": "Swizzle, Julep cup, crushed ice, mint sprig, grated cinnamon",
@@ -16623,7 +16623,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "dash",
-				"ingredient": "es Celery bitters"
+				"ingredient": "Celery bitters"
 			}
 		],
 		"procedure": "Stir, rocks glass, cracked ice, lemon twist",
@@ -16693,7 +16693,8 @@ const recipes = [
 			},
 			{
 				"measure": 1,
-				"ingredient": "barspn Cane Syrup"
+				"unit": "barspn",
+				"ingredient": "Demerara syrup"
 			}
 		],
 		"procedure": "Shake, coupe",
@@ -16739,7 +16740,7 @@ const recipes = [
 			{
 				"measure": 0.75,
 				"unit": "oz",
-				"ingredient": "Smith & Cross rum"
+				"ingredient": "Smith & Cross overproof rum"
 			},
 			{
 				"measure": 0.75,
@@ -16754,7 +16755,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Dry Curaçao"
+				"ingredient": "Dry Curacao"
 			},
 			{
 				"measure": 0.25,
@@ -16782,7 +16783,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Smith & Cross rum"
+				"ingredient": "Smith & Cross overproof rum"
 			},
 			{
 				"measure": 0.25,
@@ -16854,7 +16855,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "dash",
-				"ingredient": "es Orange bitters"
+				"ingredient": "Orange bitters"
 			}
 		],
 		"procedure": "Shake, coupe",
@@ -16981,7 +16982,7 @@ const recipes = [
 			{
 				"measure": 1,
 				"unit": "oz",
-				"ingredient": "Dolin Sweet sermouth"
+				"ingredient": "Dolin Sweet vermouth"
 			},
 			{
 				"measure": 0.5,
@@ -16996,7 +16997,7 @@ const recipes = [
 			{
 				"measure": 3,
 				"unit": "dash",
-				"ingredient": "es Orange bitters"
+				"ingredient": "Orange bitters"
 			}
 		],
 		"procedure": "Stir, coupe",
@@ -17090,7 +17091,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "dash",
-				"ingredient": "es Orange bitters"
+				"ingredient": "Orange bitters"
 			}
 		],
 		"procedure": "Stir, rocks glass, cracked ice, orange twist",
@@ -17118,7 +17119,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Maraschino Liqueur"
+				"ingredient": "Maraschino liqueur"
 			},
 			{
 				"measure": 2,
@@ -17160,7 +17161,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "dash",
-				"ingredient": "Peychaud's Bitters"
+				"ingredient": "Peychaud's bitters"
 			}
 		],
 		"procedure": "Stir, cocktail glass, orange twist",
@@ -17264,7 +17265,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Banana Liqueur"
+				"ingredient": "Banana liqueur"
 			},
 			{
 				"measure": 1,
@@ -17591,7 +17592,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Banana Liqueur"
+				"ingredient": "Banana liqueur"
 			},
 			{
 				"measure": 0.5,
@@ -17619,7 +17620,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Banana Liqueur"
+				"ingredient": "Banana liqueur"
 			},
 			{
 				"measure": 0.5,
@@ -17770,7 +17771,7 @@ const recipes = [
 			{
 				"measure": 0.5,
 				"unit": "oz",
-				"ingredient": "Mathilde XO Orange Liqueur"
+				"ingredient": "Mathilde XO Orange liqueur"
 			}
 		],
 		"procedure": "Stir, rocks glass, flamed orange peel",
