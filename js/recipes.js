@@ -619,7 +619,7 @@ const recipes = [
 			{
 				"measure": 1.5,
 				"unit": "oz",
-				"ingredient": "Espelon Reposado tequila"
+				"ingredient": "Espelon Reposado Tequila"
 			},
 			{
 				"measure": 0.5,
@@ -647,12 +647,12 @@ const recipes = [
 		"themes": ["Robust", "Rich", "Fruity", "Smooth", "Summer"]
 	},
 	{
-		"name": "Christmas in Cozmel",
+		"name": "Christmas in Cozumel",
 		"ingredients": [
 			{
 				"measure": 1.5,
 				"unit": "oz",
-				"ingredient": "Don Julio reposado"
+				"ingredient": "Don Julio Reposado Tequila"
 			},
 			{
 				"measure": 0.5,
@@ -1436,7 +1436,7 @@ const recipes = [
 			{
 				"measure": 1.75,
 				"unit": "oz",
-				"ingredient": "Don Julio Reposado tequila"
+				"ingredient": "Don Julio Reposado Tequila"
 			},
 			{
 				"measure": 0.25,
@@ -2749,7 +2749,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "oz",
-				"ingredient": "Partida Reposado tequila"
+				"ingredient": "Partida Reposado Tequila"
 			},
 			{
 				"measure": 1,
@@ -4922,7 +4922,7 @@ const recipes = [
 			{
 				"measure": 1.5,
 				"unit": "oz",
-				"ingredient": "Siete Leguas Reposado tequila"
+				"ingredient": "Siete Leguas Reposado Tequila"
 			},
 			{
 				"measure": 0.5,
@@ -5020,7 +5020,7 @@ const recipes = [
 			{
 				"measure": 1.5,
 				"unit": "oz",
-				"ingredient": "Partida Reposado tequila"
+				"ingredient": "Partida Reposado Tequila"
 			},
 			{
 				"measure": 0.5,
@@ -14820,7 +14820,7 @@ const recipes = [
 			{
 				"measure": 2,
 				"unit": "oz",
-				"ingredient": "Reposado tequila"
+				"ingredient": "Reposado Tequila"
 			},
 			{
 				"measure": 0.5,
@@ -18092,6 +18092,633 @@ const recipes = [
 		"glass": "rocks",
 		"themes": [],
 	},
+ 		 {
+    "name": "Aging Imperialist",
+    "ingredients": [
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Aged Gin"
+      },
+      {
+        "measure": 1,
+        "unit": "oz",
+        "ingredient": "Lime juice"
+      },
+      {
+        "measure": 1,
+        "unit": "oz",
+        "ingredient": "Orgeat"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Cinnamon-infused whiskey"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Ginger Shrub"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Star Anise Cordial"
+      }
+    ],
+    "procedure": "Shake, coupe, 3 drops cardamom bitters",
+    "glass": "coupe",
+    "themes": ["spiced", "complex", "aromatic"]
+  },
+  {
+    "name": "Oolong Punch",
+    "ingredients": [
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Smith & Cross"
+      },
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Appleton 12"
+      },
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Oolong tea"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Velvet Falernum"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Allspice dram"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Honey syrup"
+      },
+      {
+        "measure": 1,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      }
+    ],
+    "procedure": "Mix/whip shake, crushed ice, double old-fashioned",
+    "glass": "doubleoldfashioned",
+    "themes": ["rum", "tea", "spiced"]
+  },
+  {
+    "name": "Oaxaca Pear",
+    "ingredients": [
+      {
+        "measure": 1,
+        "unit": "oz",
+        "ingredient": "Mezcal"
+      },
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Pear liqueur"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Allspice dram"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      }
+    ],
+    "procedure": "Shake, cracked ice, old-fashioned glass, pear slice",
+    "glass": "oldfashioned",
+    "themes": ["fruity", "smoky", "spiced"]
+  },
+  {
+    "name": "Lighter Side",
+    "ingredients": [
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Bourbon"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Aperol"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Peach liqueur"
+      },
+      {
+        "measure": 4,
+        "unit": "dash",
+        "ingredient": "Angostura bitters"
+      }
+    ],
+    "procedure": "Stir, coupe, lemon twist",
+    "glass": "coupe",
+    "themes": ["whiskey", "fruity", "bittersweet"]
+  },
+  {
+    "name": "Stiggin's Daiquiri #2",
+    "ingredients": [
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Plantation pineapple rum"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Lime juice"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Yellow Chartreuse"
+      },
+      {
+        "measure": 2,
+        "unit": "dash",
+        "ingredient": "Angostura bitters"
+      }
+    ],
+    "procedure": "Shake, coupe, lime wedge",
+    "glass": "coupe",
+    "themes": ["rum", "tropical", "herbal"]
+  },
+  {
+    "name": "Cobbler's Dream",
+    "ingredients": [
+      {
+        "measure": 1.25,
+        "unit": "oz",
+        "ingredient": "Rye"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Punt e Mes vermouth"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "St. Germain"
+      },
+      {
+        "measure": 1,
+        "unit": "dash",
+        "ingredient": "Peychaud's bitters"
+      }
+    ],
+    "procedure": "Stir, absinthe-rinsed coupe, lemon twist",
+    "glass": "coupe",
+    "themes": ["whiskey", "herbal", "complex"]
+  },
+  {
+    "name": "Seapea Fizz",
+    "ingredients": [
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Absinthe"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Simple syrup"
+      },
+      {
+        "measure": 1,
+        "unit": "",
+        "ingredient": "Egg white"
+      },
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Seltzer"
+      }
+    ],
+    "procedure": "Mix/whip shake first 4 ingredients, champagne glass, top with seltzer, mint leaf",
+    "glass": "champagne",
+    "themes": ["herbal", "frothy", "refreshing"]
+  },
+  {
+    "name": "Swagger",
+    "ingredients": [
+      {
+        "measure": 1,
+        "unit": "oz",
+        "ingredient": "Gin"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Dubonnet Rouge"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Zucca Rabarbaro"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Grapefruit juice"
+      }
+    ],
+    "procedure": "Shake, coupe, lime wedge",
+    "glass": "coupe",
+    "themes": ["gin", "bittersweet", "herbaceous"]
+  },
+  {
+    "name": "Chamomile Sour",
+    "ingredients": [
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Chamomile-infused scotch"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Simple syrup"
+      },
+      {
+        "measure": 1,
+        "unit": "",
+        "ingredient": "Egg white"
+      },
+      {
+        "measure": 1,
+        "unit": "dash",
+        "ingredient": "Peychaud's bitters"
+      }
+    ],
+    "procedure": "Shake, coupe",
+    "glass": "coupe",
+    "themes": ["sour", "floral", "frothy"]
+  },
+  {
+    "name": "After All Imperial",
+    "ingredients": [
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Laird's apple brandy"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Peach liqueur"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      },
+      {
+        "measure": 1,
+        "unit": "dash",
+        "ingredient": "Angostura bitters"
+      },
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Dry sparkling wine"
+      }
+    ],
+    "procedure": "Shake first 4 ingredients, large cube, collins glass, top with wine, mint sprig",
+    "glass": "collins",
+    "themes": ["fruity", "sparkling", "refreshing"]
+  },
+  {
+    "name": "Pimm's Tea",
+    "ingredients": [
+      {
+        "measure": 3,
+        "unit": "oz",
+        "ingredient": "Orange pekoe tea"
+      },
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Pimm's No. 1"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Honey syrup"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      }
+    ],
+    "procedure": "Shake, cubed ice, collins glass, lemon wedge, mint leaves",
+    "glass": "collins",
+    "themes": ["tea", "refreshing", "herbal"]
+  },
+  {
+    "name": "Alabazam",
+    "ingredients": [
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Cognac"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Orange curacao"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Angostura bitters"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Simple syrup"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      }
+    ],
+    "procedure": "Stir, coupe",
+    "glass": "coupe",
+    "themes": ["brandy", "citrus", "bitters"]
+  },
+  {
+    "name": "Puck's Garden",
+    "ingredients": [
+      {
+        "measure": 7.5,
+        "unit": "oz",
+        "ingredient": "Pisco"
+      },
+      {
+        "measure": 4,
+        "unit": "oz",
+        "ingredient": "Water"
+      },
+      {
+        "measure": 2.5,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      },
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Simple syrup"
+      },
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Absinthe"
+      },
+      {
+        "measure": 1.25,
+        "unit": "oz",
+        "ingredient": "Strawberry liqueur"
+      },
+      {
+        "measure": 1,
+        "unit": "tsp",
+        "ingredient": "Ascorbic acid solution"
+      },
+      {
+        "measure": 15,
+        "unit": "",
+        "ingredient": "Mint leaves"
+      },
+      {
+        "measure": 10,
+        "unit": "",
+        "ingredient": "Frozen strawberries"
+      }
+    ],
+    "procedure": "Shake first 7 ingredients, cubed ice, absinthe glass, top with mint and strawberries",
+    "glass": "absinthe",
+    "themes": ["fruity", "herbal", "complex", "batch"]
+  },
+  {
+    "name": "Yellowbelly Cooler",
+    "ingredients": [
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Pisco"
+      },
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Watermelon mix"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Amaro Montenegro"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Mezcal"
+      }
+    ],
+    "procedure": "Shake first 3 ingredients, cubed ice, collins glass, float mezcal",
+    "glass": "collins",
+    "themes": ["fruity", "smoky", "refreshing"]
+  },
+  {
+    "name": "Pineapple Old Fashioned",
+    "ingredients": [
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Pineapple rum"
+      },
+      {
+        "measure": 1,
+        "unit": "bspn",
+        "ingredient": "Coffee liqueur"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Demerara syrup"
+      },
+      {
+        "measure": 3,
+        "unit": "dash",
+        "ingredient": "Orange bitters"
+      }
+    ],
+    "procedure": "Stir, big cube, rocks glass, orange twist",
+    "glass": "rocks",
+    "themes": ["rum", "tropical", "spirit-forward"]
+  },
+  {
+    "name": "Best Fronds",
+    "ingredients": [
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Pineapple rum"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Camapri"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Sweet vermouth"
+      },
+      {
+        "measure": 2,
+        "unit": "dash",
+        "ingredient": "Chocolate bitters"
+      }
+    ],
+    "procedure": "Stir, large cube, rocks glass, lime peel",
+    "glass": "rocks",
+    "themes": ["rum", "bittersweet", "spirit-forward"]
+  },
+  {
+    "name": "Shark-Infested Custard",
+    "ingredients": [
+      {
+        "measure": 3,
+        "unit": "oz",
+        "ingredient": "Pineapple rum"
+      },
+      {
+        "measure": 1,
+        "unit": "oz",
+        "ingredient": "Smith & Cross rum"
+      },
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Licor 43"
+      },
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Coconut cream"
+      },
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Lemon juice"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Amaro Di Angostura (float)"
+      }
+    ],
+    "procedure": "Mix/whip shake first 5 ingredients, crushed ice, hollowed-out pineapple, top with amaro, pineapple fronds, edible orchid",
+    "glass": "pineapple",
+    "themes": ["rum", "tropical", "creamy", "tiki"]
+  },
+  {
+    "name": "Blackbird",
+    "ingredients": [
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Campari"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Gold Jamaican rum"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Coffee liqueur"
+      },
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Pineapple juice"
+      },
+      {
+        "measure": 0.75,
+        "unit": "oz",
+        "ingredient": "Lime juice"
+      },
+      {
+        "measure": 0.25,
+        "unit": "oz",
+        "ingredient": "Demerara syrup"
+      }
+    ],
+    "procedure": "Shake, big cube, rocks glass, orange slice",
+    "glass": "rocks",
+    "themes": ["rum", "bittersweet", "tropical", "coffee"]
+  },
+  {
+    "name": "Angostura Colada",
+    "ingredients": [
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Angostura bitters"
+      },
+      {
+        "measure": 0.5,
+        "unit": "oz",
+        "ingredient": "Smith & Cross rum"
+      },
+      {
+        "measure": 2,
+        "unit": "oz",
+        "ingredient": "Pinapple juice"
+      },
+      {
+        "measure": 1.5,
+        "unit": "oz",
+        "ingredient": "Coconut cream"
+      },
+      {
+        "measure": 1,
+        "unit": "oz",
+        "ingredient": "Lime juice"
+      }
+    ],
+    "procedure": "Mix/whip shake, crushed ice, footed pilsner, pineapple frond, orange slice, grated nutmeg",
+    "glass": "pilsner",
+    "themes": ["rum", "tropical", "spiced", "creamy", "tiki"]
+  },
 ];
 
 
